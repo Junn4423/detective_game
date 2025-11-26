@@ -6,13 +6,14 @@ import { useGameStore } from '@/store/gameStore'
 
 export const useDetectiveCase = () => {
   const citizens = useGameStore((state) => state.citizens)
+  const caseSeed = useGameStore((state) => state.caseSeed)
   const setCaseBundle = useGameStore((state) => state.setCaseBundle)
   const setPhase = useGameStore((state) => state.setPhase)
   const setError = useGameStore((state) => state.setError)
 
   const assemblyQuery = useQuery({
-    queryKey: ['case-bundle', citizens.map((citizen) => citizen.id)],
-    queryFn: () => assembleCaseBundle(citizens),
+    queryKey: ['case-bundle', citizens.map((citizen) => citizen.id), caseSeed],
+    queryFn: () => assembleCaseBundle(citizens, caseSeed),
     enabled: citizens.length >= 12,
     staleTime: Infinity,
   })

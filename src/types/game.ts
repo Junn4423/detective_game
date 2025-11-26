@@ -14,6 +14,10 @@ export interface CitizenProfile {
   occupation: string
   email: string
   phone: string
+  cell: string
+  dob: string
+  registered: string
+  idNumber: string // SSN or similar
   residence: string
   coordinates: GeoPoint
   portrait: string
@@ -62,12 +66,26 @@ export interface Clue {
   mapHints: MapHint[]
 }
 
+export interface CaseSolution {
+  killerId: string
+  victimBackstory: string
+  killerMotive: string
+  relationship: string
+  cluePhase1: string
+  cluePhase2: string
+  finalClue: string
+}
+
 export interface CaseClueBundle {
   victim: VictimProfile
   killer: SuspectProfile
   suspects: SuspectProfile[]
+  primeSuspectIds: string[]
   relationships: RelationshipEdge[]
   clueDrafts: Clue[]
+  story: string
+  solution: CaseSolution
+  locationName: string
 }
 
 export interface GeminiCluePrompt {
@@ -79,4 +97,5 @@ export interface GeminiCluePrompt {
     fact: string
   }>
   objectives: string[]
+  locationName: string
 }

@@ -15,7 +15,7 @@ export const VictimProfileCard = ({ victim }: VictimProfileProps) => {
   }
 
   return (
-    <section className="panel victim-card">
+    <section className="panel victim-panel victim-card">
       <div className="panel-header">
         <h2>Victim Profile</h2>
         <span>{new Date(victim.timeOfIncident).toLocaleString()}</span>

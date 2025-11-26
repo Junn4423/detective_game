@@ -14,10 +14,13 @@ interface RandomUserApiResult {
   gender: string
   email: string
   phone: string
+  cell: string
   nat: string
   login: { uuid: string; username: string }
   name: { title: string; first: string; last: string }
   dob: { age: number; date: string }
+  registered: { age: number; date: string }
+  id: { name: string; value: string }
   picture: { large: string }
   location: {
     street: { number: number; name: string }
@@ -37,16 +40,46 @@ const toGeoPoint = (coordinates: RandomUserApiResult['location']['coordinates'])
   lng: toNumber(coordinates.longitude),
 })
 
+const getCountryName = (code: string): string => {
+  const countries: Record<string, string> = {
+    US: 'United States',
+    GB: 'United Kingdom',
+    CA: 'Canada',
+    AU: 'Australia',
+    NZ: 'New Zealand',
+    FR: 'France',
+    DE: 'Germany',
+    ES: 'Spain',
+    DK: 'Denmark',
+    FI: 'Finland',
+    IE: 'Ireland',
+    BR: 'Brazil',
+    NL: 'Netherlands',
+    TR: 'Turkey',
+    CH: 'Switzerland',
+    NO: 'Norway',
+    IR: 'Iran',
+    RS: 'Serbia',
+    MX: 'Mexico',
+    UA: 'Ukraine',
+  }
+  return countries[code] || code
+}
+
 const toCitizenProfile = (user: RandomUserApiResult): CitizenProfile => ({
   id: user.login.uuid,
   fullName: `${user.name.first} ${user.name.last}`,
   gender: user.gender,
   age: user.dob.age,
-  nationality: user.nat,
+  nationality: getCountryName(user.nat),
   occupation: user.login.username.replace(/\d+/g, ' Investigator'),
   email: user.email,
   phone: user.phone,
-  residence: `${user.location.city}, ${user.location.country}`,
+  cell: user.cell,
+  dob: user.dob.date,
+  registered: user.registered.date,
+  idNumber: user.id.value || 'N/A',
+  residence: `${user.location.city}, ${getCountryName(user.location.country) === user.location.country ? user.location.country : getCountryName(user.nat)}`,
   coordinates: toGeoPoint(user.location.coordinates),
   portrait: user.picture.large,
   timezone: user.location.timezone.description,
@@ -58,7 +91,7 @@ export const fetchCitizenDataset = async (count = 100): Promise<CitizenProfile[]
     params: {
       results: count,
       inc:
-        'gender,email,phone,nat,login,name,dob,picture,location',
+        'gender,email,phone,cell,nat,login,name,dob,registered,id,picture,location',
       nat: 'us,gb,ca,au,nz,fr,de,es,dk,fi',
     },
   })

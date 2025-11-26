@@ -15,7 +15,7 @@ export const CaseBoard = ({ bundle }: CaseBoardProps) => {
   }
 
   return (
-    <section className="panel">
+    <section className="panel case-board-panel">
       <div className="panel-header">
         <h2>Case Board</h2>
         <span>#{bundle.victim.victimId}</span>

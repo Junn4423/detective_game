@@ -5,9 +5,9 @@ interface RelationshipMatrixProps {
 }
 
 export const RelationshipMatrix = ({ relationships }: RelationshipMatrixProps) => (
-  <section className="panel">
+  <section className="panel relationship-panel">
     <div className="panel-header">
-      <h2>Connections</h2>
+      <h2>Mạng lưới quan hệ</h2>
       <span>{relationships?.length ?? 0} mối liên hệ</span>
     </div>
     <div className="relationship-list">

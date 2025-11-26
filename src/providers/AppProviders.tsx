@@ -1,4 +1,4 @@
-import { PropsWithChildren, useMemo } from 'react'
+import { type PropsWithChildren, useMemo } from 'react'
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 
 const createQueryClient = () =>

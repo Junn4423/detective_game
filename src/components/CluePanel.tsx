@@ -7,7 +7,7 @@ interface CluePanelProps {
 }
 
 export const CluePanel = ({ clues, highlightedClueId, onHighlight }: CluePanelProps) => (
-  <section className="panel">
+  <section className="panel clue-panel">
     <div className="panel-header">
       <h2>Clues</h2>
       <span>{clues?.length ?? 0} manh mối</span>
