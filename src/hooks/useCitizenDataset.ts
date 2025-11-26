@@ -22,8 +22,9 @@ export const useCitizenDataset = () => {
   useEffect(() => {
     if (query.data) {
       setCitizens(query.data)
+      setError(undefined)
     }
-  }, [query.data, setCitizens])
+  }, [query.data, setCitizens, setError])
 
   useEffect(() => {
     if (query.error) {

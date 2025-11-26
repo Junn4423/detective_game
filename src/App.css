@@ -217,7 +217,8 @@
 .map-panel .panel-header {
   padding: 1rem 1.2rem;
   background: rgba(5, 9, 15, 0.9);
- }
+  margin-bottom: 0;
+}
 
 .map-shell {
   min-height: 360px;
