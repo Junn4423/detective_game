@@ -33,10 +33,11 @@ export const useDetectiveCase = () => {
     if (clueQuery.data) {
       setCaseBundle(clueQuery.data)
       setPhase('investigating')
+      setError(undefined)
     } else if (assemblyQuery.data) {
       setCaseBundle(assemblyQuery.data)
     }
-  }, [assemblyQuery.data, clueQuery.data, setCaseBundle, setPhase])
+  }, [assemblyQuery.data, clueQuery.data, setCaseBundle, setError, setPhase])
 
   useEffect(() => {
     if (assemblyQuery.error || clueQuery.error) {
