@@ -1,0 +1,225 @@
+.app-shell {
+  padding: 2rem clamp(1.5rem, 3vw, 3rem) 4rem;
+  min-height: 100vh;
+  color: #f8fafc;
+}
+
+.status-banner {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 1rem 1.5rem;
+  background: linear-gradient(120deg, rgba(17, 24, 39, 0.9), rgba(15, 23, 42, 0.6));
+  margin-bottom: 1.5rem;
+}
+
+.status-banner.status-loading {
+  border-color: #00c9a7;
+  box-shadow: 0 0 20px rgba(0, 201, 167, 0.2);
+}
+
+.status-banner.status-error {
+  border-color: #ff6b6b;
+  box-shadow: 0 0 20px rgba(255, 107, 107, 0.15);
+}
+
+.status-label {
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.status-message {
+  margin: 0.25rem 0 0;
+  color: #cbd5f5;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+}
+
+.panel {
+  background: rgba(7, 12, 25, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 20px;
+  padding: 1.2rem;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(12px);
+}
+
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.panel-header h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.panel-header span {
+  font-size: 0.85rem;
+  color: #9aa7d8;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 0.75rem;
+}
+
+.stats-grid article {
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 0.75rem;
+}
+
+.stats-grid p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
+
+.stats-grid h3 {
+  margin: 0.25rem 0 0;
+}
+
+.victim-card img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.victim-body {
+  display: flex;
+  gap: 1rem;
+}
+
+.suspect-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem;
+}
+
+.suspect-card {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.75rem;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid transparent;
+}
+
+.suspect-card img {
+  width: 64px;
+  height: 64px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.suspect-card button {
+  margin-top: 0.5rem;
+  width: 100%;
+  border-radius: 999px;
+  border: none;
+  padding: 0.4rem 0.75rem;
+  background: linear-gradient(120deg, #8ec5ff, #4adede);
+  color: #04111f;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.suspect-card button:disabled {
+  background: rgba(255, 255, 255, 0.1);
+  color: #cbd5f5;
+  cursor: not-allowed;
+}
+
+.suspect-locked {
+  border-color: #ff9f1c;
+  box-shadow: 0 0 15px rgba(255, 159, 28, 0.2);
+}
+
+.clue-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.clue-list li button {
+  width: 100%;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 12px;
+  padding: 0.75rem;
+  color: inherit;
+  cursor: pointer;
+}
+
+.clue-active button {
+  border-color: #00c9a7;
+  box-shadow: 0 0 10px rgba(0, 201, 167, 0.3);
+}
+
+.badge {
+  display: inline-flex;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.badge-easy {
+  background: rgba(74, 222, 128, 0.2);
+  color: #4ade80;
+}
+
+.badge-medium {
+  background: rgba(250, 204, 21, 0.2);
+  color: #facc15;
+}
+
+.badge-hard {
+  background: rgba(248, 113, 113, 0.2);
+  color: #f87171;
+}
+
+.relationship-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.6rem;
+}
+
+.relationship-list article {
+  padding: 0.6rem;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.map-panel {
+  grid-column: 1 / -1;
+  padding: 0;
+  overflow: hidden;
+}
+
+.map-panel .panel-header {
+  padding: 1rem 1.2rem;
+  background: rgba(5, 9, 15, 0.9);
+ }
+
+.map-shell {
+  min-height: 360px;
+  width: 100%;
+}
