@@ -86,6 +86,15 @@ function App() {
         <div style={{ flex: 1, overflowY: 'auto', padding: '1.5rem' }}>
           <StatusBanner phase={phase} error={error} isLoading={isLoading} onReset={restartCurrentCase} />
 
+          {caseBundle?.accompliceCount ? (
+            <div className="paper-card" style={{ marginTop: '1rem', background: '#e0f2fe', border: '1px dashed #0284c7' }}>
+              <strong>Thông tin đồng phạm:</strong>
+              <p style={{ margin: '0.3rem 0 0 0', fontSize: '0.85rem', color: '#0f172a' }}>
+                Theo điều tra ban đầu có {caseBundle.accompliceCount} đồng phạm che chắn cho hung thủ. Khi khoanh vùng đủ số lượng này, chúng sẽ khai tọa độ ẩn náu để bạn chỉ điểm trên bản đồ.
+              </p>
+            </div>
+          ) : null}
+
           {caseBundle?.story && (
             <div className="paper-card" style={{ marginTop: '1rem', transform: 'rotate(1deg)' }}>
               <h3 style={{ margin: '0 0 0.5rem 0', color: '#b91c1c', borderBottom: '2px solid #b91c1c', display: 'inline-block' }}>Báo Cáo Sơ Bộ</h3>
@@ -153,10 +162,10 @@ function App() {
             <InvestigationMap
               victim={caseBundle?.victim}
               suspects={caseBundle?.suspects}
-              primeSuspectIds={caseBundle?.primeSuspectIds}
-              allCitizens={citizenQuery.data}
               clues={caseBundle?.clueDrafts}
               highlightedClueId={highlightedClueId}
+              hideoutHint={caseBundle?.hideoutHint}
+              accompliceIds={caseBundle?.accompliceIds}
             />
           </div>
 

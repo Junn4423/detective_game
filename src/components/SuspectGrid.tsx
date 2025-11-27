@@ -1,4 +1,4 @@
-import type { SuspectProfile } from '@/types/game'
+import type { CaseClueBundle, SuspectProfile } from '@/types/game'
 import { useState, useEffect } from 'react'
 import { useGameStore } from '@/store/gameStore'
 
@@ -10,14 +10,7 @@ interface SuspectGridProps {
   toggleShortlist: (suspectId: string) => void
   accuseSuspect: (suspectId: string) => void
   confirmShortlist: () => void
-  caseBundle?: {
-    killer: SuspectProfile
-    solution?: {
-      killerMotive?: string
-      relationship?: string
-      finalClue?: string
-    }
-  }
+  caseBundle?: CaseClueBundle
 }
 
 export const SuspectGrid = ({
@@ -37,6 +30,7 @@ export const SuspectGrid = ({
 
   const setFocusedCitizenId = useGameStore((state) => state.setFocusedCitizenId)
   const setActiveTab = useGameStore((state) => state.setActiveTab)
+  const captureOutcome = useGameStore((state) => state.captureOutcome)
 
   // Pagination State
   const [currentPage, setCurrentPage] = useState(1)
@@ -68,11 +62,23 @@ export const SuspectGrid = ({
     setSelectedProfile(null)
   }
 
+  const accompliceIds: string[] = caseBundle?.accompliceIds ?? []
+  const accompliceCount = accompliceIds.length
+  const accompliceProgress = accompliceIds.filter((id: string) => shortlistedSuspectIds.includes(id)).length
+  const allAccomplicesFound = accompliceCount > 0 && accompliceIds.every((id: string) => shortlistedSuspectIds.includes(id))
+
   if (showVictory && caseBundle) {
+    const isFullCapture = captureOutcome === 'captured'
     return (
       <div className="victory-screen" style={{ padding: '2rem', background: '#1a1a1a', color: '#fff', height: '100%', overflowY: 'auto' }}>
-        <h1 style={{ color: '#10b981', fontSize: '3rem', marginBottom: '1rem' }}>VỤ ÁN ĐÃ ĐƯỢC PHÁ!</h1>
-        <p style={{ fontSize: '1.2rem' }}>Chúc mừng thám tử! Bạn đã tìm ra hung thủ và công lý đã được thực thi.</p>
+        <h1 style={{ color: isFullCapture ? '#10b981' : '#f97316', fontSize: '3rem', marginBottom: '1rem' }}>
+          {isFullCapture ? 'VỤ ÁN ĐÃ ĐƯỢC PHÁ!' : 'CHƯA THỂ BẮT GIỮ HUNG THỦ'}
+        </h1>
+        <p style={{ fontSize: '1.2rem' }}>
+          {isFullCapture
+            ? 'Chúc mừng thám tử! Bạn đã bắt gọn hung thủ và toàn bộ đồng phạm.'
+            : 'Bạn đã xác định đúng hung thủ nhưng chưa thu thập đủ lời khai của đồng phạm để tiến hành bắt giữ.'}
+        </p>
 
         <div style={{ marginTop: '2rem', border: '1px solid #444', padding: '1.5rem', borderRadius: '8px', background: '#2c2c2c' }}>
           <h2 style={{ color: '#f0a500' }}>HỒ SƠ VỤ ÁN</h2>
@@ -84,7 +90,7 @@ export const SuspectGrid = ({
 
         <button
           onClick={() => window.location.reload()}
-          style={{ marginTop: '2rem', padding: '1rem 2rem', background: '#10b981', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer', fontSize: '1.2rem' }}
+          style={{ marginTop: '2rem', padding: '1rem 2rem', background: isFullCapture ? '#10b981' : '#f97316', color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer', fontSize: '1.2rem' }}
         >
           Nhận vụ án mới
         </button>
@@ -179,11 +185,18 @@ export const SuspectGrid = ({
           }}
         />
       </div>
+      {accompliceCount > 0 && (
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: '0.85rem', color: '#facc15', marginBottom: '0.75rem' }}>
+          <span>Đồng phạm bị lộ: {accompliceProgress}/{accompliceCount}</span>
+          {!allAccomplicesFound && <span style={{ color: '#f97316' }}>Cần đủ đồng phạm để mở lời khai 2</span>}
+        </div>
+      )}
 
       <div className="grid-container">
         {currentSuspects.map((suspect) => {
           const isSelected = shortlistedSuspectIds.includes(suspect.id)
           const isLocked = lockedSuspectId === suspect.id
+          const isAccomplice = accompliceIds.includes(suspect.id)
 
           return (
             <div
@@ -196,6 +209,49 @@ export const SuspectGrid = ({
                 <div className="name">{suspect.fullName}</div>
                 <div className="occupation">{suspect.occupation}</div>
                 <div className="meta">Age: {suspect.age} | {suspect.nationality}</div>
+                <div style={{ marginTop: '0.3rem', fontSize: '0.75rem', color: '#94a3b8', minHeight: '3rem' }}>
+                  "{suspect.testimony.action}"
+                  <br />
+                  <span style={{ color: '#38bdf8' }}>{suspect.testimony.locationLabel}</span>
+                </div>
+                {isAccomplice && (
+                  <div style={{ fontSize: '0.7rem', color: '#f87171', marginTop: '0.3rem' }}>
+                    Nghi vấn đồng phạm •{' '}
+                    {allAccomplicesFound ? 'đã mở lời khai 2' : 'cần thẩm vấn sâu'}
+                  </div>
+                )}
+              </div>
+              <div style={{ marginTop: '0.75rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                <button
+                  onClick={(event) => {
+                    event.stopPropagation()
+                    if (phase === 'investigating') {
+                      toggleShortlist(suspect.id)
+                    } else if (phase === 'accusing') {
+                      handleAccuse(suspect.id)
+                    } else {
+                      setSelectedProfile(suspect)
+                    }
+                  }}
+                  style={{
+                    flex: 1,
+                    padding: '0.4rem',
+                    background: phase === 'investigating'
+                      ? isSelected ? '#ef4444' : '#2563eb'
+                      : '#b91c1c',
+                    color: '#fff',
+                    border: 'none',
+                    borderRadius: '4px',
+                    cursor: 'pointer',
+                    fontSize: '0.75rem',
+                    textTransform: 'uppercase',
+                    fontWeight: 'bold'
+                  }}
+                >
+                  {phase === 'investigating'
+                    ? isSelected ? 'Bỏ chọn' : 'Chọn'
+                    : 'Buộc tội'}
+                </button>
               </div>
             </div>
           )
@@ -227,7 +283,21 @@ export const SuspectGrid = ({
 
       {/* Detailed Profile Modal */}
       {selectedProfile && (
-        <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, background: 'rgba(0,0,0,0.8)', display: 'flex', justifyContent: 'center', alignItems: 'center', zIndex: 100 }} onClick={() => setSelectedProfile(null)}>
+        <div
+          style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            background: 'rgba(0,0,0,0.8)',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            zIndex: 1000,
+          }}
+          onClick={() => setSelectedProfile(null)}
+        >
           <div style={{ background: '#fff', padding: '2rem', borderRadius: '8px', maxWidth: '500px', width: '90%', color: '#333', position: 'relative' }} onClick={(e) => e.stopPropagation()}>
             <button onClick={() => setSelectedProfile(null)} style={{ position: 'absolute', top: '10px', right: '10px', background: 'none', border: 'none', fontSize: '1.5rem', cursor: 'pointer' }}>&times;</button>
             <div style={{ display: 'flex', gap: '1rem', marginBottom: '1rem' }}>
@@ -265,10 +335,19 @@ export const SuspectGrid = ({
               <p><strong>Đăng ký:</strong> {new Date(selectedProfile.registered).toLocaleDateString()}</p>
               <p><strong>Email:</strong> {selectedProfile.email}</p>
               <div style={{ marginTop: '1rem', padding: '1rem', background: '#f9fafb', borderRadius: '4px' }}>
-                <strong>Ghi chú điều tra:</strong>
+                <strong>Lời khai chính:</strong>
                 <p style={{ margin: '0.5rem 0 0 0', fontStyle: 'italic' }}>
-                  {selectedProfile.alibi || 'Chưa có lời khai.'}
+                  {selectedProfile.testimony.narrative}
                 </p>
+                <p style={{ margin: '0.3rem 0 0 0', fontSize: '0.8rem', color: '#475569' }}>
+                  Địa điểm: {selectedProfile.testimony.locationLabel} • Khung giờ: {selectedProfile.testimony.timeframe}
+                </p>
+                {allAccomplicesFound && selectedProfile.secondaryTestimony ? (
+                  <div style={{ marginTop: '0.8rem', padding: '0.6rem', borderRadius: '4px', background: '#fef3c7', border: '1px dashed #f59e0b' }}>
+                    <strong>Lời khai 2:</strong>
+                    <p style={{ margin: '0.4rem 0 0 0' }}>{selectedProfile.secondaryTestimony.narrative}</p>
+                  </div>
+                ) : null}
               </div>
 
               <div style={{ marginTop: '1.5rem', display: 'flex', gap: '1rem', justifyContent: 'flex-end' }}>

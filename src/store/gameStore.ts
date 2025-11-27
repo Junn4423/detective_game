@@ -12,6 +12,8 @@ interface GameState {
   caseSeed: number
   focusedCitizenId?: string
   activeTab: 'map' | 'suspects'
+  captureOutcome?: 'captured' | 'partial' | 'failed'
+  hasActivatedCase: boolean
   setCitizens: (citizens: CitizenProfile[]) => void
   setCaseBundle: (bundle: CaseClueBundle) => void
   setPhase: (phase: CasePhase) => void
@@ -32,6 +34,8 @@ export const useGameStore = create<GameState>((set) => ({
   caseSeed: Date.now(),
   shortlistedSuspectIds: [],
   activeTab: 'map',
+  captureOutcome: undefined,
+  hasActivatedCase: false,
   setCitizens: (citizens) => set({ citizens }),
   setCaseBundle: (bundle) => set({ caseBundle: bundle }),
   setPhase: (phase) => set({ phase }),
@@ -51,10 +55,19 @@ export const useGameStore = create<GameState>((set) => ({
   accuseSuspect: (suspectId) =>
     set((state) => {
       const solved = state.caseBundle?.killer.id === suspectId
+      const allAccomplicesFound = state.caseBundle?.accompliceIds.every((id) =>
+        state.shortlistedSuspectIds.includes(id),
+      ) ?? false
+      let captureOutcome: GameState['captureOutcome']
+      if (solved) {
+        captureOutcome = allAccomplicesFound ? 'captured' : 'partial'
+      } else if (state.caseBundle) {
+        captureOutcome = 'failed'
+      }
       return {
         lockedSuspectId: suspectId,
-        phase: solved ? 'solved' : 'accusing', // If wrong, stay in accusing or go to failed? Let's stay in accusing but show error?
-        // Actually user asked for "reset if wrong", so maybe just show result
+        phase: solved ? 'solved' : 'accusing',
+        captureOutcome,
       }
     }),
   highlightClue: (clueId) =>
@@ -71,6 +84,7 @@ export const useGameStore = create<GameState>((set) => ({
       highlightedClueId: undefined,
       focusedCitizenId: undefined,
       error: undefined,
+      captureOutcome: undefined,
     }),
   startNewCase: () =>
     set({
@@ -82,5 +96,7 @@ export const useGameStore = create<GameState>((set) => ({
       focusedCitizenId: undefined,
       error: undefined,
       caseSeed: Date.now(),
+      captureOutcome: undefined,
+      hasActivatedCase: true,
     }),
 }))

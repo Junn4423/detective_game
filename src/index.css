@@ -40,7 +40,7 @@ body {
 .sidebar {
   width: 350px;
   background: #2c2c2c;
-  color: #e5e5e5;
+  color: black;
   display: flex;
   flex-direction: column;
   border-right: 4px solid #1a1a1a;

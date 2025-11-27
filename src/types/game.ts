@@ -31,9 +31,26 @@ export interface VictimProfile extends CitizenProfile {
   lastKnownLocation: GeoPoint
 }
 
+export type CitizenRole = 'killer' | 'accomplice' | 'associate'
+
+export interface Testimony {
+  id: string
+  relationshipSummary: string
+  narrative: string
+  timeframe: string
+  action: string
+  locationLabel: string
+  mapHint: MapHint
+  reliability: 'solid' | 'shaky'
+}
+
 export interface SuspectProfile extends CitizenProfile {
   suspicionLevel: number
   alibi: string
+  role: CitizenRole
+  relationshipTag: RelationshipType
+  testimony: Testimony
+  secondaryTestimony?: Testimony
 }
 
 export type RelationshipType =
@@ -81,11 +98,14 @@ export interface CaseClueBundle {
   killer: SuspectProfile
   suspects: SuspectProfile[]
   primeSuspectIds: string[]
+  accompliceIds: string[]
+  accompliceCount: number
   relationships: RelationshipEdge[]
   clueDrafts: Clue[]
   story: string
   solution: CaseSolution
   locationName: string
+  hideoutHint: MapHint
 }
 
 export interface GeminiCluePrompt {
@@ -98,4 +118,6 @@ export interface GeminiCluePrompt {
   }>
   objectives: string[]
   locationName: string
+  accompliceCount: number
+  hideoutLabel: string
 }

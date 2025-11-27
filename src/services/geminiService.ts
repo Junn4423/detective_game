@@ -1,4 +1,4 @@
-import type { CaseClueBundle, Clue, GeminiCluePrompt } from '@/types/game'
+import type { CaseClueBundle, CaseSolution, Clue, GeminiCluePrompt } from '@/types/game'
 
 const GEMINI_MODEL = 'gemini-2.0-flash'
 const GEMINI_ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`
@@ -41,8 +41,14 @@ const buildPrompt = (prompt: GeminiCluePrompt): string => {
     .map((edge) => `- ${edge.sourceId} có mối quan hệ "${edge.relationship}" với ${edge.targetId}: ${edge.description}`)
     .join('\n')
 
+  const testimonies = prompt.suspects
+    .slice(0, 20)
+    .map((suspect) => `- ${suspect.fullName}: ${suspect.testimony.narrative}`)
+    .join('\n')
+
   const objectives = prompt.objectives.join('\n')
   const facts = prompt.seedFacts.map((fact) => `- ${fact.citizenId}: ${fact.fact}`).join('\n')
+  const accompliceNotice = `Theo hồ sơ điều tra ban đầu có ${prompt.accompliceCount} đồng phạm cản trở việc bắt giữ. Sau khi mọi đồng phạm bị lộ mặt, họ sẽ tiết lộ tọa độ "${prompt.hideoutLabel}" nơi hung thủ lẩn trốn.`
 
   return `
 ${header}
@@ -55,8 +61,14 @@ ${suspects}
 MẠNG LƯỚI QUAN HỆ:
 ${relationships}
 
-DỮ LIỆU ĐỊNH VỊ & SỰ KIỆN:
+TRÍCH LỤC LỜI KHAI ĐỊNH VỊ:
+${testimonies}
+
+DỮ LIỆU THỰC ĐỊA & MẬT BÁO:
 ${facts}
+
+THÔNG TIN ĐỒNG PHẠM:
+${accompliceNotice}
 
 YÊU CẦU CỐT TRUYỆN:
 ${objectives}
@@ -103,7 +115,7 @@ HÃY SÁNG TẠO MỘT KỊCH BẢN HOÀN CHỈNH VỚI CẤU TRÚC JSON SAU:
 Chỉ trả về JSON thuần túy, không kèm theo markdown hay giải thích thêm. Đảm bảo JSON hợp lệ.`
 }
 
-const parseResponse = (text: string, killerId: string): { clues: Clue[]; story: string; solution: any } => {
+const parseResponse = (text: string, killerId: string): { clues: Clue[]; story: string; solution: CaseSolution } => {
   try {
     const parsed = JSON.parse(text)
     return {
@@ -137,7 +149,7 @@ const parseResponse = (text: string, killerId: string): { clues: Clue[]; story: 
   }
 }
 
-export const requestGeminiClues = async (prompt: GeminiCluePrompt, killerId: string): Promise<{ clues: Clue[]; story: string; solution: any }> => {
+export const requestGeminiClues = async (prompt: GeminiCluePrompt, killerId: string): Promise<{ clues: Clue[]; story: string; solution: CaseSolution }> => {
   const key = ensureApiKey()
   const response = await fetch(`${GEMINI_ENDPOINT}?key=${key}`, {
     method: 'POST',
@@ -200,13 +212,17 @@ export const enrichBundleWithClues = async (
     relationships: bundle.relationships,
     seedFacts: bundle.suspects.map((suspect) => ({
       citizenId: suspect.id,
-      fact: `${suspect.fullName} xuất hiện gần ${bundle.victim.lastKnownLocation.lat.toFixed(2)},${bundle.victim.lastKnownLocation.lng.toFixed(2)}`,
+      fact: `${suspect.fullName} khẳng định có mặt tại ${suspect.testimony.locationLabel} (${suspect.testimony.timeframe}).`,
     })),
     objectives: [
       'Mỗi manh mối phải nhắc đến ít nhất một nghi phạm hoặc nạn nhân.',
-      'Ưu tiên thông tin giúp khoanh vùng vị trí cuối cùng.',
+      'Luôn mô tả rõ tọa độ/địa danh để người chơi so đối chiếu với bản đồ.',
+      `Sinh ra manh mối phụ trợ cho tuyến đồng phạm (có ${bundle.accompliceCount} người) để người chơi phát hiện sự mâu thuẫn.`,
+      `Khi kết luận cuối cùng hãy nhắc tới mật danh khu ẩn náu "${bundle.hideoutHint.label}".`,
     ],
     locationName: bundle.locationName,
+    accompliceCount: bundle.accompliceCount,
+    hideoutLabel: bundle.hideoutHint.label,
   }, bundle.killer.id)
 
   return {

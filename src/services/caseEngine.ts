@@ -1,12 +1,15 @@
 import type {
   CaseClueBundle,
   CitizenProfile,
+  CitizenRole,
   RelationshipEdge,
+  RelationshipType,
   SuspectProfile,
+  Testimony,
   VictimProfile,
 } from '@/types/game'
 import { createMapHint, getLastKnownLocation } from '@/services/mapService'
-import { mulberry32, pickRandomItems } from '@/utils/random'
+import { mulberry32, pickRandomItems, randomInt } from '@/utils/random'
 
 const promoteVictim = (profile: CitizenProfile, timestamp: Date): VictimProfile => ({
   ...profile,
@@ -17,13 +20,98 @@ const promoteVictim = (profile: CitizenProfile, timestamp: Date): VictimProfile 
 
 const promoteSuspect = (
   profile: CitizenProfile,
-  suspicionLevel: number,
-  alibi: string,
+  params: {
+    suspicionLevel: number
+    alibi: string
+    role: CitizenRole
+    relationshipTag: RelationshipType
+    testimony: Testimony
+    secondaryTestimony?: Testimony
+  },
 ): SuspectProfile => ({
   ...profile,
-  suspicionLevel,
-  alibi,
+  suspicionLevel: params.suspicionLevel,
+  alibi: params.alibi,
+  role: params.role,
+  relationshipTag: params.relationshipTag,
+  testimony: params.testimony,
+  secondaryTestimony: params.secondaryTestimony,
 })
+
+const relationshipLabels: Record<RelationshipType, string> = {
+  family: 'người thân',
+  colleague: 'đồng nghiệp',
+  acquaintance: 'mối quen biết',
+  business: 'đối tác làm ăn',
+  unknown: 'người quen xã giao',
+}
+
+const actionTemplates = [
+  'chuẩn bị các thùng hàng ở kho sau bến tàu',
+  'đi giao tài liệu tại trụ sở cảnh sát khu vực',
+  'trông chừng con nhỏ ở căn hộ nhìn ra quảng trường',
+  'kiểm tra hệ thống camera của nhà thờ cổ',
+  'thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông',
+  'lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng',
+  'dự một buổi cầu nguyện ngắn gần khu chợ trời',
+  'bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường',
+  'đi khảo sát công trường dang dở ở ngoại ô',
+  'truy cập máy chủ tại phòng lab cũ',
+]
+
+const locationDescriptors = [
+  'kho hàng Riverside',
+  'nhà thờ Saint-Marie',
+  'quảng trường Đồng Tế',
+  'khu cảng bỏ hoang phía tây',
+  'ga tàu điện ngầm số 7',
+  'cầu sắt Old Bridge',
+  'nhà kho số 12',
+  'khu dân cư tọa độ G-17',
+  'chợ đêm trung tâm',
+  'xưởng sửa tàu hỏa',
+]
+
+const formatTime = (date: Date) =>
+  date
+    .toLocaleTimeString('vi-VN', {
+      hour: '2-digit',
+      minute: '2-digit',
+      hour12: false,
+    })
+
+const buildTimeframe = (anchor: Date) => {
+  const start = new Date(anchor.getTime() - 10 * 60 * 1000)
+  const end = new Date(anchor.getTime() + 20 * 60 * 1000)
+  return `${formatTime(start)} - ${formatTime(end)}`
+}
+
+const buildTestimony = (
+  citizen: CitizenProfile,
+  victim: VictimProfile,
+  relationshipTag: RelationshipType,
+  rng: ReturnType<typeof mulberry32>,
+  crimeTime: Date,
+  idx: number,
+  role: CitizenRole,
+  mapLabelPrefix: string,
+): Testimony => {
+  const action = actionTemplates[randomInt(actionTemplates.length, rng)]
+  const locationLabel = `${mapLabelPrefix} ${locationDescriptors[randomInt(locationDescriptors.length, rng)]}`
+  const offsetMinutes = (idx - 25) * 7 + Math.round(rng() * 12)
+  const anchorTime = new Date(crimeTime.getTime() + offsetMinutes * 60 * 1000)
+  const mapHint = createMapHint(locationLabel, citizen.coordinates, rng, role === 'killer' ? 900 : 600)
+  return {
+    id: `testimony-${citizen.id}`,
+    relationshipSummary: relationshipLabels[relationshipTag],
+    narrative: `Tôi là ${relationshipLabels[relationshipTag]} của ${victim.fullName}. Ngày hôm đó, vào khoảng ${buildTimeframe(anchorTime)}, tôi đã ${action} tại ${locationLabel}.`,
+    timeframe: buildTimeframe(anchorTime),
+    action,
+    locationLabel,
+    mapHint,
+    reliability: role === 'killer' ? 'shaky' : 'solid',
+  }
+}
 
 export const assembleCaseBundle = (
   citizens: CitizenProfile[],
@@ -92,9 +180,6 @@ export const assembleCaseBundle = (
   const primeSuspectsCitizens = shuffledB.slice(0, 10)
   const witnessesCitizens = shuffledB.slice(10)
 
-  // Promote to SuspectProfiles
-  const killer = promoteSuspect(killerCitizen, 0.95, 'Từ chối khai báo lịch trình')
-
   const alibiTemplates = [
     'Đang làm việc tại văn phòng',
     'Đang ăn tối cùng gia đình',
@@ -118,22 +203,65 @@ export const assembleCaseBundle = (
     'Đang tham gia hoạt động tình nguyện',
   ]
 
-  const primeSuspects = primeSuspectsCitizens.slice(1).map((c) => {
-    const randomAlibi = alibiTemplates[Math.floor(rng() * alibiTemplates.length)]
-    return promoteSuspect(c, Number((0.6 + rng() * 0.3).toFixed(2)), randomAlibi)
+  const relationshipOptions: RelationshipType[] = ['family', 'colleague', 'business', 'acquaintance', 'unknown']
+
+  const accomplicePool = primeSuspectsCitizens.slice(1)
+  const maxAccomplices = Math.max(1, Math.min(4, accomplicePool.length))
+  const accompliceCitizens = pickRandomItems(accomplicePool, Math.max(1, randomInt(maxAccomplices, rng) + 1), rng)
+  const accompliceIds = accompliceCitizens.map((citizen) => citizen.id)
+
+  const hideoutHint = createMapHint('Ổ ẩn náu', killerCitizen.coordinates, rng, 350)
+  const crimeTime = new Date(victim.timeOfIncident)
+  const castCitizens = [killerCitizen, ...primeSuspectsCitizens.slice(1), ...witnessesCitizens]
+
+  const suspectProfiles: SuspectProfile[] = castCitizens.map((citizen, idx) => {
+    const role: CitizenRole = citizen.id === killerCitizen.id
+      ? 'killer'
+      : accompliceIds.includes(citizen.id)
+        ? 'accomplice'
+        : 'associate'
+    const suspicionLevel = role === 'killer'
+      ? 0.98
+      : role === 'accomplice'
+        ? Number((0.75 + rng() * 0.15).toFixed(2))
+        : Number((0.3 + rng() * 0.4).toFixed(2))
+    const alibi = role === 'killer' ? 'Từ chối khai báo lịch trình' : alibiTemplates[randomInt(alibiTemplates.length, rng)]
+    const relationshipTag = relationshipOptions[idx % relationshipOptions.length]
+    const testimony = buildTestimony(citizen, victim, relationshipTag, rng, crimeTime, idx, role, caseLoc.name)
+    const secondaryTestimony = role === 'accomplice'
+      ? {
+          id: `secondary-${citizen.id}`,
+          relationshipSummary: relationshipLabels[relationshipTag],
+          narrative: `Được rồi, tôi sẽ hợp tác. ${killerCitizen.fullName} bảo tôi canh gác tại ${hideoutHint.label} và hắn vẫn còn ở đó lúc ${formatTime(new Date(crimeTime.getTime() + 90 * 60 * 1000))}.`,
+          timeframe: buildTimeframe(new Date(crimeTime.getTime() + 90 * 60 * 1000)),
+          action: 'chỉ điểm tọa độ ẩn náu',
+          locationLabel: hideoutHint.label,
+          mapHint: hideoutHint,
+          reliability: 'solid' as const,
+        }
+      : undefined
+
+    return promoteSuspect(citizen, {
+      suspicionLevel,
+      alibi,
+      role,
+      relationshipTag,
+      testimony,
+      secondaryTestimony,
+    })
   })
 
-  const witnesses = witnessesCitizens.map((c) =>
-    promoteSuspect(c, Number((0.1 + rng() * 0.2).toFixed(2)), 'Đang làm việc tại văn phòng')
-  )
+  const killer = suspectProfiles.find((profile) => profile.role === 'killer')!
+  const allSuspects = pickRandomItems(suspectProfiles, suspectProfiles.length, rng)
+  const primeSuspects = primeSuspectsCitizens
+    .filter((citizen) => citizen.id !== killerCitizen.id)
+    .map((citizen) => suspectProfiles.find((profile) => profile.id === citizen.id)!)
 
-  const allSuspects = pickRandomItems([killer, ...primeSuspects, ...witnesses], 50, rng)
-
-  const relationships = allSuspects.map((citizen, index) => ({
+  const relationships = allSuspects.map((suspect) => ({
     sourceId: victim.id,
-    targetId: citizen.id,
-    relationship: index % 3 === 0 ? 'colleague' : index % 3 === 1 ? 'acquaintance' : 'unknown',
-    description: `Gặp nhau tại ${citizen.residence} theo lời khai ${index + 1}.`,
+    targetId: suspect.id,
+    relationship: suspect.relationshipTag,
+    description: `${suspect.fullName} khai mình là ${suspect.testimony.relationshipSummary} và có mặt tại ${suspect.testimony.locationLabel} (${suspect.testimony.timeframe}).`,
   })) as RelationshipEdge[]
 
   const clueDrafts = [killer, ...primeSuspects].map((suspect, index) => {
@@ -141,10 +269,10 @@ export const assembleCaseBundle = (
     return {
       id: `draft-${suspect.id}`,
       title: `Manh mối ${index + 1}`,
-      summary: `${suspect.fullName} có mặt tại ${suspect.residence} vào thời điểm án mạng.`,
+      summary: suspect.testimony.narrative,
       difficulty,
       relatedCitizenIds: [suspect.id, victim.id],
-      mapHints: [createMapHint('Điểm khả nghi', suspect.coordinates, rng, 250)],
+      mapHints: [suspect.testimony.mapHint],
     }
   })
 
@@ -153,6 +281,8 @@ export const assembleCaseBundle = (
     killer,
     suspects: allSuspects,
     primeSuspectIds: primeSuspectsCitizens.map(c => c.id),
+    accompliceIds,
+    accompliceCount: accompliceIds.length,
     relationships,
     clueDrafts,
     story: '',
@@ -166,5 +296,6 @@ export const assembleCaseBundle = (
       finalClue: '',
     },
     locationName: caseLoc.name,
+    hideoutHint,
   }
 }
