@@ -85,6 +85,7 @@ function App() {
 
   const [introStage, setIntroStage] = useState<IntroStage>(() => (hasActivatedCase ? 'hidden' : 'menu'))
   const [showCaseList, setShowCaseList] = useState(false)
+  const [pendingArchiveCode, setPendingArchiveCode] = useState<string | undefined>(undefined)
   const zoomTimerRef = useRef<number | undefined>(undefined)
   const hideTimerRef = useRef<number | undefined>(undefined)
   const caseTriggeredRef = useRef(false)
@@ -97,12 +98,18 @@ function App() {
     }
   }, [])
 
-  const handleStartSequence = () => {
+  const beginIntroSequence = (archiveCode?: string) => {
     if (introStage !== 'menu') return
+    caseTriggeredRef.current = false
+    setPendingArchiveCode(archiveCode)
     setIntroStage('zooming')
     zoomTimerRef.current = window.setTimeout(() => {
       setIntroStage('video')
     }, 450)
+  }
+
+  const handleStartSequence = () => {
+    beginIntroSequence()
   }
 
   const handleVideoEnded = () => {
@@ -115,21 +122,24 @@ function App() {
   }
 
   const handleSelectArchivedCase = (caseCode: string) => {
-    caseTriggeredRef.current = true
     setShowCaseList(false)
-    setIntroStage('hidden')
-    loadArchivedCase(caseCode)
+    beginIntroSequence(caseCode)
   }
 
   useEffect(() => {
     if (introStage === 'fade' && !caseTriggeredRef.current) {
       caseTriggeredRef.current = true
-      startNewCase()
+      if (pendingArchiveCode) {
+        loadArchivedCase(pendingArchiveCode)
+      } else {
+        startNewCase()
+      }
       hideTimerRef.current = window.setTimeout(() => {
         setIntroStage('hidden')
+        setPendingArchiveCode(undefined)
       }, 1200)
     }
-  }, [introStage, startNewCase])
+  }, [introStage, loadArchivedCase, pendingArchiveCode, startNewCase])
 
   const archiveFetching = archivedCaseQuery.isFetching
   const baseLoading = citizenQuery.isPending || assemblyQuery.isPending || clueQuery.isPending
