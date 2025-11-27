@@ -1,13 +1,68 @@
+import { useEffect, useRef, useState } from 'react'
 import './App.css'
 import { InvestigationMap } from '@/components/InvestigationMap'
 import { SuspectGrid } from '@/components/SuspectGrid'
 import { StatusBanner } from '@/components/StatusBanner'
+import { ArchiveListOverlay } from '@/components/ArchiveListOverlay'
 import { useCitizenDataset } from '@/hooks/useCitizenDataset'
 import { useDetectiveCase } from '@/hooks/useDetectiveCase'
+import { useArchivedCaseList } from '@/hooks/useArchivedCaseList'
 import { useGameStore } from '@/store/gameStore'
+import doorOpenVideo from '@/assets/video/dooropen.mp4'
+
+type IntroStage = 'menu' | 'zooming' | 'video' | 'fade' | 'hidden'
+
+const IntroOverlay = ({
+  stage,
+  onStart,
+  onVideoEnded,
+  onShowArchives,
+}: {
+  stage: IntroStage
+  onStart: () => void
+  onVideoEnded: () => void
+  onShowArchives: () => void
+}) => {
+  if (stage === 'hidden') return null
+
+  return (
+    <>
+      {(stage === 'menu' || stage === 'zooming') && (
+        <div className={`start-menu ${stage === 'zooming' ? 'start-menu--zoom' : ''}`}>
+          <div className="start-menu__content">
+            <h1>HỒ SƠ MẬT</h1>
+            <p>Chuỗi hồ sơ mật vụ “Detective Leaflet”. Sẵn sàng truy ra sự thật?</p>
+            <div className="start-menu__actions">
+              <button onClick={onStart} disabled={stage !== 'menu'}>
+                Bắt đầu tìm ra sự thật
+              </button>
+              <button className="start-menu__secondary" onClick={onShowArchives} disabled={stage !== 'menu'}>
+                Danh sách hồ sơ
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+      {stage === 'video' && (
+        <div className="intro-video-overlay">
+          <video
+            key="door-intro"
+            src={doorOpenVideo}
+            className="intro-video"
+            playsInline
+            autoPlay
+            preload="auto"
+            onEnded={onVideoEnded}
+          />
+        </div>
+      )}
+      {stage === 'fade' && <div className="intro-fade" />}
+    </>
+  )
+}
 
 function App() {
-  const { assemblyQuery, clueQuery } = useDetectiveCase()
+  const { assemblyQuery, clueQuery, archivedCaseQuery } = useDetectiveCase()
   const citizenQuery = useCitizenDataset()
   const caseBundle = useGameStore((state) => state.caseBundle)
   const phase = useGameStore((state) => state.phase)
@@ -16,61 +71,117 @@ function App() {
   const shortlistedSuspectIds = useGameStore((state) => state.shortlistedSuspectIds)
   const highlightedClueId = useGameStore((state) => state.highlightedClueId)
   const activeTab = useGameStore((state) => state.activeTab)
+  const archivedCaseCode = useGameStore((state) => state.archivedCaseCode)
+  const activeCaseCode = useGameStore((state) => state.activeCaseCode)
 
   const toggleShortlist = useGameStore((state) => state.toggleShortlist)
   const confirmShortlist = useGameStore((state) => state.confirmShortlist)
   const accuseSuspect = useGameStore((state) => state.accuseSuspect)
   const restartCurrentCase = useGameStore((state) => state.restartCurrentCase)
   const startNewCase = useGameStore((state) => state.startNewCase)
+  const loadArchivedCase = useGameStore((state) => state.loadArchivedCase)
   const setActiveTab = useGameStore((state) => state.setActiveTab)
+  const hasActivatedCase = useGameStore((state) => state.hasActivatedCase)
 
-  const isLoading = citizenQuery.isPending || assemblyQuery.isPending || clueQuery.isPending
+  const [introStage, setIntroStage] = useState<IntroStage>(() => (hasActivatedCase ? 'hidden' : 'menu'))
+  const [showCaseList, setShowCaseList] = useState(false)
+  const zoomTimerRef = useRef<number | undefined>(undefined)
+  const hideTimerRef = useRef<number | undefined>(undefined)
+  const caseTriggeredRef = useRef(false)
+  const archiveListQuery = useArchivedCaseList(showCaseList)
 
-  if (phase === 'idle') {
-    return (
-      <div className="start-screen" style={{
-        height: '100vh',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-        background: '#1a1a1a',
-        color: '#f0a500',
-        fontFamily: 'Courier New'
-      }}>
-        <h1 style={{ fontSize: '4rem', marginBottom: '2rem', textShadow: '2px 2px 4px #000' }}>HỒ SƠ TRINH THÁM</h1>
-        <p style={{ color: '#ccc', marginBottom: '3rem', fontSize: '1.2rem' }}>Hệ thống điều tra tội phạm cấp cao</p>
-        <button
-          onClick={startNewCase}
-          style={{
-            padding: '1rem 3rem',
-            fontSize: '1.5rem',
-            background: '#b91c1c',
-            color: 'white',
-            border: 'none',
-            borderRadius: '4px',
-            cursor: 'pointer',
-            boxShadow: '0 4px 6px rgba(0,0,0,0.3)',
-            fontWeight: 'bold'
-          }}
-        >
-          BẮT ĐẦU PHÁ ÁN
-        </button>
-      </div>
-    )
+  useEffect(() => {
+    return () => {
+      if (zoomTimerRef.current) window.clearTimeout(zoomTimerRef.current)
+      if (hideTimerRef.current) window.clearTimeout(hideTimerRef.current)
+    }
+  }, [])
+
+  const handleStartSequence = () => {
+    if (introStage !== 'menu') return
+    setIntroStage('zooming')
+    zoomTimerRef.current = window.setTimeout(() => {
+      setIntroStage('video')
+    }, 450)
   }
 
+  const handleVideoEnded = () => {
+    setIntroStage('fade')
+  }
+
+  const handleShowArchiveList = () => {
+    if (introStage !== 'menu') return
+    setShowCaseList(true)
+  }
+
+  const handleSelectArchivedCase = (caseCode: string) => {
+    caseTriggeredRef.current = true
+    setShowCaseList(false)
+    setIntroStage('hidden')
+    loadArchivedCase(caseCode)
+  }
+
+  useEffect(() => {
+    if (introStage === 'fade' && !caseTriggeredRef.current) {
+      caseTriggeredRef.current = true
+      startNewCase()
+      hideTimerRef.current = window.setTimeout(() => {
+        setIntroStage('hidden')
+      }, 1200)
+    }
+  }, [introStage, startNewCase])
+
+  const archiveFetching = archivedCaseQuery.isFetching
+  const baseLoading = citizenQuery.isPending || assemblyQuery.isPending || clueQuery.isPending
+  const isLoading = baseLoading || archiveFetching
+  const displayCaseCode = activeCaseCode ?? caseBundle?.victim?.victimId ?? caseBundle?.victim?.id
+  const replayDisabled = !archivedCaseCode || archiveFetching || baseLoading
+
   return (
-    <div className="app-shell">
+    <>
+      {introStage !== 'hidden' && (
+        <IntroOverlay
+          stage={introStage}
+          onStart={handleStartSequence}
+          onVideoEnded={handleVideoEnded}
+          onShowArchives={handleShowArchiveList}
+        />
+      )}
+      <ArchiveListOverlay
+        visible={showCaseList}
+        cases={archiveListQuery.data}
+        isLoading={archiveListQuery.isLoading}
+        onClose={() => setShowCaseList(false)}
+        onRefresh={() => archiveListQuery.refetch()}
+        onSelectCase={handleSelectArchivedCase}
+      />
+      <div className="app-shell">
       {/* Sidebar - Case File */}
       <aside className="sidebar">
         <div style={{ padding: '1.5rem', background: '#1a1a1a', borderBottom: '1px solid #444' }}>
           <h1 style={{ margin: 0, fontSize: '1.5rem', color: '#f0a500', fontFamily: 'Courier New' }}>HỒ SƠ VỤ ÁN</h1>
-          <div style={{ fontSize: '0.8rem', color: '#888', marginTop: '0.5rem' }}>Mã hồ sơ: #{caseBundle?.victim?.id.slice(0, 8) ?? 'Unknown'}</div>
+          <div style={{ fontSize: '0.8rem', color: '#888', marginTop: '0.5rem' }}>
+            Mã hồ sơ: #{displayCaseCode ? displayCaseCode.slice(0, 8) : 'Unknown'}
+          </div>
+          {caseBundle?.caseTitle ? (
+            <div style={{ fontSize: '0.85rem', color: '#fbbf24', marginTop: '0.25rem' }}>{caseBundle.caseTitle}</div>
+          ) : null}
           <div style={{ marginTop: '1rem', display: 'flex', gap: '0.5rem' }}>
             <button
               onClick={restartCurrentCase}
-              style={{ flex: 1, padding: '0.3rem', fontSize: '0.8rem', cursor: 'pointer', background: '#334155', color: 'white', border: 'none', borderRadius: '2px' }}
+              disabled={replayDisabled}
+              title={replayDisabled ? 'Chỉ khả dụng sau khi hồ sơ đã được lưu' : undefined}
+              style={{
+                flex: 1,
+                padding: '0.3rem',
+                fontSize: '0.8rem',
+                cursor: replayDisabled ? 'not-allowed' : 'pointer',
+                background: replayDisabled ? '#475569' : '#334155',
+                color: 'white',
+                border: 'none',
+                borderRadius: '2px',
+                opacity: replayDisabled ? 0.6 : 1,
+              }}
             >
               Lật lại vụ án
             </button>
@@ -81,10 +192,13 @@ function App() {
               Vụ án mới
             </button>
           </div>
+          <div style={{ marginTop: '0.3rem', fontSize: '0.7rem', color: '#94a3b8' }}>
+            {archivedCaseCode ? `Đã lưu hồ sơ #${archivedCaseCode.slice(0, 8)}` : 'Tạo xong hồ sơ để có thể lật lại.'}
+          </div>
         </div>
 
         <div style={{ flex: 1, overflowY: 'auto', padding: '1.5rem' }}>
-          <StatusBanner phase={phase} error={error} isLoading={isLoading} onReset={restartCurrentCase} />
+          <StatusBanner phase={phase} error={error} isLoading={isLoading} />
 
           {caseBundle?.accompliceCount ? (
             <div className="paper-card" style={{ marginTop: '1rem', background: '#e0f2fe', border: '1px dashed #0284c7' }}>
@@ -186,7 +300,8 @@ function App() {
           </div>
         </div>
       </main>
-    </div>
+      </div>
+    </>
   )
 }
 

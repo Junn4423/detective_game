@@ -1,0 +1,2671 @@
+{
+  "caseCode": "victim-c312a8d2-4255-42f4-9be1-4",
+  "generatedAt": "2025-11-27T08:53:38.943Z",
+  "bundle": {
+    "victim": {
+      "id": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+      "fullName": "Asta Johansen",
+      "gender": "female",
+      "age": 75,
+      "nationality": "Denmark",
+      "occupation": "happymeercat Investigator",
+      "email": "asta.johansen@example.com",
+      "phone": "04306248",
+      "cell": "77399909",
+      "dob": "1950-04-01T17:26:17.746Z",
+      "registered": "2005-02-10T15:15:32.179Z",
+      "idNumber": "010450-6583",
+      "residence": "New York",
+      "coordinates": {
+        "lat": 29.8693,
+        "lng": -13.0547
+      },
+      "portrait": "https://randomuser.me/api/portraits/women/57.jpg",
+      "timezone": "Azores, Cape Verde Islands",
+      "seed": "happymeercat372",
+      "victimId": "victim-c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+      "timeOfIncident": "2025-11-27T08:53:11.455Z",
+      "lastKnownLocation": {
+        "lat": 40.682722961532704,
+        "lng": -74.02825218233329
+      }
+    },
+    "killer": {
+      "id": "4a0093b9-3840-43af-b78f-2012cabe0539",
+      "fullName": "Luisa Garrido",
+      "gender": "female",
+      "age": 78,
+      "nationality": "Spain",
+      "occupation": "yellowmeercat Investigator",
+      "email": "luisa.garrido@example.com",
+      "phone": "961-892-355",
+      "cell": "603-703-745",
+      "dob": "1947-08-30T02:10:25.085Z",
+      "registered": "2020-10-08T12:52:29.937Z",
+      "idNumber": "41863817-U",
+      "residence": "New York Area",
+      "coordinates": {
+        "lat": 40.65901748020294,
+        "lng": -74.12811383335864
+      },
+      "portrait": "https://randomuser.me/api/portraits/women/44.jpg",
+      "timezone": "Eastern Time (US & Canada), Bogota, Lima",
+      "seed": "yellowmeercat297",
+      "suspicionLevel": 0.98,
+      "alibi": "Từ chối khai báo lịch trình",
+      "role": "killer",
+      "relationshipTag": "family",
+      "testimony": {
+        "id": "testimony-4a0093b9-3840-43af-b78f-2012cabe0539",
+        "relationshipSummary": "người thân",
+        "narrative": "Tôi là người thân của Asta Johansen. Ngày hôm đó, vào khoảng 12:57 - 13:27, tôi đã truy cập máy chủ tại phòng lab cũ tại New York khu cảng bỏ hoang phía tây.",
+        "timeframe": "12:57 - 13:27",
+        "action": "truy cập máy chủ tại phòng lab cũ",
+        "locationLabel": "New York khu cảng bỏ hoang phía tây",
+        "mapHint": {
+          "id": "New York khu cảng bỏ hoang phía tây-7580",
+          "label": "New York khu cảng bỏ hoang phía tây",
+          "point": {
+            "lat": 40.61022712515294,
+            "lng": -74.16179607357843
+          },
+          "radiusMeters": 900
+        },
+        "reliability": "shaky"
+      }
+    },
+    "suspects": [
+      {
+        "id": "190d98d4-cfee-47a6-a3b9-a9ca22a34c23",
+        "fullName": "Siiri Latvala",
+        "gender": "female",
+        "age": 73,
+        "nationality": "Finland",
+        "occupation": "blackfish Investigator",
+        "email": "siiri.latvala@example.com",
+        "phone": "06-168-270",
+        "cell": "042-574-86-07",
+        "dob": "1952-05-30T14:59:44.726Z",
+        "registered": "2002-12-11T12:17:25.744Z",
+        "idNumber": "NaNNA332undefined",
+        "residence": "Vieremä, Finland",
+        "coordinates": {
+          "lat": 28.539151404217463,
+          "lng": -64.15107043294486
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/94.jpg",
+        "timezone": "Western Europe Time, London, Lisbon, Casablanca",
+        "seed": "blackfish757",
+        "suspicionLevel": 0.76,
+        "alibi": "Đang đi công tác ở thành phố khác",
+        "role": "accomplice",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-190d98d4-cfee-47a6-a3b9-a9ca22a34c23",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Asta Johansen. Ngày hôm đó, vào khoảng 13:32 - 14:02, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại New York nhà kho số 12.",
+          "timeframe": "13:32 - 14:02",
+          "action": "dự một buổi cầu nguyện ngắn gần khu chợ trời",
+          "locationLabel": "New York nhà kho số 12",
+          "mapHint": {
+            "id": "New York nhà kho số 12-2514",
+            "label": "New York nhà kho số 12",
+            "point": {
+              "lat": 28.567772354652753,
+              "lng": -64.15707705337338
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        },
+        "secondaryTestimony": {
+          "id": "secondary-190d98d4-cfee-47a6-a3b9-a9ca22a34c23",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Được rồi, tôi sẽ hợp tác. Luisa Garrido bảo tôi canh gác tại Ổ ẩn náu và hắn vẫn còn ở đó lúc 17:23.",
+          "timeframe": "17:13 - 17:43",
+          "action": "chỉ điểm tọa độ ẩn náu",
+          "locationLabel": "Ổ ẩn náu",
+          "mapHint": {
+            "id": "Ổ ẩn náu-4271",
+            "label": "Ổ ẩn náu",
+            "point": {
+              "lat": 40.672628621515805,
+              "lng": -74.08907660675249
+            },
+            "radiusMeters": 350
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "615b635a-6270-44b3-9291-c65f62177904",
+        "fullName": "Simon Bergeron",
+        "gender": "male",
+        "age": 66,
+        "nationality": "Canada",
+        "occupation": "heavykoala Investigator",
+        "email": "simon.bergeron@example.com",
+        "phone": "B87 T25-9893",
+        "cell": "B09 C41-8491",
+        "dob": "1959-07-15T17:14:45.940Z",
+        "registered": "2021-08-01T06:03:03.908Z",
+        "idNumber": "805741352",
+        "residence": "Cumberland, Canada",
+        "coordinates": {
+          "lat": 43.645419094964964,
+          "lng": -52.650687193584865
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/10.jpg",
+        "timezone": "Central Time (US & Canada), Mexico City",
+        "seed": "heavykoala844",
+        "suspicionLevel": 0.68,
+        "alibi": "Đang trực ca đêm tại nơi làm việc",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-615b635a-6270-44b3-9291-c65f62177904",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Asta Johansen. Ngày hôm đó, vào khoảng 14:58 - 15:28, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại New York khu dân cư tọa độ G-17.",
+          "timeframe": "14:58 - 15:28",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "New York khu dân cư tọa độ G-17",
+          "mapHint": {
+            "id": "New York khu dân cư tọa độ G-17-171",
+            "label": "New York khu dân cư tọa độ G-17",
+            "point": {
+              "lat": 43.643044696442885,
+              "lng": -52.64583016537899
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "92a6feed-5a47-455b-bafd-b4eeb6adeaf6",
+        "fullName": "Austin Turner",
+        "gender": "male",
+        "age": 64,
+        "nationality": "New Zealand",
+        "occupation": "silverkoala Investigator",
+        "email": "austin.turner@example.com",
+        "phone": "(014)-732-2883",
+        "cell": "(686)-947-8815",
+        "dob": "1961-05-05T21:22:22.161Z",
+        "registered": "2006-12-11T16:16:32.522Z",
+        "idNumber": "N/A",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.64881226829629,
+          "lng": -74.01446329867649
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/91.jpg",
+        "timezone": "Alaska",
+        "seed": "silverkoala213",
+        "suspicionLevel": 0.56,
+        "alibi": "Đang chơi bowling cùng bạn bè",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-92a6feed-5a47-455b-bafd-b4eeb6adeaf6",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Asta Johansen. Ngày hôm đó, vào khoảng 17:32 - 18:02, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại New York nhà thờ Saint-Marie.",
+          "timeframe": "17:32 - 18:02",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "New York nhà thờ Saint-Marie",
+          "mapHint": {
+            "id": "New York nhà thờ Saint-Marie-6881",
+            "label": "New York nhà thờ Saint-Marie",
+            "point": {
+              "lat": 40.67108670016195,
+              "lng": -73.99863571268688
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "4a0093b9-3840-43af-b78f-2012cabe0539",
+        "fullName": "Luisa Garrido",
+        "gender": "female",
+        "age": 78,
+        "nationality": "Spain",
+        "occupation": "yellowmeercat Investigator",
+        "email": "luisa.garrido@example.com",
+        "phone": "961-892-355",
+        "cell": "603-703-745",
+        "dob": "1947-08-30T02:10:25.085Z",
+        "registered": "2020-10-08T12:52:29.937Z",
+        "idNumber": "41863817-U",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.65901748020294,
+          "lng": -74.12811383335864
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/44.jpg",
+        "timezone": "Eastern Time (US & Canada), Bogota, Lima",
+        "seed": "yellowmeercat297",
+        "suspicionLevel": 0.98,
+        "alibi": "Từ chối khai báo lịch trình",
+        "role": "killer",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-4a0093b9-3840-43af-b78f-2012cabe0539",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Asta Johansen. Ngày hôm đó, vào khoảng 12:57 - 13:27, tôi đã truy cập máy chủ tại phòng lab cũ tại New York khu cảng bỏ hoang phía tây.",
+          "timeframe": "12:57 - 13:27",
+          "action": "truy cập máy chủ tại phòng lab cũ",
+          "locationLabel": "New York khu cảng bỏ hoang phía tây",
+          "mapHint": {
+            "id": "New York khu cảng bỏ hoang phía tây-7580",
+            "label": "New York khu cảng bỏ hoang phía tây",
+            "point": {
+              "lat": 40.61022712515294,
+              "lng": -74.16179607357843
+            },
+            "radiusMeters": 900
+          },
+          "reliability": "shaky"
+        }
+      },
+      {
+        "id": "884d12cc-2938-42d5-b3a9-16dbd0e7cdac",
+        "fullName": "Philip Kowalski",
+        "gender": "male",
+        "age": 59,
+        "nationality": "Canada",
+        "occupation": "whitecat Investigator",
+        "email": "philip.kowalski@example.com",
+        "phone": "Y49 R12-4528",
+        "cell": "U13 W39-5905",
+        "dob": "1966-04-16T18:19:43.197Z",
+        "registered": "2021-09-27T10:22:46.658Z",
+        "idNumber": "223907361",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.74730611351074,
+          "lng": -74.1244918899688
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/77.jpg",
+        "timezone": "Kaliningrad, South Africa",
+        "seed": "whitecat381",
+        "suspicionLevel": 0.51,
+        "alibi": "Đang sửa xe tại gara",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-884d12cc-2938-42d5-b3a9-16dbd0e7cdac",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Asta Johansen. Ngày hôm đó, vào khoảng 17:51 - 18:21, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại New York khu dân cư tọa độ G-17.",
+          "timeframe": "17:51 - 18:21",
+          "action": "bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường",
+          "locationLabel": "New York khu dân cư tọa độ G-17",
+          "mapHint": {
+            "id": "New York khu dân cư tọa độ G-17-4874",
+            "label": "New York khu dân cư tọa độ G-17",
+            "point": {
+              "lat": 40.74883829465357,
+              "lng": -74.11481207607622
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "90a08636-0353-4028-8f40-7bc936155a61",
+        "fullName": "Emilie Petersen",
+        "gender": "female",
+        "age": 40,
+        "nationality": "Denmark",
+        "occupation": "beautifulmeercat Investigator",
+        "email": "emilie.petersen@example.com",
+        "phone": "15257162",
+        "cell": "30968097",
+        "dob": "1985-05-12T23:09:38.638Z",
+        "registered": "2022-04-08T03:30:38.485Z",
+        "idNumber": "120585-4035",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.83392470693103,
+          "lng": -73.94910924644915
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/8.jpg",
+        "timezone": "Baghdad, Riyadh, Moscow, St. Petersburg",
+        "seed": "beautifulmeercat385",
+        "suspicionLevel": 0.41,
+        "alibi": "Đang khám bệnh tại bệnh viện",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-90a08636-0353-4028-8f40-7bc936155a61",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Asta Johansen. Ngày hôm đó, vào khoảng 15:15 - 15:45, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại New York khu dân cư tọa độ G-17.",
+          "timeframe": "15:15 - 15:45",
+          "action": "bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường",
+          "locationLabel": "New York khu dân cư tọa độ G-17",
+          "mapHint": {
+            "id": "New York khu dân cư tọa độ G-17-950",
+            "label": "New York khu dân cư tọa độ G-17",
+            "point": {
+              "lat": 40.865134132396236,
+              "lng": -73.98888620620833
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "d9abed58-063b-4fe0-86e5-9a52c7fa48cf",
+        "fullName": "Kaïs Vidal",
+        "gender": "male",
+        "age": 43,
+        "nationality": "France",
+        "occupation": "organicbear Investigator",
+        "email": "kais.vidal@example.com",
+        "phone": "05-08-20-87-55",
+        "cell": "06-38-01-77-15",
+        "dob": "1982-01-20T09:41:37.179Z",
+        "registered": "2015-08-04T20:41:33.136Z",
+        "idNumber": "1820025183726 02",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.7324892875534,
+          "lng": -74.00345762366508
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/38.jpg",
+        "timezone": "Newfoundland",
+        "seed": "organicbear181",
+        "suspicionLevel": 0.54,
+        "alibi": "Đang chơi bowling cùng bạn bè",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-d9abed58-063b-4fe0-86e5-9a52c7fa48cf",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Asta Johansen. Ngày hôm đó, vào khoảng 14:40 - 15:10, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại New York quảng trường Đồng Tế.",
+          "timeframe": "14:40 - 15:10",
+          "action": "bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường",
+          "locationLabel": "New York quảng trường Đồng Tế",
+          "mapHint": {
+            "id": "New York quảng trường Đồng Tế-4195",
+            "label": "New York quảng trường Đồng Tế",
+            "point": {
+              "lat": 40.719979774139865,
+              "lng": -73.99060685864264
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "31007e82-91d7-44b0-81ee-6be4faf6d9ba",
+        "fullName": "Max Robinson",
+        "gender": "male",
+        "age": 67,
+        "nationality": "New Zealand",
+        "occupation": "bluefish Investigator",
+        "email": "max.robinson@example.com",
+        "phone": "(433)-873-9401",
+        "cell": "(624)-417-1447",
+        "dob": "1958-08-04T18:18:28.829Z",
+        "registered": "2005-09-12T09:10:43.187Z",
+        "idNumber": "N/A",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.614937781261176,
+          "lng": -74.03903273508955
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/41.jpg",
+        "timezone": "Brazil, Buenos Aires, Georgetown",
+        "seed": "bluefish497",
+        "suspicionLevel": 0.69,
+        "alibi": "Đang bị kẹt xe trên đường cao tốc",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-31007e82-91d7-44b0-81ee-6be4faf6d9ba",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Asta Johansen. Ngày hôm đó, vào khoảng 17:05 - 17:35, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại New York khu dân cư tọa độ G-17.",
+          "timeframe": "17:05 - 17:35",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "New York khu dân cư tọa độ G-17",
+          "mapHint": {
+            "id": "New York khu dân cư tọa độ G-17-9084",
+            "label": "New York khu dân cư tọa độ G-17",
+            "point": {
+              "lat": 40.57340310306557,
+              "lng": -74.0304130148103
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "15abbe6b-4ed3-4a88-b3d3-36e0c5a22c68",
+        "fullName": "Amber White",
+        "gender": "female",
+        "age": 25,
+        "nationality": "New Zealand",
+        "occupation": "heavylion Investigator",
+        "email": "amber.white@example.com",
+        "phone": "(423)-213-1768",
+        "cell": "(038)-089-0753",
+        "dob": "2000-04-28T17:59:10.986Z",
+        "registered": "2011-03-13T12:43:20.300Z",
+        "idNumber": "N/A",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.70776014309142,
+          "lng": -74.02771354300116
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/55.jpg",
+        "timezone": "Tehran",
+        "seed": "heavylion420",
+        "suspicionLevel": 0.37,
+        "alibi": "Đang chơi bowling cùng bạn bè",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-15abbe6b-4ed3-4a88-b3d3-36e0c5a22c68",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Asta Johansen. Ngày hôm đó, vào khoảng 15:33 - 16:03, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại New York quảng trường Đồng Tế.",
+          "timeframe": "15:33 - 16:03",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "New York quảng trường Đồng Tế",
+          "mapHint": {
+            "id": "New York quảng trường Đồng Tế-5548",
+            "label": "New York quảng trường Đồng Tế",
+            "point": {
+              "lat": 40.67315072086405,
+              "lng": -74.06684665073321
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "9e101c26-5e4a-481f-a76a-df57a5da8593",
+        "fullName": "Elia Vincent",
+        "gender": "female",
+        "age": 56,
+        "nationality": "France",
+        "occupation": "greensnake Investigator",
+        "email": "elia.vincent@example.com",
+        "phone": "02-89-35-50-22",
+        "cell": "06-62-42-71-21",
+        "dob": "1969-09-01T17:33:26.945Z",
+        "registered": "2003-09-21T16:34:55.207Z",
+        "idNumber": "2690841190769 32",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.716617906363425,
+          "lng": -74.04605381755269
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/92.jpg",
+        "timezone": "Eastern Australia, Guam, Vladivostok",
+        "seed": "greensnake900",
+        "suspicionLevel": 0.39,
+        "alibi": "Đang trực ca đêm tại nơi làm việc",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-9e101c26-5e4a-481f-a76a-df57a5da8593",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Asta Johansen. Ngày hôm đó, vào khoảng 16:32 - 17:02, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại New York ga tàu điện ngầm số 7.",
+          "timeframe": "16:32 - 17:02",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "New York ga tàu điện ngầm số 7",
+          "mapHint": {
+            "id": "New York ga tàu điện ngầm số 7-2538",
+            "label": "New York ga tàu điện ngầm số 7",
+            "point": {
+              "lat": 40.705994248427196,
+              "lng": -74.06839751581306
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "198f8ea6-0bb2-45f2-bae4-479a847318d4",
+        "fullName": "Melita Ross",
+        "gender": "female",
+        "age": 31,
+        "nationality": "Germany",
+        "occupation": "greengoose Investigator",
+        "email": "melita.ross@example.com",
+        "phone": "0717-0425617",
+        "cell": "0177-5473089",
+        "dob": "1994-03-13T18:28:52.750Z",
+        "registered": "2005-09-12T15:23:01.301Z",
+        "idNumber": "54 130394 R 851",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.815859834017246,
+          "lng": -74.06633711477028
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/2.jpg",
+        "timezone": "Abu Dhabi, Muscat, Baku, Tbilisi",
+        "seed": "greengoose612",
+        "suspicionLevel": 0.37,
+        "alibi": "Đang tập gym tại phòng tập thể hình",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-198f8ea6-0bb2-45f2-bae4-479a847318d4",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Asta Johansen. Ngày hôm đó, vào khoảng 15:12 - 15:42, tôi đã truy cập máy chủ tại phòng lab cũ tại New York xưởng sửa tàu hỏa.",
+          "timeframe": "15:12 - 15:42",
+          "action": "truy cập máy chủ tại phòng lab cũ",
+          "locationLabel": "New York xưởng sửa tàu hỏa",
+          "mapHint": {
+            "id": "New York xưởng sửa tàu hỏa-2051",
+            "label": "New York xưởng sửa tàu hỏa",
+            "point": {
+              "lat": 40.801016178150675,
+              "lng": -74.1117011934168
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "aa4e5773-9a94-4815-a3dc-c3c5edd4edef",
+        "fullName": "Beatrice Barrett",
+        "gender": "female",
+        "age": 79,
+        "nationality": "Australia",
+        "occupation": "happymouse Investigator",
+        "email": "beatrice.barrett@example.com",
+        "phone": "07-6496-4551",
+        "cell": "0401-157-717",
+        "dob": "1945-12-20T19:56:12.165Z",
+        "registered": "2003-08-18T04:25:20.754Z",
+        "idNumber": "627414898",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.70911001254123,
+          "lng": -73.89561611898574
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/42.jpg",
+        "timezone": "Mountain Time (US & Canada)",
+        "seed": "happymouse822",
+        "suspicionLevel": 0.33,
+        "alibi": "Đang ăn tối cùng gia đình",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-aa4e5773-9a94-4815-a3dc-c3c5edd4edef",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Asta Johansen. Ngày hôm đó, vào khoảng 14:27 - 14:57, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại New York nhà thờ Saint-Marie.",
+          "timeframe": "14:27 - 14:57",
+          "action": "thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông",
+          "locationLabel": "New York nhà thờ Saint-Marie",
+          "mapHint": {
+            "id": "New York nhà thờ Saint-Marie-3358",
+            "label": "New York nhà thờ Saint-Marie",
+            "point": {
+              "lat": 40.68195214530703,
+              "lng": -73.88056160498276
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "f120b2e1-a783-4742-a878-eac33b46f7e5",
+        "fullName": "Maëlys Meyer",
+        "gender": "female",
+        "age": 52,
+        "nationality": "France",
+        "occupation": "purplewolf Investigator",
+        "email": "maelys.meyer@example.com",
+        "phone": "01-45-28-86-97",
+        "cell": "06-86-65-03-75",
+        "dob": "1973-06-21T00:52:10.419Z",
+        "registered": "2003-04-16T01:36:32.639Z",
+        "idNumber": "2730591309040 59",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.65196003038473,
+          "lng": -74.07368927657058
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/79.jpg",
+        "timezone": "Baghdad, Riyadh, Moscow, St. Petersburg",
+        "seed": "purplewolf835",
+        "suspicionLevel": 0.37,
+        "alibi": "Đang tham gia lớp học nấu ăn",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-f120b2e1-a783-4742-a878-eac33b46f7e5",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Asta Johansen. Ngày hôm đó, vào khoảng 14:28 - 14:58, tôi đã truy cập máy chủ tại phòng lab cũ tại New York ga tàu điện ngầm số 7.",
+          "timeframe": "14:28 - 14:58",
+          "action": "truy cập máy chủ tại phòng lab cũ",
+          "locationLabel": "New York ga tàu điện ngầm số 7",
+          "mapHint": {
+            "id": "New York ga tàu điện ngầm số 7-8246",
+            "label": "New York ga tàu điện ngầm số 7",
+            "point": {
+              "lat": 40.678307350865,
+              "lng": -74.11616834007123
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "6af30305-051c-4301-aede-0c361b437bf6",
+        "fullName": "Enora Caron",
+        "gender": "female",
+        "age": 34,
+        "nationality": "France",
+        "occupation": "heavyswan Investigator",
+        "email": "enora.caron@example.com",
+        "phone": "02-13-91-28-98",
+        "cell": "06-26-63-88-45",
+        "dob": "1991-01-02T11:58:48.627Z",
+        "registered": "2013-01-12T09:52:45.194Z",
+        "idNumber": "2910059430751 82",
+        "residence": "Aulnay-sous-Bois, France",
+        "coordinates": {
+          "lat": 55.06096264552174,
+          "lng": -98.98047468254869
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/34.jpg",
+        "timezone": "Kaliningrad, South Africa",
+        "seed": "heavyswan540",
+        "suspicionLevel": 0.61,
+        "alibi": "Đang đi công tác ở thành phố khác",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-6af30305-051c-4301-aede-0c361b437bf6",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Asta Johansen. Ngày hôm đó, vào khoảng 15:44 - 16:14, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại New York xưởng sửa tàu hỏa.",
+          "timeframe": "15:44 - 16:14",
+          "action": "dự một buổi cầu nguyện ngắn gần khu chợ trời",
+          "locationLabel": "New York xưởng sửa tàu hỏa",
+          "mapHint": {
+            "id": "New York xưởng sửa tàu hỏa-7497",
+            "label": "New York xưởng sửa tàu hỏa",
+            "point": {
+              "lat": 55.075432585318,
+              "lng": -98.9685787567875
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "4d0e7e99-15f2-42d7-9d22-84a3c283f2ae",
+        "fullName": "Franz Josef Patzer",
+        "gender": "male",
+        "age": 78,
+        "nationality": "Germany",
+        "occupation": "orangezebra Investigator",
+        "email": "franzjosef.patzer@example.com",
+        "phone": "0767-9032555",
+        "cell": "0170-7413038",
+        "dob": "1947-11-05T09:35:26.293Z",
+        "registered": "2004-03-03T10:03:44.637Z",
+        "idNumber": "38 051147 P 185",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.59391142176366,
+          "lng": -74.01402166729459
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/14.jpg",
+        "timezone": "Midway Island, Samoa",
+        "seed": "orangezebra231",
+        "suspicionLevel": 0.6,
+        "alibi": "Đang tập gym tại phòng tập thể hình",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-4d0e7e99-15f2-42d7-9d22-84a3c283f2ae",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Asta Johansen. Ngày hôm đó, vào khoảng 16:01 - 16:31, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại New York chợ đêm trung tâm.",
+          "timeframe": "16:01 - 16:31",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "New York chợ đêm trung tâm",
+          "mapHint": {
+            "id": "New York chợ đêm trung tâm-5746",
+            "label": "New York chợ đêm trung tâm",
+            "point": {
+              "lat": 40.6303472758261,
+              "lng": -73.98227939837743
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "1d1474fc-2e2b-4925-920f-52cc63959601",
+        "fullName": "Tara Nußbaum",
+        "gender": "female",
+        "age": 54,
+        "nationality": "Germany",
+        "occupation": "heavygorilla Investigator",
+        "email": "tara.nussbaum@example.com",
+        "phone": "0434-4232875",
+        "cell": "0178-0275315",
+        "dob": "1971-09-19T02:54:26.008Z",
+        "registered": "2018-07-14T16:00:28.326Z",
+        "idNumber": "16 180971 N 988",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.696272389788334,
+          "lng": -73.9155569024
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/91.jpg",
+        "timezone": "Bombay, Calcutta, Madras, New Delhi",
+        "seed": "heavygorilla156",
+        "suspicionLevel": 0.68,
+        "alibi": "Đang khám bệnh tại bệnh viện",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-1d1474fc-2e2b-4925-920f-52cc63959601",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Asta Johansen. Ngày hôm đó, vào khoảng 14:46 - 15:16, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại New York ga tàu điện ngầm số 7.",
+          "timeframe": "14:46 - 15:16",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "New York ga tàu điện ngầm số 7",
+          "mapHint": {
+            "id": "New York ga tàu điện ngầm số 7-4285",
+            "label": "New York ga tàu điện ngầm số 7",
+            "point": {
+              "lat": 40.72899582501237,
+              "lng": -73.8967159228481
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "4c727cfd-5b8e-46e1-bacf-312fc95a5520",
+        "fullName": "Paige King",
+        "gender": "female",
+        "age": 73,
+        "nationality": "New Zealand",
+        "occupation": "beautifulcat Investigator",
+        "email": "paige.king@example.com",
+        "phone": "(933)-800-3481",
+        "cell": "(871)-485-8155",
+        "dob": "1952-10-23T17:46:30.599Z",
+        "registered": "2016-05-05T06:21:59.921Z",
+        "idNumber": "N/A",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.70055791387787,
+          "lng": -74.11387279158578
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/12.jpg",
+        "timezone": "Abu Dhabi, Muscat, Baku, Tbilisi",
+        "seed": "beautifulcat376",
+        "suspicionLevel": 0.52,
+        "alibi": "Đang câu cá ở hồ ngoại ô",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-4c727cfd-5b8e-46e1-bacf-312fc95a5520",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Asta Johansen. Ngày hôm đó, vào khoảng 13:11 - 13:41, tôi đã kiểm tra hệ thống camera của nhà thờ cổ tại New York khu dân cư tọa độ G-17.",
+          "timeframe": "13:11 - 13:41",
+          "action": "kiểm tra hệ thống camera của nhà thờ cổ",
+          "locationLabel": "New York khu dân cư tọa độ G-17",
+          "mapHint": {
+            "id": "New York khu dân cư tọa độ G-17-2570",
+            "label": "New York khu dân cư tọa độ G-17",
+            "point": {
+              "lat": 40.74311745927191,
+              "lng": -74.0788997526665
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "ca158daf-949c-4adc-b2cc-35e6d7043837",
+        "fullName": "Mia Ross",
+        "gender": "female",
+        "age": 57,
+        "nationality": "Canada",
+        "occupation": "bluegoose Investigator",
+        "email": "mia.ross@example.com",
+        "phone": "I94 L06-4363",
+        "cell": "M40 J13-6454",
+        "dob": "1968-01-19T00:00:02.305Z",
+        "registered": "2016-08-15T12:06:51.681Z",
+        "idNumber": "739419422",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.62269100889156,
+          "lng": -74.0547468802468
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/86.jpg",
+        "timezone": "Abu Dhabi, Muscat, Baku, Tbilisi",
+        "seed": "bluegoose803",
+        "suspicionLevel": 0.68,
+        "alibi": "Đang ăn tối cùng gia đình",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-ca158daf-949c-4adc-b2cc-35e6d7043837",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Asta Johansen. Ngày hôm đó, vào khoảng 15:34 - 16:04, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại New York kho hàng Riverside.",
+          "timeframe": "15:34 - 16:04",
+          "action": "bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường",
+          "locationLabel": "New York kho hàng Riverside",
+          "mapHint": {
+            "id": "New York kho hàng Riverside-5689",
+            "label": "New York kho hàng Riverside",
+            "point": {
+              "lat": 40.62858869140094,
+              "lng": -74.01856189489318
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "76dcd611-1b57-40a6-a697-139198d95cf0",
+        "fullName": "Diane Morrison",
+        "gender": "female",
+        "age": 31,
+        "nationality": "United Kingdom",
+        "occupation": "sadzebra Investigator",
+        "email": "diane.morrison@example.com",
+        "phone": "01275 80263",
+        "cell": "07787 156676",
+        "dob": "1994-08-10T16:41:46.858Z",
+        "registered": "2015-02-02T02:59:10.675Z",
+        "idNumber": "PN 89 12 70 O",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.638179946048055,
+          "lng": -73.98969676780779
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/23.jpg",
+        "timezone": "Kathmandu",
+        "seed": "sadzebra400",
+        "suspicionLevel": 0.35,
+        "alibi": "Đang ngủ tại nhà riêng",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-76dcd611-1b57-40a6-a697-139198d95cf0",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Asta Johansen. Ngày hôm đó, vào khoảng 13:32 - 14:02, tôi đã truy cập máy chủ tại phòng lab cũ tại New York nhà thờ Saint-Marie.",
+          "timeframe": "13:32 - 14:02",
+          "action": "truy cập máy chủ tại phòng lab cũ",
+          "locationLabel": "New York nhà thờ Saint-Marie",
+          "mapHint": {
+            "id": "New York nhà thờ Saint-Marie-6506",
+            "label": "New York nhà thờ Saint-Marie",
+            "point": {
+              "lat": 40.62313177165097,
+              "lng": -74.01530565509837
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "a363c232-713e-41ca-ba56-5ac6e0074850",
+        "fullName": "Jake Robinson",
+        "gender": "male",
+        "age": 70,
+        "nationality": "New Zealand",
+        "occupation": "smallfrog Investigator",
+        "email": "jake.robinson@example.com",
+        "phone": "(217)-872-6268",
+        "cell": "(179)-867-7828",
+        "dob": "1955-03-05T02:29:13.943Z",
+        "registered": "2019-08-04T07:27:44.750Z",
+        "idNumber": "N/A",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.700784873596206,
+          "lng": -73.92620611811832
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/10.jpg",
+        "timezone": "Eastern Time (US & Canada), Bogota, Lima",
+        "seed": "smallfrog743",
+        "suspicionLevel": 0.47,
+        "alibi": "Đang chơi bowling cùng bạn bè",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-a363c232-713e-41ca-ba56-5ac6e0074850",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Asta Johansen. Ngày hôm đó, vào khoảng 18:18 - 18:48, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại New York nhà kho số 12.",
+          "timeframe": "18:18 - 18:48",
+          "action": "dự một buổi cầu nguyện ngắn gần khu chợ trời",
+          "locationLabel": "New York nhà kho số 12",
+          "mapHint": {
+            "id": "New York nhà kho số 12-9974",
+            "label": "New York nhà kho số 12",
+            "point": {
+              "lat": 40.68648209993895,
+              "lng": -73.96255194267101
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "10495ba9-8396-4935-8629-dfe558c640b5",
+        "fullName": "Joel Linna",
+        "gender": "male",
+        "age": 64,
+        "nationality": "Finland",
+        "occupation": "greengoose Investigator",
+        "email": "joel.linna@example.com",
+        "phone": "02-914-468",
+        "cell": "049-346-38-65",
+        "dob": "1960-12-28T02:57:09.131Z",
+        "registered": "2015-11-21T09:46:24.912Z",
+        "idNumber": "NaNNA353undefined",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.701490265266315,
+          "lng": -73.9003940594583
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/51.jpg",
+        "timezone": "Almaty, Dhaka, Colombo",
+        "seed": "greengoose920",
+        "suspicionLevel": 0.53,
+        "alibi": "Đang câu cá ở hồ ngoại ô",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-10495ba9-8396-4935-8629-dfe558c640b5",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Asta Johansen. Ngày hôm đó, vào khoảng 18:36 - 19:06, tôi đã truy cập máy chủ tại phòng lab cũ tại New York nhà thờ Saint-Marie.",
+          "timeframe": "18:36 - 19:06",
+          "action": "truy cập máy chủ tại phòng lab cũ",
+          "locationLabel": "New York nhà thờ Saint-Marie",
+          "mapHint": {
+            "id": "New York nhà thờ Saint-Marie-1398",
+            "label": "New York nhà thờ Saint-Marie",
+            "point": {
+              "lat": 40.7178638760888,
+              "lng": -73.87857395638389
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "c418abbc-0848-4b4b-b6a8-0e496b4eeea8",
+        "fullName": "Willow Hall",
+        "gender": "female",
+        "age": 80,
+        "nationality": "New Zealand",
+        "occupation": "tinybear Investigator",
+        "email": "willow.hall@example.com",
+        "phone": "(806)-421-9334",
+        "cell": "(467)-436-7679",
+        "dob": "1944-12-13T18:19:45.412Z",
+        "registered": "2015-04-24T06:22:09.934Z",
+        "idNumber": "N/A",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.799545982625894,
+          "lng": -73.9930737164843
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/0.jpg",
+        "timezone": "Kabul",
+        "seed": "tinybear485",
+        "suspicionLevel": 0.58,
+        "alibi": "Đang khám bệnh tại bệnh viện",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-c418abbc-0848-4b4b-b6a8-0e496b4eeea8",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Asta Johansen. Ngày hôm đó, vào khoảng 18:11 - 18:41, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại New York xưởng sửa tàu hỏa.",
+          "timeframe": "18:11 - 18:41",
+          "action": "đi khảo sát công trường dang dở ở ngoại ô",
+          "locationLabel": "New York xưởng sửa tàu hỏa",
+          "mapHint": {
+            "id": "New York xưởng sửa tàu hỏa-8078",
+            "label": "New York xưởng sửa tàu hỏa",
+            "point": {
+              "lat": 40.77647822220493,
+              "lng": -74.01492486331082
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "867adab9-fbe4-427d-9a91-5ec4af8c2fe6",
+        "fullName": "Keith Beck",
+        "gender": "male",
+        "age": 31,
+        "nationality": "Australia",
+        "occupation": "sadlion Investigator",
+        "email": "keith.beck@example.com",
+        "phone": "02-8872-5728",
+        "cell": "0471-247-932",
+        "dob": "1994-05-02T09:48:47.118Z",
+        "registered": "2011-08-30T02:14:43.526Z",
+        "idNumber": "544766795",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.65650647200218,
+          "lng": -74.03635038536822
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/69.jpg",
+        "timezone": "Eastern Time (US & Canada), Bogota, Lima",
+        "seed": "sadlion687",
+        "suspicionLevel": 0.66,
+        "alibi": "Đang đọc sách tại thư viện",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-867adab9-fbe4-427d-9a91-5ec4af8c2fe6",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Asta Johansen. Ngày hôm đó, vào khoảng 14:14 - 14:44, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại New York quảng trường Đồng Tế.",
+          "timeframe": "14:14 - 14:44",
+          "action": "bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường",
+          "locationLabel": "New York quảng trường Đồng Tế",
+          "mapHint": {
+            "id": "New York quảng trường Đồng Tế-7266",
+            "label": "New York quảng trường Đồng Tế",
+            "point": {
+              "lat": 40.66971729662309,
+              "lng": -74.053847772268
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "3ce43dde-0dbe-46dc-b783-d87c1f2b00a4",
+        "fullName": "Dora Garza",
+        "gender": "female",
+        "age": 54,
+        "nationality": "United States",
+        "occupation": "sadzebra Investigator",
+        "email": "dora.garza@example.com",
+        "phone": "(881) 738-2470",
+        "cell": "(622) 308-4547",
+        "dob": "1971-03-04T06:47:44.914Z",
+        "registered": "2020-06-08T22:45:02.533Z",
+        "idNumber": "115-45-2700",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.81402055964161,
+          "lng": -74.07198657304258
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/45.jpg",
+        "timezone": "Eastern Australia, Guam, Vladivostok",
+        "seed": "sadzebra519",
+        "suspicionLevel": 0.66,
+        "alibi": "Đang đi công tác ở thành phố khác",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-3ce43dde-0dbe-46dc-b783-d87c1f2b00a4",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Asta Johansen. Ngày hôm đó, vào khoảng 18:24 - 18:54, tôi đã truy cập máy chủ tại phòng lab cũ tại New York khu dân cư tọa độ G-17.",
+          "timeframe": "18:24 - 18:54",
+          "action": "truy cập máy chủ tại phòng lab cũ",
+          "locationLabel": "New York khu dân cư tọa độ G-17",
+          "mapHint": {
+            "id": "New York khu dân cư tọa độ G-17-4450",
+            "label": "New York khu dân cư tọa độ G-17",
+            "point": {
+              "lat": 40.8401053027558,
+              "lng": -74.04393438665872
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "9fb31947-4d02-49df-a461-b14a4d0c425f",
+        "fullName": "Keith Sutton",
+        "gender": "male",
+        "age": 56,
+        "nationality": "United Kingdom",
+        "occupation": "brownbear Investigator",
+        "email": "keith.sutton@example.com",
+        "phone": "016977 3742",
+        "cell": "07957 998144",
+        "dob": "1969-07-17T20:50:33.731Z",
+        "registered": "2018-03-06T08:40:41.404Z",
+        "idNumber": "JN 10 34 69 N",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.58168371881066,
+          "lng": -73.99422604394255
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/44.jpg",
+        "timezone": "Kathmandu",
+        "seed": "brownbear445",
+        "suspicionLevel": 0.57,
+        "alibi": "Đang mua sắm tại siêu thị",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-9fb31947-4d02-49df-a461-b14a4d0c425f",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Asta Johansen. Ngày hôm đó, vào khoảng 17:35 - 18:05, tôi đã kiểm tra hệ thống camera của nhà thờ cổ tại New York nhà kho số 12.",
+          "timeframe": "17:35 - 18:05",
+          "action": "kiểm tra hệ thống camera của nhà thờ cổ",
+          "locationLabel": "New York nhà kho số 12",
+          "mapHint": {
+            "id": "New York nhà kho số 12-3903",
+            "label": "New York nhà kho số 12",
+            "point": {
+              "lat": 40.555755053322635,
+              "lng": -73.94732311166932
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "ddc53091-3501-4cea-bd9c-0821d4fca1b0",
+        "fullName": "Magnus Andersen",
+        "gender": "male",
+        "age": 66,
+        "nationality": "Denmark",
+        "occupation": "heavyzebra Investigator",
+        "email": "magnus.andersen@example.com",
+        "phone": "95741675",
+        "cell": "09706647",
+        "dob": "1958-11-29T08:00:18.028Z",
+        "registered": "2012-05-12T08:53:58.990Z",
+        "idNumber": "291158-9239",
+        "residence": "Ølstykke, Denmark",
+        "coordinates": {
+          "lat": 60.473331415297906,
+          "lng": -45.537126716682714
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/78.jpg",
+        "timezone": "Mid-Atlantic",
+        "seed": "heavyzebra689",
+        "suspicionLevel": 0.35,
+        "alibi": "Đang tham gia lớp học nấu ăn",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-ddc53091-3501-4cea-bd9c-0821d4fca1b0",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Asta Johansen. Ngày hôm đó, vào khoảng 17:21 - 17:51, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại New York quảng trường Đồng Tế.",
+          "timeframe": "17:21 - 17:51",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "New York quảng trường Đồng Tế",
+          "mapHint": {
+            "id": "New York quảng trường Đồng Tế-3526",
+            "label": "New York quảng trường Đồng Tế",
+            "point": {
+              "lat": 60.500905526889,
+              "lng": -45.53692543866581
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "098a2ed5-5743-488e-b151-dc25a6402796",
+        "fullName": "Olivia Wright",
+        "gender": "female",
+        "age": 54,
+        "nationality": "New Zealand",
+        "occupation": "purplekoala Investigator",
+        "email": "olivia.wright@example.com",
+        "phone": "(505)-586-3790",
+        "cell": "(577)-786-1808",
+        "dob": "1971-06-18T02:15:06.775Z",
+        "registered": "2003-08-21T18:43:36.897Z",
+        "idNumber": "N/A",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.74026399466641,
+          "lng": -73.90354585317984
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/19.jpg",
+        "timezone": "Brussels, Copenhagen, Madrid, Paris",
+        "seed": "purplekoala660",
+        "suspicionLevel": 0.36,
+        "alibi": "Đang tham gia một buổi tiệc sinh nhật",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-098a2ed5-5743-488e-b151-dc25a6402796",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Asta Johansen. Ngày hôm đó, vào khoảng 16:01 - 16:31, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại New York nhà kho số 12.",
+          "timeframe": "16:01 - 16:31",
+          "action": "thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông",
+          "locationLabel": "New York nhà kho số 12",
+          "mapHint": {
+            "id": "New York nhà kho số 12-9769",
+            "label": "New York nhà kho số 12",
+            "point": {
+              "lat": 40.703219204302535,
+              "lng": -73.85553315848667
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "70a87261-8952-45d0-ac1d-a93fa2a2cff1",
+        "fullName": "Signe Rasmussen",
+        "gender": "female",
+        "age": 27,
+        "nationality": "Denmark",
+        "occupation": "brownfrog Investigator",
+        "email": "signe.rasmussen@example.com",
+        "phone": "89107601",
+        "cell": "14620175",
+        "dob": "1997-12-02T21:18:22.784Z",
+        "registered": "2002-04-20T04:07:55.702Z",
+        "idNumber": "021297-5649",
+        "residence": "Amager, Denmark",
+        "coordinates": {
+          "lat": 18.120760731421523,
+          "lng": -42.3264972160311
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/21.jpg",
+        "timezone": "Almaty, Dhaka, Colombo",
+        "seed": "brownfrog427",
+        "suspicionLevel": 0.56,
+        "alibi": "Đang ăn tối cùng gia đình",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-70a87261-8952-45d0-ac1d-a93fa2a2cff1",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Asta Johansen. Ngày hôm đó, vào khoảng 13:59 - 14:29, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại New York chợ đêm trung tâm.",
+          "timeframe": "13:59 - 14:29",
+          "action": "bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường",
+          "locationLabel": "New York chợ đêm trung tâm",
+          "mapHint": {
+            "id": "New York chợ đêm trung tâm-9518",
+            "label": "New York chợ đêm trung tâm",
+            "point": {
+              "lat": 18.13903874824673,
+              "lng": -42.30160205736492
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "280fe22b-8e2d-4428-b0f5-6fb75dde5ad9",
+        "fullName": "Logan Meunier",
+        "gender": "male",
+        "age": 65,
+        "nationality": "France",
+        "occupation": "greenwolf Investigator",
+        "email": "logan.meunier@example.com",
+        "phone": "03-71-99-44-31",
+        "cell": "06-87-81-80-24",
+        "dob": "1960-06-02T08:03:16.326Z",
+        "registered": "2015-09-05T18:28:27.397Z",
+        "idNumber": "1600566215146 61",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.65003030950698,
+          "lng": -73.89725261754188
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/95.jpg",
+        "timezone": "Beijing, Perth, Singapore, Hong Kong",
+        "seed": "greenwolf793",
+        "suspicionLevel": 0.38,
+        "alibi": "Đang tham gia lớp học nấu ăn",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-280fe22b-8e2d-4428-b0f5-6fb75dde5ad9",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Asta Johansen. Ngày hôm đó, vào khoảng 16:20 - 16:50, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại New York nhà thờ Saint-Marie.",
+          "timeframe": "16:20 - 16:50",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "New York nhà thờ Saint-Marie",
+          "mapHint": {
+            "id": "New York nhà thờ Saint-Marie-5519",
+            "label": "New York nhà thờ Saint-Marie",
+            "point": {
+              "lat": 40.61017042301624,
+              "lng": -73.93394655070566
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "62ab90fc-1aa6-4cf3-aeec-e0cfe2060fb1",
+        "fullName": "Hans-Peter Stehr",
+        "gender": "male",
+        "age": 39,
+        "nationality": "Germany",
+        "occupation": "whitecat Investigator",
+        "email": "hans-peter.stehr@example.com",
+        "phone": "0182-1520934",
+        "cell": "0179-7438893",
+        "dob": "1986-07-14T06:04:38.668Z",
+        "registered": "2013-01-24T19:52:33.829Z",
+        "idNumber": "60 140786 S 416",
+        "residence": "Trier, Germany",
+        "coordinates": {
+          "lat": 44.58255333858934,
+          "lng": -35.39100202635071
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/90.jpg",
+        "timezone": "Kathmandu",
+        "seed": "whitecat225",
+        "suspicionLevel": 0.47,
+        "alibi": "Đang đi du lịch nước ngoài",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-62ab90fc-1aa6-4cf3-aeec-e0cfe2060fb1",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Asta Johansen. Ngày hôm đó, vào khoảng 14:48 - 15:18, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại New York kho hàng Riverside.",
+          "timeframe": "14:48 - 15:18",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "New York kho hàng Riverside",
+          "mapHint": {
+            "id": "New York kho hàng Riverside-8478",
+            "label": "New York kho hàng Riverside",
+            "point": {
+              "lat": 44.61092504796498,
+              "lng": -35.35550806795853
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "1b0c9be0-727b-4d47-aff5-17f6d1022657",
+        "fullName": "Carlos Alonso",
+        "gender": "male",
+        "age": 65,
+        "nationality": "Spain",
+        "occupation": "blackbutterfly Investigator",
+        "email": "carlos.alonso@example.com",
+        "phone": "960-708-903",
+        "cell": "686-008-036",
+        "dob": "1960-05-15T20:47:17.110Z",
+        "registered": "2022-02-01T10:09:51.806Z",
+        "idNumber": "68079359-P",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.649938002860516,
+          "lng": -73.9118356503477
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/80.jpg",
+        "timezone": "Abu Dhabi, Muscat, Baku, Tbilisi",
+        "seed": "blackbutterfly848",
+        "suspicionLevel": 0.4,
+        "alibi": "Đang tham gia lớp học nấu ăn",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-1b0c9be0-727b-4d47-aff5-17f6d1022657",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Asta Johansen. Ngày hôm đó, vào khoảng 17:30 - 18:00, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại New York xưởng sửa tàu hỏa.",
+          "timeframe": "17:30 - 18:00",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "New York xưởng sửa tàu hỏa",
+          "mapHint": {
+            "id": "New York xưởng sửa tàu hỏa-1555",
+            "label": "New York xưởng sửa tàu hỏa",
+            "point": {
+              "lat": 40.67355385779251,
+              "lng": -73.93526240074314
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "1371cd61-bb26-4200-bbd8-c63591056af8",
+        "fullName": "Jessie Armstrong",
+        "gender": "male",
+        "age": 65,
+        "nationality": "United Kingdom",
+        "occupation": "organiczebra Investigator",
+        "email": "jessie.armstrong@example.com",
+        "phone": "015242 82669",
+        "cell": "07696 434295",
+        "dob": "1960-09-08T05:56:53.796Z",
+        "registered": "2017-03-09T21:23:22.093Z",
+        "idNumber": "OT 39 26 95 N",
+        "residence": "Newry, United Kingdom",
+        "coordinates": {
+          "lat": 32.98400104445059,
+          "lng": -50.29458101560222
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/91.jpg",
+        "timezone": "Alaska",
+        "seed": "organiczebra414",
+        "suspicionLevel": 0.33,
+        "alibi": "Đang đi công tác ở thành phố khác",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-1371cd61-bb26-4200-bbd8-c63591056af8",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Asta Johansen. Ngày hôm đó, vào khoảng 16:15 - 16:45, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại New York khu cảng bỏ hoang phía tây.",
+          "timeframe": "16:15 - 16:45",
+          "action": "bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường",
+          "locationLabel": "New York khu cảng bỏ hoang phía tây",
+          "mapHint": {
+            "id": "New York khu cảng bỏ hoang phía tây-9572",
+            "label": "New York khu cảng bỏ hoang phía tây",
+            "point": {
+              "lat": 32.99468140915155,
+              "lng": -50.31635880191671
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "2a09f677-15fb-4096-899d-a3344ce788c5",
+        "fullName": "Johan Rasmussen",
+        "gender": "male",
+        "age": 62,
+        "nationality": "Denmark",
+        "occupation": "bigkoala Investigator",
+        "email": "johan.rasmussen@example.com",
+        "phone": "88895082",
+        "cell": "68554762",
+        "dob": "1962-12-25T07:57:47.038Z",
+        "registered": "2019-12-15T10:00:09.076Z",
+        "idNumber": "251262-0864",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.63008366970135,
+          "lng": -74.02259064767526
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/23.jpg",
+        "timezone": "Almaty, Dhaka, Colombo",
+        "seed": "bigkoala395",
+        "suspicionLevel": 0.62,
+        "alibi": "Đang tham dự đám cưới người thân",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-2a09f677-15fb-4096-899d-a3344ce788c5",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Asta Johansen. Ngày hôm đó, vào khoảng 17:14 - 17:44, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại New York nhà thờ Saint-Marie.",
+          "timeframe": "17:14 - 17:44",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "New York nhà thờ Saint-Marie",
+          "mapHint": {
+            "id": "New York nhà thờ Saint-Marie-1684",
+            "label": "New York nhà thờ Saint-Marie",
+            "point": {
+              "lat": 40.639811521328745,
+              "lng": -74.07220139972881
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "b836f51d-5db3-4833-9186-b901aa6e1d40",
+        "fullName": "Judy Anderson",
+        "gender": "female",
+        "age": 46,
+        "nationality": "United States",
+        "occupation": "angrygoose Investigator",
+        "email": "judy.anderson@example.com",
+        "phone": "(967) 258-6172",
+        "cell": "(627) 536-6061",
+        "dob": "1979-10-09T06:54:47.099Z",
+        "registered": "2019-11-25T18:40:12.883Z",
+        "idNumber": "786-07-7421",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.81831878251588,
+          "lng": -74.00116739841873
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/87.jpg",
+        "timezone": "Kabul",
+        "seed": "angrygoose907",
+        "suspicionLevel": 0.54,
+        "alibi": "Đang ăn tối cùng gia đình",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-b836f51d-5db3-4833-9186-b901aa6e1d40",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Asta Johansen. Ngày hôm đó, vào khoảng 13:44 - 14:14, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại New York nhà kho số 12.",
+          "timeframe": "13:44 - 14:14",
+          "action": "thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông",
+          "locationLabel": "New York nhà kho số 12",
+          "mapHint": {
+            "id": "New York nhà kho số 12-1770",
+            "label": "New York nhà kho số 12",
+            "point": {
+              "lat": 40.85527619351825,
+              "lng": -73.98728327872927
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "c658b8e6-d346-4f70-8fe4-60890c88db4a",
+        "fullName": "Samu Niemi",
+        "gender": "male",
+        "age": 51,
+        "nationality": "Finland",
+        "occupation": "brownbear Investigator",
+        "email": "samu.niemi@example.com",
+        "phone": "04-047-751",
+        "cell": "044-033-64-03",
+        "dob": "1974-01-07T08:06:49.574Z",
+        "registered": "2002-04-05T18:48:32.547Z",
+        "idNumber": "NaNNA239undefined",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.68923327968469,
+          "lng": -74.04720005081532
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/97.jpg",
+        "timezone": "Kathmandu",
+        "seed": "brownbear215",
+        "suspicionLevel": 0.56,
+        "alibi": "Đang câu cá ở hồ ngoại ô",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-c658b8e6-d346-4f70-8fe4-60890c88db4a",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Asta Johansen. Ngày hôm đó, vào khoảng 16:47 - 17:17, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại New York nhà kho số 12.",
+          "timeframe": "16:47 - 17:17",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "New York nhà kho số 12",
+          "mapHint": {
+            "id": "New York nhà kho số 12-1225",
+            "label": "New York nhà kho số 12",
+            "point": {
+              "lat": 40.66843802688191,
+              "lng": -74.05523597014168
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "43e2199d-3ce3-468a-be59-e0bfe627230e",
+        "fullName": "Anett Kästner",
+        "gender": "female",
+        "age": 45,
+        "nationality": "Germany",
+        "occupation": "ticklishdog Investigator",
+        "email": "anett.kastner@example.com",
+        "phone": "0492-8036551",
+        "cell": "0177-2565712",
+        "dob": "1980-07-24T03:37:14.579Z",
+        "registered": "2018-02-11T12:26:22.206Z",
+        "idNumber": "28 230780 K 528",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.59605129109447,
+          "lng": -74.05701897603524
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/30.jpg",
+        "timezone": "Tehran",
+        "seed": "ticklishdog652",
+        "suspicionLevel": 0.34,
+        "alibi": "Đang tham gia một buổi tiệc sinh nhật",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-43e2199d-3ce3-468a-be59-e0bfe627230e",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Asta Johansen. Ngày hôm đó, vào khoảng 17:58 - 18:28, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại New York ga tàu điện ngầm số 7.",
+          "timeframe": "17:58 - 18:28",
+          "action": "đi khảo sát công trường dang dở ở ngoại ô",
+          "locationLabel": "New York ga tàu điện ngầm số 7",
+          "mapHint": {
+            "id": "New York ga tàu điện ngầm số 7-160",
+            "label": "New York ga tàu điện ngầm số 7",
+            "point": {
+              "lat": 40.639877138261056,
+              "lng": -74.02515903134429
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "ea2c04f6-f973-4294-b865-27690df1e897",
+        "fullName": "Philippe Grewal",
+        "gender": "male",
+        "age": 28,
+        "nationality": "Canada",
+        "occupation": "bigbird Investigator",
+        "email": "philippe.grewal@example.com",
+        "phone": "T42 L23-0526",
+        "cell": "D57 M53-1292",
+        "dob": "1996-12-23T03:31:05.558Z",
+        "registered": "2003-04-05T03:54:24.097Z",
+        "idNumber": "706597119",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.668584039600496,
+          "lng": -74.09676102494429
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/56.jpg",
+        "timezone": "Magadan, Solomon Islands, New Caledonia",
+        "seed": "bigbird422",
+        "suspicionLevel": 0.43,
+        "alibi": "Đang trực ca đêm tại nơi làm việc",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-ea2c04f6-f973-4294-b865-27690df1e897",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Asta Johansen. Ngày hôm đó, vào khoảng 16:49 - 17:19, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại New York cầu sắt Old Bridge.",
+          "timeframe": "16:49 - 17:19",
+          "action": "dự một buổi cầu nguyện ngắn gần khu chợ trời",
+          "locationLabel": "New York cầu sắt Old Bridge",
+          "mapHint": {
+            "id": "New York cầu sắt Old Bridge-8920",
+            "label": "New York cầu sắt Old Bridge",
+            "point": {
+              "lat": 40.70114436114945,
+              "lng": -74.1385215914024
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "01fa61c0-b98f-4e6b-829d-5f2b709cafd2",
+        "fullName": "Antonia Núñez",
+        "gender": "female",
+        "age": 38,
+        "nationality": "Spain",
+        "occupation": "silverduck Investigator",
+        "email": "antonia.nunez@example.com",
+        "phone": "931-183-559",
+        "cell": "621-463-977",
+        "dob": "1987-11-18T06:45:58.428Z",
+        "registered": "2009-07-29T18:21:52.961Z",
+        "idNumber": "97106480-N",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.612580748288856,
+          "lng": -74.0070589053314
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/22.jpg",
+        "timezone": "Kathmandu",
+        "seed": "silverduck191",
+        "suspicionLevel": 0.62,
+        "alibi": "Đang tập gym tại phòng tập thể hình",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-01fa61c0-b98f-4e6b-829d-5f2b709cafd2",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Asta Johansen. Ngày hôm đó, vào khoảng 15:46 - 16:16, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại New York xưởng sửa tàu hỏa.",
+          "timeframe": "15:46 - 16:16",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "New York xưởng sửa tàu hỏa",
+          "mapHint": {
+            "id": "New York xưởng sửa tàu hỏa-8890",
+            "label": "New York xưởng sửa tàu hỏa",
+            "point": {
+              "lat": 40.575821434371136,
+              "lng": -73.99986449832655
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "0198d1ab-198f-4c21-b027-cdbf50364def",
+        "fullName": "Felix Morris",
+        "gender": "male",
+        "age": 43,
+        "nationality": "New Zealand",
+        "occupation": "lazymeercat Investigator",
+        "email": "felix.morris@example.com",
+        "phone": "(271)-530-7650",
+        "cell": "(264)-780-9376",
+        "dob": "1982-09-24T13:18:15.486Z",
+        "registered": "2004-08-08T09:56:18.034Z",
+        "idNumber": "N/A",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.74707721337482,
+          "lng": -73.88821574387023
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/43.jpg",
+        "timezone": "Bombay, Calcutta, Madras, New Delhi",
+        "seed": "lazymeercat893",
+        "suspicionLevel": 0.63,
+        "alibi": "Đang đi dạo trong công viên",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-0198d1ab-198f-4c21-b027-cdbf50364def",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Asta Johansen. Ngày hôm đó, vào khoảng 13:18 - 13:48, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại New York chợ đêm trung tâm.",
+          "timeframe": "13:18 - 13:48",
+          "action": "bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường",
+          "locationLabel": "New York chợ đêm trung tâm",
+          "mapHint": {
+            "id": "New York chợ đêm trung tâm-883",
+            "label": "New York chợ đêm trung tâm",
+            "point": {
+              "lat": 40.703365954508,
+              "lng": -73.90484362538321
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "56f28273-66c2-44b5-adcb-9a387808b533",
+        "fullName": "David Jones",
+        "gender": "male",
+        "age": 33,
+        "nationality": "Canada",
+        "occupation": "beautifulgorilla Investigator",
+        "email": "david.jones@example.com",
+        "phone": "Z59 U67-0579",
+        "cell": "K09 S15-2337",
+        "dob": "1992-09-24T09:22:33.811Z",
+        "registered": "2012-06-25T02:25:52.391Z",
+        "idNumber": "393167036",
+        "residence": "Summerside, Canada",
+        "coordinates": {
+          "lat": 62.96270171780159,
+          "lng": -105.72371350737953
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/89.jpg",
+        "timezone": "Magadan, Solomon Islands, New Caledonia",
+        "seed": "beautifulgorilla662",
+        "suspicionLevel": 0.34,
+        "alibi": "Đang ăn tối cùng gia đình",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-56f28273-66c2-44b5-adcb-9a387808b533",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Asta Johansen. Ngày hôm đó, vào khoảng 13:17 - 13:47, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại New York kho hàng Riverside.",
+          "timeframe": "13:17 - 13:47",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "New York kho hàng Riverside",
+          "mapHint": {
+            "id": "New York kho hàng Riverside-2733",
+            "label": "New York kho hàng Riverside",
+            "point": {
+              "lat": 62.94122447147054,
+              "lng": -105.72454151163542
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "293c539d-7639-4db2-b17b-3b083177ce18",
+        "fullName": "Silas Andersen",
+        "gender": "male",
+        "age": 30,
+        "nationality": "Denmark",
+        "occupation": "heavygoose Investigator",
+        "email": "silas.andersen@example.com",
+        "phone": "98090045",
+        "cell": "45139830",
+        "dob": "1995-06-07T18:20:07.137Z",
+        "registered": "2019-02-22T14:30:20.797Z",
+        "idNumber": "070695-7381",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.663032866968656,
+          "lng": -74.09809921755863
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/86.jpg",
+        "timezone": "Alaska",
+        "seed": "heavygoose701",
+        "suspicionLevel": 0.46,
+        "alibi": "Đang đọc sách tại thư viện",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-293c539d-7639-4db2-b17b-3b083177ce18",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Asta Johansen. Ngày hôm đó, vào khoảng 13:04 - 13:34, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại New York kho hàng Riverside.",
+          "timeframe": "13:04 - 13:34",
+          "action": "bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường",
+          "locationLabel": "New York kho hàng Riverside",
+          "mapHint": {
+            "id": "New York kho hàng Riverside-8487",
+            "label": "New York kho hàng Riverside",
+            "point": {
+              "lat": 40.61794353725936,
+              "lng": -74.08644471207575
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "107eeaae-89df-487b-aec0-e9b4ffb7e83e",
+        "fullName": "Stacy Walters",
+        "gender": "female",
+        "age": 29,
+        "nationality": "United States",
+        "occupation": "happyrabbit Investigator",
+        "email": "stacy.walters@example.com",
+        "phone": "(859) 734-0211",
+        "cell": "(891) 718-2611",
+        "dob": "1996-05-01T13:03:31.053Z",
+        "registered": "2003-10-06T12:41:20.575Z",
+        "idNumber": "070-57-9251",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.68126919430347,
+          "lng": -74.06965569313661
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/8.jpg",
+        "timezone": "Hawaii",
+        "seed": "happyrabbit251",
+        "suspicionLevel": 0.55,
+        "alibi": "Đang trực ca đêm tại nơi làm việc",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-107eeaae-89df-487b-aec0-e9b4ffb7e83e",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Asta Johansen. Ngày hôm đó, vào khoảng 16:06 - 16:36, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại New York ga tàu điện ngầm số 7.",
+          "timeframe": "16:06 - 16:36",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "New York ga tàu điện ngầm số 7",
+          "mapHint": {
+            "id": "New York ga tàu điện ngầm số 7-9388",
+            "label": "New York ga tàu điện ngầm số 7",
+            "point": {
+              "lat": 40.70967943167911,
+              "lng": -74.02537247543269
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "c201e03f-f71e-4900-a3ba-131e1e0a2a07",
+        "fullName": "Ernst Manz",
+        "gender": "male",
+        "age": 72,
+        "nationality": "Germany",
+        "occupation": "orangeduck Investigator",
+        "email": "ernst.manz@example.com",
+        "phone": "0038-5723292",
+        "cell": "0178-3306807",
+        "dob": "1953-06-19T23:33:10.355Z",
+        "registered": "2012-11-03T23:17:28.619Z",
+        "idNumber": "55 190653 M 044",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.782272520577024,
+          "lng": -73.91648954738737
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/97.jpg",
+        "timezone": "Ekaterinburg, Islamabad, Karachi, Tashkent",
+        "seed": "orangeduck699",
+        "suspicionLevel": 0.38,
+        "alibi": "Đang tham gia lớp học nấu ăn",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-c201e03f-f71e-4900-a3ba-131e1e0a2a07",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Asta Johansen. Ngày hôm đó, vào khoảng 17:50 - 18:20, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại New York chợ đêm trung tâm.",
+          "timeframe": "17:50 - 18:20",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "New York chợ đêm trung tâm",
+          "mapHint": {
+            "id": "New York chợ đêm trung tâm-849",
+            "label": "New York chợ đêm trung tâm",
+            "point": {
+              "lat": 40.78486359192473,
+              "lng": -73.93517425068528
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "96d5f8af-e502-4163-8fb1-1b856f3e9ba4",
+        "fullName": "William Oliver",
+        "gender": "male",
+        "age": 53,
+        "nationality": "United States",
+        "occupation": "brownwolf Investigator",
+        "email": "william.oliver@example.com",
+        "phone": "(360) 922-7485",
+        "cell": "(752) 871-4348",
+        "dob": "1972-09-19T20:30:52.929Z",
+        "registered": "2007-12-18T01:52:57.394Z",
+        "idNumber": "056-34-9161",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.741393719041014,
+          "lng": -73.90005276365936
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/81.jpg",
+        "timezone": "Brussels, Copenhagen, Madrid, Paris",
+        "seed": "brownwolf578",
+        "suspicionLevel": 0.34,
+        "alibi": "Đang xem phim tại rạp chiếu phim trung tâm",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-96d5f8af-e502-4163-8fb1-1b856f3e9ba4",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Asta Johansen. Ngày hôm đó, vào khoảng 15:19 - 15:49, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại New York xưởng sửa tàu hỏa.",
+          "timeframe": "15:19 - 15:49",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "New York xưởng sửa tàu hỏa",
+          "mapHint": {
+            "id": "New York xưởng sửa tàu hỏa-2111",
+            "label": "New York xưởng sửa tàu hỏa",
+            "point": {
+              "lat": 40.72690778841287,
+              "lng": -73.88327650329829
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "abcda4e9-8847-444a-8809-4eb6c5a4fa08",
+        "fullName": "Alice Roy",
+        "gender": "female",
+        "age": 28,
+        "nationality": "Canada",
+        "occupation": "redfish Investigator",
+        "email": "alice.roy@example.com",
+        "phone": "B72 Y72-2581",
+        "cell": "G66 M19-9587",
+        "dob": "1997-11-11T19:14:47.418Z",
+        "registered": "2005-03-14T11:52:40.045Z",
+        "idNumber": "262763709",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.784368984836355,
+          "lng": -73.95452897960787
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/84.jpg",
+        "timezone": "Midway Island, Samoa",
+        "seed": "redfish692",
+        "suspicionLevel": 0.38,
+        "alibi": "Đang đọc sách tại thư viện",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-abcda4e9-8847-444a-8809-4eb6c5a4fa08",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Asta Johansen. Ngày hôm đó, vào khoảng 16:39 - 17:09, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại New York khu dân cư tọa độ G-17.",
+          "timeframe": "16:39 - 17:09",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "New York khu dân cư tọa độ G-17",
+          "mapHint": {
+            "id": "New York khu dân cư tọa độ G-17-8169",
+            "label": "New York khu dân cư tọa độ G-17",
+            "point": {
+              "lat": 40.79161182180253,
+              "lng": -73.98746058673133
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "78513f3d-988c-425f-ae6c-d08a68f42eff",
+        "fullName": "Cléo Fernandez",
+        "gender": "male",
+        "age": 60,
+        "nationality": "France",
+        "occupation": "orangesnake Investigator",
+        "email": "cleo.fernandez@example.com",
+        "phone": "04-59-68-99-08",
+        "cell": "06-67-87-96-97",
+        "dob": "1965-05-18T06:58:28.440Z",
+        "registered": "2016-02-15T16:34:44.917Z",
+        "idNumber": "1650448044513 05",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.791607294443445,
+          "lng": -74.03096524217924
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/95.jpg",
+        "timezone": "Beijing, Perth, Singapore, Hong Kong",
+        "seed": "orangesnake685",
+        "suspicionLevel": 0.53,
+        "alibi": "Đang tập gym tại phòng tập thể hình",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-78513f3d-988c-425f-ae6c-d08a68f42eff",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Asta Johansen. Ngày hôm đó, vào khoảng 13:41 - 14:11, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại New York kho hàng Riverside.",
+          "timeframe": "13:41 - 14:11",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "New York kho hàng Riverside",
+          "mapHint": {
+            "id": "New York kho hàng Riverside-5360",
+            "label": "New York kho hàng Riverside",
+            "point": {
+              "lat": 40.750862839191605,
+              "lng": -74.08046435163648
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "b59cd1e1-d6dc-45a1-b56a-28fdf7b8e7bc",
+        "fullName": "Bernice Mckinney",
+        "gender": "female",
+        "age": 45,
+        "nationality": "Australia",
+        "occupation": "crazyfish Investigator",
+        "email": "bernice.mckinney@example.com",
+        "phone": "02-4105-8282",
+        "cell": "0428-084-955",
+        "dob": "1980-01-24T14:30:59.702Z",
+        "registered": "2015-05-14T00:16:28.760Z",
+        "idNumber": "039118458",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.714075842248114,
+          "lng": -73.96877459742022
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/52.jpg",
+        "timezone": "Eastern Australia, Guam, Vladivostok",
+        "seed": "crazyfish549",
+        "suspicionLevel": 0.58,
+        "alibi": "Đang đi du lịch nước ngoài",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-b59cd1e1-d6dc-45a1-b56a-28fdf7b8e7bc",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Asta Johansen. Ngày hôm đó, vào khoảng 14:09 - 14:39, tôi đã kiểm tra hệ thống camera của nhà thờ cổ tại New York chợ đêm trung tâm.",
+          "timeframe": "14:09 - 14:39",
+          "action": "kiểm tra hệ thống camera của nhà thờ cổ",
+          "locationLabel": "New York chợ đêm trung tâm",
+          "mapHint": {
+            "id": "New York chợ đêm trung tâm-6177",
+            "label": "New York chợ đêm trung tâm",
+            "point": {
+              "lat": 40.6877030737743,
+              "lng": -73.96184601197378
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "66cc83bc-5965-4150-9542-bc9cdce1b967",
+        "fullName": "Isla Kuusisto",
+        "gender": "female",
+        "age": 47,
+        "nationality": "Finland",
+        "occupation": "bigpeacock Investigator",
+        "email": "isla.kuusisto@example.com",
+        "phone": "08-917-644",
+        "cell": "045-975-83-17",
+        "dob": "1978-02-08T15:26:11.394Z",
+        "registered": "2017-11-04T04:02:49.453Z",
+        "idNumber": "NaNNA420undefined",
+        "residence": "Ruokolahti, Finland",
+        "coordinates": {
+          "lat": 69.48566854552439,
+          "lng": -57.10973626298431
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/83.jpg",
+        "timezone": "Bangkok, Hanoi, Jakarta",
+        "seed": "bigpeacock811",
+        "suspicionLevel": 0.6,
+        "alibi": "Đang trực ca đêm tại nơi làm việc",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-66cc83bc-5965-4150-9542-bc9cdce1b967",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Asta Johansen. Ngày hôm đó, vào khoảng 17:02 - 17:32, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại New York quảng trường Đồng Tế.",
+          "timeframe": "17:02 - 17:32",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "New York quảng trường Đồng Tế",
+          "mapHint": {
+            "id": "New York quảng trường Đồng Tế-2065",
+            "label": "New York quảng trường Đồng Tế",
+            "point": {
+              "lat": 69.51614255311972,
+              "lng": -57.134085372277276
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "d2db27e8-c199-49a0-be90-fa2350098a45",
+        "fullName": "Joe Pearson",
+        "gender": "male",
+        "age": 80,
+        "nationality": "Australia",
+        "occupation": "angryleopard Investigator",
+        "email": "joe.pearson@example.com",
+        "phone": "05-8726-0233",
+        "cell": "0436-418-030",
+        "dob": "1945-07-18T17:18:22.082Z",
+        "registered": "2018-04-26T03:30:40.129Z",
+        "idNumber": "140629501",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.65044142018246,
+          "lng": -73.89016800431344
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/52.jpg",
+        "timezone": "Baghdad, Riyadh, Moscow, St. Petersburg",
+        "seed": "angryleopard616",
+        "suspicionLevel": 0.62,
+        "alibi": "Đang tham gia một buổi tiệc sinh nhật",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-d2db27e8-c199-49a0-be90-fa2350098a45",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Asta Johansen. Ngày hôm đó, vào khoảng 14:02 - 14:32, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại New York nhà kho số 12.",
+          "timeframe": "14:02 - 14:32",
+          "action": "dự một buổi cầu nguyện ngắn gần khu chợ trời",
+          "locationLabel": "New York nhà kho số 12",
+          "mapHint": {
+            "id": "New York nhà kho số 12-1705",
+            "label": "New York nhà kho số 12",
+            "point": {
+              "lat": 40.699204667459114,
+              "lng": -73.93515028773616
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "25fd9b98-8109-4e5f-aef8-90c95c012067",
+        "fullName": "Aatu Huotari",
+        "gender": "male",
+        "age": 54,
+        "nationality": "Finland",
+        "occupation": "lazylion Investigator",
+        "email": "aatu.huotari@example.com",
+        "phone": "07-550-539",
+        "cell": "047-373-63-96",
+        "dob": "1971-02-27T05:43:01.622Z",
+        "registered": "2008-06-25T05:07:48.270Z",
+        "idNumber": "NaNNA051undefined",
+        "residence": "New York Area",
+        "coordinates": {
+          "lat": 40.82197150557352,
+          "lng": -74.05581330596196
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/28.jpg",
+        "timezone": "Mid-Atlantic",
+        "seed": "lazylion359",
+        "suspicionLevel": 0.58,
+        "alibi": "Đang đi công tác ở thành phố khác",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-25fd9b98-8109-4e5f-aef8-90c95c012067",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Asta Johansen. Ngày hôm đó, vào khoảng 18:24 - 18:54, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại New York nhà thờ Saint-Marie.",
+          "timeframe": "18:24 - 18:54",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "New York nhà thờ Saint-Marie",
+          "mapHint": {
+            "id": "New York nhà thờ Saint-Marie-8968",
+            "label": "New York nhà thờ Saint-Marie",
+            "point": {
+              "lat": 40.84485072390692,
+              "lng": -74.01584648135777
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      }
+    ],
+    "primeSuspectIds": [
+      "4a0093b9-3840-43af-b78f-2012cabe0539",
+      "293c539d-7639-4db2-b17b-3b083177ce18",
+      "4c727cfd-5b8e-46e1-bacf-312fc95a5520",
+      "56f28273-66c2-44b5-adcb-9a387808b533",
+      "0198d1ab-198f-4c21-b027-cdbf50364def",
+      "76dcd611-1b57-40a6-a697-139198d95cf0",
+      "190d98d4-cfee-47a6-a3b9-a9ca22a34c23",
+      "78513f3d-988c-425f-ae6c-d08a68f42eff",
+      "b836f51d-5db3-4833-9186-b901aa6e1d40",
+      "70a87261-8952-45d0-ac1d-a93fa2a2cff1"
+    ],
+    "accompliceIds": [
+      "190d98d4-cfee-47a6-a3b9-a9ca22a34c23"
+    ],
+    "accompliceCount": 1,
+    "relationships": [
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "190d98d4-cfee-47a6-a3b9-a9ca22a34c23",
+        "relationship": "colleague",
+        "description": "Siiri Latvala khai mình là đồng nghiệp và có mặt tại New York nhà kho số 12 (13:32 - 14:02)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "615b635a-6270-44b3-9291-c65f62177904",
+        "relationship": "acquaintance",
+        "description": "Simon Bergeron khai mình là mối quen biết và có mặt tại New York khu dân cư tọa độ G-17 (14:58 - 15:28)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "92a6feed-5a47-455b-bafd-b4eeb6adeaf6",
+        "relationship": "family",
+        "description": "Austin Turner khai mình là người thân và có mặt tại New York nhà thờ Saint-Marie (17:32 - 18:02)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "4a0093b9-3840-43af-b78f-2012cabe0539",
+        "relationship": "family",
+        "description": "Luisa Garrido khai mình là người thân và có mặt tại New York khu cảng bỏ hoang phía tây (12:57 - 13:27)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "884d12cc-2938-42d5-b3a9-16dbd0e7cdac",
+        "relationship": "acquaintance",
+        "description": "Philip Kowalski khai mình là mối quen biết và có mặt tại New York khu dân cư tọa độ G-17 (17:51 - 18:21)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "90a08636-0353-4028-8f40-7bc936155a61",
+        "relationship": "colleague",
+        "description": "Emilie Petersen khai mình là đồng nghiệp và có mặt tại New York khu dân cư tọa độ G-17 (15:15 - 15:45)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "d9abed58-063b-4fe0-86e5-9a52c7fa48cf",
+        "relationship": "family",
+        "description": "Kaïs Vidal khai mình là người thân và có mặt tại New York quảng trường Đồng Tế (14:40 - 15:10)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "31007e82-91d7-44b0-81ee-6be4faf6d9ba",
+        "relationship": "colleague",
+        "description": "Max Robinson khai mình là đồng nghiệp và có mặt tại New York khu dân cư tọa độ G-17 (17:05 - 17:35)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "15abbe6b-4ed3-4a88-b3d3-36e0c5a22c68",
+        "relationship": "acquaintance",
+        "description": "Amber White khai mình là mối quen biết và có mặt tại New York quảng trường Đồng Tế (15:33 - 16:03)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "9e101c26-5e4a-481f-a76a-df57a5da8593",
+        "relationship": "colleague",
+        "description": "Elia Vincent khai mình là đồng nghiệp và có mặt tại New York ga tàu điện ngầm số 7 (16:32 - 17:02)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "198f8ea6-0bb2-45f2-bae4-479a847318d4",
+        "relationship": "unknown",
+        "description": "Melita Ross khai mình là người quen xã giao và có mặt tại New York xưởng sửa tàu hỏa (15:12 - 15:42)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "aa4e5773-9a94-4815-a3dc-c3c5edd4edef",
+        "relationship": "acquaintance",
+        "description": "Beatrice Barrett khai mình là mối quen biết và có mặt tại New York nhà thờ Saint-Marie (14:27 - 14:57)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "f120b2e1-a783-4742-a878-eac33b46f7e5",
+        "relationship": "unknown",
+        "description": "Maëlys Meyer khai mình là người quen xã giao và có mặt tại New York ga tàu điện ngầm số 7 (14:28 - 14:58)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "6af30305-051c-4301-aede-0c361b437bf6",
+        "relationship": "unknown",
+        "description": "Enora Caron khai mình là người quen xã giao và có mặt tại New York xưởng sửa tàu hỏa (15:44 - 16:14)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "4d0e7e99-15f2-42d7-9d22-84a3c283f2ae",
+        "relationship": "business",
+        "description": "Franz Josef Patzer khai mình là đối tác làm ăn và có mặt tại New York chợ đêm trung tâm (16:01 - 16:31)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "1d1474fc-2e2b-4925-920f-52cc63959601",
+        "relationship": "colleague",
+        "description": "Tara Nußbaum khai mình là đồng nghiệp và có mặt tại New York ga tàu điện ngầm số 7 (14:46 - 15:16)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "4c727cfd-5b8e-46e1-bacf-312fc95a5520",
+        "relationship": "business",
+        "description": "Paige King khai mình là đối tác làm ăn và có mặt tại New York khu dân cư tọa độ G-17 (13:11 - 13:41)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "ca158daf-949c-4adc-b2cc-35e6d7043837",
+        "relationship": "business",
+        "description": "Mia Ross khai mình là đối tác làm ăn và có mặt tại New York kho hàng Riverside (15:34 - 16:04)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "76dcd611-1b57-40a6-a697-139198d95cf0",
+        "relationship": "family",
+        "description": "Diane Morrison khai mình là người thân và có mặt tại New York nhà thờ Saint-Marie (13:32 - 14:02)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "a363c232-713e-41ca-ba56-5ac6e0074850",
+        "relationship": "colleague",
+        "description": "Jake Robinson khai mình là đồng nghiệp và có mặt tại New York nhà kho số 12 (18:18 - 18:48)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "10495ba9-8396-4935-8629-dfe558c640b5",
+        "relationship": "unknown",
+        "description": "Joel Linna khai mình là người quen xã giao và có mặt tại New York nhà thờ Saint-Marie (18:36 - 19:06)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "c418abbc-0848-4b4b-b6a8-0e496b4eeea8",
+        "relationship": "family",
+        "description": "Willow Hall khai mình là người thân và có mặt tại New York xưởng sửa tàu hỏa (18:11 - 18:41)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "867adab9-fbe4-427d-9a91-5ec4af8c2fe6",
+        "relationship": "business",
+        "description": "Keith Beck khai mình là đối tác làm ăn và có mặt tại New York quảng trường Đồng Tế (14:14 - 14:44)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "3ce43dde-0dbe-46dc-b783-d87c1f2b00a4",
+        "relationship": "business",
+        "description": "Dora Garza khai mình là đối tác làm ăn và có mặt tại New York khu dân cư tọa độ G-17 (18:24 - 18:54)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "9fb31947-4d02-49df-a461-b14a4d0c425f",
+        "relationship": "colleague",
+        "description": "Keith Sutton khai mình là đồng nghiệp và có mặt tại New York nhà kho số 12 (17:35 - 18:05)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "ddc53091-3501-4cea-bd9c-0821d4fca1b0",
+        "relationship": "acquaintance",
+        "description": "Magnus Andersen khai mình là mối quen biết và có mặt tại New York quảng trường Đồng Tế (17:21 - 17:51)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "098a2ed5-5743-488e-b151-dc25a6402796",
+        "relationship": "colleague",
+        "description": "Olivia Wright khai mình là đồng nghiệp và có mặt tại New York nhà kho số 12 (16:01 - 16:31)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "70a87261-8952-45d0-ac1d-a93fa2a2cff1",
+        "relationship": "unknown",
+        "description": "Signe Rasmussen khai mình là người quen xã giao và có mặt tại New York chợ đêm trung tâm (13:59 - 14:29)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "280fe22b-8e2d-4428-b0f5-6fb75dde5ad9",
+        "relationship": "family",
+        "description": "Logan Meunier khai mình là người thân và có mặt tại New York nhà thờ Saint-Marie (16:20 - 16:50)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "62ab90fc-1aa6-4cf3-aeec-e0cfe2060fb1",
+        "relationship": "business",
+        "description": "Hans-Peter Stehr khai mình là đối tác làm ăn và có mặt tại New York kho hàng Riverside (14:48 - 15:18)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "1b0c9be0-727b-4d47-aff5-17f6d1022657",
+        "relationship": "unknown",
+        "description": "Carlos Alonso khai mình là người quen xã giao và có mặt tại New York xưởng sửa tàu hỏa (17:30 - 18:00)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "1371cd61-bb26-4200-bbd8-c63591056af8",
+        "relationship": "unknown",
+        "description": "Jessie Armstrong khai mình là người quen xã giao và có mặt tại New York khu cảng bỏ hoang phía tây (16:15 - 16:45)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "2a09f677-15fb-4096-899d-a3344ce788c5",
+        "relationship": "business",
+        "description": "Johan Rasmussen khai mình là đối tác làm ăn và có mặt tại New York nhà thờ Saint-Marie (17:14 - 17:44)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "b836f51d-5db3-4833-9186-b901aa6e1d40",
+        "relationship": "acquaintance",
+        "description": "Judy Anderson khai mình là mối quen biết và có mặt tại New York nhà kho số 12 (13:44 - 14:14)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "c658b8e6-d346-4f70-8fe4-60890c88db4a",
+        "relationship": "unknown",
+        "description": "Samu Niemi khai mình là người quen xã giao và có mặt tại New York nhà kho số 12 (16:47 - 17:17)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "43e2199d-3ce3-468a-be59-e0bfe627230e",
+        "relationship": "unknown",
+        "description": "Anett Kästner khai mình là người quen xã giao và có mặt tại New York ga tàu điện ngầm số 7 (17:58 - 18:28)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "ea2c04f6-f973-4294-b865-27690df1e897",
+        "relationship": "acquaintance",
+        "description": "Philippe Grewal khai mình là mối quen biết và có mặt tại New York cầu sắt Old Bridge (16:49 - 17:19)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "01fa61c0-b98f-4e6b-829d-5f2b709cafd2",
+        "relationship": "family",
+        "description": "Antonia Núñez khai mình là người thân và có mặt tại New York xưởng sửa tàu hỏa (15:46 - 16:16)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "0198d1ab-198f-4c21-b027-cdbf50364def",
+        "relationship": "unknown",
+        "description": "Felix Morris khai mình là người quen xã giao và có mặt tại New York chợ đêm trung tâm (13:18 - 13:48)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "56f28273-66c2-44b5-adcb-9a387808b533",
+        "relationship": "acquaintance",
+        "description": "David Jones khai mình là mối quen biết và có mặt tại New York kho hàng Riverside (13:17 - 13:47)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "293c539d-7639-4db2-b17b-3b083177ce18",
+        "relationship": "colleague",
+        "description": "Silas Andersen khai mình là đồng nghiệp và có mặt tại New York kho hàng Riverside (13:04 - 13:34)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "107eeaae-89df-487b-aec0-e9b4ffb7e83e",
+        "relationship": "acquaintance",
+        "description": "Stacy Walters khai mình là mối quen biết và có mặt tại New York ga tàu điện ngầm số 7 (16:06 - 16:36)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "c201e03f-f71e-4900-a3ba-131e1e0a2a07",
+        "relationship": "business",
+        "description": "Ernst Manz khai mình là đối tác làm ăn và có mặt tại New York chợ đêm trung tâm (17:50 - 18:20)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "96d5f8af-e502-4163-8fb1-1b856f3e9ba4",
+        "relationship": "family",
+        "description": "William Oliver khai mình là người thân và có mặt tại New York xưởng sửa tàu hỏa (15:19 - 15:49)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "abcda4e9-8847-444a-8809-4eb6c5a4fa08",
+        "relationship": "business",
+        "description": "Alice Roy khai mình là đối tác làm ăn và có mặt tại New York khu dân cư tọa độ G-17 (16:39 - 17:09)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "78513f3d-988c-425f-ae6c-d08a68f42eff",
+        "relationship": "business",
+        "description": "Cléo Fernandez khai mình là đối tác làm ăn và có mặt tại New York kho hàng Riverside (13:41 - 14:11)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "b59cd1e1-d6dc-45a1-b56a-28fdf7b8e7bc",
+        "relationship": "colleague",
+        "description": "Bernice Mckinney khai mình là đồng nghiệp và có mặt tại New York chợ đêm trung tâm (14:09 - 14:39)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "66cc83bc-5965-4150-9542-bc9cdce1b967",
+        "relationship": "family",
+        "description": "Isla Kuusisto khai mình là người thân và có mặt tại New York quảng trường Đồng Tế (17:02 - 17:32)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "d2db27e8-c199-49a0-be90-fa2350098a45",
+        "relationship": "family",
+        "description": "Joe Pearson khai mình là người thân và có mặt tại New York nhà kho số 12 (14:02 - 14:32)."
+      },
+      {
+        "sourceId": "c312a8d2-4255-42f4-9be1-43d6e0cd1144",
+        "targetId": "25fd9b98-8109-4e5f-aef8-90c95c012067",
+        "relationship": "acquaintance",
+        "description": "Aatu Huotari khai mình là mối quen biết và có mặt tại New York nhà thờ Saint-Marie (18:24 - 18:54)."
+      }
+    ],
+    "clueDrafts": [
+      {
+        "id": "clue_1",
+        "title": "Mật mã trong laptop",
+        "summary": "Phân tích laptop của Asta, phát hiện một đoạn mã bí ẩn. Mã này được giấu kín trong một file log hệ thống, cho thấy dấu hiệu xâm nhập trái phép vào hệ thống bảo mật của happymeercat Investigator. Đoạn mã có thể liên quan đến hung thủ hoặc động cơ gây án.",
+        "difficulty": "medium",
+        "relatedCitizenIds": [
+          "4a0093b9-3840-43af-b78f-2012cabe0539"
+        ],
+        "mapHints": []
+      },
+      {
+        "id": "clue_2",
+        "title": "Nhật ký hành trình",
+        "summary": "Xem xét nhật ký hành trình của Asta, phát hiện một số điểm bất thường. Asta thường xuyên ghé thăm khu cảng bỏ hoang phía tây, nơi Luisa Garrido khai đã truy cập máy chủ. Tuy nhiên, không có bằng chứng nào chứng minh Asta có hoạt động gì ở đó. Điều này đặt ra nghi vấn về mối quan hệ thực sự giữa Asta và Luisa.",
+        "difficulty": "easy",
+        "relatedCitizenIds": [
+          "4a0093b9-3840-43af-b78f-2012cabe0539",
+          "c312a8d2-4255-42f4-9be1-43d6e0cd1144"
+        ],
+        "mapHints": []
+      },
+      {
+        "id": "clue_3",
+        "title": "Tin nhắn đáng ngờ",
+        "summary": "Điện thoại của Asta chứa một loạt tin nhắn mã hóa. Phân tích tin nhắn cho thấy Asta đang liên lạc với một nguồn tin bí mật trong happymeercat Investigator. Nguồn tin này cung cấp thông tin về một vụ án liên quan đến rửa tiền và thao túng thị trường chứng khoán.",
+        "difficulty": "hard",
+        "relatedCitizenIds": [
+          "1d1474fc-2e2b-4925-920f-52cc63959601"
+        ],
+        "mapHints": []
+      }
+    ],
+    "story": "Đêm New York rực rỡ ánh đèn, nhưng trong một căn hộ cao cấp ở khu Manhattan, ánh sáng đã tắt vĩnh viễn với Asta Johansen, một happymeercat Investigator tài năng. Thi thể cô nằm giữa đống giấy tờ hỗn độn, xung quanh vương vãi những mảnh code kỳ lạ. Chiếc máy tính vẫn sáng đèn, hiển thị một dòng chữ ám ảnh: 'Giao thức bị xâm phạm.' Không khí căng thẳng bao trùm hiện trường, hòa lẫn giữa mùi thuốc súng thoang thoảng và hương nước hoa nồng nàn. Vụ án mạng này không chỉ cướp đi một sinh mạng mà còn đe dọa đến sự an toàn của cả thành phố, bởi Asta đang nắm giữ những bí mật mà ai đó sẵn sàng giết người để che giấu.",
+    "solution": {
+      "killerId": "4a0093b9-3840-43af-b78f-2012cabe0539",
+      "victimBackstory": "Asta Johansen, dù được biết đến là một investigator tài năng, lại có quá khứ phức tạp. Cô từng là một hacker mũ đen khét tiếng trước khi được chiêu mộ vào happymeercat Investigator. Cô đang điều tra một vụ án liên quan đến một tổ chức tội phạm mạng quy mô lớn, chuyên xâm nhập vào các hệ thống bảo mật quan trọng.",
+      "killerMotive": "Hung thủ muốn ngăn chặn Asta tiết lộ thông tin về hoạt động phi pháp của tổ chức tội phạm mạng mà Asta đang điều tra. Tổ chức này đang sử dụng dữ liệu đánh cắp để thao túng thị trường chứng khoán và thực hiện các giao dịch rửa tiền xuyên quốc gia.",
+      "relationship": "Luisa Garrido, 'người thân' của Asta, thực chất là một thành viên cấp cao của tổ chức tội phạm mạng mà Asta đang theo đuổi. Luisa được cài cắm vào cuộc sống của Asta để theo dõi và ngăn chặn cô ta.",
+      "cluePhase1": "Các nghi phạm đều có mặt tại các địa điểm công cộng vào thời điểm xảy ra án mạng, nhưng chỉ có những người có kỹ năng truy cập và thao tác hệ thống máy chủ mới có khả năng xâm nhập vào máy tính của Asta từ xa. Loại bỏ các nghi phạm không có chuyên môn về công nghệ: Siiri Latvala, Simon Bergeron, Austin Turner, Philip Kowalski, Max Robinson, Amber White, Elia Vincent, Beatrice Barrett, Franz Josef Patzer, Jake Robinson (chỉ còn 10 nghi phạm).",
+      "cluePhase2": "Dữ liệu định vị cho thấy Luisa Garrido khai gian dối về việc truy cập máy chủ tại khu cảng bỏ hoang. Thực tế, tín hiệu điện thoại của cô ta được ghi nhận gần căn hộ của Asta vào thời điểm quan trọng. Emilie Petersen và Mia Ross đều khai đã theo dõi một chiếc xe tải, nhưng không khớp với nhau và không có bằng chứng xác thực.",
+      "finalClue": "Trong nhật ký của Asta, tìm thấy một đoạn code viết tay. Chuyên gia phân tích xác nhận đó là một đoạn mã backdoor được sử dụng để truy cập trái phép vào hệ thống máy chủ. Đoạn code này khớp với kỹ thuật tấn công mà Luisa Garrido từng sử dụng trong quá khứ. Lời khai về mối quan hệ 'người thân' thực chất là vỏ bọc hoàn hảo để che giấu thân phận gián điệp. Đồng phạm là Tara Nußbaum, kẻ cung cấp thông tin cho Luisa về lịch trình của Asta. Tọa độ 'Ổ ẩn náu' sẽ được Tara tiết lộ: 40.7128° N, 74.0060° W (Quảng trường Thời đại)."
+    },
+    "locationName": "New York",
+    "hideoutHint": {
+      "id": "Ổ ẩn náu-4271",
+      "label": "Ổ ẩn náu",
+      "point": {
+        "lat": 40.672628621515805,
+        "lng": -74.08907660675249
+      },
+      "radiusMeters": 350
+    },
+    "caseTitle": "Mật danh Hoàng Hôn New York - Johansen"
+  },
+  "title": "Mật danh Hoàng Hôn New York - Johansen"
+}

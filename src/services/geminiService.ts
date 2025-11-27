@@ -1,4 +1,5 @@
 import type { CaseClueBundle, CaseSolution, Clue, GeminiCluePrompt } from '@/types/game'
+import { ensureBundleCaseTitle } from '@/utils/caseTitle'
 
 const GEMINI_MODEL = 'gemini-2.0-flash'
 const GEMINI_ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent`
@@ -115,12 +116,16 @@ HÃY SÁNG TẠO MỘT KỊCH BẢN HOÀN CHỈNH VỚI CẤU TRÚC JSON SAU:
 Chỉ trả về JSON thuần túy, không kèm theo markdown hay giải thích thêm. Đảm bảo JSON hợp lệ.`
 }
 
-const parseResponse = (text: string, killerId: string): { clues: Clue[]; story: string; solution: CaseSolution } => {
+const parseResponse = (
+  text: string,
+  killerId: string,
+): { clues: Clue[]; story: string; solution: CaseSolution; caseTitle?: string } => {
   try {
     const parsed = JSON.parse(text)
     return {
       clues: parsed.clues ?? [],
       story: parsed.story ?? '',
+      caseTitle: parsed.case_title ?? parsed.caseTitle,
       solution: {
         killerId,
         victimBackstory: parsed.solution?.victim_backstory ?? '',
@@ -136,6 +141,7 @@ const parseResponse = (text: string, killerId: string): { clues: Clue[]; story: 
     return {
       clues: [],
       story: '',
+      caseTitle: undefined,
       solution: {
         killerId,
         victimBackstory: 'Không có dữ liệu',
@@ -149,7 +155,10 @@ const parseResponse = (text: string, killerId: string): { clues: Clue[]; story: 
   }
 }
 
-export const requestGeminiClues = async (prompt: GeminiCluePrompt, killerId: string): Promise<{ clues: Clue[]; story: string; solution: CaseSolution }> => {
+export const requestGeminiClues = async (
+  prompt: GeminiCluePrompt,
+  killerId: string,
+): Promise<{ clues: Clue[]; story: string; solution: CaseSolution; caseTitle?: string }> => {
   const key = ensureApiKey()
   const response = await fetch(`${GEMINI_ENDPOINT}?key=${key}`, {
     method: 'POST',
@@ -188,6 +197,7 @@ export const requestGeminiClues = async (prompt: GeminiCluePrompt, killerId: str
     return {
       clues: [fallback],
       story: 'Không thể tạo cốt truyện từ AI. Vụ án đang được điều tra theo quy trình chuẩn.',
+      caseTitle: 'Hồ sơ vô danh',
       solution: {
         killerId,
         victimBackstory: 'N/A',
@@ -206,7 +216,7 @@ export const requestGeminiClues = async (prompt: GeminiCluePrompt, killerId: str
 export const enrichBundleWithClues = async (
   bundle: CaseClueBundle,
 ): Promise<CaseClueBundle> => {
-  const { clues, story, solution } = await requestGeminiClues({
+  const { clues, story, solution, caseTitle } = await requestGeminiClues({
     victim: bundle.victim,
     suspects: bundle.suspects,
     relationships: bundle.relationships,
@@ -225,10 +235,11 @@ export const enrichBundleWithClues = async (
     hideoutLabel: bundle.hideoutHint.label,
   }, bundle.killer.id)
 
-  return {
+  return ensureBundleCaseTitle({
     ...bundle,
     clueDrafts: clues,
     story,
     solution,
-  }
+    caseTitle: caseTitle ?? bundle.caseTitle,
+  })
 }

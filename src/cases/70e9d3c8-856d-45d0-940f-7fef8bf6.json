@@ -1,0 +1,2748 @@
+{
+  "caseCode": "70e9d3c8-856d-45d0-940f-7fef8bf6",
+  "generatedAt": "2025-11-27T08:30:37.010Z",
+  "bundle": {
+    "victim": {
+      "id": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+      "fullName": "Amelia Kumar",
+      "gender": "female",
+      "age": 76,
+      "nationality": "New Zealand",
+      "occupation": "smallduck Investigator",
+      "email": "amelia.kumar@example.com",
+      "phone": "(178)-413-9557",
+      "cell": "(720)-523-0580",
+      "dob": "1948-12-31T02:35:00.911Z",
+      "registered": "2016-11-03T09:27:09.794Z",
+      "idNumber": "N/A",
+      "residence": "Tokyo",
+      "coordinates": {
+        "lat": -15.152,
+        "lng": 99.5987
+      },
+      "portrait": "https://randomuser.me/api/portraits/women/73.jpg",
+      "timezone": "Bangkok, Hanoi, Jakarta",
+      "seed": "smallduck154",
+      "victimId": "victim-70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+      "timeOfIncident": "2025-11-27T08:30:21.610Z",
+      "lastKnownLocation": {
+        "lat": 35.60389857786626,
+        "lng": 139.71782820832618
+      }
+    },
+    "killer": {
+      "id": "c95054c2-407b-45d4-81fa-bf9bf0015f6e",
+      "fullName": "Carolyn Meyer",
+      "gender": "female",
+      "age": 32,
+      "nationality": "United States",
+      "occupation": "heavyfrog Investigator",
+      "email": "carolyn.meyer@example.com",
+      "phone": "(862) 201-5742",
+      "cell": "(713) 927-8105",
+      "dob": "1993-08-24T00:53:09.586Z",
+      "registered": "2011-01-07T16:23:45.807Z",
+      "idNumber": "858-70-6199",
+      "residence": "Allen, United States",
+      "coordinates": {
+        "lat": 63.860232795945805,
+        "lng": 152.0983537530387
+      },
+      "portrait": "https://randomuser.me/api/portraits/women/11.jpg",
+      "timezone": "Midway Island, Samoa",
+      "seed": "heavyfrog358",
+      "suspicionLevel": 0.98,
+      "alibi": "Từ chối khai báo lịch trình",
+      "role": "killer",
+      "relationshipTag": "family",
+      "testimony": {
+        "id": "testimony-c95054c2-407b-45d4-81fa-bf9bf0015f6e",
+        "relationshipSummary": "người thân",
+        "narrative": "Tôi là người thân của Amelia Kumar. Ngày hôm đó, vào khoảng 12:33 - 13:03, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Tokyo chợ đêm trung tâm.",
+        "timeframe": "12:33 - 13:03",
+        "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+        "locationLabel": "Tokyo chợ đêm trung tâm",
+        "mapHint": {
+          "id": "Tokyo chợ đêm trung tâm-1838",
+          "label": "Tokyo chợ đêm trung tâm",
+          "point": {
+            "lat": 63.857114508639526,
+            "lng": 152.12935340887404
+          },
+          "radiusMeters": 900
+        },
+        "reliability": "shaky"
+      }
+    },
+    "suspects": [
+      {
+        "id": "f4d35fe1-f6dc-441c-a274-7462230ef9ef",
+        "fullName": "José Morales",
+        "gender": "female",
+        "age": 61,
+        "nationality": "Spain",
+        "occupation": "silverswan Investigator",
+        "email": "jose.morales@example.com",
+        "phone": "916-500-496",
+        "cell": "690-968-320",
+        "dob": "1964-10-31T12:08:44.593Z",
+        "registered": "2008-01-04T20:42:26.354Z",
+        "idNumber": "12023225-E",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.68978674880297,
+          "lng": 139.65814599429754
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/46.jpg",
+        "timezone": "Brussels, Copenhagen, Madrid, Paris",
+        "seed": "silverswan499",
+        "suspicionLevel": 0.54,
+        "alibi": "Đang ngủ tại nhà riêng",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-f4d35fe1-f6dc-441c-a274-7462230ef9ef",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Amelia Kumar. Ngày hôm đó, vào khoảng 18:10 - 18:40, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại Tokyo xưởng sửa tàu hỏa.",
+          "timeframe": "18:10 - 18:40",
+          "action": "thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông",
+          "locationLabel": "Tokyo xưởng sửa tàu hỏa",
+          "mapHint": {
+            "id": "Tokyo xưởng sửa tàu hỏa-402",
+            "label": "Tokyo xưởng sửa tàu hỏa",
+            "point": {
+              "lat": 35.68141023121377,
+              "lng": 139.62964378804932
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "48a3d107-a37d-4c88-9165-82dcaf11b7ef",
+        "fullName": "Leevi Ketola",
+        "gender": "male",
+        "age": 42,
+        "nationality": "Finland",
+        "occupation": "smallrabbit Investigator",
+        "email": "leevi.ketola@example.com",
+        "phone": "09-059-848",
+        "cell": "049-428-68-49",
+        "dob": "1983-07-06T03:39:26.823Z",
+        "registered": "2015-12-15T14:40:55.108Z",
+        "idNumber": "NaNNA233undefined",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.770495587496974,
+          "lng": 139.57107581391747
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/42.jpg",
+        "timezone": "Atlantic Time (Canada), Caracas, La Paz",
+        "seed": "smallrabbit978",
+        "suspicionLevel": 0.56,
+        "alibi": "Đang chơi bowling cùng bạn bè",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-48a3d107-a37d-4c88-9165-82dcaf11b7ef",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Amelia Kumar. Ngày hôm đó, vào khoảng 17:45 - 18:15, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Tokyo nhà thờ Saint-Marie.",
+          "timeframe": "17:45 - 18:15",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "Tokyo nhà thờ Saint-Marie",
+          "mapHint": {
+            "id": "Tokyo nhà thờ Saint-Marie-7840",
+            "label": "Tokyo nhà thờ Saint-Marie",
+            "point": {
+              "lat": 35.77819740532707,
+              "lng": 139.5597378445352
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "c5c5fd77-0861-4f30-863c-408835db2782",
+        "fullName": "Simon Poulsen",
+        "gender": "male",
+        "age": 55,
+        "nationality": "Denmark",
+        "occupation": "crazyswan Investigator",
+        "email": "simon.poulsen@example.com",
+        "phone": "09759493",
+        "cell": "20838504",
+        "dob": "1970-05-18T17:13:55.570Z",
+        "registered": "2002-12-27T17:16:00.002Z",
+        "idNumber": "180570-5703",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.649436675058304,
+          "lng": 139.63445031049497
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/22.jpg",
+        "timezone": "Kathmandu",
+        "seed": "crazyswan297",
+        "suspicionLevel": 0.35,
+        "alibi": "Đang chơi bowling cùng bạn bè",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-c5c5fd77-0861-4f30-863c-408835db2782",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Amelia Kumar. Ngày hôm đó, vào khoảng 14:19 - 14:49, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại Tokyo nhà thờ Saint-Marie.",
+          "timeframe": "14:19 - 14:49",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "Tokyo nhà thờ Saint-Marie",
+          "mapHint": {
+            "id": "Tokyo nhà thờ Saint-Marie-4086",
+            "label": "Tokyo nhà thờ Saint-Marie",
+            "point": {
+              "lat": 35.63194115820769,
+              "lng": 139.60666823624933
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "1172c591-b29f-401f-881a-248b546d754d",
+        "fullName": "Randy Diaz",
+        "gender": "male",
+        "age": 46,
+        "nationality": "Australia",
+        "occupation": "tinysnake Investigator",
+        "email": "randy.diaz@example.com",
+        "phone": "01-7187-2924",
+        "cell": "0469-732-727",
+        "dob": "1979-09-24T13:02:53.326Z",
+        "registered": "2009-06-30T21:42:12.574Z",
+        "idNumber": "750361536",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.566003252623936,
+          "lng": 139.70461439306422
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/78.jpg",
+        "timezone": "Hawaii",
+        "seed": "tinysnake387",
+        "suspicionLevel": 0.33,
+        "alibi": "Đang khám bệnh tại bệnh viện",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-1172c591-b29f-401f-881a-248b546d754d",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Amelia Kumar. Ngày hôm đó, vào khoảng 13:18 - 13:48, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Tokyo xưởng sửa tàu hỏa.",
+          "timeframe": "13:18 - 13:48",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "Tokyo xưởng sửa tàu hỏa",
+          "mapHint": {
+            "id": "Tokyo xưởng sửa tàu hỏa-5361",
+            "label": "Tokyo xưởng sửa tàu hỏa",
+            "point": {
+              "lat": 35.599795236845836,
+              "lng": 139.71460181411862
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "a7234c97-7bf8-4302-8a25-270a1369232f",
+        "fullName": "Mark Davidson",
+        "gender": "male",
+        "age": 48,
+        "nationality": "Australia",
+        "occupation": "bluelion Investigator",
+        "email": "mark.davidson@example.com",
+        "phone": "03-1004-7576",
+        "cell": "0431-871-853",
+        "dob": "1977-08-21T18:39:00.484Z",
+        "registered": "2019-09-11T03:58:31.678Z",
+        "idNumber": "140053603",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.69560968659629,
+          "lng": 139.7784021103601
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/74.jpg",
+        "timezone": "Kaliningrad, South Africa",
+        "seed": "bluelion359",
+        "suspicionLevel": 0.46,
+        "alibi": "Đang tham gia lớp học nấu ăn",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-a7234c97-7bf8-4302-8a25-270a1369232f",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Amelia Kumar. Ngày hôm đó, vào khoảng 16:23 - 16:53, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Tokyo quảng trường Đồng Tế.",
+          "timeframe": "16:23 - 16:53",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "Tokyo quảng trường Đồng Tế",
+          "mapHint": {
+            "id": "Tokyo quảng trường Đồng Tế-5456",
+            "label": "Tokyo quảng trường Đồng Tế",
+            "point": {
+              "lat": 35.67375565083043,
+              "lng": 139.74656759266136
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "50b014be-ed6d-4671-af1e-a1342c0db804",
+        "fullName": "María Gómez",
+        "gender": "female",
+        "age": 68,
+        "nationality": "Spain",
+        "occupation": "beautifuldog Investigator",
+        "email": "maria.gomez@example.com",
+        "phone": "959-580-260",
+        "cell": "674-697-356",
+        "dob": "1957-03-25T18:21:15.480Z",
+        "registered": "2013-11-02T08:01:41.546Z",
+        "idNumber": "70864945-P",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.705779147426455,
+          "lng": 139.77775447370385
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/81.jpg",
+        "timezone": "Western Europe Time, London, Lisbon, Casablanca",
+        "seed": "beautifuldog106",
+        "suspicionLevel": 0.46,
+        "alibi": "Đang mua sắm tại siêu thị",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-50b014be-ed6d-4671-af1e-a1342c0db804",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Amelia Kumar. Ngày hôm đó, vào khoảng 17:49 - 18:19, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Tokyo quảng trường Đồng Tế.",
+          "timeframe": "17:49 - 18:19",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "Tokyo quảng trường Đồng Tế",
+          "mapHint": {
+            "id": "Tokyo quảng trường Đồng Tế-7021",
+            "label": "Tokyo quảng trường Đồng Tế",
+            "point": {
+              "lat": 35.68835722003025,
+              "lng": 139.76751337279
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "c93b8204-cbb5-4753-a7b1-aa674d40eff2",
+        "fullName": "Arttu Pollari",
+        "gender": "male",
+        "age": 43,
+        "nationality": "Finland",
+        "occupation": "whiteduck Investigator",
+        "email": "arttu.pollari@example.com",
+        "phone": "08-318-021",
+        "cell": "048-322-03-68",
+        "dob": "1982-05-22T10:42:30.920Z",
+        "registered": "2015-10-09T11:53:01.746Z",
+        "idNumber": "NaNNA763undefined",
+        "residence": "Kempele, Finland",
+        "coordinates": {
+          "lat": 8.107398880917327,
+          "lng": 171.70405285654437
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/72.jpg",
+        "timezone": "Bombay, Calcutta, Madras, New Delhi",
+        "seed": "whiteduck549",
+        "suspicionLevel": 0.47,
+        "alibi": "Đang đi du lịch nước ngoài",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-c93b8204-cbb5-4753-a7b1-aa674d40eff2",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Amelia Kumar. Ngày hôm đó, vào khoảng 14:33 - 15:03, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại Tokyo khu cảng bỏ hoang phía tây.",
+          "timeframe": "14:33 - 15:03",
+          "action": "thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông",
+          "locationLabel": "Tokyo khu cảng bỏ hoang phía tây",
+          "mapHint": {
+            "id": "Tokyo khu cảng bỏ hoang phía tây-4245",
+            "label": "Tokyo khu cảng bỏ hoang phía tây",
+            "point": {
+              "lat": 8.145470692954705,
+              "lng": 171.69368654336162
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "f21bbb04-f650-4f33-9e6f-e37aabd62c14",
+        "fullName": "Maëlyne Schmitt",
+        "gender": "female",
+        "age": 67,
+        "nationality": "France",
+        "occupation": "yellowelephant Investigator",
+        "email": "maelyne.schmitt@example.com",
+        "phone": "03-23-39-25-30",
+        "cell": "06-04-41-99-02",
+        "dob": "1958-04-11T13:16:48.505Z",
+        "registered": "2009-09-25T15:08:12.841Z",
+        "idNumber": "2580307446401 14",
+        "residence": "Mulhouse, France",
+        "coordinates": {
+          "lat": 70.98977131123485,
+          "lng": 155.99670431115783
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/49.jpg",
+        "timezone": "Brazil, Buenos Aires, Georgetown",
+        "seed": "yellowelephant670",
+        "suspicionLevel": 0.75,
+        "alibi": "Đang tham gia hoạt động tình nguyện",
+        "role": "accomplice",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-f21bbb04-f650-4f33-9e6f-e37aabd62c14",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Amelia Kumar. Ngày hôm đó, vào khoảng 13:09 - 13:39, tôi đã kiểm tra hệ thống camera của nhà thờ cổ tại Tokyo nhà kho số 12.",
+          "timeframe": "13:09 - 13:39",
+          "action": "kiểm tra hệ thống camera của nhà thờ cổ",
+          "locationLabel": "Tokyo nhà kho số 12",
+          "mapHint": {
+            "id": "Tokyo nhà kho số 12-5798",
+            "label": "Tokyo nhà kho số 12",
+            "point": {
+              "lat": 70.94782254711555,
+              "lng": 156.02421168044793
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        },
+        "secondaryTestimony": {
+          "id": "secondary-f21bbb04-f650-4f33-9e6f-e37aabd62c14",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Được rồi, tôi sẽ hợp tác. Carolyn Meyer bảo tôi canh gác tại Ổ ẩn náu và hắn vẫn còn ở đó lúc 17:00.",
+          "timeframe": "16:50 - 17:20",
+          "action": "chỉ điểm tọa độ ẩn náu",
+          "locationLabel": "Ổ ẩn náu",
+          "mapHint": {
+            "id": "Ổ ẩn náu-8802",
+            "label": "Ổ ẩn náu",
+            "point": {
+              "lat": 63.81787028488095,
+              "lng": 152.14070688289127
+            },
+            "radiusMeters": 350
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "a529bdd5-4aeb-4c30-bd13-61295a33c6dc",
+        "fullName": "Selma Jensen",
+        "gender": "female",
+        "age": 77,
+        "nationality": "Denmark",
+        "occupation": "tinywolf Investigator",
+        "email": "selma.jensen@example.com",
+        "phone": "16686502",
+        "cell": "07272238",
+        "dob": "1947-12-14T07:40:50.122Z",
+        "registered": "2019-11-10T09:58:19.208Z",
+        "idNumber": "141247-2521",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.67873429172056,
+          "lng": 139.69588759896132
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/57.jpg",
+        "timezone": "Ekaterinburg, Islamabad, Karachi, Tashkent",
+        "seed": "tinywolf502",
+        "suspicionLevel": 0.58,
+        "alibi": "Đang khám bệnh tại bệnh viện",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-a529bdd5-4aeb-4c30-bd13-61295a33c6dc",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Amelia Kumar. Ngày hôm đó, vào khoảng 17:44 - 18:14, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại Tokyo nhà thờ Saint-Marie.",
+          "timeframe": "17:44 - 18:14",
+          "action": "bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường",
+          "locationLabel": "Tokyo nhà thờ Saint-Marie",
+          "mapHint": {
+            "id": "Tokyo nhà thờ Saint-Marie-9875",
+            "label": "Tokyo nhà thờ Saint-Marie",
+            "point": {
+              "lat": 35.62916470652296,
+              "lng": 139.6646790066806
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "53d4521a-0a0a-46f7-9109-3f0b34a003fa",
+        "fullName": "Inés Gallego",
+        "gender": "female",
+        "age": 68,
+        "nationality": "Spain",
+        "occupation": "lazyswan Investigator",
+        "email": "ines.gallego@example.com",
+        "phone": "917-901-258",
+        "cell": "666-701-348",
+        "dob": "1957-03-23T17:31:07.680Z",
+        "registered": "2006-08-09T10:22:04.848Z",
+        "idNumber": "07185205-N",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.554200713692445,
+          "lng": 139.62453159092522
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/73.jpg",
+        "timezone": "Azores, Cape Verde Islands",
+        "seed": "lazyswan116",
+        "suspicionLevel": 0.85,
+        "alibi": "Đang đi dạo trong công viên",
+        "role": "accomplice",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-53d4521a-0a0a-46f7-9109-3f0b34a003fa",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Amelia Kumar. Ngày hôm đó, vào khoảng 13:02 - 13:32, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại Tokyo khu cảng bỏ hoang phía tây.",
+          "timeframe": "13:02 - 13:32",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "Tokyo khu cảng bỏ hoang phía tây",
+          "mapHint": {
+            "id": "Tokyo khu cảng bỏ hoang phía tây-1112",
+            "label": "Tokyo khu cảng bỏ hoang phía tây",
+            "point": {
+              "lat": 35.55485208577684,
+              "lng": 139.61108737849693
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        },
+        "secondaryTestimony": {
+          "id": "secondary-53d4521a-0a0a-46f7-9109-3f0b34a003fa",
+          "relationshipSummary": "người thân",
+          "narrative": "Được rồi, tôi sẽ hợp tác. Carolyn Meyer bảo tôi canh gác tại Ổ ẩn náu và hắn vẫn còn ở đó lúc 17:00.",
+          "timeframe": "16:50 - 17:20",
+          "action": "chỉ điểm tọa độ ẩn náu",
+          "locationLabel": "Ổ ẩn náu",
+          "mapHint": {
+            "id": "Ổ ẩn náu-8802",
+            "label": "Ổ ẩn náu",
+            "point": {
+              "lat": 63.81787028488095,
+              "lng": 152.14070688289127
+            },
+            "radiusMeters": 350
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "d29f65f9-2787-4929-a676-92946d8022cf",
+        "fullName": "Vinko Merkel",
+        "gender": "male",
+        "age": 37,
+        "nationality": "Germany",
+        "occupation": "goldendog Investigator",
+        "email": "vinko.merkel@example.com",
+        "phone": "0297-6317748",
+        "cell": "0172-5045508",
+        "dob": "1988-02-18T22:05:02.912Z",
+        "registered": "2013-06-29T16:53:36.540Z",
+        "idNumber": "19 180288 M 439",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.73012981973762,
+          "lng": 139.71889010392195
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/66.jpg",
+        "timezone": "Kabul",
+        "seed": "goldendog102",
+        "suspicionLevel": 0.44,
+        "alibi": "Đang đi du lịch nước ngoài",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-d29f65f9-2787-4929-a676-92946d8022cf",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Amelia Kumar. Ngày hôm đó, vào khoảng 16:10 - 16:40, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại Tokyo khu dân cư tọa độ G-17.",
+          "timeframe": "16:10 - 16:40",
+          "action": "thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông",
+          "locationLabel": "Tokyo khu dân cư tọa độ G-17",
+          "mapHint": {
+            "id": "Tokyo khu dân cư tọa độ G-17-7949",
+            "label": "Tokyo khu dân cư tọa độ G-17",
+            "point": {
+              "lat": 35.73371792307763,
+              "lng": 139.70762035170637
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "bc966bde-0a3b-4a65-b40c-c5293dd8023a",
+        "fullName": "Scarlett Jones",
+        "gender": "female",
+        "age": 57,
+        "nationality": "New Zealand",
+        "occupation": "greengorilla Investigator",
+        "email": "scarlett.jones@example.com",
+        "phone": "(523)-850-1179",
+        "cell": "(388)-171-2397",
+        "dob": "1968-03-27T20:19:15.728Z",
+        "registered": "2014-05-28T17:03:43.859Z",
+        "idNumber": "N/A",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.75450792164002,
+          "lng": 139.64127591926763
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/15.jpg",
+        "timezone": "Beijing, Perth, Singapore, Hong Kong",
+        "seed": "greengorilla529",
+        "suspicionLevel": 0.65,
+        "alibi": "Đang xem phim tại rạp chiếu phim trung tâm",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-bc966bde-0a3b-4a65-b40c-c5293dd8023a",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Amelia Kumar. Ngày hôm đó, vào khoảng 13:37 - 14:07, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại Tokyo cầu sắt Old Bridge.",
+          "timeframe": "13:37 - 14:07",
+          "action": "thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông",
+          "locationLabel": "Tokyo cầu sắt Old Bridge",
+          "mapHint": {
+            "id": "Tokyo cầu sắt Old Bridge-4839",
+            "label": "Tokyo cầu sắt Old Bridge",
+            "point": {
+              "lat": 35.71683517762386,
+              "lng": 139.64809776839493
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "472b9bfc-bf31-477b-a1d1-042760a8b82a",
+        "fullName": "Alexander Lo",
+        "gender": "male",
+        "age": 75,
+        "nationality": "Canada",
+        "occupation": "beautifultiger Investigator",
+        "email": "alexander.lo@example.com",
+        "phone": "S83 X80-2642",
+        "cell": "X48 T77-1814",
+        "dob": "1950-05-14T21:39:29.951Z",
+        "registered": "2010-08-18T06:31:09.744Z",
+        "idNumber": "507587749",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.62598677901963,
+          "lng": 139.6563403879435
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/96.jpg",
+        "timezone": "Atlantic Time (Canada), Caracas, La Paz",
+        "seed": "beautifultiger108",
+        "suspicionLevel": 0.6,
+        "alibi": "Đang xem phim tại rạp chiếu phim trung tâm",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-472b9bfc-bf31-477b-a1d1-042760a8b82a",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Amelia Kumar. Ngày hôm đó, vào khoảng 14:16 - 14:46, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại Tokyo ga tàu điện ngầm số 7.",
+          "timeframe": "14:16 - 14:46",
+          "action": "đi khảo sát công trường dang dở ở ngoại ô",
+          "locationLabel": "Tokyo ga tàu điện ngầm số 7",
+          "mapHint": {
+            "id": "Tokyo ga tàu điện ngầm số 7-2259",
+            "label": "Tokyo ga tàu điện ngầm số 7",
+            "point": {
+              "lat": 35.61465717798976,
+              "lng": 139.69807753655158
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "cee3f7bd-6db4-4bcb-9bc2-98c63cbabb0c",
+        "fullName": "Melinda Roberts",
+        "gender": "female",
+        "age": 54,
+        "nationality": "United States",
+        "occupation": "happywolf Investigator",
+        "email": "melinda.roberts@example.com",
+        "phone": "(484) 825-5298",
+        "cell": "(416) 824-3422",
+        "dob": "1971-01-10T05:39:35.040Z",
+        "registered": "2011-02-27T18:55:01.256Z",
+        "idNumber": "110-29-2824",
+        "residence": "Beaumont, United States",
+        "coordinates": {
+          "lat": 58.87111257106557,
+          "lng": 173.4719963782558
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/21.jpg",
+        "timezone": "Alaska",
+        "seed": "happywolf444",
+        "suspicionLevel": 0.59,
+        "alibi": "Đang xem phim tại rạp chiếu phim trung tâm",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-cee3f7bd-6db4-4bcb-9bc2-98c63cbabb0c",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Amelia Kumar. Ngày hôm đó, vào khoảng 14:55 - 15:25, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại Tokyo quảng trường Đồng Tế.",
+          "timeframe": "14:55 - 15:25",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "Tokyo quảng trường Đồng Tế",
+          "mapHint": {
+            "id": "Tokyo quảng trường Đồng Tế-8413",
+            "label": "Tokyo quảng trường Đồng Tế",
+            "point": {
+              "lat": 58.857366510960524,
+              "lng": 173.49385410024297
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "163c9a95-ccb2-4e8f-acdd-301bc2cd726e",
+        "fullName": "Claudia Harper",
+        "gender": "female",
+        "age": 51,
+        "nationality": "Australia",
+        "occupation": "sadpeacock Investigator",
+        "email": "claudia.harper@example.com",
+        "phone": "02-5649-7897",
+        "cell": "0453-164-072",
+        "dob": "1974-09-08T16:14:13.154Z",
+        "registered": "2007-02-01T10:06:34.922Z",
+        "idNumber": "876325746",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.651917927016186,
+          "lng": 139.5679944282198
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/17.jpg",
+        "timezone": "Bangkok, Hanoi, Jakarta",
+        "seed": "sadpeacock762",
+        "suspicionLevel": 0.81,
+        "alibi": "Đang chơi bowling cùng bạn bè",
+        "role": "accomplice",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-163c9a95-ccb2-4e8f-acdd-301bc2cd726e",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Amelia Kumar. Ngày hôm đó, vào khoảng 13:34 - 14:04, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại Tokyo chợ đêm trung tâm.",
+          "timeframe": "13:34 - 14:04",
+          "action": "dự một buổi cầu nguyện ngắn gần khu chợ trời",
+          "locationLabel": "Tokyo chợ đêm trung tâm",
+          "mapHint": {
+            "id": "Tokyo chợ đêm trung tâm-249",
+            "label": "Tokyo chợ đêm trung tâm",
+            "point": {
+              "lat": 35.63396972250441,
+              "lng": 139.5210445504436
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        },
+        "secondaryTestimony": {
+          "id": "secondary-163c9a95-ccb2-4e8f-acdd-301bc2cd726e",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Được rồi, tôi sẽ hợp tác. Carolyn Meyer bảo tôi canh gác tại Ổ ẩn náu và hắn vẫn còn ở đó lúc 17:00.",
+          "timeframe": "16:50 - 17:20",
+          "action": "chỉ điểm tọa độ ẩn náu",
+          "locationLabel": "Ổ ẩn náu",
+          "mapHint": {
+            "id": "Ổ ẩn náu-8802",
+            "label": "Ổ ẩn náu",
+            "point": {
+              "lat": 63.81787028488095,
+              "lng": 152.14070688289127
+            },
+            "radiusMeters": 350
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "c4d81f42-c9a2-40ae-8ee8-746392eb89a6",
+        "fullName": "Thibaut Bonnet",
+        "gender": "male",
+        "age": 33,
+        "nationality": "France",
+        "occupation": "ticklishdog Investigator",
+        "email": "thibaut.bonnet@example.com",
+        "phone": "02-94-42-44-39",
+        "cell": "06-19-94-89-03",
+        "dob": "1992-01-23T03:02:37.030Z",
+        "registered": "2005-05-12T22:19:02.105Z",
+        "idNumber": "1920066979749 13",
+        "residence": "Avignon, France",
+        "coordinates": {
+          "lat": 55.335199002853685,
+          "lng": 133.34339516267767
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/53.jpg",
+        "timezone": "Central Time (US & Canada), Mexico City",
+        "seed": "ticklishdog513",
+        "suspicionLevel": 0.53,
+        "alibi": "Đang tham dự đám cưới người thân",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-c4d81f42-c9a2-40ae-8ee8-746392eb89a6",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Amelia Kumar. Ngày hôm đó, vào khoảng 18:13 - 18:43, tôi đã truy cập máy chủ tại phòng lab cũ tại Tokyo ga tàu điện ngầm số 7.",
+          "timeframe": "18:13 - 18:43",
+          "action": "truy cập máy chủ tại phòng lab cũ",
+          "locationLabel": "Tokyo ga tàu điện ngầm số 7",
+          "mapHint": {
+            "id": "Tokyo ga tàu điện ngầm số 7-1481",
+            "label": "Tokyo ga tàu điện ngầm số 7",
+            "point": {
+              "lat": 55.36989433507165,
+              "lng": 133.3574039820361
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "1fe281ca-e976-41bf-b47b-7b1c22e57547",
+        "fullName": "Edwin Wells",
+        "gender": "male",
+        "age": 38,
+        "nationality": "Australia",
+        "occupation": "greenwolf Investigator",
+        "email": "edwin.wells@example.com",
+        "phone": "01-9128-6465",
+        "cell": "0463-688-048",
+        "dob": "1987-06-18T04:18:39.963Z",
+        "registered": "2019-03-22T23:18:51.733Z",
+        "idNumber": "905737767",
+        "residence": "Port Macquarie, Australia",
+        "coordinates": {
+          "lat": 71.95630364556263,
+          "lng": 119.65176699488028
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/73.jpg",
+        "timezone": "Hawaii",
+        "seed": "greenwolf758",
+        "suspicionLevel": 0.65,
+        "alibi": "Đang bị kẹt xe trên đường cao tốc",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-1fe281ca-e976-41bf-b47b-7b1c22e57547",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Amelia Kumar. Ngày hôm đó, vào khoảng 17:16 - 17:46, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại Tokyo ga tàu điện ngầm số 7.",
+          "timeframe": "17:16 - 17:46",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "Tokyo ga tàu điện ngầm số 7",
+          "mapHint": {
+            "id": "Tokyo ga tàu điện ngầm số 7-4974",
+            "label": "Tokyo ga tàu điện ngầm số 7",
+            "point": {
+              "lat": 71.96117731259136,
+              "lng": 119.67974063193495
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "401ba773-e626-46d1-8da9-7eb3eb301ebc",
+        "fullName": "Christian Ramirez",
+        "gender": "male",
+        "age": 43,
+        "nationality": "Australia",
+        "occupation": "smallpeacock Investigator",
+        "email": "christian.ramirez@example.com",
+        "phone": "06-1358-8195",
+        "cell": "0488-446-611",
+        "dob": "1982-09-20T16:57:44.067Z",
+        "registered": "2009-12-20T11:49:13.923Z",
+        "idNumber": "693952458",
+        "residence": "Bowral, Australia",
+        "coordinates": {
+          "lat": 76.6213771286294,
+          "lng": 151.53057787428463
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/5.jpg",
+        "timezone": "Brussels, Copenhagen, Madrid, Paris",
+        "seed": "smallpeacock824",
+        "suspicionLevel": 0.62,
+        "alibi": "Đang trực ca đêm tại nơi làm việc",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-401ba773-e626-46d1-8da9-7eb3eb301ebc",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Amelia Kumar. Ngày hôm đó, vào khoảng 16:41 - 17:11, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại Tokyo nhà thờ Saint-Marie.",
+          "timeframe": "16:41 - 17:11",
+          "action": "dự một buổi cầu nguyện ngắn gần khu chợ trời",
+          "locationLabel": "Tokyo nhà thờ Saint-Marie",
+          "mapHint": {
+            "id": "Tokyo nhà thờ Saint-Marie-1399",
+            "label": "Tokyo nhà thờ Saint-Marie",
+            "point": {
+              "lat": 76.59778765350246,
+              "lng": 151.56314530974106
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "b11f0b33-89f9-40d2-87aa-59ac1213e025",
+        "fullName": "Rick Fox",
+        "gender": "male",
+        "age": 56,
+        "nationality": "United States",
+        "occupation": "ticklishdog Investigator",
+        "email": "rick.fox@example.com",
+        "phone": "(981) 766-1210",
+        "cell": "(855) 229-5575",
+        "dob": "1969-09-16T02:07:18.999Z",
+        "registered": "2018-03-07T11:35:15.648Z",
+        "idNumber": "817-02-0177",
+        "residence": "Dallas, United States",
+        "coordinates": {
+          "lat": 54.22650809335796,
+          "lng": 153.2645652450472
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/84.jpg",
+        "timezone": "Ekaterinburg, Islamabad, Karachi, Tashkent",
+        "seed": "ticklishdog627",
+        "suspicionLevel": 0.54,
+        "alibi": "Đang bị kẹt xe trên đường cao tốc",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-b11f0b33-89f9-40d2-87aa-59ac1213e025",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Amelia Kumar. Ngày hôm đó, vào khoảng 17:28 - 17:58, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại Tokyo ga tàu điện ngầm số 7.",
+          "timeframe": "17:28 - 17:58",
+          "action": "dự một buổi cầu nguyện ngắn gần khu chợ trời",
+          "locationLabel": "Tokyo ga tàu điện ngầm số 7",
+          "mapHint": {
+            "id": "Tokyo ga tàu điện ngầm số 7-3315",
+            "label": "Tokyo ga tàu điện ngầm số 7",
+            "point": {
+              "lat": 54.19674697570776,
+              "lng": 153.24322758043093
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "5a3d84f4-c277-4e03-bc2b-e0148d99c035",
+        "fullName": "Annabelle Patel",
+        "gender": "female",
+        "age": 55,
+        "nationality": "New Zealand",
+        "occupation": "goldenpeacock Investigator",
+        "email": "annabelle.patel@example.com",
+        "phone": "(228)-791-4002",
+        "cell": "(007)-767-5541",
+        "dob": "1970-04-28T01:56:41.833Z",
+        "registered": "2021-11-17T05:54:09.916Z",
+        "idNumber": "N/A",
+        "residence": "Auckland, New Zealand",
+        "coordinates": {
+          "lat": 49.54917941019923,
+          "lng": 103.68879178495334
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/14.jpg",
+        "timezone": "Brazil, Buenos Aires, Georgetown",
+        "seed": "goldenpeacock710",
+        "suspicionLevel": 0.3,
+        "alibi": "Đang chơi bowling cùng bạn bè",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-5a3d84f4-c277-4e03-bc2b-e0148d99c035",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Amelia Kumar. Ngày hôm đó, vào khoảng 15:07 - 15:37, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Tokyo kho hàng Riverside.",
+          "timeframe": "15:07 - 15:37",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "Tokyo kho hàng Riverside",
+          "mapHint": {
+            "id": "Tokyo kho hàng Riverside-3814",
+            "label": "Tokyo kho hàng Riverside",
+            "point": {
+              "lat": 49.52551113535703,
+              "lng": 103.71791268343293
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "c95054c2-407b-45d4-81fa-bf9bf0015f6e",
+        "fullName": "Carolyn Meyer",
+        "gender": "female",
+        "age": 32,
+        "nationality": "United States",
+        "occupation": "heavyfrog Investigator",
+        "email": "carolyn.meyer@example.com",
+        "phone": "(862) 201-5742",
+        "cell": "(713) 927-8105",
+        "dob": "1993-08-24T00:53:09.586Z",
+        "registered": "2011-01-07T16:23:45.807Z",
+        "idNumber": "858-70-6199",
+        "residence": "Allen, United States",
+        "coordinates": {
+          "lat": 63.860232795945805,
+          "lng": 152.0983537530387
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/11.jpg",
+        "timezone": "Midway Island, Samoa",
+        "seed": "heavyfrog358",
+        "suspicionLevel": 0.98,
+        "alibi": "Từ chối khai báo lịch trình",
+        "role": "killer",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-c95054c2-407b-45d4-81fa-bf9bf0015f6e",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Amelia Kumar. Ngày hôm đó, vào khoảng 12:33 - 13:03, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Tokyo chợ đêm trung tâm.",
+          "timeframe": "12:33 - 13:03",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "Tokyo chợ đêm trung tâm",
+          "mapHint": {
+            "id": "Tokyo chợ đêm trung tâm-1838",
+            "label": "Tokyo chợ đêm trung tâm",
+            "point": {
+              "lat": 63.857114508639526,
+              "lng": 152.12935340887404
+            },
+            "radiusMeters": 900
+          },
+          "reliability": "shaky"
+        }
+      },
+      {
+        "id": "d2b134fb-76a4-4eac-9769-ed3271a296f0",
+        "fullName": "Marc Navarro",
+        "gender": "male",
+        "age": 80,
+        "nationality": "Spain",
+        "occupation": "bluerabbit Investigator",
+        "email": "marc.navarro@example.com",
+        "phone": "920-435-669",
+        "cell": "651-610-582",
+        "dob": "1945-09-10T18:53:52.847Z",
+        "registered": "2003-11-12T07:31:30.763Z",
+        "idNumber": "77074465-Z",
+        "residence": "Valladolid, Spain",
+        "coordinates": {
+          "lat": 53.67406314953326,
+          "lng": 153.78035110070343
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/41.jpg",
+        "timezone": "Brussels, Copenhagen, Madrid, Paris",
+        "seed": "bluerabbit393",
+        "suspicionLevel": 0.5,
+        "alibi": "Đang chơi bowling cùng bạn bè",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-d2b134fb-76a4-4eac-9769-ed3271a296f0",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Amelia Kumar. Ngày hôm đó, vào khoảng 15:11 - 15:41, tôi đã truy cập máy chủ tại phòng lab cũ tại Tokyo quảng trường Đồng Tế.",
+          "timeframe": "15:11 - 15:41",
+          "action": "truy cập máy chủ tại phòng lab cũ",
+          "locationLabel": "Tokyo quảng trường Đồng Tế",
+          "mapHint": {
+            "id": "Tokyo quảng trường Đồng Tế-8177",
+            "label": "Tokyo quảng trường Đồng Tế",
+            "point": {
+              "lat": 53.7133949996168,
+              "lng": 153.8050593298438
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "bb54363c-c881-49a2-9c56-16c026bc15b0",
+        "fullName": "Teresa Cortes",
+        "gender": "female",
+        "age": 68,
+        "nationality": "Spain",
+        "occupation": "tinymeercat Investigator",
+        "email": "teresa.cortes@example.com",
+        "phone": "952-265-037",
+        "cell": "625-008-028",
+        "dob": "1957-11-25T19:27:02.947Z",
+        "registered": "2013-10-01T15:17:30.862Z",
+        "idNumber": "91153853-O",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.60860289337154,
+          "lng": 139.62290736442964
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/76.jpg",
+        "timezone": "Mountain Time (US & Canada)",
+        "seed": "tinymeercat197",
+        "suspicionLevel": 0.41,
+        "alibi": "Đang ăn tối cùng gia đình",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-bb54363c-c881-49a2-9c56-16c026bc15b0",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Amelia Kumar. Ngày hôm đó, vào khoảng 14:45 - 15:15, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại Tokyo nhà kho số 12.",
+          "timeframe": "14:45 - 15:15",
+          "action": "thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông",
+          "locationLabel": "Tokyo nhà kho số 12",
+          "mapHint": {
+            "id": "Tokyo nhà kho số 12-3458",
+            "label": "Tokyo nhà kho số 12",
+            "point": {
+              "lat": 35.61359429384622,
+              "lng": 139.64853210785958
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "ed3454ca-a6e2-476e-bbed-faae009a5d33",
+        "fullName": "Morgane Leroy",
+        "gender": "female",
+        "age": 79,
+        "nationality": "France",
+        "occupation": "brownpanda Investigator",
+        "email": "morgane.leroy@example.com",
+        "phone": "04-16-14-76-37",
+        "cell": "06-07-26-87-16",
+        "dob": "1946-06-09T16:44:53.568Z",
+        "registered": "2017-08-04T08:09:28.504Z",
+        "idNumber": "2460531602014 58",
+        "residence": "Montreuil, France",
+        "coordinates": {
+          "lat": 70.51072206353851,
+          "lng": 144.81430032285678
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/87.jpg",
+        "timezone": "Azores, Cape Verde Islands",
+        "seed": "brownpanda137",
+        "suspicionLevel": 0.55,
+        "alibi": "Đang ngủ tại nhà riêng",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-ed3454ca-a6e2-476e-bbed-faae009a5d33",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Amelia Kumar. Ngày hôm đó, vào khoảng 15:00 - 15:30, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại Tokyo kho hàng Riverside.",
+          "timeframe": "15:00 - 15:30",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "Tokyo kho hàng Riverside",
+          "mapHint": {
+            "id": "Tokyo kho hàng Riverside-6146",
+            "label": "Tokyo kho hàng Riverside",
+            "point": {
+              "lat": 70.49951575245791,
+              "lng": 144.7685386288194
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "6396d6f7-4a43-45cb-b098-c6e8591628da",
+        "fullName": "Kenneth Carlson",
+        "gender": "male",
+        "age": 62,
+        "nationality": "United Kingdom",
+        "occupation": "whitebear Investigator",
+        "email": "kenneth.carlson@example.com",
+        "phone": "017683 15029",
+        "cell": "07633 720873",
+        "dob": "1963-05-07T02:49:31.916Z",
+        "registered": "2017-08-31T02:17:49.418Z",
+        "idNumber": "MY 82 22 39 N",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.70784795408901,
+          "lng": 139.76471111104516
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/56.jpg",
+        "timezone": "Tehran",
+        "seed": "whitebear638",
+        "suspicionLevel": 0.67,
+        "alibi": "Đang làm việc tại văn phòng",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-6396d6f7-4a43-45cb-b098-c6e8591628da",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Amelia Kumar. Ngày hôm đó, vào khoảng 16:01 - 16:31, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Tokyo cầu sắt Old Bridge.",
+          "timeframe": "16:01 - 16:31",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "Tokyo cầu sắt Old Bridge",
+          "mapHint": {
+            "id": "Tokyo cầu sắt Old Bridge-9226",
+            "label": "Tokyo cầu sắt Old Bridge",
+            "point": {
+              "lat": 35.74495293939319,
+              "lng": 139.81023263359134
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "8cda6df9-79d0-42d4-8641-e5f96f9aacdd",
+        "fullName": "Lenni Waisanen",
+        "gender": "male",
+        "age": 71,
+        "nationality": "Finland",
+        "occupation": "purplekoala Investigator",
+        "email": "lenni.waisanen@example.com",
+        "phone": "06-760-104",
+        "cell": "044-814-35-77",
+        "dob": "1954-11-24T05:16:02.948Z",
+        "registered": "2017-01-06T15:19:27.402Z",
+        "idNumber": "NaNNA401undefined",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.75432703240681,
+          "lng": 139.74202016338165
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/66.jpg",
+        "timezone": "Newfoundland",
+        "seed": "purplekoala715",
+        "suspicionLevel": 0.42,
+        "alibi": "Đang câu cá ở hồ ngoại ô",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-8cda6df9-79d0-42d4-8641-e5f96f9aacdd",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Amelia Kumar. Ngày hôm đó, vào khoảng 16:11 - 16:41, tôi đã truy cập máy chủ tại phòng lab cũ tại Tokyo xưởng sửa tàu hỏa.",
+          "timeframe": "16:11 - 16:41",
+          "action": "truy cập máy chủ tại phòng lab cũ",
+          "locationLabel": "Tokyo xưởng sửa tàu hỏa",
+          "mapHint": {
+            "id": "Tokyo xưởng sửa tàu hỏa-7448",
+            "label": "Tokyo xưởng sửa tàu hỏa",
+            "point": {
+              "lat": 35.79512990530953,
+              "lng": 139.7544267022742
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "7dc6cccf-aa6f-409f-96cf-63dad7f35351",
+        "fullName": "Cecilie Christiansen",
+        "gender": "female",
+        "age": 40,
+        "nationality": "Denmark",
+        "occupation": "crazycat Investigator",
+        "email": "cecilie.christiansen@example.com",
+        "phone": "02933518",
+        "cell": "91790282",
+        "dob": "1985-01-27T10:12:30.376Z",
+        "registered": "2017-10-28T12:23:35.409Z",
+        "idNumber": "270185-8528",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.623072114786545,
+          "lng": 139.67223209925447
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/9.jpg",
+        "timezone": "Alaska",
+        "seed": "crazycat854",
+        "suspicionLevel": 0.68,
+        "alibi": "Đang tập gym tại phòng tập thể hình",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-7dc6cccf-aa6f-409f-96cf-63dad7f35351",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Amelia Kumar. Ngày hôm đó, vào khoảng 16:55 - 17:25, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Tokyo khu cảng bỏ hoang phía tây.",
+          "timeframe": "16:55 - 17:25",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "Tokyo khu cảng bỏ hoang phía tây",
+          "mapHint": {
+            "id": "Tokyo khu cảng bỏ hoang phía tây-3387",
+            "label": "Tokyo khu cảng bỏ hoang phía tây",
+            "point": {
+              "lat": 35.630110104302354,
+              "lng": 139.65976211890097
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "de256dac-a7e0-471d-b1d1-63881dab3a6e",
+        "fullName": "Herbert Hawkins",
+        "gender": "male",
+        "age": 43,
+        "nationality": "Australia",
+        "occupation": "goldenpanda Investigator",
+        "email": "herbert.hawkins@example.com",
+        "phone": "01-9838-5063",
+        "cell": "0498-760-665",
+        "dob": "1981-12-12T16:49:22.612Z",
+        "registered": "2004-08-05T11:43:36.374Z",
+        "idNumber": "952806972",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.790103820684585,
+          "lng": 139.58344716957566
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/81.jpg",
+        "timezone": "Almaty, Dhaka, Colombo",
+        "seed": "goldenpanda581",
+        "suspicionLevel": 0.57,
+        "alibi": "Đang đi công tác ở thành phố khác",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-de256dac-a7e0-471d-b1d1-63881dab3a6e",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Amelia Kumar. Ngày hôm đó, vào khoảng 14:05 - 14:35, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại Tokyo quảng trường Đồng Tế.",
+          "timeframe": "14:05 - 14:35",
+          "action": "đi khảo sát công trường dang dở ở ngoại ô",
+          "locationLabel": "Tokyo quảng trường Đồng Tế",
+          "mapHint": {
+            "id": "Tokyo quảng trường Đồng Tế-1168",
+            "label": "Tokyo quảng trường Đồng Tế",
+            "point": {
+              "lat": 35.82889523771241,
+              "lng": 139.62247749028523
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "08c6d3b2-520c-48a3-bba5-2bb7d4806980",
+        "fullName": "Mads Nielsen",
+        "gender": "male",
+        "age": 50,
+        "nationality": "Denmark",
+        "occupation": "organicsnake Investigator",
+        "email": "mads.nielsen@example.com",
+        "phone": "03909062",
+        "cell": "35110869",
+        "dob": "1975-09-04T21:03:06.866Z",
+        "registered": "2020-07-24T19:17:33.748Z",
+        "idNumber": "040975-9552",
+        "residence": "Bælum, Denmark",
+        "coordinates": {
+          "lat": 39.18931972374049,
+          "lng": 163.8951949504492
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/24.jpg",
+        "timezone": "Azores, Cape Verde Islands",
+        "seed": "organicsnake720",
+        "suspicionLevel": 0.47,
+        "alibi": "Đang đi dạo trong công viên",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-08c6d3b2-520c-48a3-bba5-2bb7d4806980",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Amelia Kumar. Ngày hôm đó, vào khoảng 15:50 - 16:20, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại Tokyo khu dân cư tọa độ G-17.",
+          "timeframe": "15:50 - 16:20",
+          "action": "đi khảo sát công trường dang dở ở ngoại ô",
+          "locationLabel": "Tokyo khu dân cư tọa độ G-17",
+          "mapHint": {
+            "id": "Tokyo khu dân cư tọa độ G-17-1694",
+            "label": "Tokyo khu dân cư tọa độ G-17",
+            "point": {
+              "lat": 39.222957026458616,
+              "lng": 163.8646206573871
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "883fd539-d466-4643-a303-f3e377f7e1e7",
+        "fullName": "Aada Annala",
+        "gender": "female",
+        "age": 78,
+        "nationality": "Finland",
+        "occupation": "ticklishgoose Investigator",
+        "email": "aada.annala@example.com",
+        "phone": "05-869-662",
+        "cell": "042-030-55-64",
+        "dob": "1947-08-08T16:59:47.162Z",
+        "registered": "2002-11-09T04:31:08.239Z",
+        "idNumber": "NaNNA230undefined",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.69320661719152,
+          "lng": 139.68835364076003
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/80.jpg",
+        "timezone": "Atlantic Time (Canada), Caracas, La Paz",
+        "seed": "ticklishgoose352",
+        "suspicionLevel": 0.39,
+        "alibi": "Đang đi công tác ở thành phố khác",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-883fd539-d466-4643-a303-f3e377f7e1e7",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Amelia Kumar. Ngày hôm đó, vào khoảng 18:05 - 18:35, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại Tokyo nhà thờ Saint-Marie.",
+          "timeframe": "18:05 - 18:35",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "Tokyo nhà thờ Saint-Marie",
+          "mapHint": {
+            "id": "Tokyo nhà thờ Saint-Marie-3856",
+            "label": "Tokyo nhà thờ Saint-Marie",
+            "point": {
+              "lat": 35.67758950561014,
+              "lng": 139.65123276541635
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "75623c10-bdc5-46cf-b163-4c2ed0d6574a",
+        "fullName": "Angus Johnson",
+        "gender": "male",
+        "age": 29,
+        "nationality": "New Zealand",
+        "occupation": "redduck Investigator",
+        "email": "angus.johnson@example.com",
+        "phone": "(686)-441-5447",
+        "cell": "(289)-812-9579",
+        "dob": "1996-05-25T16:49:33.881Z",
+        "registered": "2012-02-14T22:49:10.062Z",
+        "idNumber": "N/A",
+        "residence": "Taupo, New Zealand",
+        "coordinates": {
+          "lat": 41.4956452939179,
+          "lng": 136.65367611364294
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/33.jpg",
+        "timezone": "Kabul",
+        "seed": "redduck505",
+        "suspicionLevel": 0.41,
+        "alibi": "Đang ngủ tại nhà riêng",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-75623c10-bdc5-46cf-b163-4c2ed0d6574a",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Amelia Kumar. Ngày hôm đó, vào khoảng 15:29 - 15:59, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại Tokyo nhà thờ Saint-Marie.",
+          "timeframe": "15:29 - 15:59",
+          "action": "đi khảo sát công trường dang dở ở ngoại ô",
+          "locationLabel": "Tokyo nhà thờ Saint-Marie",
+          "mapHint": {
+            "id": "Tokyo nhà thờ Saint-Marie-1028",
+            "label": "Tokyo nhà thờ Saint-Marie",
+            "point": {
+              "lat": 41.45014546110614,
+              "lng": 136.68902852194682
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "ff520683-e13e-472c-9fe4-cc73a9d27d28",
+        "fullName": "Jasmine Williams",
+        "gender": "female",
+        "age": 50,
+        "nationality": "New Zealand",
+        "occupation": "goldentiger Investigator",
+        "email": "jasmine.williams@example.com",
+        "phone": "(153)-450-3661",
+        "cell": "(842)-123-6602",
+        "dob": "1975-01-14T14:46:15.489Z",
+        "registered": "2011-11-30T03:32:39.914Z",
+        "idNumber": "N/A",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.69820678242517,
+          "lng": 139.61663790207285
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/58.jpg",
+        "timezone": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk",
+        "seed": "goldentiger765",
+        "suspicionLevel": 0.45,
+        "alibi": "Đang tham gia hoạt động tình nguyện",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-ff520683-e13e-472c-9fe4-cc73a9d27d28",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Amelia Kumar. Ngày hôm đó, vào khoảng 16:31 - 17:01, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Tokyo kho hàng Riverside.",
+          "timeframe": "16:31 - 17:01",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "Tokyo kho hàng Riverside",
+          "mapHint": {
+            "id": "Tokyo kho hàng Riverside-4494",
+            "label": "Tokyo kho hàng Riverside",
+            "point": {
+              "lat": 35.700338747203695,
+              "lng": 139.64816656766388
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "bf82a208-d4cb-40b7-aa8f-abc48a859232",
+        "fullName": "Lonnie Carter",
+        "gender": "male",
+        "age": 74,
+        "nationality": "Australia",
+        "occupation": "redrabbit Investigator",
+        "email": "lonnie.carter@example.com",
+        "phone": "06-8388-3773",
+        "cell": "0425-748-409",
+        "dob": "1951-02-12T18:27:35.638Z",
+        "registered": "2020-11-29T18:14:21.568Z",
+        "idNumber": "813931534",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.730859122395195,
+          "lng": 139.54466199961774
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/78.jpg",
+        "timezone": "Ekaterinburg, Islamabad, Karachi, Tashkent",
+        "seed": "redrabbit145",
+        "suspicionLevel": 0.49,
+        "alibi": "Đang tham gia hoạt động tình nguyện",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-bf82a208-d4cb-40b7-aa8f-abc48a859232",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Amelia Kumar. Ngày hôm đó, vào khoảng 15:36 - 16:06, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại Tokyo ga tàu điện ngầm số 7.",
+          "timeframe": "15:36 - 16:06",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "Tokyo ga tàu điện ngầm số 7",
+          "mapHint": {
+            "id": "Tokyo ga tàu điện ngầm số 7-648",
+            "label": "Tokyo ga tàu điện ngầm số 7",
+            "point": {
+              "lat": 35.70407962651705,
+              "lng": 139.51369206081893
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "aa03d4d6-4454-468e-8568-2a146e3c879b",
+        "fullName": "Jackson Li",
+        "gender": "male",
+        "age": 56,
+        "nationality": "New Zealand",
+        "occupation": "blueladybug Investigator",
+        "email": "jackson.li@example.com",
+        "phone": "(700)-494-5093",
+        "cell": "(695)-888-9256",
+        "dob": "1969-03-28T19:27:05.839Z",
+        "registered": "2005-12-17T22:03:02.934Z",
+        "idNumber": "N/A",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.677202929512546,
+          "lng": 139.57095769076003
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/69.jpg",
+        "timezone": "Bangkok, Hanoi, Jakarta",
+        "seed": "blueladybug403",
+        "suspicionLevel": 0.38,
+        "alibi": "Đang tham gia một buổi tiệc sinh nhật",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-aa03d4d6-4454-468e-8568-2a146e3c879b",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Amelia Kumar. Ngày hôm đó, vào khoảng 13:26 - 13:56, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại Tokyo ga tàu điện ngầm số 7.",
+          "timeframe": "13:26 - 13:56",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "Tokyo ga tàu điện ngầm số 7",
+          "mapHint": {
+            "id": "Tokyo ga tàu điện ngầm số 7-1671",
+            "label": "Tokyo ga tàu điện ngầm số 7",
+            "point": {
+              "lat": 35.70566040717805,
+              "lng": 139.56508032111776
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "67a903fe-5814-4eb8-b938-568159a2d742",
+        "fullName": "Tanja Häuser",
+        "gender": "female",
+        "age": 77,
+        "nationality": "Germany",
+        "occupation": "crazymouse Investigator",
+        "email": "tanja.hauser@example.com",
+        "phone": "0410-9449530",
+        "cell": "0177-4510528",
+        "dob": "1948-04-15T01:02:10.404Z",
+        "registered": "2007-09-09T17:10:39.701Z",
+        "idNumber": "64 140448 H 583",
+        "residence": "Zweibrücken, Germany",
+        "coordinates": {
+          "lat": 60.81888613012836,
+          "lng": 161.00553461570186
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/18.jpg",
+        "timezone": "Bombay, Calcutta, Madras, New Delhi",
+        "seed": "crazymouse242",
+        "suspicionLevel": 0.55,
+        "alibi": "Đang ngủ tại nhà riêng",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-67a903fe-5814-4eb8-b938-568159a2d742",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Amelia Kumar. Ngày hôm đó, vào khoảng 15:53 - 16:23, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại Tokyo nhà thờ Saint-Marie.",
+          "timeframe": "15:53 - 16:23",
+          "action": "dự một buổi cầu nguyện ngắn gần khu chợ trời",
+          "locationLabel": "Tokyo nhà thờ Saint-Marie",
+          "mapHint": {
+            "id": "Tokyo nhà thờ Saint-Marie-5835",
+            "label": "Tokyo nhà thờ Saint-Marie",
+            "point": {
+              "lat": 60.865928284276585,
+              "lng": 160.97121691767487
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "e83825b1-afcd-4367-9813-f9057c38ddde",
+        "fullName": "Arnold Carroll",
+        "gender": "male",
+        "age": 54,
+        "nationality": "United States",
+        "occupation": "goldenleopard Investigator",
+        "email": "arnold.carroll@example.com",
+        "phone": "(630) 982-5424",
+        "cell": "(816) 236-5931",
+        "dob": "1971-10-12T05:14:47.477Z",
+        "registered": "2012-06-21T23:58:50.296Z",
+        "idNumber": "715-98-5318",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.72743046541683,
+          "lng": 139.72042067543651
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/94.jpg",
+        "timezone": "Azores, Cape Verde Islands",
+        "seed": "goldenleopard295",
+        "suspicionLevel": 0.48,
+        "alibi": "Đang mua sắm tại siêu thị",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-e83825b1-afcd-4367-9813-f9057c38ddde",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Amelia Kumar. Ngày hôm đó, vào khoảng 17:12 - 17:42, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Tokyo nhà kho số 12.",
+          "timeframe": "17:12 - 17:42",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "Tokyo nhà kho số 12",
+          "mapHint": {
+            "id": "Tokyo nhà kho số 12-807",
+            "label": "Tokyo nhà kho số 12",
+            "point": {
+              "lat": 35.71460172042235,
+              "lng": 139.72159027479637
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "1a8a2e3a-f914-4db8-9ebc-db2e13da7a99",
+        "fullName": "Mathilde Sørensen",
+        "gender": "female",
+        "age": 68,
+        "nationality": "Denmark",
+        "occupation": "tinyostrich Investigator",
+        "email": "mathilde.sorensen@example.com",
+        "phone": "93015048",
+        "cell": "39697755",
+        "dob": "1957-02-28T00:44:30.480Z",
+        "registered": "2010-09-16T00:50:35.094Z",
+        "idNumber": "270257-5312",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.663632880119245,
+          "lng": 139.67384530827738
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/30.jpg",
+        "timezone": "Abu Dhabi, Muscat, Baku, Tbilisi",
+        "seed": "tinyostrich350",
+        "suspicionLevel": 0.44,
+        "alibi": "Đang đi du lịch nước ngoài",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-1a8a2e3a-f914-4db8-9ebc-db2e13da7a99",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Amelia Kumar. Ngày hôm đó, vào khoảng 12:49 - 13:19, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại Tokyo khu cảng bỏ hoang phía tây.",
+          "timeframe": "12:49 - 13:19",
+          "action": "bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường",
+          "locationLabel": "Tokyo khu cảng bỏ hoang phía tây",
+          "mapHint": {
+            "id": "Tokyo khu cảng bỏ hoang phía tây-4334",
+            "label": "Tokyo khu cảng bỏ hoang phía tây",
+            "point": {
+              "lat": 35.61864800873735,
+              "lng": 139.62410362363195
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "cdd7d4d6-cdac-4632-9c00-5f54e4ef707f",
+        "fullName": "Utz Rother",
+        "gender": "male",
+        "age": 77,
+        "nationality": "Germany",
+        "occupation": "whiteostrich Investigator",
+        "email": "utz.rother@example.com",
+        "phone": "0401-0780568",
+        "cell": "0175-0940147",
+        "dob": "1948-10-19T21:42:08.693Z",
+        "registered": "2020-03-02T11:46:44.718Z",
+        "idNumber": "67 191048 R 468",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.60411925714466,
+          "lng": 139.61645563651297
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/9.jpg",
+        "timezone": "Eastern Time (US & Canada), Bogota, Lima",
+        "seed": "whiteostrich687",
+        "suspicionLevel": 0.34,
+        "alibi": "Đang mua sắm tại siêu thị",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-cdd7d4d6-cdac-4632-9c00-5f54e4ef707f",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Amelia Kumar. Ngày hôm đó, vào khoảng 17:26 - 17:56, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Tokyo kho hàng Riverside.",
+          "timeframe": "17:26 - 17:56",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "Tokyo kho hàng Riverside",
+          "mapHint": {
+            "id": "Tokyo kho hàng Riverside-2626",
+            "label": "Tokyo kho hàng Riverside",
+            "point": {
+              "lat": 35.64738016936931,
+              "lng": 139.60175389665133
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "6b5c3099-ec82-41da-a7ee-f6ebc8474576",
+        "fullName": "Nooa Autio",
+        "gender": "male",
+        "age": 54,
+        "nationality": "Finland",
+        "occupation": "bigrabbit Investigator",
+        "email": "nooa.autio@example.com",
+        "phone": "02-687-778",
+        "cell": "049-938-39-31",
+        "dob": "1971-08-08T02:17:34.725Z",
+        "registered": "2019-04-06T03:08:25.491Z",
+        "idNumber": "NaNNA963undefined",
+        "residence": "Konnevesi, Finland",
+        "coordinates": {
+          "lat": 39.39887795617461,
+          "lng": 115.86183032339358
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/6.jpg",
+        "timezone": "Atlantic Time (Canada), Caracas, La Paz",
+        "seed": "bigrabbit886",
+        "suspicionLevel": 0.55,
+        "alibi": "Đang tham gia hoạt động tình nguyện",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-6b5c3099-ec82-41da-a7ee-f6ebc8474576",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Amelia Kumar. Ngày hôm đó, vào khoảng 14:00 - 14:30, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Tokyo khu cảng bỏ hoang phía tây.",
+          "timeframe": "14:00 - 14:30",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "Tokyo khu cảng bỏ hoang phía tây",
+          "mapHint": {
+            "id": "Tokyo khu cảng bỏ hoang phía tây-1512",
+            "label": "Tokyo khu cảng bỏ hoang phía tây",
+            "point": {
+              "lat": 39.4293272763177,
+              "lng": 115.89552534552675
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "2f6328bc-a9b1-4c79-b828-7644e9ddfd48",
+        "fullName": "Mathilde Hansen",
+        "gender": "female",
+        "age": 54,
+        "nationality": "Denmark",
+        "occupation": "greenfrog Investigator",
+        "email": "mathilde.hansen@example.com",
+        "phone": "95870829",
+        "cell": "80223289",
+        "dob": "1970-12-21T20:21:44.083Z",
+        "registered": "2010-06-11T12:57:55.024Z",
+        "idNumber": "211270-9573",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.59463111979968,
+          "lng": 139.72265322489764
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/32.jpg",
+        "timezone": "Baghdad, Riyadh, Moscow, St. Petersburg",
+        "seed": "greenfrog147",
+        "suspicionLevel": 0.63,
+        "alibi": "Đang sửa xe tại gara",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-2f6328bc-a9b1-4c79-b828-7644e9ddfd48",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Amelia Kumar. Ngày hôm đó, vào khoảng 14:08 - 14:38, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại Tokyo ga tàu điện ngầm số 7.",
+          "timeframe": "14:08 - 14:38",
+          "action": "bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường",
+          "locationLabel": "Tokyo ga tàu điện ngầm số 7",
+          "mapHint": {
+            "id": "Tokyo ga tàu điện ngầm số 7-403",
+            "label": "Tokyo ga tàu điện ngầm số 7",
+            "point": {
+              "lat": 35.57662825317203,
+              "lng": 139.7290997181284
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "643d779d-2099-4285-8e9c-1739f67d0a2b",
+        "fullName": "Heidemarie Hartmann",
+        "gender": "female",
+        "age": 68,
+        "nationality": "Germany",
+        "occupation": "smallbutterfly Investigator",
+        "email": "heidemarie.hartmann@example.com",
+        "phone": "0348-0616395",
+        "cell": "0172-4727825",
+        "dob": "1957-01-21T21:53:47.386Z",
+        "registered": "2014-07-14T04:40:14.553Z",
+        "idNumber": "43 210157 H 982",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.62330696383711,
+          "lng": 139.73893692579455
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/95.jpg",
+        "timezone": "Beijing, Perth, Singapore, Hong Kong",
+        "seed": "smallbutterfly494",
+        "suspicionLevel": 0.47,
+        "alibi": "Đang tham gia một buổi tiệc sinh nhật",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-643d779d-2099-4285-8e9c-1739f67d0a2b",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Amelia Kumar. Ngày hôm đó, vào khoảng 16:41 - 17:11, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Tokyo ga tàu điện ngầm số 7.",
+          "timeframe": "16:41 - 17:11",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "Tokyo ga tàu điện ngầm số 7",
+          "mapHint": {
+            "id": "Tokyo ga tàu điện ngầm số 7-964",
+            "label": "Tokyo ga tàu điện ngầm số 7",
+            "point": {
+              "lat": 35.61511202953976,
+              "lng": 139.69817796482107
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "6da698f4-d1ea-43f3-a5dd-ad04fdfdc371",
+        "fullName": "Regina Haake",
+        "gender": "female",
+        "age": 30,
+        "nationality": "Germany",
+        "occupation": "silvergorilla Investigator",
+        "email": "regina.haake@example.com",
+        "phone": "0004-3823835",
+        "cell": "0175-4371181",
+        "dob": "1994-12-25T11:38:52.090Z",
+        "registered": "2003-08-26T08:48:42.022Z",
+        "idNumber": "10 251294 H 973",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.60363937214768,
+          "lng": 139.53819112756082
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/70.jpg",
+        "timezone": "Abu Dhabi, Muscat, Baku, Tbilisi",
+        "seed": "silvergorilla980",
+        "suspicionLevel": 0.62,
+        "alibi": "Đang tham gia một buổi tiệc sinh nhật",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-6da698f4-d1ea-43f3-a5dd-ad04fdfdc371",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Amelia Kumar. Ngày hôm đó, vào khoảng 15:19 - 15:49, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại Tokyo chợ đêm trung tâm.",
+          "timeframe": "15:19 - 15:49",
+          "action": "bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường",
+          "locationLabel": "Tokyo chợ đêm trung tâm",
+          "mapHint": {
+            "id": "Tokyo chợ đêm trung tâm-2245",
+            "label": "Tokyo chợ đêm trung tâm",
+            "point": {
+              "lat": 35.63411688668474,
+              "lng": 139.56504105214754
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "f3671fb3-db26-4e54-b8a1-d2fd6d80a4fd",
+        "fullName": "Harry Rodriguez",
+        "gender": "male",
+        "age": 55,
+        "nationality": "United States",
+        "occupation": "lazyduck Investigator",
+        "email": "harry.rodriguez@example.com",
+        "phone": "(502) 336-4672",
+        "cell": "(444) 754-7421",
+        "dob": "1969-12-24T19:43:55.728Z",
+        "registered": "2019-01-15T05:14:07.738Z",
+        "idNumber": "393-95-3042",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.74877773463506,
+          "lng": 139.67028053591198
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/81.jpg",
+        "timezone": "Eastern Time (US & Canada), Bogota, Lima",
+        "seed": "lazyduck326",
+        "suspicionLevel": 0.9,
+        "alibi": "Đang đọc sách tại thư viện",
+        "role": "accomplice",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-f3671fb3-db26-4e54-b8a1-d2fd6d80a4fd",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Amelia Kumar. Ngày hôm đó, vào khoảng 12:50 - 13:20, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại Tokyo cầu sắt Old Bridge.",
+          "timeframe": "12:50 - 13:20",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "Tokyo cầu sắt Old Bridge",
+          "mapHint": {
+            "id": "Tokyo cầu sắt Old Bridge-7199",
+            "label": "Tokyo cầu sắt Old Bridge",
+            "point": {
+              "lat": 35.698865081376994,
+              "lng": 139.63749084036968
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        },
+        "secondaryTestimony": {
+          "id": "secondary-f3671fb3-db26-4e54-b8a1-d2fd6d80a4fd",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Được rồi, tôi sẽ hợp tác. Carolyn Meyer bảo tôi canh gác tại Ổ ẩn náu và hắn vẫn còn ở đó lúc 17:00.",
+          "timeframe": "16:50 - 17:20",
+          "action": "chỉ điểm tọa độ ẩn náu",
+          "locationLabel": "Ổ ẩn náu",
+          "mapHint": {
+            "id": "Ổ ẩn náu-8802",
+            "label": "Ổ ẩn náu",
+            "point": {
+              "lat": 63.81787028488095,
+              "lng": 152.14070688289127
+            },
+            "radiusMeters": 350
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "4133a9e7-2440-462b-8b13-1b8002f04139",
+        "fullName": "Seth George",
+        "gender": "male",
+        "age": 59,
+        "nationality": "Australia",
+        "occupation": "orangeleopard Investigator",
+        "email": "seth.george@example.com",
+        "phone": "08-0320-9499",
+        "cell": "0495-793-399",
+        "dob": "1966-04-22T20:14:26.866Z",
+        "registered": "2019-10-06T17:28:54.502Z",
+        "idNumber": "002950152",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.7193590541157,
+          "lng": 139.73097413792283
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/37.jpg",
+        "timezone": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk",
+        "seed": "orangeleopard437",
+        "suspicionLevel": 0.69,
+        "alibi": "Đang câu cá ở hồ ngoại ô",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-4133a9e7-2440-462b-8b13-1b8002f04139",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Amelia Kumar. Ngày hôm đó, vào khoảng 16:47 - 17:17, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại Tokyo kho hàng Riverside.",
+          "timeframe": "16:47 - 17:17",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "Tokyo kho hàng Riverside",
+          "mapHint": {
+            "id": "Tokyo kho hàng Riverside-7314",
+            "label": "Tokyo kho hàng Riverside",
+            "point": {
+              "lat": 35.73211266496415,
+              "lng": 139.74452425094796
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "c42ed278-405a-4a89-a721-32d5c1f4129c",
+        "fullName": "Marius Johansen",
+        "gender": "male",
+        "age": 61,
+        "nationality": "Denmark",
+        "occupation": "orangecat Investigator",
+        "email": "marius.johansen@example.com",
+        "phone": "66395287",
+        "cell": "23509420",
+        "dob": "1964-01-02T20:50:52.293Z",
+        "registered": "2008-12-30T19:10:41.189Z",
+        "idNumber": "020164-3566",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.68045228401033,
+          "lng": 139.5683000017863
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/57.jpg",
+        "timezone": "Western Europe Time, London, Lisbon, Casablanca",
+        "seed": "orangecat390",
+        "suspicionLevel": 0.33,
+        "alibi": "Đang mua sắm tại siêu thị",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-c42ed278-405a-4a89-a721-32d5c1f4129c",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Amelia Kumar. Ngày hôm đó, vào khoảng 16:58 - 17:28, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại Tokyo khu cảng bỏ hoang phía tây.",
+          "timeframe": "16:58 - 17:28",
+          "action": "đi khảo sát công trường dang dở ở ngoại ô",
+          "locationLabel": "Tokyo khu cảng bỏ hoang phía tây",
+          "mapHint": {
+            "id": "Tokyo khu cảng bỏ hoang phía tây-2020",
+            "label": "Tokyo khu cảng bỏ hoang phía tây",
+            "point": {
+              "lat": 35.66768756213432,
+              "lng": 139.53462793917603
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "92ec846e-ed23-4cff-8c2a-1b09f8f39000",
+        "fullName": "Juliette Jean-Baptiste",
+        "gender": "female",
+        "age": 44,
+        "nationality": "Canada",
+        "occupation": "smallduck Investigator",
+        "email": "juliette.jean-baptiste@example.com",
+        "phone": "E49 P38-5162",
+        "cell": "K11 I78-8482",
+        "dob": "1981-10-01T04:47:48.170Z",
+        "registered": "2012-05-26T22:56:39.574Z",
+        "idNumber": "847867421",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.74935978472822,
+          "lng": 139.66088977728103
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/84.jpg",
+        "timezone": "Kathmandu",
+        "seed": "smallduck168",
+        "suspicionLevel": 0.67,
+        "alibi": "Đang ngủ tại nhà riêng",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-92ec846e-ed23-4cff-8c2a-1b09f8f39000",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Amelia Kumar. Ngày hôm đó, vào khoảng 12:42 - 13:12, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Tokyo khu dân cư tọa độ G-17.",
+          "timeframe": "12:42 - 13:12",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "Tokyo khu dân cư tọa độ G-17",
+          "mapHint": {
+            "id": "Tokyo khu dân cư tọa độ G-17-6285",
+            "label": "Tokyo khu dân cư tọa độ G-17",
+            "point": {
+              "lat": 35.75680679153775,
+              "lng": 139.61333052974257
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "cc050deb-b538-47db-a294-3e0ef574daa2",
+        "fullName": "Nicoline Johansen",
+        "gender": "female",
+        "age": 79,
+        "nationality": "Denmark",
+        "occupation": "goldenrabbit Investigator",
+        "email": "nicoline.johansen@example.com",
+        "phone": "88511869",
+        "cell": "49994967",
+        "dob": "1946-06-27T23:55:09.785Z",
+        "registered": "2013-07-31T06:48:23.334Z",
+        "idNumber": "270646-5242",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.6206373963323,
+          "lng": 139.62942759279093
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/55.jpg",
+        "timezone": "Pacific Time (US & Canada)",
+        "seed": "goldenrabbit311",
+        "suspicionLevel": 0.67,
+        "alibi": "Đang tham gia lớp học nấu ăn",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-cc050deb-b538-47db-a294-3e0ef574daa2",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Amelia Kumar. Ngày hôm đó, vào khoảng 12:54 - 13:24, tôi đã truy cập máy chủ tại phòng lab cũ tại Tokyo nhà kho số 12.",
+          "timeframe": "12:54 - 13:24",
+          "action": "truy cập máy chủ tại phòng lab cũ",
+          "locationLabel": "Tokyo nhà kho số 12",
+          "mapHint": {
+            "id": "Tokyo nhà kho số 12-5117",
+            "label": "Tokyo nhà kho số 12",
+            "point": {
+              "lat": 35.57308718667408,
+              "lng": 139.6423093288059
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "8d2a51a0-d3bf-4393-9c1c-75449a1ab255",
+        "fullName": "Sadie Roberts",
+        "gender": "female",
+        "age": 29,
+        "nationality": "New Zealand",
+        "occupation": "silverswan Investigator",
+        "email": "sadie.roberts@example.com",
+        "phone": "(583)-744-2974",
+        "cell": "(406)-424-3149",
+        "dob": "1996-07-15T10:26:15.123Z",
+        "registered": "2018-07-03T13:27:25.205Z",
+        "idNumber": "N/A",
+        "residence": "Upper Hutt, New Zealand",
+        "coordinates": {
+          "lat": 50.37310466818161,
+          "lng": 131.93345763475654
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/48.jpg",
+        "timezone": "Mid-Atlantic",
+        "seed": "silverswan402",
+        "suspicionLevel": 0.51,
+        "alibi": "Đang bị kẹt xe trên đường cao tốc",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-8d2a51a0-d3bf-4393-9c1c-75449a1ab255",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Amelia Kumar. Ngày hôm đó, vào khoảng 13:52 - 14:22, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại Tokyo quảng trường Đồng Tế.",
+          "timeframe": "13:52 - 14:22",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "Tokyo quảng trường Đồng Tế",
+          "mapHint": {
+            "id": "Tokyo quảng trường Đồng Tế-4168",
+            "label": "Tokyo quảng trường Đồng Tế",
+            "point": {
+              "lat": 50.34629699320648,
+              "lng": 131.92504772424718
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "c940028b-74a1-45e4-be20-9c9db191ef62",
+        "fullName": "Vincent Sirko",
+        "gender": "male",
+        "age": 38,
+        "nationality": "Canada",
+        "occupation": "bluesnake Investigator",
+        "email": "vincent.sirko@example.com",
+        "phone": "G11 P79-5962",
+        "cell": "G34 N86-9555",
+        "dob": "1987-08-19T00:03:34.726Z",
+        "registered": "2004-03-08T06:00:25.981Z",
+        "idNumber": "210407516",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.576818465507664,
+          "lng": 139.58146716661545
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/98.jpg",
+        "timezone": "Mountain Time (US & Canada)",
+        "seed": "bluesnake431",
+        "suspicionLevel": 0.43,
+        "alibi": "Đang đi dạo trong công viên",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-c940028b-74a1-45e4-be20-9c9db191ef62",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Amelia Kumar. Ngày hôm đó, vào khoảng 15:32 - 16:02, tôi đã kiểm tra hệ thống camera của nhà thờ cổ tại Tokyo nhà thờ Saint-Marie.",
+          "timeframe": "15:32 - 16:02",
+          "action": "kiểm tra hệ thống camera của nhà thờ cổ",
+          "locationLabel": "Tokyo nhà thờ Saint-Marie",
+          "mapHint": {
+            "id": "Tokyo nhà thờ Saint-Marie-2953",
+            "label": "Tokyo nhà thờ Saint-Marie",
+            "point": {
+              "lat": 35.57522871361215,
+              "lng": 139.5613701825056
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "6457d7b2-d389-420b-a07e-5f7dc137ee44",
+        "fullName": "Liam Jackson",
+        "gender": "male",
+        "age": 80,
+        "nationality": "New Zealand",
+        "occupation": "orangegorilla Investigator",
+        "email": "liam.jackson@example.com",
+        "phone": "(486)-365-9380",
+        "cell": "(862)-918-3886",
+        "dob": "1945-11-13T23:08:12.105Z",
+        "registered": "2015-11-14T18:30:42.194Z",
+        "idNumber": "N/A",
+        "residence": "Tokyo Area",
+        "coordinates": {
+          "lat": 35.672255809573784,
+          "lng": 139.67325998097516
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/17.jpg",
+        "timezone": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk",
+        "seed": "orangegorilla944",
+        "suspicionLevel": 0.42,
+        "alibi": "Đang đi dạo trong công viên",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-6457d7b2-d389-420b-a07e-5f7dc137ee44",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Amelia Kumar. Ngày hôm đó, vào khoảng 14:41 - 15:11, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Tokyo ga tàu điện ngầm số 7.",
+          "timeframe": "14:41 - 15:11",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "Tokyo ga tàu điện ngầm số 7",
+          "mapHint": {
+            "id": "Tokyo ga tàu điện ngầm số 7-2794",
+            "label": "Tokyo ga tàu điện ngầm số 7",
+            "point": {
+              "lat": 35.691689146884116,
+              "lng": 139.66359740060147
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      }
+    ],
+    "primeSuspectIds": [
+      "c95054c2-407b-45d4-81fa-bf9bf0015f6e",
+      "92ec846e-ed23-4cff-8c2a-1b09f8f39000",
+      "f3671fb3-db26-4e54-b8a1-d2fd6d80a4fd",
+      "1a8a2e3a-f914-4db8-9ebc-db2e13da7a99",
+      "cc050deb-b538-47db-a294-3e0ef574daa2",
+      "53d4521a-0a0a-46f7-9109-3f0b34a003fa",
+      "f21bbb04-f650-4f33-9e6f-e37aabd62c14",
+      "1172c591-b29f-401f-881a-248b546d754d",
+      "aa03d4d6-4454-468e-8568-2a146e3c879b",
+      "163c9a95-ccb2-4e8f-acdd-301bc2cd726e"
+    ],
+    "accompliceIds": [
+      "163c9a95-ccb2-4e8f-acdd-301bc2cd726e",
+      "f3671fb3-db26-4e54-b8a1-d2fd6d80a4fd",
+      "53d4521a-0a0a-46f7-9109-3f0b34a003fa",
+      "f21bbb04-f650-4f33-9e6f-e37aabd62c14"
+    ],
+    "accompliceCount": 4,
+    "relationships": [
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "f4d35fe1-f6dc-441c-a274-7462230ef9ef",
+        "relationship": "acquaintance",
+        "description": "José Morales khai mình là mối quen biết và có mặt tại Tokyo xưởng sửa tàu hỏa (18:10 - 18:40)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "48a3d107-a37d-4c88-9165-82dcaf11b7ef",
+        "relationship": "family",
+        "description": "Leevi Ketola khai mình là người thân và có mặt tại Tokyo nhà thờ Saint-Marie (17:45 - 18:15)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "c5c5fd77-0861-4f30-863c-408835db2782",
+        "relationship": "colleague",
+        "description": "Simon Poulsen khai mình là đồng nghiệp và có mặt tại Tokyo nhà thờ Saint-Marie (14:19 - 14:49)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "1172c591-b29f-401f-881a-248b546d754d",
+        "relationship": "business",
+        "description": "Randy Diaz khai mình là đối tác làm ăn và có mặt tại Tokyo xưởng sửa tàu hỏa (13:18 - 13:48)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "a7234c97-7bf8-4302-8a25-270a1369232f",
+        "relationship": "acquaintance",
+        "description": "Mark Davidson khai mình là mối quen biết và có mặt tại Tokyo quảng trường Đồng Tế (16:23 - 16:53)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "50b014be-ed6d-4671-af1e-a1342c0db804",
+        "relationship": "colleague",
+        "description": "María Gómez khai mình là đồng nghiệp và có mặt tại Tokyo quảng trường Đồng Tế (17:49 - 18:19)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "c93b8204-cbb5-4753-a7b1-aa674d40eff2",
+        "relationship": "business",
+        "description": "Arttu Pollari khai mình là đối tác làm ăn và có mặt tại Tokyo khu cảng bỏ hoang phía tây (14:33 - 15:03)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "f21bbb04-f650-4f33-9e6f-e37aabd62c14",
+        "relationship": "colleague",
+        "description": "Maëlyne Schmitt khai mình là đồng nghiệp và có mặt tại Tokyo nhà kho số 12 (13:09 - 13:39)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "a529bdd5-4aeb-4c30-bd13-61295a33c6dc",
+        "relationship": "unknown",
+        "description": "Selma Jensen khai mình là người quen xã giao và có mặt tại Tokyo nhà thờ Saint-Marie (17:44 - 18:14)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "53d4521a-0a0a-46f7-9109-3f0b34a003fa",
+        "relationship": "family",
+        "description": "Inés Gallego khai mình là người thân và có mặt tại Tokyo khu cảng bỏ hoang phía tây (13:02 - 13:32)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "d29f65f9-2787-4929-a676-92946d8022cf",
+        "relationship": "business",
+        "description": "Vinko Merkel khai mình là đối tác làm ăn và có mặt tại Tokyo khu dân cư tọa độ G-17 (16:10 - 16:40)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "bc966bde-0a3b-4a65-b40c-c5293dd8023a",
+        "relationship": "family",
+        "description": "Scarlett Jones khai mình là người thân và có mặt tại Tokyo cầu sắt Old Bridge (13:37 - 14:07)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "472b9bfc-bf31-477b-a1d1-042760a8b82a",
+        "relationship": "family",
+        "description": "Alexander Lo khai mình là người thân và có mặt tại Tokyo ga tàu điện ngầm số 7 (14:16 - 14:46)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "cee3f7bd-6db4-4bcb-9bc2-98c63cbabb0c",
+        "relationship": "family",
+        "description": "Melinda Roberts khai mình là người thân và có mặt tại Tokyo quảng trường Đồng Tế (14:55 - 15:25)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "163c9a95-ccb2-4e8f-acdd-301bc2cd726e",
+        "relationship": "unknown",
+        "description": "Claudia Harper khai mình là người quen xã giao và có mặt tại Tokyo chợ đêm trung tâm (13:34 - 14:04)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "c4d81f42-c9a2-40ae-8ee8-746392eb89a6",
+        "relationship": "unknown",
+        "description": "Thibaut Bonnet khai mình là người quen xã giao và có mặt tại Tokyo ga tàu điện ngầm số 7 (18:13 - 18:43)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "1fe281ca-e976-41bf-b47b-7b1c22e57547",
+        "relationship": "family",
+        "description": "Edwin Wells khai mình là người thân và có mặt tại Tokyo ga tàu điện ngầm số 7 (17:16 - 17:46)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "401ba773-e626-46d1-8da9-7eb3eb301ebc",
+        "relationship": "colleague",
+        "description": "Christian Ramirez khai mình là đồng nghiệp và có mặt tại Tokyo nhà thờ Saint-Marie (16:41 - 17:11)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "b11f0b33-89f9-40d2-87aa-59ac1213e025",
+        "relationship": "acquaintance",
+        "description": "Rick Fox khai mình là mối quen biết và có mặt tại Tokyo ga tàu điện ngầm số 7 (17:28 - 17:58)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "5a3d84f4-c277-4e03-bc2b-e0148d99c035",
+        "relationship": "acquaintance",
+        "description": "Annabelle Patel khai mình là mối quen biết và có mặt tại Tokyo kho hàng Riverside (15:07 - 15:37)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "c95054c2-407b-45d4-81fa-bf9bf0015f6e",
+        "relationship": "family",
+        "description": "Carolyn Meyer khai mình là người thân và có mặt tại Tokyo chợ đêm trung tâm (12:33 - 13:03)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "d2b134fb-76a4-4eac-9769-ed3271a296f0",
+        "relationship": "business",
+        "description": "Marc Navarro khai mình là đối tác làm ăn và có mặt tại Tokyo quảng trường Đồng Tế (15:11 - 15:41)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "bb54363c-c881-49a2-9c56-16c026bc15b0",
+        "relationship": "unknown",
+        "description": "Teresa Cortes khai mình là người quen xã giao và có mặt tại Tokyo nhà kho số 12 (14:45 - 15:15)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "ed3454ca-a6e2-476e-bbed-faae009a5d33",
+        "relationship": "colleague",
+        "description": "Morgane Leroy khai mình là đồng nghiệp và có mặt tại Tokyo kho hàng Riverside (15:00 - 15:30)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "6396d6f7-4a43-45cb-b098-c6e8591628da",
+        "relationship": "family",
+        "description": "Kenneth Carlson khai mình là người thân và có mặt tại Tokyo cầu sắt Old Bridge (16:01 - 16:31)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "8cda6df9-79d0-42d4-8641-e5f96f9aacdd",
+        "relationship": "colleague",
+        "description": "Lenni Waisanen khai mình là đồng nghiệp và có mặt tại Tokyo xưởng sửa tàu hỏa (16:11 - 16:41)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "7dc6cccf-aa6f-409f-96cf-63dad7f35351",
+        "relationship": "acquaintance",
+        "description": "Cecilie Christiansen khai mình là mối quen biết và có mặt tại Tokyo khu cảng bỏ hoang phía tây (16:55 - 17:25)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "de256dac-a7e0-471d-b1d1-63881dab3a6e",
+        "relationship": "acquaintance",
+        "description": "Herbert Hawkins khai mình là mối quen biết và có mặt tại Tokyo quảng trường Đồng Tế (14:05 - 14:35)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "08c6d3b2-520c-48a3-bba5-2bb7d4806980",
+        "relationship": "acquaintance",
+        "description": "Mads Nielsen khai mình là mối quen biết và có mặt tại Tokyo khu dân cư tọa độ G-17 (15:50 - 16:20)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "883fd539-d466-4643-a303-f3e377f7e1e7",
+        "relationship": "business",
+        "description": "Aada Annala khai mình là đối tác làm ăn và có mặt tại Tokyo nhà thờ Saint-Marie (18:05 - 18:35)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "75623c10-bdc5-46cf-b163-4c2ed0d6574a",
+        "relationship": "family",
+        "description": "Angus Johnson khai mình là người thân và có mặt tại Tokyo nhà thờ Saint-Marie (15:29 - 15:59)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "ff520683-e13e-472c-9fe4-cc73a9d27d28",
+        "relationship": "unknown",
+        "description": "Jasmine Williams khai mình là người quen xã giao và có mặt tại Tokyo kho hàng Riverside (16:31 - 17:01)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "bf82a208-d4cb-40b7-aa8f-abc48a859232",
+        "relationship": "business",
+        "description": "Lonnie Carter khai mình là đối tác làm ăn và có mặt tại Tokyo ga tàu điện ngầm số 7 (15:36 - 16:06)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "aa03d4d6-4454-468e-8568-2a146e3c879b",
+        "relationship": "acquaintance",
+        "description": "Jackson Li khai mình là mối quen biết và có mặt tại Tokyo ga tàu điện ngầm số 7 (13:26 - 13:56)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "67a903fe-5814-4eb8-b938-568159a2d742",
+        "relationship": "unknown",
+        "description": "Tanja Häuser khai mình là người quen xã giao và có mặt tại Tokyo nhà thờ Saint-Marie (15:53 - 16:23)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "e83825b1-afcd-4367-9813-f9057c38ddde",
+        "relationship": "colleague",
+        "description": "Arnold Carroll khai mình là đồng nghiệp và có mặt tại Tokyo nhà kho số 12 (17:12 - 17:42)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "1a8a2e3a-f914-4db8-9ebc-db2e13da7a99",
+        "relationship": "acquaintance",
+        "description": "Mathilde Sørensen khai mình là mối quen biết và có mặt tại Tokyo khu cảng bỏ hoang phía tây (12:49 - 13:19)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "cdd7d4d6-cdac-4632-9c00-5f54e4ef707f",
+        "relationship": "business",
+        "description": "Utz Rother khai mình là đối tác làm ăn và có mặt tại Tokyo kho hàng Riverside (17:26 - 17:56)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "6b5c3099-ec82-41da-a7ee-f6ebc8474576",
+        "relationship": "business",
+        "description": "Nooa Autio khai mình là đối tác làm ăn và có mặt tại Tokyo khu cảng bỏ hoang phía tây (14:00 - 14:30)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "2f6328bc-a9b1-4c79-b828-7644e9ddfd48",
+        "relationship": "unknown",
+        "description": "Mathilde Hansen khai mình là người quen xã giao và có mặt tại Tokyo ga tàu điện ngầm số 7 (14:08 - 14:38)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "643d779d-2099-4285-8e9c-1739f67d0a2b",
+        "relationship": "family",
+        "description": "Heidemarie Hartmann khai mình là người thân và có mặt tại Tokyo ga tàu điện ngầm số 7 (16:41 - 17:11)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "6da698f4-d1ea-43f3-a5dd-ad04fdfdc371",
+        "relationship": "unknown",
+        "description": "Regina Haake khai mình là người quen xã giao và có mặt tại Tokyo chợ đêm trung tâm (15:19 - 15:49)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "f3671fb3-db26-4e54-b8a1-d2fd6d80a4fd",
+        "relationship": "business",
+        "description": "Harry Rodriguez khai mình là đối tác làm ăn và có mặt tại Tokyo cầu sắt Old Bridge (12:50 - 13:20)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "4133a9e7-2440-462b-8b13-1b8002f04139",
+        "relationship": "business",
+        "description": "Seth George khai mình là đối tác làm ăn và có mặt tại Tokyo kho hàng Riverside (16:47 - 17:17)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "c42ed278-405a-4a89-a721-32d5c1f4129c",
+        "relationship": "unknown",
+        "description": "Marius Johansen khai mình là người quen xã giao và có mặt tại Tokyo khu cảng bỏ hoang phía tây (16:58 - 17:28)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "92ec846e-ed23-4cff-8c2a-1b09f8f39000",
+        "relationship": "colleague",
+        "description": "Juliette Jean-Baptiste khai mình là đồng nghiệp và có mặt tại Tokyo khu dân cư tọa độ G-17 (12:42 - 13:12)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "cc050deb-b538-47db-a294-3e0ef574daa2",
+        "relationship": "unknown",
+        "description": "Nicoline Johansen khai mình là người quen xã giao và có mặt tại Tokyo nhà kho số 12 (12:54 - 13:24)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "8d2a51a0-d3bf-4393-9c1c-75449a1ab255",
+        "relationship": "colleague",
+        "description": "Sadie Roberts khai mình là đồng nghiệp và có mặt tại Tokyo quảng trường Đồng Tế (13:52 - 14:22)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "c940028b-74a1-45e4-be20-9c9db191ef62",
+        "relationship": "colleague",
+        "description": "Vincent Sirko khai mình là đồng nghiệp và có mặt tại Tokyo nhà thờ Saint-Marie (15:32 - 16:02)."
+      },
+      {
+        "sourceId": "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+        "targetId": "6457d7b2-d389-420b-a07e-5f7dc137ee44",
+        "relationship": "acquaintance",
+        "description": "Liam Jackson khai mình là mối quen biết và có mặt tại Tokyo ga tàu điện ngầm số 7 (14:41 - 15:11)."
+      }
+    ],
+    "clueDrafts": [
+      {
+        "id": "clue_1",
+        "title": "Phong Bì Dính Máu",
+        "summary": "Tại hiện trường, trong tay nạn nhân Amelia Kumar có một phong bì dính máu. Bên trong là một tấm ảnh chụp một địa điểm, trên ảnh viết dòng chữ G-17. Đây là tọa độ của một khu dân cư ở Tokyo. Địa điểm này trùng khớp với lời khai của Vinko Merkel, người khai đã có mặt tại đây để gặp đối tác làm ăn. Tuy nhiên cần điều tra thêm về tính xác thực của lời khai này.",
+        "difficulty": "easy",
+        "relatedCitizenIds": [
+          "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+          "d29f65f9-2787-4929-a676-92946d8022cf"
+        ],
+        "mapHints": [
+          "Khu dân cư tọa độ G-17"
+        ]
+      },
+      {
+        "id": "clue_2",
+        "title": "Nhật Ký Của Smallduck",
+        "summary": "Tìm thấy cuốn nhật ký của Amelia Kumar tại nhà riêng. Trang cuối cùng ghi chép về một vụ án buôn lậu nghệ thuật, với dòng chữ viết tay vội vã: 'Yellow Elephant... camera...'. Yellow Elephant là biệt danh của Maëlyne Schmitt. Chi tiết 'camera' có thể liên quan đến công việc của Maëlyne tại nhà kho số 12.",
+        "difficulty": "medium",
+        "relatedCitizenIds": [
+          "70e9d3c8-856d-45d0-940f-7fef8bf65ff0",
+          "f21bbb04-f650-4f33-9e6f-e37aabd62c14"
+        ],
+        "mapHints": [
+          "Nhà kho số 12"
+        ]
+      },
+      {
+        "id": "clue_3",
+        "title": "Dữ Liệu Camera Bị Xóa",
+        "summary": "Kiểm tra hệ thống camera giám sát tại nhà kho số 12, nơi Maëlyne Schmitt khai đã bảo trì vào ngày xảy ra án mạng. Phát hiện một đoạn video quan trọng đã bị xóa, ghi lại hình ảnh Amelia Kumar đến khu vực này và bị tấn công. Dữ liệu cho thấy Maëlyne Schmitt có kỹ năng xóa dữ liệu chuyên nghiệp.",
+        "difficulty": "hard",
+        "relatedCitizenIds": [
+          "f21bbb04-f650-4f33-9e6f-e37aabd62c14"
+        ],
+        "mapHints": [
+          "Nhà kho số 12"
+        ]
+      },
+      {
+        "id": "clue_4",
+        "title": "Tin Nhắn Nặc Danh",
+        "summary": "Một tin nhắn nặc danh gửi đến sở cảnh sát Tokyo: 'Tìm Inés Gallego, khu cảng bỏ hoang phía tây, cô ta biết quá nhiều'. Lời khai của Inés về việc trông con nhỏ có vẻ không hợp lý, cần điều tra kỹ hơn. Điều này gián tiếp tố giác địa điểm nơi hung thủ trốn 'Ổ ẩn náu' là khu vực nhà kho Riverside, do đường dây buôn lậu nghệ thuật kiểm soát.",
+        "difficulty": "medium",
+        "relatedCitizenIds": [
+          "53d4521a-0a0a-46f7-9109-3f0b34a003fa"
+        ],
+        "mapHints": [
+          "Khu cảng bỏ hoang phía tây",
+          "Khu nhà kho Riverside"
+        ]
+      }
+    ],
+    "story": "Màn đêm buông xuống Tokyo, nhưng sự yên bình không kéo dài. Tại một con hẻm nhỏ gần khu nhà kho số 12, xác của Amelia Kumar, một điều tra viên tư nhân nổi tiếng với biệt danh Smallduck, được tìm thấy. Vết máu loang lổ trên vách tường, ánh đèn neon lập lòe chiếu rọi khuôn mặt tái nhợt của cô. Ánh mắt cô trợn trừng, dường như vẫn còn kinh hãi trước khoảnh khắc cuối cùng. Một chiếc phong bì dính máu kẹp chặt trong tay, bên trong chứa một tấm ảnh chụp một dãy số kỳ lạ: G-17. Không khí căng thẳng bao trùm hiện trường, những bí mật đen tối của Tokyo bắt đầu hé lộ.",
+    "solution": {
+      "killerId": "c95054c2-407b-45d4-81fa-bf9bf0015f6e",
+      "victimBackstory": "Amelia Kumar, hay Smallduck, là một điều tra viên tư nhân chuyên thu thập thông tin về các hoạt động phi pháp. Cô đang điều tra một đường dây buôn lậu nghệ thuật quy mô lớn, liên quan đến nhiều nhân vật máu mặt trong giới kinh doanh.",
+      "killerMotive": "Maëlyne Schmitt, đồng nghiệp của Amelia, ghen tị với tài năng và sự nổi tiếng của cô. Maëlyne cũng là một mắt xích quan trọng trong đường dây buôn lậu nghệ thuật, và lo sợ Amelia sẽ phanh phui mọi chuyện. Lòng tham và sự đố kỵ đã đẩy Maëlyne đến hành động giết người.",
+      "relationship": "Maëlyne Schmitt là đồng nghiệp của Amelia, nhưng mối quan hệ thực tế là sự ganh ghét và cạnh tranh ngầm. Maëlyne lợi dụng vị trí đồng nghiệp để tiếp cận và sát hại Amelia.",
+      "cluePhase1": "Phân tích thời gian tử vong và lời khai ngoại phạm cho thấy những người ở xa Tokyo, hoặc có mặt ở địa điểm công cộng với nhiều nhân chứng, không thể là hung thủ. Điều này loại bỏ Arttu Pollari và Melinda Roberts.",
+      "cluePhase2": "Tấm ảnh chụp dãy số G-17 trong tay nạn nhân dẫn đến khu dân cư G-17, nơi Vinko Merkel khai đã gặp khách hàng. Tuy nhiên, việc Vinko có mặt ở đó chỉ là ngụy tạo, thực tế Vinko giúp Maëlyne thủ tiêu chứng cứ.",
+      "finalClue": "Kiểm tra hệ thống camera mà Maëlyne Schmitt khai đã bảo trì tại nhà kho số 12 cho thấy cô đã cố tình xóa đoạn video ghi lại hình ảnh Amelia Kumar bị sát hại. Điều này chứng minh Maëlyne Schmitt là hung thủ. Các đồng phạm của Maëlyne Schmitt gồm có Vinko Merkel (che giấu chứng cứ), Inés Gallego (cung cấp thông tin về Amelia), Alexander Lo (gây cản trở điều tra) và Selma Jensen (đánh lạc hướng dư luận). Tất cả đều dẫn đến 'Ổ ẩn náu' tọa lạc tại khu nhà kho bỏ hoang Riverside."
+    },
+    "locationName": "Tokyo",
+    "hideoutHint": {
+      "id": "Ổ ẩn náu-8802",
+      "label": "Ổ ẩn náu",
+      "point": {
+        "lat": 63.81787028488095,
+        "lng": 152.14070688289127
+      },
+      "radiusMeters": 350
+    },
+    "caseTitle": "Vụ án Hoàng Hôn Tokyo - Kumar"
+  },
+  "title": "Vụ án Hoàng Hôn Tokyo - Kumar"
+}

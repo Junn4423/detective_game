@@ -1,0 +1,2777 @@
+{
+  "caseCode": "3de29b29-537d-43e6-8c55-e460d320",
+  "generatedAt": "2025-11-27T08:19:49.120Z",
+  "bundle": {
+    "victim": {
+      "id": "3de29b29-537d-43e6-8c55-e460d320553f",
+      "fullName": "Laura Castro",
+      "gender": "female",
+      "age": 69,
+      "nationality": "Spain",
+      "occupation": "tinypanda Investigator",
+      "email": "laura.castro@example.com",
+      "phone": "973-483-703",
+      "cell": "647-771-633",
+      "dob": "1956-04-13T09:24:29.574Z",
+      "registered": "2008-07-12T09:41:40.894Z",
+      "idNumber": "32772823-L",
+      "residence": "Paris",
+      "coordinates": {
+        "lat": -65.0908,
+        "lng": 136.4084
+      },
+      "portrait": "https://randomuser.me/api/portraits/women/38.jpg",
+      "timezone": "Eastern Time (US & Canada), Bogota, Lima",
+      "seed": "tinypanda154",
+      "victimId": "victim-3de29b29-537d-43e6-8c55-e460d320553f",
+      "timeOfIncident": "2025-11-27T08:19:31.298Z",
+      "lastKnownLocation": {
+        "lat": 48.77106421452097,
+        "lng": 2.4281523718417763
+      }
+    },
+    "killer": {
+      "id": "313a47e1-205c-4c31-8a21-2777fb1d0e8c",
+      "fullName": "Connor Jennings",
+      "gender": "male",
+      "age": 72,
+      "nationality": "Australia",
+      "occupation": "whitefish Investigator",
+      "email": "connor.jennings@example.com",
+      "phone": "00-1599-7979",
+      "cell": "0484-080-823",
+      "dob": "1953-01-10T14:11:45.577Z",
+      "registered": "2014-03-31T06:22:51.032Z",
+      "idNumber": "802508374",
+      "residence": "Paris Area",
+      "coordinates": {
+        "lat": 48.92451428227627,
+        "lng": 2.39789851370801
+      },
+      "portrait": "https://randomuser.me/api/portraits/men/61.jpg",
+      "timezone": "Kathmandu",
+      "seed": "whitefish692",
+      "suspicionLevel": 0.98,
+      "alibi": "Từ chối khai báo lịch trình",
+      "role": "killer",
+      "relationshipTag": "family",
+      "testimony": {
+        "id": "testimony-313a47e1-205c-4c31-8a21-2777fb1d0e8c",
+        "relationshipSummary": "người thân",
+        "narrative": "Tôi là người thân của Laura Castro. Ngày hôm đó, vào khoảng 12:14 - 12:44, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại Paris quảng trường Đồng Tế.",
+        "timeframe": "12:14 - 12:44",
+        "action": "dự một buổi cầu nguyện ngắn gần khu chợ trời",
+        "locationLabel": "Paris quảng trường Đồng Tế",
+        "mapHint": {
+          "id": "Paris quảng trường Đồng Tế-5101",
+          "label": "Paris quảng trường Đồng Tế",
+          "point": {
+            "lat": 48.892724205218606,
+            "lng": 2.44074456177254
+          },
+          "radiusMeters": 900
+        },
+        "reliability": "shaky"
+      }
+    },
+    "suspects": [
+      {
+        "id": "8752300a-89df-4d61-ab85-f1b28ec75e9b",
+        "fullName": "Ray Rodriquez",
+        "gender": "male",
+        "age": 64,
+        "nationality": "Australia",
+        "occupation": "redmouse Investigator",
+        "email": "ray.rodriquez@example.com",
+        "phone": "07-8131-9737",
+        "cell": "0439-452-292",
+        "dob": "1961-10-18T04:23:58.159Z",
+        "registered": "2022-05-20T00:21:36.146Z",
+        "idNumber": "541548857",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.92150733176556,
+          "lng": 2.369159560510342
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/20.jpg",
+        "timezone": "Midway Island, Samoa",
+        "seed": "redmouse418",
+        "suspicionLevel": 0.42,
+        "alibi": "Đang đọc sách tại thư viện",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-8752300a-89df-4d61-ab85-f1b28ec75e9b",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Laura Castro. Ngày hôm đó, vào khoảng 15:23 - 15:53, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại Paris chợ đêm trung tâm.",
+          "timeframe": "15:23 - 15:53",
+          "action": "đi khảo sát công trường dang dở ở ngoại ô",
+          "locationLabel": "Paris chợ đêm trung tâm",
+          "mapHint": {
+            "id": "Paris chợ đêm trung tâm-6499",
+            "label": "Paris chợ đêm trung tâm",
+            "point": {
+              "lat": 48.88663159693994,
+              "lng": 2.411119550116745
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "f74d3c5b-5cde-453a-9c60-c01ffdf69d44",
+        "fullName": "Liam Gill",
+        "gender": "male",
+        "age": 49,
+        "nationality": "Canada",
+        "occupation": "blueswan Investigator",
+        "email": "liam.gill@example.com",
+        "phone": "Z53 R17-2615",
+        "cell": "A76 J99-2452",
+        "dob": "1976-06-23T19:39:08.956Z",
+        "registered": "2021-08-29T19:46:22.298Z",
+        "idNumber": "039153473",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.939023672389496,
+          "lng": 2.3933434785302468
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/92.jpg",
+        "timezone": "Bombay, Calcutta, Madras, New Delhi",
+        "seed": "blueswan409",
+        "suspicionLevel": 0.53,
+        "alibi": "Đang đọc sách tại thư viện",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-f74d3c5b-5cde-453a-9c60-c01ffdf69d44",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Laura Castro. Ngày hôm đó, vào khoảng 16:01 - 16:31, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại Paris xưởng sửa tàu hỏa.",
+          "timeframe": "16:01 - 16:31",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "Paris xưởng sửa tàu hỏa",
+          "mapHint": {
+            "id": "Paris xưởng sửa tàu hỏa-2795",
+            "label": "Paris xưởng sửa tàu hỏa",
+            "point": {
+              "lat": 48.970135235735846,
+              "lng": 2.37636250601669
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "84344634-7b7e-4336-8761-db207d1e32c5",
+        "fullName": "John Calvo",
+        "gender": "male",
+        "age": 79,
+        "nationality": "Spain",
+        "occupation": "redgorilla Investigator",
+        "email": "john.calvo@example.com",
+        "phone": "946-784-787",
+        "cell": "685-122-430",
+        "dob": "1946-01-18T00:00:03.064Z",
+        "registered": "2015-08-14T19:25:39.998Z",
+        "idNumber": "74767271-F",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.92028699639459,
+          "lng": 2.3042507646146237
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/12.jpg",
+        "timezone": "Mountain Time (US & Canada)",
+        "seed": "redgorilla426",
+        "suspicionLevel": 0.35,
+        "alibi": "Đang mua sắm tại siêu thị",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-84344634-7b7e-4336-8761-db207d1e32c5",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Laura Castro. Ngày hôm đó, vào khoảng 15:57 - 16:27, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại Paris nhà thờ Saint-Marie.",
+          "timeframe": "15:57 - 16:27",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "Paris nhà thờ Saint-Marie",
+          "mapHint": {
+            "id": "Paris nhà thờ Saint-Marie-2630",
+            "label": "Paris nhà thờ Saint-Marie",
+            "point": {
+              "lat": 48.89044820511453,
+              "lng": 2.278472461435665
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "6a4b78ec-bdea-4fdb-924c-e9fea88e2940",
+        "fullName": "Madison Brown",
+        "gender": "female",
+        "age": 64,
+        "nationality": "Canada",
+        "occupation": "happyfrog Investigator",
+        "email": "madison.brown@example.com",
+        "phone": "E17 A93-8691",
+        "cell": "J04 N28-2575",
+        "dob": "1960-12-03T11:48:30.332Z",
+        "registered": "2012-02-24T04:03:25.476Z",
+        "idNumber": "917719320",
+        "residence": "Dorchester, Canada",
+        "coordinates": {
+          "lat": 63.76382635528788,
+          "lng": -10.25752565482625
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/50.jpg",
+        "timezone": "Azores, Cape Verde Islands",
+        "seed": "happyfrog150",
+        "suspicionLevel": 0.69,
+        "alibi": "Đang mua sắm tại siêu thị",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-6a4b78ec-bdea-4fdb-924c-e9fea88e2940",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Laura Castro. Ngày hôm đó, vào khoảng 16:41 - 17:11, tôi đã kiểm tra hệ thống camera của nhà thờ cổ tại Paris chợ đêm trung tâm.",
+          "timeframe": "16:41 - 17:11",
+          "action": "kiểm tra hệ thống camera của nhà thờ cổ",
+          "locationLabel": "Paris chợ đêm trung tâm",
+          "mapHint": {
+            "id": "Paris chợ đêm trung tâm-7816",
+            "label": "Paris chợ đêm trung tâm",
+            "point": {
+              "lat": 63.71675357471321,
+              "lng": -10.307373467590596
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "313a47e1-205c-4c31-8a21-2777fb1d0e8c",
+        "fullName": "Connor Jennings",
+        "gender": "male",
+        "age": 72,
+        "nationality": "Australia",
+        "occupation": "whitefish Investigator",
+        "email": "connor.jennings@example.com",
+        "phone": "00-1599-7979",
+        "cell": "0484-080-823",
+        "dob": "1953-01-10T14:11:45.577Z",
+        "registered": "2014-03-31T06:22:51.032Z",
+        "idNumber": "802508374",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.92451428227627,
+          "lng": 2.39789851370801
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/61.jpg",
+        "timezone": "Kathmandu",
+        "seed": "whitefish692",
+        "suspicionLevel": 0.98,
+        "alibi": "Từ chối khai báo lịch trình",
+        "role": "killer",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-313a47e1-205c-4c31-8a21-2777fb1d0e8c",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Laura Castro. Ngày hôm đó, vào khoảng 12:14 - 12:44, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại Paris quảng trường Đồng Tế.",
+          "timeframe": "12:14 - 12:44",
+          "action": "dự một buổi cầu nguyện ngắn gần khu chợ trời",
+          "locationLabel": "Paris quảng trường Đồng Tế",
+          "mapHint": {
+            "id": "Paris quảng trường Đồng Tế-5101",
+            "label": "Paris quảng trường Đồng Tế",
+            "point": {
+              "lat": 48.892724205218606,
+              "lng": 2.44074456177254
+            },
+            "radiusMeters": 900
+          },
+          "reliability": "shaky"
+        }
+      },
+      {
+        "id": "b78a8d6f-0fcb-43d0-b972-9f07d7e09f14",
+        "fullName": "Wolfram Burkert",
+        "gender": "male",
+        "age": 67,
+        "nationality": "Germany",
+        "occupation": "bluebutterfly Investigator",
+        "email": "wolfram.burkert@example.com",
+        "phone": "0123-4726876",
+        "cell": "0170-4792461",
+        "dob": "1958-05-05T05:29:29.396Z",
+        "registered": "2015-09-05T00:09:36.043Z",
+        "idNumber": "65 050558 B 049",
+        "residence": "Erding, Germany",
+        "coordinates": {
+          "lat": 25.594148391843365,
+          "lng": -29.63191390172297
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/43.jpg",
+        "timezone": "Midway Island, Samoa",
+        "seed": "bluebutterfly533",
+        "suspicionLevel": 0.67,
+        "alibi": "Đang đi dạo trong công viên",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-b78a8d6f-0fcb-43d0-b972-9f07d7e09f14",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Laura Castro. Ngày hôm đó, vào khoảng 15:12 - 15:42, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Paris chợ đêm trung tâm.",
+          "timeframe": "15:12 - 15:42",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "Paris chợ đêm trung tâm",
+          "mapHint": {
+            "id": "Paris chợ đêm trung tâm-6420",
+            "label": "Paris chợ đêm trung tâm",
+            "point": {
+              "lat": 25.627853745603527,
+              "lng": -29.661561986358816
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "e69dd1a9-513d-4164-86b3-d47b6512803d",
+        "fullName": "Heidi Hansen",
+        "gender": "female",
+        "age": 47,
+        "nationality": "Australia",
+        "occupation": "bigswan Investigator",
+        "email": "heidi.hansen@example.com",
+        "phone": "07-4380-1695",
+        "cell": "0433-451-060",
+        "dob": "1977-12-17T08:19:59.557Z",
+        "registered": "2004-12-29T12:52:16.341Z",
+        "idNumber": "371374565",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.82637226478247,
+          "lng": 2.3569588562955697
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/33.jpg",
+        "timezone": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk",
+        "seed": "bigswan625",
+        "suspicionLevel": 0.37,
+        "alibi": "Đang xem phim tại rạp chiếu phim trung tâm",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-e69dd1a9-513d-4164-86b3-d47b6512803d",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Laura Castro. Ngày hôm đó, vào khoảng 16:37 - 17:07, tôi đã kiểm tra hệ thống camera của nhà thờ cổ tại Paris cầu sắt Old Bridge.",
+          "timeframe": "16:37 - 17:07",
+          "action": "kiểm tra hệ thống camera của nhà thờ cổ",
+          "locationLabel": "Paris cầu sắt Old Bridge",
+          "mapHint": {
+            "id": "Paris cầu sắt Old Bridge-8079",
+            "label": "Paris cầu sắt Old Bridge",
+            "point": {
+              "lat": 48.7784520661836,
+              "lng": 2.398413050828277
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "25b8d6e8-5f39-46ac-80f3-1b9b8cc8a93d",
+        "fullName": "Lucas Petersen",
+        "gender": "male",
+        "age": 49,
+        "nationality": "Denmark",
+        "occupation": "bluefrog Investigator",
+        "email": "lucas.petersen@example.com",
+        "phone": "31302517",
+        "cell": "82299123",
+        "dob": "1976-03-04T08:06:40.085Z",
+        "registered": "2015-03-12T01:20:24.655Z",
+        "idNumber": "040376-7050",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.95888611932181,
+          "lng": 2.293892305572087
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/72.jpg",
+        "timezone": "Kaliningrad, South Africa",
+        "seed": "bluefrog957",
+        "suspicionLevel": 0.52,
+        "alibi": "Đang đi công tác ở thành phố khác",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-25b8d6e8-5f39-46ac-80f3-1b9b8cc8a93d",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Laura Castro. Ngày hôm đó, vào khoảng 13:49 - 14:19, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại Paris nhà thờ Saint-Marie.",
+          "timeframe": "13:49 - 14:19",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "Paris nhà thờ Saint-Marie",
+          "mapHint": {
+            "id": "Paris nhà thờ Saint-Marie-6847",
+            "label": "Paris nhà thờ Saint-Marie",
+            "point": {
+              "lat": 48.918435550242556,
+              "lng": 2.3090447017173634
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "a71725e1-f7ef-47f3-b217-332e054127da",
+        "fullName": "Martha Kelley",
+        "gender": "female",
+        "age": 70,
+        "nationality": "Australia",
+        "occupation": "lazyduck Investigator",
+        "email": "martha.kelley@example.com",
+        "phone": "03-2014-8650",
+        "cell": "0488-013-633",
+        "dob": "1954-12-17T03:42:25.431Z",
+        "registered": "2021-02-14T08:37:42.838Z",
+        "idNumber": "641620114",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.75663916499149,
+          "lng": 2.384219124351534
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/2.jpg",
+        "timezone": "Western Europe Time, London, Lisbon, Casablanca",
+        "seed": "lazyduck304",
+        "suspicionLevel": 0.33,
+        "alibi": "Đang làm việc tại văn phòng",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-a71725e1-f7ef-47f3-b217-332e054127da",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Laura Castro. Ngày hôm đó, vào khoảng 15:17 - 15:47, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại Paris khu dân cư tọa độ G-17.",
+          "timeframe": "15:17 - 15:47",
+          "action": "bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường",
+          "locationLabel": "Paris khu dân cư tọa độ G-17",
+          "mapHint": {
+            "id": "Paris khu dân cư tọa độ G-17-5305",
+            "label": "Paris khu dân cư tọa độ G-17",
+            "point": {
+              "lat": 48.721580003949626,
+              "lng": 2.3890858580562275
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "4a299128-efbf-4bfd-a1c0-d45d1491d5b7",
+        "fullName": "Vanesa Ramos",
+        "gender": "female",
+        "age": 40,
+        "nationality": "Spain",
+        "occupation": "smallmouse Investigator",
+        "email": "vanesa.ramos@example.com",
+        "phone": "941-915-527",
+        "cell": "652-860-783",
+        "dob": "1985-03-03T10:52:49.504Z",
+        "registered": "2015-01-20T01:20:33.959Z",
+        "idNumber": "72140110-S",
+        "residence": "Pozuelo de Alarcón, Spain",
+        "coordinates": {
+          "lat": 37.8709582570732,
+          "lng": -8.427981685305445
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/62.jpg",
+        "timezone": "Kaliningrad, South Africa",
+        "seed": "smallmouse192",
+        "suspicionLevel": 0.43,
+        "alibi": "Đang tham gia lớp học nấu ăn",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-4a299128-efbf-4bfd-a1c0-d45d1491d5b7",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Laura Castro. Ngày hôm đó, vào khoảng 14:22 - 14:52, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại Paris nhà thờ Saint-Marie.",
+          "timeframe": "14:22 - 14:52",
+          "action": "đi khảo sát công trường dang dở ở ngoại ô",
+          "locationLabel": "Paris nhà thờ Saint-Marie",
+          "mapHint": {
+            "id": "Paris nhà thờ Saint-Marie-3704",
+            "label": "Paris nhà thờ Saint-Marie",
+            "point": {
+              "lat": 37.82545020608477,
+              "lng": -8.475988532573416
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "1b5eabc9-ddb5-4790-a7bc-5afc9884aba4",
+        "fullName": "Edith Lowe",
+        "gender": "female",
+        "age": 54,
+        "nationality": "Australia",
+        "occupation": "organicbird Investigator",
+        "email": "edith.lowe@example.com",
+        "phone": "05-7181-6097",
+        "cell": "0480-187-710",
+        "dob": "1971-08-03T15:40:49.752Z",
+        "registered": "2008-11-11T03:24:45.774Z",
+        "idNumber": "845105568",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.761164193310655,
+          "lng": 2.441379234398485
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/20.jpg",
+        "timezone": "Abu Dhabi, Muscat, Baku, Tbilisi",
+        "seed": "organicbird937",
+        "suspicionLevel": 0.51,
+        "alibi": "Đang ăn tối cùng gia đình",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-1b5eabc9-ddb5-4790-a7bc-5afc9884aba4",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Laura Castro. Ngày hôm đó, vào khoảng 17:26 - 17:56, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại Paris chợ đêm trung tâm.",
+          "timeframe": "17:26 - 17:56",
+          "action": "đi khảo sát công trường dang dở ở ngoại ô",
+          "locationLabel": "Paris chợ đêm trung tâm",
+          "mapHint": {
+            "id": "Paris chợ đêm trung tâm-5629",
+            "label": "Paris chợ đêm trung tâm",
+            "point": {
+              "lat": 48.72886977571889,
+              "lng": 2.4048783894570107
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "0f847d0e-abbb-481a-a34a-20b5c29bd1ed",
+        "fullName": "Nicoline Jensen",
+        "gender": "female",
+        "age": 65,
+        "nationality": "Denmark",
+        "occupation": "happykoala Investigator",
+        "email": "nicoline.jensen@example.com",
+        "phone": "82522364",
+        "cell": "47994393",
+        "dob": "1960-05-21T07:48:09.476Z",
+        "registered": "2021-09-03T09:22:20.646Z",
+        "idNumber": "210560-2024",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.84321005961062,
+          "lng": 2.4341206526779624
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/93.jpg",
+        "timezone": "Kaliningrad, South Africa",
+        "seed": "happykoala391",
+        "suspicionLevel": 0.32,
+        "alibi": "Đang ngủ tại nhà riêng",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-0f847d0e-abbb-481a-a34a-20b5c29bd1ed",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Laura Castro. Ngày hôm đó, vào khoảng 15:47 - 16:17, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại Paris khu cảng bỏ hoang phía tây.",
+          "timeframe": "15:47 - 16:17",
+          "action": "dự một buổi cầu nguyện ngắn gần khu chợ trời",
+          "locationLabel": "Paris khu cảng bỏ hoang phía tây",
+          "mapHint": {
+            "id": "Paris khu cảng bỏ hoang phía tây-5725",
+            "label": "Paris khu cảng bỏ hoang phía tây",
+            "point": {
+              "lat": 48.79329877758534,
+              "lng": 2.443902163992176
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "adca17be-47a2-4b1e-ab38-ef0daada559f",
+        "fullName": "Viivi Toro",
+        "gender": "female",
+        "age": 47,
+        "nationality": "Finland",
+        "occupation": "blackfish Investigator",
+        "email": "viivi.toro@example.com",
+        "phone": "05-194-578",
+        "cell": "048-396-55-22",
+        "dob": "1978-06-29T02:34:56.218Z",
+        "registered": "2019-06-17T02:59:32.259Z",
+        "idNumber": "NaNNA972undefined",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.80558052883761,
+          "lng": 2.4437976830900143
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/72.jpg",
+        "timezone": "Newfoundland",
+        "seed": "blackfish360",
+        "suspicionLevel": 0.44,
+        "alibi": "Đang làm việc tại văn phòng",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-adca17be-47a2-4b1e-ab38-ef0daada559f",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Laura Castro. Ngày hôm đó, vào khoảng 17:17 - 17:47, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại Paris quảng trường Đồng Tế.",
+          "timeframe": "17:17 - 17:47",
+          "action": "thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông",
+          "locationLabel": "Paris quảng trường Đồng Tế",
+          "mapHint": {
+            "id": "Paris quảng trường Đồng Tế-9609",
+            "label": "Paris quảng trường Đồng Tế",
+            "point": {
+              "lat": 48.825103352976015,
+              "lng": 2.4551031138543467
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "18d8850e-c4a3-4c77-a9fe-b00235ffebb1",
+        "fullName": "Thoralf Fritzsche",
+        "gender": "male",
+        "age": 80,
+        "nationality": "Germany",
+        "occupation": "greengorilla Investigator",
+        "email": "thoralf.fritzsche@example.com",
+        "phone": "0255-0758746",
+        "cell": "0179-1952957",
+        "dob": "1945-08-16T03:58:46.903Z",
+        "registered": "2002-10-19T05:04:12.558Z",
+        "idNumber": "62 150845 F 246",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.919972154981664,
+          "lng": 2.4662528104607824
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/92.jpg",
+        "timezone": "Brussels, Copenhagen, Madrid, Paris",
+        "seed": "greengorilla692",
+        "suspicionLevel": 0.69,
+        "alibi": "Đang đọc sách tại thư viện",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-18d8850e-c4a3-4c77-a9fe-b00235ffebb1",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Laura Castro. Ngày hôm đó, vào khoảng 16:30 - 17:00, tôi đã kiểm tra hệ thống camera của nhà thờ cổ tại Paris kho hàng Riverside.",
+          "timeframe": "16:30 - 17:00",
+          "action": "kiểm tra hệ thống camera của nhà thờ cổ",
+          "locationLabel": "Paris kho hàng Riverside",
+          "mapHint": {
+            "id": "Paris kho hàng Riverside-1639",
+            "label": "Paris kho hàng Riverside",
+            "point": {
+              "lat": 48.900096798077435,
+              "lng": 2.456162916914827
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "f7a95774-d6c4-49f8-ad65-673f2cedd601",
+        "fullName": "Andrea Andersen",
+        "gender": "female",
+        "age": 47,
+        "nationality": "Denmark",
+        "occupation": "bigbear Investigator",
+        "email": "andrea.andersen@example.com",
+        "phone": "13419796",
+        "cell": "65505051",
+        "dob": "1978-03-16T12:39:08.223Z",
+        "registered": "2009-12-09T00:00:23.425Z",
+        "idNumber": "160378-2803",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.947651464072685,
+          "lng": 2.3206154624108297
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/80.jpg",
+        "timezone": "Newfoundland",
+        "seed": "bigbear732",
+        "suspicionLevel": 0.44,
+        "alibi": "Đang tham gia lớp học nấu ăn",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-f7a95774-d6c4-49f8-ad65-673f2cedd601",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Laura Castro. Ngày hôm đó, vào khoảng 13:09 - 13:39, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Paris cầu sắt Old Bridge.",
+          "timeframe": "13:09 - 13:39",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "Paris cầu sắt Old Bridge",
+          "mapHint": {
+            "id": "Paris cầu sắt Old Bridge-2744",
+            "label": "Paris cầu sắt Old Bridge",
+            "point": {
+              "lat": 48.94936767008591,
+              "lng": 2.347519364009246
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "1cde2f51-5e38-4600-a3a1-d8ac1fd0023a",
+        "fullName": "Quinn Smith",
+        "gender": "male",
+        "age": 39,
+        "nationality": "New Zealand",
+        "occupation": "bigostrich Investigator",
+        "email": "quinn.smith@example.com",
+        "phone": "(255)-762-1764",
+        "cell": "(231)-646-3709",
+        "dob": "1986-06-29T00:19:20.272Z",
+        "registered": "2005-02-20T02:25:33.435Z",
+        "idNumber": "N/A",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.98367620134161,
+          "lng": 2.3945299051435662
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/79.jpg",
+        "timezone": "Azores, Cape Verde Islands",
+        "seed": "bigostrich375",
+        "suspicionLevel": 0.61,
+        "alibi": "Đang bị kẹt xe trên đường cao tốc",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-1cde2f51-5e38-4600-a3a1-d8ac1fd0023a",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Laura Castro. Ngày hôm đó, vào khoảng 14:52 - 15:22, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Paris nhà thờ Saint-Marie.",
+          "timeframe": "14:52 - 15:22",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "Paris nhà thờ Saint-Marie",
+          "mapHint": {
+            "id": "Paris nhà thờ Saint-Marie-1018",
+            "label": "Paris nhà thờ Saint-Marie",
+            "point": {
+              "lat": 48.97846890478761,
+              "lng": 2.4349540094345805
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "8874c8ad-f480-4d44-9457-0cfb8b7e1ee6",
+        "fullName": "Denise Olson",
+        "gender": "female",
+        "age": 41,
+        "nationality": "United States",
+        "occupation": "beautifulswan Investigator",
+        "email": "denise.olson@example.com",
+        "phone": "(810) 389-5875",
+        "cell": "(281) 556-6927",
+        "dob": "1984-09-25T13:54:30.776Z",
+        "registered": "2020-02-22T21:34:57.917Z",
+        "idNumber": "708-52-6700",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.89836174231013,
+          "lng": 2.4147667740108925
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/82.jpg",
+        "timezone": "Atlantic Time (Canada), Caracas, La Paz",
+        "seed": "beautifulswan596",
+        "suspicionLevel": 0.88,
+        "alibi": "Đang đi công tác ở thành phố khác",
+        "role": "accomplice",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-8874c8ad-f480-4d44-9457-0cfb8b7e1ee6",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Laura Castro. Ngày hôm đó, vào khoảng 13:19 - 13:49, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại Paris khu cảng bỏ hoang phía tây.",
+          "timeframe": "13:19 - 13:49",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "Paris khu cảng bỏ hoang phía tây",
+          "mapHint": {
+            "id": "Paris khu cảng bỏ hoang phía tây-8550",
+            "label": "Paris khu cảng bỏ hoang phía tây",
+            "point": {
+              "lat": 48.926028441637655,
+              "lng": 2.4422513184240566
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        },
+        "secondaryTestimony": {
+          "id": "secondary-8874c8ad-f480-4d44-9457-0cfb8b7e1ee6",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Được rồi, tôi sẽ hợp tác. Connor Jennings bảo tôi canh gác tại Ổ ẩn náu và hắn vẫn còn ở đó lúc 16:49.",
+          "timeframe": "16:39 - 17:09",
+          "action": "chỉ điểm tọa độ ẩn náu",
+          "locationLabel": "Ổ ẩn náu",
+          "mapHint": {
+            "id": "Ổ ẩn náu-6518",
+            "label": "Ổ ẩn náu",
+            "point": {
+              "lat": 48.942336670719435,
+              "lng": 2.361999178375795
+            },
+            "radiusMeters": 350
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "721438fb-88b4-4d43-aaf9-e20ff7a0bd45",
+        "fullName": "Paul Bücker",
+        "gender": "male",
+        "age": 55,
+        "nationality": "Germany",
+        "occupation": "purplebear Investigator",
+        "email": "paul.bucker@example.com",
+        "phone": "0691-3829110",
+        "cell": "0175-5308253",
+        "dob": "1970-01-06T17:46:49.519Z",
+        "registered": "2008-06-12T04:02:52.266Z",
+        "idNumber": "10 060170 B 073",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.93340635526421,
+          "lng": 2.4171953408810176
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/19.jpg",
+        "timezone": "Magadan, Solomon Islands, New Caledonia",
+        "seed": "purplebear849",
+        "suspicionLevel": 0.66,
+        "alibi": "Đang tham gia một buổi tiệc sinh nhật",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-721438fb-88b4-4d43-aaf9-e20ff7a0bd45",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Laura Castro. Ngày hôm đó, vào khoảng 17:45 - 18:15, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại Paris ga tàu điện ngầm số 7.",
+          "timeframe": "17:45 - 18:15",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "Paris ga tàu điện ngầm số 7",
+          "mapHint": {
+            "id": "Paris ga tàu điện ngầm số 7-2065",
+            "label": "Paris ga tàu điện ngầm số 7",
+            "point": {
+              "lat": 48.94445717438086,
+              "lng": 2.4133041442901693
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "5aa24fd9-537b-4a6f-8335-528453eafedf",
+        "fullName": "Kayla Green",
+        "gender": "female",
+        "age": 74,
+        "nationality": "New Zealand",
+        "occupation": "purplebutterfly Investigator",
+        "email": "kayla.green@example.com",
+        "phone": "(476)-423-8413",
+        "cell": "(393)-937-5613",
+        "dob": "1951-07-23T03:33:26.708Z",
+        "registered": "2019-01-31T21:26:54.772Z",
+        "idNumber": "N/A",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.87132438609422,
+          "lng": 2.2842864478728253
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/28.jpg",
+        "timezone": "Baghdad, Riyadh, Moscow, St. Petersburg",
+        "seed": "purplebutterfly823",
+        "suspicionLevel": 0.62,
+        "alibi": "Đang ăn tối cùng gia đình",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-5aa24fd9-537b-4a6f-8335-528453eafedf",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Laura Castro. Ngày hôm đó, vào khoảng 17:02 - 17:32, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại Paris nhà kho số 12.",
+          "timeframe": "17:02 - 17:32",
+          "action": "đi khảo sát công trường dang dở ở ngoại ô",
+          "locationLabel": "Paris nhà kho số 12",
+          "mapHint": {
+            "id": "Paris nhà kho số 12-1457",
+            "label": "Paris nhà kho số 12",
+            "point": {
+              "lat": 48.842005761126515,
+              "lng": 2.295952578287058
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "b894f1c0-c584-4998-b675-4ffd48334a76",
+        "fullName": "Kate Taylor",
+        "gender": "female",
+        "age": 59,
+        "nationality": "New Zealand",
+        "occupation": "silverfish Investigator",
+        "email": "kate.taylor@example.com",
+        "phone": "(713)-226-7284",
+        "cell": "(983)-434-0030",
+        "dob": "1966-07-04T17:35:41.443Z",
+        "registered": "2015-09-04T20:50:43.735Z",
+        "idNumber": "N/A",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.902270741010334,
+          "lng": 2.3864282500513307
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/93.jpg",
+        "timezone": "Abu Dhabi, Muscat, Baku, Tbilisi",
+        "seed": "silverfish254",
+        "suspicionLevel": 0.37,
+        "alibi": "Đang tham gia một buổi tiệc sinh nhật",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-b894f1c0-c584-4998-b675-4ffd48334a76",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Laura Castro. Ngày hôm đó, vào khoảng 12:28 - 12:58, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Paris khu dân cư tọa độ G-17.",
+          "timeframe": "12:28 - 12:58",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "Paris khu dân cư tọa độ G-17",
+          "mapHint": {
+            "id": "Paris khu dân cư tọa độ G-17-8831",
+            "label": "Paris khu dân cư tọa độ G-17",
+            "point": {
+              "lat": 48.93058267682257,
+              "lng": 2.349314348474372
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "6f3e5eb1-aa39-48f4-b2b3-f43c9c6d7d5c",
+        "fullName": "Lily Wright",
+        "gender": "female",
+        "age": 69,
+        "nationality": "New Zealand",
+        "occupation": "whitepeacock Investigator",
+        "email": "lily.wright@example.com",
+        "phone": "(187)-735-2727",
+        "cell": "(210)-771-4807",
+        "dob": "1956-05-28T03:20:51.068Z",
+        "registered": "2020-03-17T23:16:06.660Z",
+        "idNumber": "N/A",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.79896906393933,
+          "lng": 2.3839708233270205
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/40.jpg",
+        "timezone": "Tehran",
+        "seed": "whitepeacock112",
+        "suspicionLevel": 0.64,
+        "alibi": "Đang bị kẹt xe trên đường cao tốc",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-6f3e5eb1-aa39-48f4-b2b3-f43c9c6d7d5c",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Laura Castro. Ngày hôm đó, vào khoảng 12:37 - 13:07, tôi đã truy cập máy chủ tại phòng lab cũ tại Paris khu dân cư tọa độ G-17.",
+          "timeframe": "12:37 - 13:07",
+          "action": "truy cập máy chủ tại phòng lab cũ",
+          "locationLabel": "Paris khu dân cư tọa độ G-17",
+          "mapHint": {
+            "id": "Paris khu dân cư tọa độ G-17-7862",
+            "label": "Paris khu dân cư tọa độ G-17",
+            "point": {
+              "lat": 48.759844085628906,
+              "lng": 2.375252791286387
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "216dfef0-31f7-4ab7-912d-c0c6ed618a42",
+        "fullName": "Iida Kauppi",
+        "gender": "female",
+        "age": 69,
+        "nationality": "Finland",
+        "occupation": "ticklishfish Investigator",
+        "email": "iida.kauppi@example.com",
+        "phone": "02-920-339",
+        "cell": "045-112-69-54",
+        "dob": "1956-02-22T16:07:56.023Z",
+        "registered": "2011-09-24T17:48:11.909Z",
+        "idNumber": "NaNNA390undefined",
+        "residence": "Kokemäki, Finland",
+        "coordinates": {
+          "lat": 33.741125523977544,
+          "lng": 39.18499843228595
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/41.jpg",
+        "timezone": "Bombay, Calcutta, Madras, New Delhi",
+        "seed": "ticklishfish524",
+        "suspicionLevel": 0.31,
+        "alibi": "Đang xem phim tại rạp chiếu phim trung tâm",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-216dfef0-31f7-4ab7-912d-c0c6ed618a42",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Laura Castro. Ngày hôm đó, vào khoảng 13:39 - 14:09, tôi đã truy cập máy chủ tại phòng lab cũ tại Paris nhà thờ Saint-Marie.",
+          "timeframe": "13:39 - 14:09",
+          "action": "truy cập máy chủ tại phòng lab cũ",
+          "locationLabel": "Paris nhà thờ Saint-Marie",
+          "mapHint": {
+            "id": "Paris nhà thờ Saint-Marie-4617",
+            "label": "Paris nhà thờ Saint-Marie",
+            "point": {
+              "lat": 33.771470615829905,
+              "lng": 39.15737442560015
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "d4fe7779-0e75-439c-ad19-0fbd12dbb10d",
+        "fullName": "Naja Rasmussen",
+        "gender": "female",
+        "age": 36,
+        "nationality": "Denmark",
+        "occupation": "silverduck Investigator",
+        "email": "naja.rasmussen@example.com",
+        "phone": "01444970",
+        "cell": "80957218",
+        "dob": "1989-10-17T23:56:28.299Z",
+        "registered": "2014-12-10T16:51:53.142Z",
+        "idNumber": "171089-0480",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.8966802586655,
+          "lng": 2.308209038717989
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/17.jpg",
+        "timezone": "Bombay, Calcutta, Madras, New Delhi",
+        "seed": "silverduck201",
+        "suspicionLevel": 0.51,
+        "alibi": "Đang bị kẹt xe trên đường cao tốc",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-d4fe7779-0e75-439c-ad19-0fbd12dbb10d",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Laura Castro. Ngày hôm đó, vào khoảng 17:32 - 18:02, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại Paris ga tàu điện ngầm số 7.",
+          "timeframe": "17:32 - 18:02",
+          "action": "dự một buổi cầu nguyện ngắn gần khu chợ trời",
+          "locationLabel": "Paris ga tàu điện ngầm số 7",
+          "mapHint": {
+            "id": "Paris ga tàu điện ngầm số 7-1555",
+            "label": "Paris ga tàu điện ngầm số 7",
+            "point": {
+              "lat": 48.85171474943336,
+              "lng": 2.3581519075961226
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "d57198fb-8f3d-4b9d-815f-e6277d9e328e",
+        "fullName": "Iiris Suomi",
+        "gender": "female",
+        "age": 67,
+        "nationality": "Finland",
+        "occupation": "happygorilla Investigator",
+        "email": "iiris.suomi@example.com",
+        "phone": "05-966-429",
+        "cell": "040-578-12-57",
+        "dob": "1958-09-12T22:13:31.695Z",
+        "registered": "2003-03-14T20:20:44.151Z",
+        "idNumber": "NaNNA270undefined",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.890692431543215,
+          "lng": 2.307910455951541
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/85.jpg",
+        "timezone": "Bombay, Calcutta, Madras, New Delhi",
+        "seed": "happygorilla963",
+        "suspicionLevel": 0.53,
+        "alibi": "Đang đi du lịch nước ngoài",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-d57198fb-8f3d-4b9d-815f-e6277d9e328e",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Laura Castro. Ngày hôm đó, vào khoảng 14:10 - 14:40, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại Paris quảng trường Đồng Tế.",
+          "timeframe": "14:10 - 14:40",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "Paris quảng trường Đồng Tế",
+          "mapHint": {
+            "id": "Paris quảng trường Đồng Tế-6135",
+            "label": "Paris quảng trường Đồng Tế",
+            "point": {
+              "lat": 48.86234628087208,
+              "lng": 2.3371852408182616
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "2fa2cf72-250f-45a1-81d4-7ca736d6254e",
+        "fullName": "Arron Lopez",
+        "gender": "male",
+        "age": 64,
+        "nationality": "United Kingdom",
+        "occupation": "lazykoala Investigator",
+        "email": "arron.lopez@example.com",
+        "phone": "016974 90624",
+        "cell": "07654 408305",
+        "dob": "1961-08-23T01:37:33.121Z",
+        "registered": "2012-09-29T18:06:05.606Z",
+        "idNumber": "RX 76 78 49 X",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.89932708570895,
+          "lng": 2.470896001512235
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/29.jpg",
+        "timezone": "Baghdad, Riyadh, Moscow, St. Petersburg",
+        "seed": "lazykoala994",
+        "suspicionLevel": 0.4,
+        "alibi": "Đang đi du lịch nước ngoài",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-2fa2cf72-250f-45a1-81d4-7ca736d6254e",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Laura Castro. Ngày hôm đó, vào khoảng 14:47 - 15:17, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Paris chợ đêm trung tâm.",
+          "timeframe": "14:47 - 15:17",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "Paris chợ đêm trung tâm",
+          "mapHint": {
+            "id": "Paris chợ đêm trung tâm-8536",
+            "label": "Paris chợ đêm trung tâm",
+            "point": {
+              "lat": 48.886078502360476,
+              "lng": 2.4306781947175544
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "864ba5f5-77d6-4e7b-bd34-066bb6eaca26",
+        "fullName": "Nooa Murto",
+        "gender": "male",
+        "age": 28,
+        "nationality": "Finland",
+        "occupation": "sadkoala Investigator",
+        "email": "nooa.murto@example.com",
+        "phone": "04-871-511",
+        "cell": "043-012-01-57",
+        "dob": "1997-03-08T07:18:28.360Z",
+        "registered": "2004-05-09T09:57:22.387Z",
+        "idNumber": "NaNNA657undefined",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.912357797142384,
+          "lng": 2.2746235048799974
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/82.jpg",
+        "timezone": "Alaska",
+        "seed": "sadkoala459",
+        "suspicionLevel": 0.44,
+        "alibi": "Đang đi công tác ở thành phố khác",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-864ba5f5-77d6-4e7b-bd34-066bb6eaca26",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Laura Castro. Ngày hôm đó, vào khoảng 16:20 - 16:50, tôi đã kiểm tra hệ thống camera của nhà thờ cổ tại Paris ga tàu điện ngầm số 7.",
+          "timeframe": "16:20 - 16:50",
+          "action": "kiểm tra hệ thống camera của nhà thờ cổ",
+          "locationLabel": "Paris ga tàu điện ngầm số 7",
+          "mapHint": {
+            "id": "Paris ga tàu điện ngầm số 7-3042",
+            "label": "Paris ga tàu điện ngầm số 7",
+            "point": {
+              "lat": 48.92504367276028,
+              "lng": 2.322737752081008
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "e75f4313-7889-4e3a-af91-98e68d1e5491",
+        "fullName": "Lillian Hall",
+        "gender": "female",
+        "age": 66,
+        "nationality": "United States",
+        "occupation": "yellowbird Investigator",
+        "email": "lillian.hall@example.com",
+        "phone": "(659) 388-8004",
+        "cell": "(749) 616-8522",
+        "dob": "1959-10-27T02:19:45.893Z",
+        "registered": "2018-03-02T20:33:38.063Z",
+        "idNumber": "302-04-1750",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.72921318519734,
+          "lng": 2.344209405661701
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/15.jpg",
+        "timezone": "Eastern Australia, Guam, Vladivostok",
+        "seed": "yellowbird840",
+        "suspicionLevel": 0.37,
+        "alibi": "Đang khám bệnh tại bệnh viện",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-e75f4313-7889-4e3a-af91-98e68d1e5491",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Laura Castro. Ngày hôm đó, vào khoảng 18:03 - 18:33, tôi đã truy cập máy chủ tại phòng lab cũ tại Paris xưởng sửa tàu hỏa.",
+          "timeframe": "18:03 - 18:33",
+          "action": "truy cập máy chủ tại phòng lab cũ",
+          "locationLabel": "Paris xưởng sửa tàu hỏa",
+          "mapHint": {
+            "id": "Paris xưởng sửa tàu hỏa-3134",
+            "label": "Paris xưởng sửa tàu hỏa",
+            "point": {
+              "lat": 48.76311814210717,
+              "lng": 2.3482677940960515
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "5271dab4-9e6c-4d56-b7bb-939c201a367a",
+        "fullName": "Arthur Patel",
+        "gender": "male",
+        "age": 62,
+        "nationality": "New Zealand",
+        "occupation": "bluebutterfly Investigator",
+        "email": "arthur.patel@example.com",
+        "phone": "(083)-451-8335",
+        "cell": "(326)-776-5117",
+        "dob": "1962-11-28T12:00:24.551Z",
+        "registered": "2004-08-17T05:17:30.273Z",
+        "idNumber": "N/A",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.75887386899191,
+          "lng": 2.3263025546499243
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/50.jpg",
+        "timezone": "Mountain Time (US & Canada)",
+        "seed": "bluebutterfly441",
+        "suspicionLevel": 0.33,
+        "alibi": "Đang xem phim tại rạp chiếu phim trung tâm",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-5271dab4-9e6c-4d56-b7bb-939c201a367a",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Laura Castro. Ngày hôm đó, vào khoảng 15:00 - 15:30, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Paris chợ đêm trung tâm.",
+          "timeframe": "15:00 - 15:30",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "Paris chợ đêm trung tâm",
+          "mapHint": {
+            "id": "Paris chợ đêm trung tâm-8051",
+            "label": "Paris chợ đêm trung tâm",
+            "point": {
+              "lat": 48.72667707165453,
+              "lng": 2.3494195733272187
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "c0d3229a-4ee3-4a3e-9d7d-fb6076086661",
+        "fullName": "Chloe Lynch",
+        "gender": "female",
+        "age": 42,
+        "nationality": "United Kingdom",
+        "occupation": "reddog Investigator",
+        "email": "chloe.lynch@example.com",
+        "phone": "016974 63244",
+        "cell": "07336 165929",
+        "dob": "1983-03-30T15:36:06.463Z",
+        "registered": "2010-01-24T12:48:08.416Z",
+        "idNumber": "GG 98 92 50 O",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.75356560409276,
+          "lng": 2.292036126395197
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/76.jpg",
+        "timezone": "Magadan, Solomon Islands, New Caledonia",
+        "seed": "reddog371",
+        "suspicionLevel": 0.82,
+        "alibi": "Đang trực ca đêm tại nơi làm việc",
+        "role": "accomplice",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-c0d3229a-4ee3-4a3e-9d7d-fb6076086661",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Laura Castro. Ngày hôm đó, vào khoảng 13:14 - 13:44, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại Paris cầu sắt Old Bridge.",
+          "timeframe": "13:14 - 13:44",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "Paris cầu sắt Old Bridge",
+          "mapHint": {
+            "id": "Paris cầu sắt Old Bridge-356",
+            "label": "Paris cầu sắt Old Bridge",
+            "point": {
+              "lat": 48.74953904474827,
+              "lng": 2.2604377653724264
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        },
+        "secondaryTestimony": {
+          "id": "secondary-c0d3229a-4ee3-4a3e-9d7d-fb6076086661",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Được rồi, tôi sẽ hợp tác. Connor Jennings bảo tôi canh gác tại Ổ ẩn náu và hắn vẫn còn ở đó lúc 16:49.",
+          "timeframe": "16:39 - 17:09",
+          "action": "chỉ điểm tọa độ ẩn náu",
+          "locationLabel": "Ổ ẩn náu",
+          "mapHint": {
+            "id": "Ổ ẩn náu-6518",
+            "label": "Ổ ẩn náu",
+            "point": {
+              "lat": 48.942336670719435,
+              "lng": 2.361999178375795
+            },
+            "radiusMeters": 350
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "c2a6563c-c3d4-456e-95e8-b69923597792",
+        "fullName": "Alex Alonso",
+        "gender": "male",
+        "age": 71,
+        "nationality": "Spain",
+        "occupation": "redwolf Investigator",
+        "email": "alex.alonso@example.com",
+        "phone": "922-060-246",
+        "cell": "695-838-290",
+        "dob": "1954-01-19T08:59:57.229Z",
+        "registered": "2019-08-31T22:35:31.863Z",
+        "idNumber": "19396677-Z",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.87291452875812,
+          "lng": 2.4316387191188102
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/20.jpg",
+        "timezone": "Bombay, Calcutta, Madras, New Delhi",
+        "seed": "redwolf498",
+        "suspicionLevel": 0.68,
+        "alibi": "Đang đi du lịch nước ngoài",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-c2a6563c-c3d4-456e-95e8-b69923597792",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Laura Castro. Ngày hôm đó, vào khoảng 15:32 - 16:02, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Paris cầu sắt Old Bridge.",
+          "timeframe": "15:32 - 16:02",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "Paris cầu sắt Old Bridge",
+          "mapHint": {
+            "id": "Paris cầu sắt Old Bridge-6267",
+            "label": "Paris cầu sắt Old Bridge",
+            "point": {
+              "lat": 48.91935485757873,
+              "lng": 2.441650027013994
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "c1822501-4029-4c99-af4a-88728afb3773",
+        "fullName": "Taylor Garrett",
+        "gender": "male",
+        "age": 46,
+        "nationality": "United Kingdom",
+        "occupation": "goldenladybug Investigator",
+        "email": "taylor.garrett@example.com",
+        "phone": "016974 56847",
+        "cell": "07653 167119",
+        "dob": "1979-03-03T06:10:51.989Z",
+        "registered": "2007-03-01T07:54:48.375Z",
+        "idNumber": "SN 22 78 11 L",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.83334179924409,
+          "lng": 2.23419212503658
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/29.jpg",
+        "timezone": "Central Time (US & Canada), Mexico City",
+        "seed": "goldenladybug889",
+        "suspicionLevel": 0.61,
+        "alibi": "Đang sửa xe tại gara",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-c1822501-4029-4c99-af4a-88728afb3773",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Laura Castro. Ngày hôm đó, vào khoảng 14:46 - 15:16, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại Paris nhà kho số 12.",
+          "timeframe": "14:46 - 15:16",
+          "action": "bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường",
+          "locationLabel": "Paris nhà kho số 12",
+          "mapHint": {
+            "id": "Paris nhà kho số 12-1401",
+            "label": "Paris nhà kho số 12",
+            "point": {
+              "lat": 48.83146556672714,
+              "lng": 2.275021032223677
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "eb04809a-a7dd-4324-ab15-77f920da2f94",
+        "fullName": "Paul Lawson",
+        "gender": "male",
+        "age": 40,
+        "nationality": "United Kingdom",
+        "occupation": "bigpeacock Investigator",
+        "email": "paul.lawson@example.com",
+        "phone": "019467 47749",
+        "cell": "07020 350133",
+        "dob": "1985-08-14T13:26:41.967Z",
+        "registered": "2012-07-09T12:05:16.975Z",
+        "idNumber": "NH 05 42 20 Z",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.86865959689696,
+          "lng": 2.281418513317344
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/77.jpg",
+        "timezone": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk",
+        "seed": "bigpeacock623",
+        "suspicionLevel": 0.6,
+        "alibi": "Đang ngủ tại nhà riêng",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-eb04809a-a7dd-4324-ab15-77f920da2f94",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Laura Castro. Ngày hôm đó, vào khoảng 15:53 - 16:23, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Paris nhà kho số 12.",
+          "timeframe": "15:53 - 16:23",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "Paris nhà kho số 12",
+          "mapHint": {
+            "id": "Paris nhà kho số 12-8723",
+            "label": "Paris nhà kho số 12",
+            "point": {
+              "lat": 48.85745340390806,
+              "lng": 2.28435122456563
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "a8f82362-768f-4486-8fb4-fd36ac4c64ee",
+        "fullName": "Asta Petersen",
+        "gender": "female",
+        "age": 70,
+        "nationality": "Denmark",
+        "occupation": "beautifulelephant Investigator",
+        "email": "asta.petersen@example.com",
+        "phone": "92203544",
+        "cell": "11845922",
+        "dob": "1955-11-24T08:35:43.036Z",
+        "registered": "2018-11-12T09:46:50.699Z",
+        "idNumber": "241155-7489",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.91228553076196,
+          "lng": 2.264283433699816
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/19.jpg",
+        "timezone": "Magadan, Solomon Islands, New Caledonia",
+        "seed": "beautifulelephant532",
+        "suspicionLevel": 0.54,
+        "alibi": "Đang đọc sách tại thư viện",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-a8f82362-768f-4486-8fb4-fd36ac4c64ee",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Laura Castro. Ngày hôm đó, vào khoảng 13:31 - 14:01, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại Paris kho hàng Riverside.",
+          "timeframe": "13:31 - 14:01",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "Paris kho hàng Riverside",
+          "mapHint": {
+            "id": "Paris kho hàng Riverside-1702",
+            "label": "Paris kho hàng Riverside",
+            "point": {
+              "lat": 48.909328162841646,
+              "lng": 2.3032160682173664
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "542ff5ca-b8a4-4af4-ae2c-88e66bb69b4c",
+        "fullName": "Hannah Anderson",
+        "gender": "female",
+        "age": 60,
+        "nationality": "Canada",
+        "occupation": "silvermouse Investigator",
+        "email": "hannah.anderson@example.com",
+        "phone": "F85 G41-8649",
+        "cell": "N32 Z78-8360",
+        "dob": "1965-02-02T07:45:04.163Z",
+        "registered": "2020-12-11T04:24:02.439Z",
+        "idNumber": "386722136",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.88505907451158,
+          "lng": 2.2511415011045113
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/82.jpg",
+        "timezone": "Eastern Australia, Guam, Vladivostok",
+        "seed": "silvermouse631",
+        "suspicionLevel": 0.49,
+        "alibi": "Đang trực ca đêm tại nơi làm việc",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-542ff5ca-b8a4-4af4-ae2c-88e66bb69b4c",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Laura Castro. Ngày hôm đó, vào khoảng 14:32 - 15:02, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại Paris quảng trường Đồng Tế.",
+          "timeframe": "14:32 - 15:02",
+          "action": "thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông",
+          "locationLabel": "Paris quảng trường Đồng Tế",
+          "mapHint": {
+            "id": "Paris quảng trường Đồng Tế-335",
+            "label": "Paris quảng trường Đồng Tế",
+            "point": {
+              "lat": 48.927728105721826,
+              "lng": 2.21602487727353
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "f858a081-e0ff-42df-8398-42637ffd96ea",
+        "fullName": "Lee Burns",
+        "gender": "male",
+        "age": 52,
+        "nationality": "United Kingdom",
+        "occupation": "whitebird Investigator",
+        "email": "lee.burns@example.com",
+        "phone": "016973 27525",
+        "cell": "07689 840665",
+        "dob": "1972-12-09T17:57:18.768Z",
+        "registered": "2012-02-24T04:31:37.407Z",
+        "idNumber": "YN 35 79 74 X",
+        "residence": "Kingston upon Hull, United Kingdom",
+        "coordinates": {
+          "lat": 63.48225550596505,
+          "lng": -22.32981479076797
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/77.jpg",
+        "timezone": "Brussels, Copenhagen, Madrid, Paris",
+        "seed": "whitebird992",
+        "suspicionLevel": 0.56,
+        "alibi": "Đang ngủ tại nhà riêng",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-f858a081-e0ff-42df-8398-42637ffd96ea",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Laura Castro. Ngày hôm đó, vào khoảng 16:56 - 17:26, tôi đã kiểm tra hệ thống camera của nhà thờ cổ tại Paris khu dân cư tọa độ G-17.",
+          "timeframe": "16:56 - 17:26",
+          "action": "kiểm tra hệ thống camera của nhà thờ cổ",
+          "locationLabel": "Paris khu dân cư tọa độ G-17",
+          "mapHint": {
+            "id": "Paris khu dân cư tọa độ G-17-3470",
+            "label": "Paris khu dân cư tọa độ G-17",
+            "point": {
+              "lat": 63.43904151430722,
+              "lng": -22.360810616702192
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "d5598be8-2cd3-45c4-937c-643216dbbad2",
+        "fullName": "Alice Andersen",
+        "gender": "female",
+        "age": 40,
+        "nationality": "Canada",
+        "occupation": "bluefrog Investigator",
+        "email": "alice.andersen@example.com",
+        "phone": "O33 S38-8782",
+        "cell": "X98 R52-1263",
+        "dob": "1985-09-10T07:14:52.465Z",
+        "registered": "2012-11-19T12:31:49.572Z",
+        "idNumber": "109379537",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.88900379221599,
+          "lng": 2.4007486792646016
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/78.jpg",
+        "timezone": "Bombay, Calcutta, Madras, New Delhi",
+        "seed": "bluefrog548",
+        "suspicionLevel": 0.33,
+        "alibi": "Đang đi công tác ở thành phố khác",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-d5598be8-2cd3-45c4-937c-643216dbbad2",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Laura Castro. Ngày hôm đó, vào khoảng 16:54 - 17:24, tôi đã truy cập máy chủ tại phòng lab cũ tại Paris quảng trường Đồng Tế.",
+          "timeframe": "16:54 - 17:24",
+          "action": "truy cập máy chủ tại phòng lab cũ",
+          "locationLabel": "Paris quảng trường Đồng Tế",
+          "mapHint": {
+            "id": "Paris quảng trường Đồng Tế-2179",
+            "label": "Paris quảng trường Đồng Tế",
+            "point": {
+              "lat": 48.85754878541633,
+              "lng": 2.431700327004459
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "51ce1e1a-11a4-4a34-9ac8-7172c115730e",
+        "fullName": "Louisa Rolland",
+        "gender": "female",
+        "age": 26,
+        "nationality": "France",
+        "occupation": "organicbutterfly Investigator",
+        "email": "louisa.rolland@example.com",
+        "phone": "01-94-57-40-05",
+        "cell": "06-27-91-64-40",
+        "dob": "1998-12-14T02:08:51.990Z",
+        "registered": "2008-12-26T15:42:59.872Z",
+        "idNumber": "2981181418233 05",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.978386976480685,
+          "lng": 2.3685070494405562
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/4.jpg",
+        "timezone": "Kabul",
+        "seed": "organicbutterfly109",
+        "suspicionLevel": 0.35,
+        "alibi": "Đang đi dạo trong công viên",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-51ce1e1a-11a4-4a34-9ac8-7172c115730e",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Laura Castro. Ngày hôm đó, vào khoảng 17:52 - 18:22, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại Paris nhà kho số 12.",
+          "timeframe": "17:52 - 18:22",
+          "action": "đi khảo sát công trường dang dở ở ngoại ô",
+          "locationLabel": "Paris nhà kho số 12",
+          "mapHint": {
+            "id": "Paris nhà kho số 12-355",
+            "label": "Paris nhà kho số 12",
+            "point": {
+              "lat": 48.944459688108616,
+              "lng": 2.3256943646801274
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "154c672f-410a-4e9c-93fe-8b2dfa9f11c0",
+        "fullName": "Clara Bélanger",
+        "gender": "female",
+        "age": 75,
+        "nationality": "Canada",
+        "occupation": "smallmeercat Investigator",
+        "email": "clara.belanger@example.com",
+        "phone": "D75 T32-4016",
+        "cell": "U10 V63-2070",
+        "dob": "1950-05-28T15:43:11.074Z",
+        "registered": "2018-06-08T22:47:43.215Z",
+        "idNumber": "083760710",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.896253108109605,
+          "lng": 2.269164169612447
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/73.jpg",
+        "timezone": "Alaska",
+        "seed": "smallmeercat173",
+        "suspicionLevel": 0.35,
+        "alibi": "Đang ngủ tại nhà riêng",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-154c672f-410a-4e9c-93fe-8b2dfa9f11c0",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Laura Castro. Ngày hôm đó, vào khoảng 14:04 - 14:34, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại Paris nhà kho số 12.",
+          "timeframe": "14:04 - 14:34",
+          "action": "đi khảo sát công trường dang dở ở ngoại ô",
+          "locationLabel": "Paris nhà kho số 12",
+          "mapHint": {
+            "id": "Paris nhà kho số 12-8919",
+            "label": "Paris nhà kho số 12",
+            "point": {
+              "lat": 48.88007627166088,
+              "lng": 2.2742103410280445
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "4a79bcad-316f-46c1-af3a-e9dc25efe785",
+        "fullName": "Ed Mitchell",
+        "gender": "male",
+        "age": 44,
+        "nationality": "United Kingdom",
+        "occupation": "sadgorilla Investigator",
+        "email": "ed.mitchell@example.com",
+        "phone": "01438 02774",
+        "cell": "07676 144017",
+        "dob": "1981-01-30T16:27:42.903Z",
+        "registered": "2018-03-09T03:47:44.543Z",
+        "idNumber": "CJ 92 81 08 X",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.85945772796548,
+          "lng": 2.329803981859842
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/20.jpg",
+        "timezone": "Almaty, Dhaka, Colombo",
+        "seed": "sadgorilla879",
+        "suspicionLevel": 0.63,
+        "alibi": "Đang bị kẹt xe trên đường cao tốc",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-4a79bcad-316f-46c1-af3a-e9dc25efe785",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Laura Castro. Ngày hôm đó, vào khoảng 17:41 - 18:11, tôi đã kiểm tra hệ thống camera của nhà thờ cổ tại Paris khu cảng bỏ hoang phía tây.",
+          "timeframe": "17:41 - 18:11",
+          "action": "kiểm tra hệ thống camera của nhà thờ cổ",
+          "locationLabel": "Paris khu cảng bỏ hoang phía tây",
+          "mapHint": {
+            "id": "Paris khu cảng bỏ hoang phía tây-2111",
+            "label": "Paris khu cảng bỏ hoang phía tây",
+            "point": {
+              "lat": 48.902781309421684,
+              "lng": 2.3660612019427583
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "1c2bc1da-7f0d-4744-98b8-45ec9c29c218",
+        "fullName": "Laurie Frazier",
+        "gender": "female",
+        "age": 71,
+        "nationality": "United States",
+        "occupation": "beautifulswan Investigator",
+        "email": "laurie.frazier@example.com",
+        "phone": "(818) 317-3751",
+        "cell": "(844) 743-0972",
+        "dob": "1953-12-03T15:48:54.874Z",
+        "registered": "2002-07-12T16:55:10.537Z",
+        "idNumber": "030-37-6232",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.81441683257403,
+          "lng": 2.4599681366929955
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/43.jpg",
+        "timezone": "Eastern Time (US & Canada), Bogota, Lima",
+        "seed": "beautifulswan724",
+        "suspicionLevel": 0.69,
+        "alibi": "Đang mua sắm tại siêu thị",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-1c2bc1da-7f0d-4744-98b8-45ec9c29c218",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Laura Castro. Ngày hôm đó, vào khoảng 17:12 - 17:42, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại Paris khu dân cư tọa độ G-17.",
+          "timeframe": "17:12 - 17:42",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "Paris khu dân cư tọa độ G-17",
+          "mapHint": {
+            "id": "Paris khu dân cư tọa độ G-17-3255",
+            "label": "Paris khu dân cư tọa độ G-17",
+            "point": {
+              "lat": 48.83799130493248,
+              "lng": 2.449751811776886
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "6741c45e-fd90-4f30-97d3-da4d4c979831",
+        "fullName": "Eetu Lehtinen",
+        "gender": "male",
+        "age": 70,
+        "nationality": "Finland",
+        "occupation": "heavyostrich Investigator",
+        "email": "eetu.lehtinen@example.com",
+        "phone": "05-364-360",
+        "cell": "048-046-73-69",
+        "dob": "1954-12-12T00:17:55.029Z",
+        "registered": "2006-12-13T00:48:15.081Z",
+        "idNumber": "NaNNA071undefined",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.87425920549919,
+          "lng": 2.4126254739714406
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/23.jpg",
+        "timezone": "Alaska",
+        "seed": "heavyostrich121",
+        "suspicionLevel": 0.35,
+        "alibi": "Đang đi dạo trong công viên",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-6741c45e-fd90-4f30-97d3-da4d4c979831",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Laura Castro. Ngày hôm đó, vào khoảng 13:07 - 13:37, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại Paris xưởng sửa tàu hỏa.",
+          "timeframe": "13:07 - 13:37",
+          "action": "đi khảo sát công trường dang dở ở ngoại ô",
+          "locationLabel": "Paris xưởng sửa tàu hỏa",
+          "mapHint": {
+            "id": "Paris xưởng sửa tàu hỏa-7427",
+            "label": "Paris xưởng sửa tàu hỏa",
+            "point": {
+              "lat": 48.882658554554446,
+              "lng": 2.3861705691795416
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "134f0d6c-70ed-40be-8eb0-356c66d4b067",
+        "fullName": "Rose Côté",
+        "gender": "female",
+        "age": 26,
+        "nationality": "Canada",
+        "occupation": "happygorilla Investigator",
+        "email": "rose.cote@example.com",
+        "phone": "I27 K41-9200",
+        "cell": "R85 V01-9957",
+        "dob": "1998-11-28T00:21:19.105Z",
+        "registered": "2012-12-05T00:26:27.641Z",
+        "idNumber": "070756796",
+        "residence": "St. George, Canada",
+        "coordinates": {
+          "lat": 49.5120950418181,
+          "lng": -33.627488708450784
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/11.jpg",
+        "timezone": "Mountain Time (US & Canada)",
+        "seed": "happygorilla177",
+        "suspicionLevel": 0.43,
+        "alibi": "Đang mua sắm tại siêu thị",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-134f0d6c-70ed-40be-8eb0-356c66d4b067",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Laura Castro. Ngày hôm đó, vào khoảng 12:35 - 13:05, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại Paris nhà kho số 12.",
+          "timeframe": "12:35 - 13:05",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "Paris nhà kho số 12",
+          "mapHint": {
+            "id": "Paris nhà kho số 12-4359",
+            "label": "Paris nhà kho số 12",
+            "point": {
+              "lat": 49.47412426817522,
+              "lng": -33.64350001551337
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "f235c190-cbd3-4220-a72c-12371ca7abf0",
+        "fullName": "Candice Carpenter",
+        "gender": "female",
+        "age": 69,
+        "nationality": "United States",
+        "occupation": "beautifulduck Investigator",
+        "email": "candice.carpenter@example.com",
+        "phone": "(936) 403-6212",
+        "cell": "(307) 367-4513",
+        "dob": "1956-07-12T13:05:45.396Z",
+        "registered": "2018-11-15T17:35:35.691Z",
+        "idNumber": "796-19-0475",
+        "residence": "Palmdale, United States",
+        "coordinates": {
+          "lat": 57.87513441158785,
+          "lng": -16.707200007114192
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/70.jpg",
+        "timezone": "Abu Dhabi, Muscat, Baku, Tbilisi",
+        "seed": "beautifulduck481",
+        "suspicionLevel": 0.77,
+        "alibi": "Đang ngủ tại nhà riêng",
+        "role": "accomplice",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-f235c190-cbd3-4220-a72c-12371ca7abf0",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Laura Castro. Ngày hôm đó, vào khoảng 12:44 - 13:14, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Paris ga tàu điện ngầm số 7.",
+          "timeframe": "12:44 - 13:14",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "Paris ga tàu điện ngầm số 7",
+          "mapHint": {
+            "id": "Paris ga tàu điện ngầm số 7-6427",
+            "label": "Paris ga tàu điện ngầm số 7",
+            "point": {
+              "lat": 57.898587911407006,
+              "lng": -16.709525265867455
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        },
+        "secondaryTestimony": {
+          "id": "secondary-f235c190-cbd3-4220-a72c-12371ca7abf0",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Được rồi, tôi sẽ hợp tác. Connor Jennings bảo tôi canh gác tại Ổ ẩn náu và hắn vẫn còn ở đó lúc 16:49.",
+          "timeframe": "16:39 - 17:09",
+          "action": "chỉ điểm tọa độ ẩn náu",
+          "locationLabel": "Ổ ẩn náu",
+          "mapHint": {
+            "id": "Ổ ẩn náu-6518",
+            "label": "Ổ ẩn náu",
+            "point": {
+              "lat": 48.942336670719435,
+              "lng": 2.361999178375795
+            },
+            "radiusMeters": 350
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "2088ad2f-0826-4d69-a9e6-e6a1ae5192b3",
+        "fullName": "Patrick Harvey",
+        "gender": "male",
+        "age": 65,
+        "nationality": "Australia",
+        "occupation": "silvergorilla Investigator",
+        "email": "patrick.harvey@example.com",
+        "phone": "06-3484-3994",
+        "cell": "0481-755-528",
+        "dob": "1959-11-28T04:59:56.368Z",
+        "registered": "2012-12-01T23:00:33.274Z",
+        "idNumber": "087320820",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.84882812947592,
+          "lng": 2.3113118998084254
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/21.jpg",
+        "timezone": "Beijing, Perth, Singapore, Hong Kong",
+        "seed": "silvergorilla743",
+        "suspicionLevel": 0.6,
+        "alibi": "Đang câu cá ở hồ ngoại ô",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-2088ad2f-0826-4d69-a9e6-e6a1ae5192b3",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Laura Castro. Ngày hôm đó, vào khoảng 16:23 - 16:53, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại Paris nhà thờ Saint-Marie.",
+          "timeframe": "16:23 - 16:53",
+          "action": "thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông",
+          "locationLabel": "Paris nhà thờ Saint-Marie",
+          "mapHint": {
+            "id": "Paris nhà thờ Saint-Marie-1054",
+            "label": "Paris nhà thờ Saint-Marie",
+            "point": {
+              "lat": 48.80498292910026,
+              "lng": 2.361110813527558
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "72d3440a-0369-4e8d-8d3f-02f5f9acbf84",
+        "fullName": "Mya Chevalier",
+        "gender": "female",
+        "age": 80,
+        "nationality": "France",
+        "occupation": "beautifulfish Investigator",
+        "email": "mya.chevalier@example.com",
+        "phone": "03-30-29-09-25",
+        "cell": "06-98-16-79-39",
+        "dob": "1944-12-26T20:45:32.575Z",
+        "registered": "2006-07-04T03:34:12.197Z",
+        "idNumber": "2441173823948 90",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.823269393099864,
+          "lng": 2.24985191675256
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/72.jpg",
+        "timezone": "Alaska",
+        "seed": "beautifulfish848",
+        "suspicionLevel": 0.6,
+        "alibi": "Đang đi du lịch nước ngoài",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-72d3440a-0369-4e8d-8d3f-02f5f9acbf84",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Laura Castro. Ngày hôm đó, vào khoảng 15:18 - 15:48, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại Paris ga tàu điện ngầm số 7.",
+          "timeframe": "15:18 - 15:48",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "Paris ga tàu điện ngầm số 7",
+          "mapHint": {
+            "id": "Paris ga tàu điện ngầm số 7-1878",
+            "label": "Paris ga tàu điện ngầm số 7",
+            "point": {
+              "lat": 48.78620197518302,
+              "lng": 2.279436820604643
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "dd026a55-b72a-4312-97dc-151d17732b06",
+        "fullName": "Félix Calvo",
+        "gender": "male",
+        "age": 72,
+        "nationality": "Spain",
+        "occupation": "purplebutterfly Investigator",
+        "email": "felix.calvo@example.com",
+        "phone": "961-852-343",
+        "cell": "676-227-875",
+        "dob": "1953-04-18T15:16:13.171Z",
+        "registered": "2015-10-19T20:50:29.517Z",
+        "idNumber": "95315541-L",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.92465357752911,
+          "lng": 2.3327797575329017
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/71.jpg",
+        "timezone": "Bangkok, Hanoi, Jakarta",
+        "seed": "purplebutterfly333",
+        "suspicionLevel": 0.55,
+        "alibi": "Đang làm việc tại văn phòng",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-dd026a55-b72a-4312-97dc-151d17732b06",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Laura Castro. Ngày hôm đó, vào khoảng 16:16 - 16:46, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại Paris khu dân cư tọa độ G-17.",
+          "timeframe": "16:16 - 16:46",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "Paris khu dân cư tọa độ G-17",
+          "mapHint": {
+            "id": "Paris khu dân cư tọa độ G-17-9050",
+            "label": "Paris khu dân cư tọa độ G-17",
+            "point": {
+              "lat": 48.9310362407977,
+              "lng": 2.354170463996619
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "8a11df63-3eaa-4b7e-b5f8-ab5251382be4",
+        "fullName": "Shane Palmer",
+        "gender": "male",
+        "age": 81,
+        "nationality": "Australia",
+        "occupation": "lazyduck Investigator",
+        "email": "shane.palmer@example.com",
+        "phone": "04-5597-7288",
+        "cell": "0496-903-671",
+        "dob": "1944-11-05T11:28:57.690Z",
+        "registered": "2018-06-21T19:35:01.041Z",
+        "idNumber": "944222535",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.95006424578411,
+          "lng": 2.389076709714127
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/37.jpg",
+        "timezone": "Eastern Time (US & Canada), Bogota, Lima",
+        "seed": "lazyduck621",
+        "suspicionLevel": 0.64,
+        "alibi": "Đang tham gia một buổi tiệc sinh nhật",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-8a11df63-3eaa-4b7e-b5f8-ab5251382be4",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Laura Castro. Ngày hôm đó, vào khoảng 13:46 - 14:16, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Paris cầu sắt Old Bridge.",
+          "timeframe": "13:46 - 14:16",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "Paris cầu sắt Old Bridge",
+          "mapHint": {
+            "id": "Paris cầu sắt Old Bridge-6195",
+            "label": "Paris cầu sắt Old Bridge",
+            "point": {
+              "lat": 48.94250012762883,
+              "lng": 2.386514375255783
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "36f828d4-a548-4b74-8df6-26f9cc118a64",
+        "fullName": "Gülay Schülke",
+        "gender": "female",
+        "age": 36,
+        "nationality": "Germany",
+        "occupation": "greenelephant Investigator",
+        "email": "gulay.schulke@example.com",
+        "phone": "0631-3270938",
+        "cell": "0178-2245763",
+        "dob": "1989-05-08T07:16:41.390Z",
+        "registered": "2010-07-16T11:40:07.788Z",
+        "idNumber": "76 080589 S 573",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.887948240437325,
+          "lng": 2.3828903003818014
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/25.jpg",
+        "timezone": "Central Time (US & Canada), Mexico City",
+        "seed": "greenelephant525",
+        "suspicionLevel": 0.42,
+        "alibi": "Đang sửa xe tại gara",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-36f828d4-a548-4b74-8df6-26f9cc118a64",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Laura Castro. Ngày hôm đó, vào khoảng 14:23 - 14:53, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại Paris kho hàng Riverside.",
+          "timeframe": "14:23 - 14:53",
+          "action": "thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông",
+          "locationLabel": "Paris kho hàng Riverside",
+          "mapHint": {
+            "id": "Paris kho hàng Riverside-3697",
+            "label": "Paris kho hàng Riverside",
+            "point": {
+              "lat": 48.89937589238841,
+              "lng": 2.405914302052803
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "6a55b1cc-2845-4244-9e53-922227751097",
+        "fullName": "Leo Heinonen",
+        "gender": "male",
+        "age": 41,
+        "nationality": "Finland",
+        "occupation": "beautifulmouse Investigator",
+        "email": "leo.heinonen@example.com",
+        "phone": "02-807-999",
+        "cell": "040-215-58-08",
+        "dob": "1983-12-13T13:40:06.514Z",
+        "registered": "2006-03-07T04:21:28.307Z",
+        "idNumber": "NaNNA451undefined",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.984772970469315,
+          "lng": 2.3710691794867977
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/16.jpg",
+        "timezone": "Azores, Cape Verde Islands",
+        "seed": "beautifulmouse231",
+        "suspicionLevel": 0.58,
+        "alibi": "Đang bị kẹt xe trên đường cao tốc",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-6a55b1cc-2845-4244-9e53-922227751097",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Laura Castro. Ngày hôm đó, vào khoảng 13:01 - 13:31, tôi đã kiểm tra hệ thống camera của nhà thờ cổ tại Paris khu cảng bỏ hoang phía tây.",
+          "timeframe": "13:01 - 13:31",
+          "action": "kiểm tra hệ thống camera của nhà thờ cổ",
+          "locationLabel": "Paris khu cảng bỏ hoang phía tây",
+          "mapHint": {
+            "id": "Paris khu cảng bỏ hoang phía tây-6934",
+            "label": "Paris khu cảng bỏ hoang phía tây",
+            "point": {
+              "lat": 48.9829601171544,
+              "lng": 2.327560379553901
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "da42e922-ce43-47f7-bb71-6b78ac7944c0",
+        "fullName": "Viivi Jarvela",
+        "gender": "female",
+        "age": 57,
+        "nationality": "Finland",
+        "occupation": "tinyfish Investigator",
+        "email": "viivi.jarvela@example.com",
+        "phone": "07-128-759",
+        "cell": "045-657-07-23",
+        "dob": "1968-03-07T20:59:15.683Z",
+        "registered": "2006-03-03T14:14:49.305Z",
+        "idNumber": "NaNNA662undefined",
+        "residence": "Paris Area",
+        "coordinates": {
+          "lat": 48.830175267841994,
+          "lng": 2.3115517199893474
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/88.jpg",
+        "timezone": "Eastern Time (US & Canada), Bogota, Lima",
+        "seed": "tinyfish821",
+        "suspicionLevel": 0.36,
+        "alibi": "Đang đi dạo trong công viên",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-da42e922-ce43-47f7-bb71-6b78ac7944c0",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Laura Castro. Ngày hôm đó, vào khoảng 14:03 - 14:33, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại Paris quảng trường Đồng Tế.",
+          "timeframe": "14:03 - 14:33",
+          "action": "thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông",
+          "locationLabel": "Paris quảng trường Đồng Tế",
+          "mapHint": {
+            "id": "Paris quảng trường Đồng Tế-6794",
+            "label": "Paris quảng trường Đồng Tế",
+            "point": {
+              "lat": 48.82840370911393,
+              "lng": 2.345585821537952
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      }
+    ],
+    "primeSuspectIds": [
+      "313a47e1-205c-4c31-8a21-2777fb1d0e8c",
+      "b894f1c0-c584-4998-b675-4ffd48334a76",
+      "134f0d6c-70ed-40be-8eb0-356c66d4b067",
+      "6f3e5eb1-aa39-48f4-b2b3-f43c9c6d7d5c",
+      "f235c190-cbd3-4220-a72c-12371ca7abf0",
+      "6a55b1cc-2845-4244-9e53-922227751097",
+      "6741c45e-fd90-4f30-97d3-da4d4c979831",
+      "f7a95774-d6c4-49f8-ad65-673f2cedd601",
+      "c0d3229a-4ee3-4a3e-9d7d-fb6076086661",
+      "8874c8ad-f480-4d44-9457-0cfb8b7e1ee6"
+    ],
+    "accompliceIds": [
+      "8874c8ad-f480-4d44-9457-0cfb8b7e1ee6",
+      "f235c190-cbd3-4220-a72c-12371ca7abf0",
+      "c0d3229a-4ee3-4a3e-9d7d-fb6076086661"
+    ],
+    "accompliceCount": 3,
+    "relationships": [
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "8752300a-89df-4d61-ab85-f1b28ec75e9b",
+        "relationship": "business",
+        "description": "Ray Rodriquez khai mình là đối tác làm ăn và có mặt tại Paris chợ đêm trung tâm (15:23 - 15:53)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "f74d3c5b-5cde-453a-9c60-c01ffdf69d44",
+        "relationship": "business",
+        "description": "Liam Gill khai mình là đối tác làm ăn và có mặt tại Paris xưởng sửa tàu hỏa (16:01 - 16:31)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "84344634-7b7e-4336-8761-db207d1e32c5",
+        "relationship": "colleague",
+        "description": "John Calvo khai mình là đồng nghiệp và có mặt tại Paris nhà thờ Saint-Marie (15:57 - 16:27)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "6a4b78ec-bdea-4fdb-924c-e9fea88e2940",
+        "relationship": "acquaintance",
+        "description": "Madison Brown khai mình là mối quen biết và có mặt tại Paris chợ đêm trung tâm (16:41 - 17:11)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "313a47e1-205c-4c31-8a21-2777fb1d0e8c",
+        "relationship": "family",
+        "description": "Connor Jennings khai mình là người thân và có mặt tại Paris quảng trường Đồng Tế (12:14 - 12:44)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "b78a8d6f-0fcb-43d0-b972-9f07d7e09f14",
+        "relationship": "unknown",
+        "description": "Wolfram Burkert khai mình là người quen xã giao và có mặt tại Paris chợ đêm trung tâm (15:12 - 15:42)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "e69dd1a9-513d-4164-86b3-d47b6512803d",
+        "relationship": "business",
+        "description": "Heidi Hansen khai mình là đối tác làm ăn và có mặt tại Paris cầu sắt Old Bridge (16:37 - 17:07)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "25b8d6e8-5f39-46ac-80f3-1b9b8cc8a93d",
+        "relationship": "acquaintance",
+        "description": "Lucas Petersen khai mình là mối quen biết và có mặt tại Paris nhà thờ Saint-Marie (13:49 - 14:19)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "a71725e1-f7ef-47f3-b217-332e054127da",
+        "relationship": "family",
+        "description": "Martha Kelley khai mình là người thân và có mặt tại Paris khu dân cư tọa độ G-17 (15:17 - 15:47)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "4a299128-efbf-4bfd-a1c0-d45d1491d5b7",
+        "relationship": "acquaintance",
+        "description": "Vanesa Ramos khai mình là mối quen biết và có mặt tại Paris nhà thờ Saint-Marie (14:22 - 14:52)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "1b5eabc9-ddb5-4790-a7bc-5afc9884aba4",
+        "relationship": "unknown",
+        "description": "Edith Lowe khai mình là người quen xã giao và có mặt tại Paris chợ đêm trung tâm (17:26 - 17:56)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "0f847d0e-abbb-481a-a34a-20b5c29bd1ed",
+        "relationship": "unknown",
+        "description": "Nicoline Jensen khai mình là người quen xã giao và có mặt tại Paris khu cảng bỏ hoang phía tây (15:47 - 16:17)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "adca17be-47a2-4b1e-ab38-ef0daada559f",
+        "relationship": "acquaintance",
+        "description": "Viivi Toro khai mình là mối quen biết và có mặt tại Paris quảng trường Đồng Tế (17:17 - 17:47)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "18d8850e-c4a3-4c77-a9fe-b00235ffebb1",
+        "relationship": "colleague",
+        "description": "Thoralf Fritzsche khai mình là đồng nghiệp và có mặt tại Paris kho hàng Riverside (16:30 - 17:00)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "f7a95774-d6c4-49f8-ad65-673f2cedd601",
+        "relationship": "business",
+        "description": "Andrea Andersen khai mình là đối tác làm ăn và có mặt tại Paris cầu sắt Old Bridge (13:09 - 13:39)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "1cde2f51-5e38-4600-a3a1-d8ac1fd0023a",
+        "relationship": "business",
+        "description": "Quinn Smith khai mình là đối tác làm ăn và có mặt tại Paris nhà thờ Saint-Marie (14:52 - 15:22)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "8874c8ad-f480-4d44-9457-0cfb8b7e1ee6",
+        "relationship": "unknown",
+        "description": "Denise Olson khai mình là người quen xã giao và có mặt tại Paris khu cảng bỏ hoang phía tây (13:19 - 13:49)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "721438fb-88b4-4d43-aaf9-e20ff7a0bd45",
+        "relationship": "business",
+        "description": "Paul Bücker khai mình là đối tác làm ăn và có mặt tại Paris ga tàu điện ngầm số 7 (17:45 - 18:15)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "5aa24fd9-537b-4a6f-8335-528453eafedf",
+        "relationship": "colleague",
+        "description": "Kayla Green khai mình là đồng nghiệp và có mặt tại Paris nhà kho số 12 (17:02 - 17:32)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "b894f1c0-c584-4998-b675-4ffd48334a76",
+        "relationship": "colleague",
+        "description": "Kate Taylor khai mình là đồng nghiệp và có mặt tại Paris khu dân cư tọa độ G-17 (12:28 - 12:58)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "6f3e5eb1-aa39-48f4-b2b3-f43c9c6d7d5c",
+        "relationship": "acquaintance",
+        "description": "Lily Wright khai mình là mối quen biết và có mặt tại Paris khu dân cư tọa độ G-17 (12:37 - 13:07)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "216dfef0-31f7-4ab7-912d-c0c6ed618a42",
+        "relationship": "colleague",
+        "description": "Iida Kauppi khai mình là đồng nghiệp và có mặt tại Paris nhà thờ Saint-Marie (13:39 - 14:09)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "d4fe7779-0e75-439c-ad19-0fbd12dbb10d",
+        "relationship": "family",
+        "description": "Naja Rasmussen khai mình là người thân và có mặt tại Paris ga tàu điện ngầm số 7 (17:32 - 18:02)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "d57198fb-8f3d-4b9d-815f-e6277d9e328e",
+        "relationship": "colleague",
+        "description": "Iiris Suomi khai mình là đồng nghiệp và có mặt tại Paris quảng trường Đồng Tế (14:10 - 14:40)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "2fa2cf72-250f-45a1-81d4-7ca736d6254e",
+        "relationship": "colleague",
+        "description": "Arron Lopez khai mình là đồng nghiệp và có mặt tại Paris chợ đêm trung tâm (14:47 - 15:17)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "864ba5f5-77d6-4e7b-bd34-066bb6eaca26",
+        "relationship": "family",
+        "description": "Nooa Murto khai mình là người thân và có mặt tại Paris ga tàu điện ngầm số 7 (16:20 - 16:50)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "e75f4313-7889-4e3a-af91-98e68d1e5491",
+        "relationship": "unknown",
+        "description": "Lillian Hall khai mình là người quen xã giao và có mặt tại Paris xưởng sửa tàu hỏa (18:03 - 18:33)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "5271dab4-9e6c-4d56-b7bb-939c201a367a",
+        "relationship": "acquaintance",
+        "description": "Arthur Patel khai mình là mối quen biết và có mặt tại Paris chợ đêm trung tâm (15:00 - 15:30)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "c0d3229a-4ee3-4a3e-9d7d-fb6076086661",
+        "relationship": "acquaintance",
+        "description": "Chloe Lynch khai mình là mối quen biết và có mặt tại Paris cầu sắt Old Bridge (13:14 - 13:44)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "c2a6563c-c3d4-456e-95e8-b69923597792",
+        "relationship": "acquaintance",
+        "description": "Alex Alonso khai mình là mối quen biết và có mặt tại Paris cầu sắt Old Bridge (15:32 - 16:02)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "c1822501-4029-4c99-af4a-88728afb3773",
+        "relationship": "family",
+        "description": "Taylor Garrett khai mình là người thân và có mặt tại Paris nhà kho số 12 (14:46 - 15:16)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "eb04809a-a7dd-4324-ab15-77f920da2f94",
+        "relationship": "family",
+        "description": "Paul Lawson khai mình là người thân và có mặt tại Paris nhà kho số 12 (15:53 - 16:23)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "a8f82362-768f-4486-8fb4-fd36ac4c64ee",
+        "relationship": "family",
+        "description": "Asta Petersen khai mình là người thân và có mặt tại Paris kho hàng Riverside (13:31 - 14:01)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "542ff5ca-b8a4-4af4-ae2c-88e66bb69b4c",
+        "relationship": "unknown",
+        "description": "Hannah Anderson khai mình là người quen xã giao và có mặt tại Paris quảng trường Đồng Tế (14:32 - 15:02)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "f858a081-e0ff-42df-8398-42637ffd96ea",
+        "relationship": "unknown",
+        "description": "Lee Burns khai mình là người quen xã giao và có mặt tại Paris khu dân cư tọa độ G-17 (16:56 - 17:26)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "d5598be8-2cd3-45c4-937c-643216dbbad2",
+        "relationship": "family",
+        "description": "Alice Andersen khai mình là người thân và có mặt tại Paris quảng trường Đồng Tế (16:54 - 17:24)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "51ce1e1a-11a4-4a34-9ac8-7172c115730e",
+        "relationship": "acquaintance",
+        "description": "Louisa Rolland khai mình là mối quen biết và có mặt tại Paris nhà kho số 12 (17:52 - 18:22)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "154c672f-410a-4e9c-93fe-8b2dfa9f11c0",
+        "relationship": "unknown",
+        "description": "Clara Bélanger khai mình là người quen xã giao và có mặt tại Paris nhà kho số 12 (14:04 - 14:34)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "4a79bcad-316f-46c1-af3a-e9dc25efe785",
+        "relationship": "colleague",
+        "description": "Ed Mitchell khai mình là đồng nghiệp và có mặt tại Paris khu cảng bỏ hoang phía tây (17:41 - 18:11)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "1c2bc1da-7f0d-4744-98b8-45ec9c29c218",
+        "relationship": "business",
+        "description": "Laurie Frazier khai mình là đối tác làm ăn và có mặt tại Paris khu dân cư tọa độ G-17 (17:12 - 17:42)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "6741c45e-fd90-4f30-97d3-da4d4c979831",
+        "relationship": "colleague",
+        "description": "Eetu Lehtinen khai mình là đồng nghiệp và có mặt tại Paris xưởng sửa tàu hỏa (13:07 - 13:37)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "134f0d6c-70ed-40be-8eb0-356c66d4b067",
+        "relationship": "business",
+        "description": "Rose Côté khai mình là đối tác làm ăn và có mặt tại Paris nhà kho số 12 (12:35 - 13:05)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "f235c190-cbd3-4220-a72c-12371ca7abf0",
+        "relationship": "unknown",
+        "description": "Candice Carpenter khai mình là người quen xã giao và có mặt tại Paris ga tàu điện ngầm số 7 (12:44 - 13:14)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "2088ad2f-0826-4d69-a9e6-e6a1ae5192b3",
+        "relationship": "unknown",
+        "description": "Patrick Harvey khai mình là người quen xã giao và có mặt tại Paris nhà thờ Saint-Marie (16:23 - 16:53)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "72d3440a-0369-4e8d-8d3f-02f5f9acbf84",
+        "relationship": "colleague",
+        "description": "Mya Chevalier khai mình là đồng nghiệp và có mặt tại Paris ga tàu điện ngầm số 7 (15:18 - 15:48)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "dd026a55-b72a-4312-97dc-151d17732b06",
+        "relationship": "acquaintance",
+        "description": "Félix Calvo khai mình là mối quen biết và có mặt tại Paris khu dân cư tọa độ G-17 (16:16 - 16:46)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "8a11df63-3eaa-4b7e-b5f8-ab5251382be4",
+        "relationship": "business",
+        "description": "Shane Palmer khai mình là đối tác làm ăn và có mặt tại Paris cầu sắt Old Bridge (13:46 - 14:16)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "36f828d4-a548-4b74-8df6-26f9cc118a64",
+        "relationship": "business",
+        "description": "Gülay Schülke khai mình là đối tác làm ăn và có mặt tại Paris kho hàng Riverside (14:23 - 14:53)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "6a55b1cc-2845-4244-9e53-922227751097",
+        "relationship": "family",
+        "description": "Leo Heinonen khai mình là người thân và có mặt tại Paris khu cảng bỏ hoang phía tây (13:01 - 13:31)."
+      },
+      {
+        "sourceId": "3de29b29-537d-43e6-8c55-e460d320553f",
+        "targetId": "da42e922-ce43-47f7-bb71-6b78ac7944c0",
+        "relationship": "family",
+        "description": "Viivi Jarvela khai mình là người thân và có mặt tại Paris quảng trường Đồng Tế (14:03 - 14:33)."
+      }
+    ],
+    "clueDrafts": [
+      {
+        "id": "clue_1",
+        "title": "Dòng chữ nguệch ngoạc",
+        "summary": "Một tờ giấy ghi chú trên bàn làm việc của Laura với dòng chữ 'Chợ Đêm'. Đây có thể là một địa điểm quan trọng hoặc một mật mã.",
+        "difficulty": "easy",
+        "relatedCitizenIds": [],
+        "mapHints": []
+      },
+      {
+        "id": "clue_2",
+        "title": "Lịch sử duyệt web",
+        "summary": "Phân tích lịch sử duyệt web của Laura Castro. Cô thường xuyên tìm kiếm thông tin về các địa điểm khác nhau ở Paris: 'Chợ Đêm', 'Quảng trường Đồng Tế' và 'Khu dân cư tọa độ G-17'.",
+        "difficulty": "medium",
+        "relatedCitizenIds": [],
+        "mapHints": []
+      },
+      {
+        "id": "clue_3",
+        "title": "Ly cà phê đặc biệt",
+        "summary": "Phân tích dấu vết cà phê trong ly của Laura. Đó là loại cà phê đặc biệt chỉ được bán ở một quán cà phê nhỏ tại Quảng trường Đồng Tế. Connor Jennings khai rằng đã đến Quảng trường Đồng Tế vào ngày xảy ra án mạng.",
+        "difficulty": "medium",
+        "relatedCitizenIds": [
+          "313a47e1-205c-4c31-8a21-2777fb1d0e8c"
+        ],
+        "mapHints": [
+          "Quảng trường Đồng Tế"
+        ]
+      },
+      {
+        "id": "clue_4",
+        "title": "Camera Quảng trường",
+        "summary": "Xem lại camera an ninh tại Quảng trường Đồng Tế. Ta thấy Connor Jennings rời khỏi quán cà phê đó với một cốc cà phê mang đi chỉ vài giờ trước khi Laura bị sát hại.",
+        "difficulty": "medium",
+        "relatedCitizenIds": [
+          "313a47e1-205c-4c31-8a21-2777fb1d0e8c"
+        ],
+        "mapHints": [
+          "Quảng trường Đồng Tế"
+        ]
+      },
+      {
+        "id": "clue_5",
+        "title": "USB trong nhà Connor",
+        "summary": "Khám xét nhà Connor Jennings. Cảnh sát tìm thấy một chiếc USB chứa bản sao danh sách khách hàng của đường dây buôn bán thông tin, có cả thông tin cá nhân của Laura. Trên USB còn có một file ghi âm cuộc trò chuyện giữa Laura và Connor.",
+        "difficulty": "hard",
+        "relatedCitizenIds": [
+          "313a47e1-205c-4c31-8a21-2777fb1d0e8c"
+        ],
+        "mapHints": []
+      },
+      {
+        "id": "clue_6",
+        "title": "Ghi âm cuộc cãi vã",
+        "summary": "Trong file ghi âm, Laura đe dọa sẽ báo cảnh sát về việc Connor tham gia vào đường dây buôn bán thông tin. Connor phản ứng giận dữ, quát mắng cô.",
+        "difficulty": "hard",
+        "relatedCitizenIds": [
+          "313a47e1-205c-4c31-8a21-2777fb1d0e8c"
+        ],
+        "mapHints": []
+      },
+      {
+        "id": "clue_7",
+        "title": "Hành động đáng ngờ",
+        "summary": "Trong quá trình điều tra, Martha Kelley, dì của Laura và là người thân cận của Connor, liên tục cản trở công việc của cảnh sát bằng cách cung cấp thông tin sai lệch. Cô khai rằng vào thời điểm Laura bị sát hại, Connor đang ở cùng cô tại Khu dân cư tọa độ G-17. Tuy nhiên, các nhân chứng lại cho biết không thấy Connor ở đó.",
+        "difficulty": "medium",
+        "relatedCitizenIds": [
+          "a71725e1-f7ef-47f3-b217-332e054127da",
+          "313a47e1-205c-4c31-8a21-2777fb1d0e8c"
+        ],
+        "mapHints": [
+          "Khu dân cư tọa độ G-17"
+        ]
+      },
+      {
+        "id": "clue_8",
+        "title": "Lời khai bất nhất",
+        "summary": "Lời khai của Martha Kelley mâu thuẫn với lời khai của những người khác. Cô khẳng định rằng mình đã ở cùng Connor tại khu dân cư tọa độ G-17 để bám theo dấu vết chiếc xe tải nghi ngờ, nhưng không đưa ra được bằng chứng xác thực, có vẻ đang bao che cho ai đó.",
+        "difficulty": "medium",
+        "relatedCitizenIds": [
+          "a71725e1-f7ef-47f3-b217-332e054127da",
+          "313a47e1-205c-4c31-8a21-2777fb1d0e8c"
+        ],
+        "mapHints": [
+          "Khu dân cư tọa độ G-17"
+        ]
+      },
+      {
+        "id": "clue_9",
+        "title": "Ổ ẩn náu",
+        "summary": "Sau khi Martha Kelley và các đồng phạm bị bắt, họ khai ra 'Ổ ẩn náu' của Connor Jennings nằm tại Khu dân cư tọa độ G-17. Kiểm tra khu vực, cảnh sát tìm thấy bằng chứng cho thấy Connor đã lên kế hoạch bỏ trốn từ trước.",
+        "difficulty": "hard",
+        "relatedCitizenIds": [
+          "313a47e1-205c-4c31-8a21-2777fb1d0e8c",
+          "a71725e1-f7ef-47f3-b217-332e054127da"
+        ],
+        "mapHints": [
+          "Khu dân cư tọa độ G-17"
+        ]
+      }
+    ],
+    "story": "Paris, 27 tháng 11 năm 2025. Màn sương giăng kín sông Seine như một tấm vải liệm. Trong căn hộ áp mái sang trọng trên phố Rue de Rivoli, Laura Castro, biệt danh Tinypanda, một điều tra viên tư nhân nổi tiếng, nằm gục bên bàn làm việc. Chiếc máy tính vẫn sáng đèn, hiển thị một loạt các khuôn mặt nghi phạm. Không có dấu hiệu đột nhập, nhưng một ly cà phê đã cạn và một tờ giấy ghi chú với dòng chữ nguệch ngoạc: 'Chợ Đêm'... Vụ án lập tức gây chấn động giới điều tra. Laura, với khả năng phá án siêu việt, lại trở thành nạn nhân của một âm mưu tinh vi. Thanh tra Dubois, một người đàn ông dày dạn kinh nghiệm với ánh mắt sắc bén, nhận ra đây không chỉ là một vụ giết người thông thường. Đây là một lời thách thức.",
+    "solution": {
+      "killerId": "313a47e1-205c-4c31-8a21-2777fb1d0e8c",
+      "victimBackstory": "Laura Castro, dù trẻ tuổi, đã tích lũy một danh sách dài những kẻ thù trong giới tội phạm. Cô chuyên điều tra các vụ án liên quan đến rửa tiền và buôn lậu nghệ thuật, đụng chạm đến nhiều tổ chức ngầm nguy hiểm. Gần đây, cô đang bí mật theo dõi một đường dây buôn bán thông tin cá nhân quy mô lớn.",
+      "killerMotive": "Connor Jennings, chú của Laura Castro, nợ một khoản tiền khổng lồ cho một băng đảng xã hội đen. Laura phát hiện ra điều này và hứa sẽ giúp chú trả nợ. Tuy nhiên, cô đã phát hiện ra rằng Connor không chỉ nợ tiền, mà còn tham gia vào đường dây buôn bán thông tin cá nhân mà cô đang điều tra. Connor sợ Laura sẽ tố cáo mình, nên đã quyết định giết cô để bảo vệ bản thân và tổ chức.",
+      "relationship": "Bề ngoài, Connor Jennings là một người chú yêu thương, luôn quan tâm đến Laura. Tuy nhiên, thực tế, Connor là một kẻ nghiện cờ bạc và tham gia vào các hoạt động phi pháp. Anh ta lợi dụng mối quan hệ thân thiết với Laura để thu thập thông tin và che giấu hành vi phạm tội của mình.",
+      "cluePhase1": "Kiểm tra lịch sử duyệt web của Laura, ta thấy cô thường xuyên tìm kiếm thông tin về 'Chợ Đêm', 'Quảng trường Đồng Tế' và 'Khu dân cư tọa độ G-17'. Loại bỏ những người không có mặt ở những địa điểm này trong ngày Laura bị sát hại. Loại: Ray Rodriquez, Liam Gill, John Calvo, Wolfram Burkert, Heidi Hansen, Lucas Petersen, Vanesa Ramos, Edith Lowe, Nicoline Jensen, Viivi Toro, Thoralf Fritzsche, Andrea Andersen.",
+      "cluePhase2": "Phân tích vết cà phê trên ly của Laura. Kết quả cho thấy đó là loại cà phê đặc biệt chỉ được bán tại một quán cà phê nhỏ ở Quảng trường Đồng Tế. Connor Jennings khai rằng ông đến Quảng trường Đồng Tế để cầu nguyện. Kiểm tra camera an ninh tại Quảng trường Đồng Tế, ta thấy Connor rời khỏi quán cà phê đó với một cốc cà phê mang đi chỉ vài giờ trước khi Laura bị sát hại. Khoanh vùng nghi phạm: Connor Jennings, Martha Kelley.",
+      "finalClue": "Khám xét nhà Connor Jennings, cảnh sát tìm thấy một chiếc USB chứa bản sao danh sách khách hàng của đường dây buôn bán thông tin, có cả thông tin cá nhân của Laura. Trên USB còn có một file ghi âm cuộc trò chuyện giữa Laura và Connor, trong đó Connor thừa nhận nợ nần và có liên quan đến đường dây buôn bán thông tin. Đoạn cuối file, Laura đe dọa sẽ báo cảnh sát, và Connor phản ứng giận dữ, quát mắng cô. Ngoài ra, các đồng phạm là Martha Kelley và 1 người bí ẩn đã cản trở việc bắt giữ Connor. Sau khi ba đồng phạm bị bắt giữ, họ khai ra 'Ổ ẩn náu' của Connor Jennings nằm tại Khu dân cư tọa độ G-17."
+    },
+    "locationName": "Paris",
+    "hideoutHint": {
+      "id": "Ổ ẩn náu-6518",
+      "label": "Ổ ẩn náu",
+      "point": {
+        "lat": 48.942336670719435,
+        "lng": 2.361999178375795
+      },
+      "radiusMeters": 350
+    },
+    "caseTitle": "Chiến dịch Vệt Khói Paris - Castro"
+  },
+  "title": "Chiến dịch Vệt Khói Paris - Castro"
+}

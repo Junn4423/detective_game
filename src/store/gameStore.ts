@@ -10,10 +10,13 @@ interface GameState {
   highlightedClueId?: string
   error?: string
   caseSeed: number
+  caseReplayVersion: number
   focusedCitizenId?: string
   activeTab: 'map' | 'suspects'
   captureOutcome?: 'captured' | 'partial' | 'failed'
   hasActivatedCase: boolean
+  activeCaseCode?: string
+  archivedCaseCode?: string
   setCitizens: (citizens: CitizenProfile[]) => void
   setCaseBundle: (bundle: CaseClueBundle) => void
   setPhase: (phase: CasePhase) => void
@@ -24,18 +27,24 @@ interface GameState {
   highlightClue: (clueId?: string) => void
   setError: (message?: string) => void
   setFocusedCitizenId: (id?: string) => void
+  setActiveCaseCode: (code?: string) => void
+  setArchivedCaseCode: (code?: string) => void
   restartCurrentCase: () => void
   startNewCase: () => void
+  loadArchivedCase: (code: string) => void
 }
 
 export const useGameStore = create<GameState>((set) => ({
   citizens: [],
   phase: 'idle',
   caseSeed: Date.now(),
+  caseReplayVersion: 0,
   shortlistedSuspectIds: [],
   activeTab: 'map',
   captureOutcome: undefined,
   hasActivatedCase: false,
+  activeCaseCode: undefined,
+  archivedCaseCode: undefined,
   setCitizens: (citizens) => set({ citizens }),
   setCaseBundle: (bundle) => set({ caseBundle: bundle }),
   setPhase: (phase) => set({ phase }),
@@ -75,16 +84,24 @@ export const useGameStore = create<GameState>((set) => ({
       highlightedClueId: state.highlightedClueId === clueId ? undefined : clueId,
     })),
   setError: (message) => set({ error: message }),
+  setActiveCaseCode: (code) => set({ activeCaseCode: code }),
+  setArchivedCaseCode: (code) => set({ archivedCaseCode: code }),
   restartCurrentCase: () =>
-    set({
-      phase: 'loading',
-      // Keep caseBundle and caseSeed
-      lockedSuspectId: undefined,
-      shortlistedSuspectIds: [],
-      highlightedClueId: undefined,
-      focusedCitizenId: undefined,
-      error: undefined,
-      captureOutcome: undefined,
+    set((state) => {
+      if (!state.archivedCaseCode) {
+        return {}
+      }
+      return {
+        phase: 'loading',
+        lockedSuspectId: undefined,
+        shortlistedSuspectIds: [],
+        highlightedClueId: undefined,
+        focusedCitizenId: undefined,
+        error: undefined,
+        captureOutcome: undefined,
+        caseReplayVersion: state.caseReplayVersion + 1,
+        // Preserve case codes for replay
+      }
     }),
   startNewCase: () =>
     set({
@@ -96,7 +113,25 @@ export const useGameStore = create<GameState>((set) => ({
       focusedCitizenId: undefined,
       error: undefined,
       caseSeed: Date.now(),
+      caseReplayVersion: 0,
       captureOutcome: undefined,
       hasActivatedCase: true,
+      activeCaseCode: undefined,
+      archivedCaseCode: undefined,
     }),
+  loadArchivedCase: (code) =>
+    set((state) => ({
+      phase: 'loading',
+      caseBundle: undefined,
+      lockedSuspectId: undefined,
+      shortlistedSuspectIds: [],
+      highlightedClueId: undefined,
+      focusedCitizenId: undefined,
+      error: undefined,
+      captureOutcome: undefined,
+      caseReplayVersion: Math.max(1, state.caseReplayVersion + 1),
+      hasActivatedCase: true,
+      archivedCaseCode: code,
+      activeCaseCode: code,
+    })),
 }))

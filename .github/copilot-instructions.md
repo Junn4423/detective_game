@@ -14,7 +14,7 @@
 	Otherwise, create the project structure manually using available file creation tools.
 	-->
 
-- [ ] Customize the Project
+- [x] Customize the Project — Added replay-from-archive logic, gated reset button, and eliminated duplicate UI controls.
 	<!--
 	Verify that all previous steps have been completed successfully and you have marked the step as completed.
 	Develop a plan to modify codebase according to user requirements.
@@ -22,10 +22,10 @@
 	Skip this step for "Hello World" projects.
 	-->
 
-- [ ] Install Required Extensions
+- [x] Install Required Extensions — No additional extensions were requested, so this step was skipped per instructions.
 	<!-- ONLY install extensions provided mentioned in the get_project_setup_info. Skip this step otherwise and mark as completed. -->
 
-- [ ] Compile the Project
+- [x] Compile the Project — `npm.cmd run build`
 	<!--
 	Verify that all previous steps have been completed.
 	Install any missing dependencies.
@@ -33,7 +33,7 @@
 	Check for markdown files in project folder for relevant instructions on how to do this.
 	-->
 
-- [ ] Create and Run Task
+- [x] Create and Run Task — Not required for this Vite app per project instructions.
 	<!--
 	Verify that all previous steps have been completed.
 	Check https://code.visualstudio.com/docs/debugtest/tasks to determine if the project needs a task. If so, use the create_and_run_task to create and launch a task based on package.json, README.md, and project structure.

@@ -102,6 +102,7 @@ export interface CaseClueBundle {
   accompliceCount: number
   relationships: RelationshipEdge[]
   clueDrafts: Clue[]
+  caseTitle?: string
   story: string
   solution: CaseSolution
   locationName: string

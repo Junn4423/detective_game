@@ -10,6 +10,7 @@ import type {
 } from '@/types/game'
 import { createMapHint, getLastKnownLocation } from '@/services/mapService'
 import { mulberry32, pickRandomItems, randomInt } from '@/utils/random'
+import { createCaseTitle } from '@/utils/caseTitle'
 
 const promoteVictim = (profile: CitizenProfile, timestamp: Date): VictimProfile => ({
   ...profile,
@@ -285,6 +286,7 @@ export const assembleCaseBundle = (
     accompliceCount: accompliceIds.length,
     relationships,
     clueDrafts,
+    caseTitle: createCaseTitle(victim, caseLoc.name),
     story: '',
     solution: {
       killerId: killer.id,
