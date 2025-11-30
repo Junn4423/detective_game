@@ -1,0 +1,2886 @@
+{
+  "caseCode": "victim-28f0db82-8ec9-4b70-874f-c",
+  "generatedAt": "2025-11-30T16:29:50.979Z",
+  "title": "Mật Mã GreenDuck",
+  "bundle": {
+    "victim": {
+      "id": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+      "fullName": "Magdalena Guerrero",
+      "gender": "female",
+      "age": 54,
+      "nationality": "Vietnam",
+      "occupation": "greenduck Investigator",
+      "email": "magdalena.guerrero@example.com",
+      "phone": "992-873-053",
+      "cell": "610-541-736",
+      "dob": "1971-02-27T14:48:02.680Z",
+      "registered": "2010-10-30T01:20:45.226Z",
+      "idNumber": "30437182-S",
+      "residence": "Hà Nội, Việt Nam",
+      "coordinates": {
+        "lat": 20.95679080595658,
+        "lng": 105.88910034279702
+      },
+      "portrait": "https://randomuser.me/api/portraits/women/3.jpg",
+      "timezone": "Newfoundland",
+      "seed": "greenduck186",
+      "victimId": "victim-28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+      "timeOfIncident": "2025-11-30T16:29:38.144Z",
+      "lastKnownLocation": {
+        "lat": 20.95679080595658,
+        "lng": 105.88910034279702
+      }
+    },
+    "killer": {
+      "id": "d113a22b-72d3-46cf-b697-03c320449c84",
+      "fullName": "Cathleen Hütter",
+      "gender": "female",
+      "age": 61,
+      "nationality": "Vietnam",
+      "occupation": "lazyelephant Investigator",
+      "email": "cathleen.hutter@example.com",
+      "phone": "0353-7446709",
+      "cell": "0178-6322801",
+      "dob": "1964-10-07T16:26:28.458Z",
+      "registered": "2010-12-02T04:31:51.164Z",
+      "idNumber": "57 071064 H 562",
+      "residence": "Hà Nội, Việt Nam",
+      "coordinates": {
+        "lat": 21.038389235743317,
+        "lng": 105.83525044129327
+      },
+      "portrait": "https://randomuser.me/api/portraits/women/38.jpg",
+      "timezone": "Azores, Cape Verde Islands",
+      "seed": "lazyelephant500",
+      "suspicionLevel": 0.98,
+      "alibi": "Từ chối khai báo lịch trình",
+      "role": "killer",
+      "relationshipTag": "family",
+      "testimony": {
+        "id": "testimony-d113a22b-72d3-46cf-b697-03c320449c84",
+        "relationshipSummary": "người thân",
+        "narrative": "Tôi là người thân của Magdalena Guerrero. Ngày hôm đó, vào khoảng 20:29 - 20:59, tôi đã kiểm tra hệ thống camera của nhà thờ cổ tại Hà Nội - Phố Cổ.",
+        "timeframe": "20:29 - 20:59",
+        "action": "kiểm tra hệ thống camera của nhà thờ cổ",
+        "locationLabel": "Hà Nội - Phố Cổ",
+        "mapHint": {
+          "id": "Hà Nội - Phố Cổ-8390",
+          "label": "Hà Nội - Phố Cổ",
+          "point": {
+            "lat": 21.016685466290447,
+            "lng": 105.8271876404351
+          },
+          "radiusMeters": 900
+        },
+        "reliability": "shaky"
+      }
+    },
+    "suspects": [
+      {
+        "id": "cfa5392f-092e-40c5-a349-0492ca80722a",
+        "fullName": "Nicklas Andersen",
+        "gender": "male",
+        "age": 58,
+        "nationality": "Vietnam",
+        "occupation": "sadbutterfly Investigator",
+        "email": "nicklas.andersen@example.com",
+        "phone": "42551295",
+        "cell": "87184482",
+        "dob": "1967-03-09T02:24:00.604Z",
+        "registered": "2011-10-31T10:09:35.211Z",
+        "idNumber": "080367-2257",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.10049082973733,
+          "lng": 105.82750170774683
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/82.jpg",
+        "timezone": "Atlantic Time (Canada), Caracas, La Paz",
+        "seed": "sadbutterfly654",
+        "suspicionLevel": 0.42,
+        "alibi": "Đang tham gia lớp học nấu ăn",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-cfa5392f-092e-40c5-a349-0492ca80722a",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Magdalena Guerrero. Ngày hôm đó, vào khoảng 23:45 - 00:15, tôi đã truy cập máy chủ tại phòng lab cũ tại Hà Nội - Nhà Hát Lớn.",
+          "timeframe": "23:45 - 00:15",
+          "action": "truy cập máy chủ tại phòng lab cũ",
+          "locationLabel": "Hà Nội - Nhà Hát Lớn",
+          "mapHint": {
+            "id": "Hà Nội - Nhà Hát Lớn-6894",
+            "label": "Hà Nội - Nhà Hát Lớn",
+            "point": {
+              "lat": 21.005188150950122,
+              "lng": 105.81463558688189
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "481d4d77-103f-43d6-a641-fe615d326d67",
+        "fullName": "Gabrielle Roussel",
+        "gender": "female",
+        "age": 53,
+        "nationality": "Vietnam",
+        "occupation": "beautifulgoose Investigator",
+        "email": "gabrielle.roussel@example.com",
+        "phone": "01-91-44-90-93",
+        "cell": "06-03-91-87-13",
+        "dob": "1972-01-13T02:07:28.514Z",
+        "registered": "2011-12-05T00:39:51.679Z",
+        "idNumber": "2720029075409 11",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.96839204126228,
+          "lng": 105.77234068929795
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/69.jpg",
+        "timezone": "Eastern Time (US & Canada), Bogota, Lima",
+        "seed": "beautifulgoose136",
+        "suspicionLevel": 0.6,
+        "alibi": "Đang mua sắm tại siêu thị",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-481d4d77-103f-43d6-a641-fe615d326d67",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Magdalena Guerrero. Ngày hôm đó, vào khoảng 00:18 - 00:48, tôi đã kiểm tra hệ thống camera của nhà thờ cổ tại Hà Nội - Nhà Hát Lớn.",
+          "timeframe": "00:18 - 00:48",
+          "action": "kiểm tra hệ thống camera của nhà thờ cổ",
+          "locationLabel": "Hà Nội - Nhà Hát Lớn",
+          "mapHint": {
+            "id": "Hà Nội - Nhà Hát Lớn-2573",
+            "label": "Hà Nội - Nhà Hát Lớn",
+            "point": {
+              "lat": 20.99817640871217,
+              "lng": 105.87951940242561
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "ab37d58e-61f4-44c2-aa91-596fde39b6cb",
+        "fullName": "Ramon Rodríguez",
+        "gender": "male",
+        "age": 74,
+        "nationality": "Vietnam",
+        "occupation": "goldendog Investigator",
+        "email": "ramon.rodriguez@example.com",
+        "phone": "923-379-350",
+        "cell": "653-019-263",
+        "dob": "1951-07-08T13:33:53.921Z",
+        "registered": "2011-07-02T19:29:54.507Z",
+        "idNumber": "66997951-P",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.98598538109729,
+          "lng": 105.77651123871985
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/56.jpg",
+        "timezone": "Bombay, Calcutta, Madras, New Delhi",
+        "seed": "goldendog781",
+        "suspicionLevel": 0.65,
+        "alibi": "Đang xem phim tại rạp chiếu phim trung tâm",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-ab37d58e-61f4-44c2-aa91-596fde39b6cb",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Magdalena Guerrero. Ngày hôm đó, vào khoảng 01:36 - 02:06, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Hà Nội - Nhà Hát Lớn.",
+          "timeframe": "01:36 - 02:06",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "Hà Nội - Nhà Hát Lớn",
+          "mapHint": {
+            "id": "Hà Nội - Nhà Hát Lớn-1029",
+            "label": "Hà Nội - Nhà Hát Lớn",
+            "point": {
+              "lat": 20.982119873971094,
+              "lng": 105.86442919976905
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "82de0e61-af7f-4054-ab22-34fee89a9f75",
+        "fullName": "Kristen Bishop",
+        "gender": "female",
+        "age": 70,
+        "nationality": "Vietnam",
+        "occupation": "sadzebra Investigator",
+        "email": "kristen.bishop@example.com",
+        "phone": "(991) 513-1417",
+        "cell": "(284) 225-1140",
+        "dob": "1954-12-02T03:14:26.094Z",
+        "registered": "2011-05-21T01:54:09.520Z",
+        "idNumber": "064-10-2122",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.96077101159417,
+          "lng": 105.90464709145294
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/15.jpg",
+        "timezone": "Eastern Australia, Guam, Vladivostok",
+        "seed": "sadzebra512",
+        "suspicionLevel": 0.32,
+        "alibi": "Đang câu cá ở hồ ngoại ô",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-82de0e61-af7f-4054-ab22-34fee89a9f75",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Magdalena Guerrero. Ngày hôm đó, vào khoảng 22:46 - 23:16, tôi đã truy cập máy chủ tại phòng lab cũ tại Hà Nội - Hồ Hoàn Kiếm.",
+          "timeframe": "22:46 - 23:16",
+          "action": "truy cập máy chủ tại phòng lab cũ",
+          "locationLabel": "Hà Nội - Hồ Hoàn Kiếm",
+          "mapHint": {
+            "id": "Hà Nội - Hồ Hoàn Kiếm-4190",
+            "label": "Hà Nội - Hồ Hoàn Kiếm",
+            "point": {
+              "lat": 21.035452085893425,
+              "lng": 105.80772270328647
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "b0719eb8-260e-4037-b4bc-1392886d9689",
+        "fullName": "Jenny Mccoy",
+        "gender": "female",
+        "age": 31,
+        "nationality": "Vietnam",
+        "occupation": "blackswan Investigator",
+        "email": "jenny.mccoy@example.com",
+        "phone": "01570 31065",
+        "cell": "07731 226026",
+        "dob": "1994-06-14T23:34:28.444Z",
+        "registered": "2020-08-15T08:21:56.751Z",
+        "idNumber": "TT 96 81 05 U",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.901457841626446,
+          "lng": 105.84063103519244
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/45.jpg",
+        "timezone": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk",
+        "seed": "blackswan495",
+        "suspicionLevel": 0.4,
+        "alibi": "Đang đọc sách tại thư viện",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-b0719eb8-260e-4037-b4bc-1392886d9689",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Magdalena Guerrero. Ngày hôm đó, vào khoảng 23:24 - 23:54, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại Hà Nội - Hồ Hoàn Kiếm.",
+          "timeframe": "23:24 - 23:54",
+          "action": "dự một buổi cầu nguyện ngắn gần khu chợ trời",
+          "locationLabel": "Hà Nội - Hồ Hoàn Kiếm",
+          "mapHint": {
+            "id": "Hà Nội - Hồ Hoàn Kiếm-2142",
+            "label": "Hà Nội - Hồ Hoàn Kiếm",
+            "point": {
+              "lat": 21.05708740122785,
+              "lng": 105.83307831789183
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "d26399eb-59bc-45cc-b970-e7bff7f070bf",
+        "fullName": "Juan Diez",
+        "gender": "male",
+        "age": 70,
+        "nationality": "Vietnam",
+        "occupation": "goldendog Investigator",
+        "email": "juan.diez@example.com",
+        "phone": "920-622-902",
+        "cell": "654-268-168",
+        "dob": "1955-08-03T06:01:38.386Z",
+        "registered": "2015-01-10T18:57:01.500Z",
+        "idNumber": "38867586-D",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.109958369370563,
+          "lng": 105.87589367869903
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/51.jpg",
+        "timezone": "Abu Dhabi, Muscat, Baku, Tbilisi",
+        "seed": "goldendog246",
+        "suspicionLevel": 0.49,
+        "alibi": "Đang đọc sách tại thư viện",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-d26399eb-59bc-45cc-b970-e7bff7f070bf",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Magdalena Guerrero. Ngày hôm đó, vào khoảng 22:10 - 22:40, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại Hà Nội - Cầu Long Biên.",
+          "timeframe": "22:10 - 22:40",
+          "action": "dự một buổi cầu nguyện ngắn gần khu chợ trời",
+          "locationLabel": "Hà Nội - Cầu Long Biên",
+          "mapHint": {
+            "id": "Hà Nội - Cầu Long Biên-8435",
+            "label": "Hà Nội - Cầu Long Biên",
+            "point": {
+              "lat": 20.97159447141623,
+              "lng": 105.78971264013593
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "0614ae20-92e7-491e-b2f4-592a0936fe2e",
+        "fullName": "Charlie Martin",
+        "gender": "male",
+        "age": 56,
+        "nationality": "Vietnam",
+        "occupation": "greensnake Investigator",
+        "email": "charlie.martin@example.com",
+        "phone": "(404)-201-1897",
+        "cell": "(906)-346-0912",
+        "dob": "1969-02-16T20:15:25.805Z",
+        "registered": "2017-08-18T00:57:02.351Z",
+        "idNumber": "N/A",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.036495003196737,
+          "lng": 105.9459946265967
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/93.jpg",
+        "timezone": "Kaliningrad, South Africa",
+        "seed": "greensnake617",
+        "suspicionLevel": 0.61,
+        "alibi": "Đang đi công tác ở thành phố khác",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-0614ae20-92e7-491e-b2f4-592a0936fe2e",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Magdalena Guerrero. Ngày hôm đó, vào khoảng 22:42 - 23:12, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại Hà Nội - Nhà Hát Lớn.",
+          "timeframe": "22:42 - 23:12",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "Hà Nội - Nhà Hát Lớn",
+          "mapHint": {
+            "id": "Hà Nội - Nhà Hát Lớn-3383",
+            "label": "Hà Nội - Nhà Hát Lớn",
+            "point": {
+              "lat": 20.968591623929676,
+              "lng": 105.8365566168715
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "7f1eab18-3584-4a6d-bfbf-659894dfb171",
+        "fullName": "Chloe King",
+        "gender": "female",
+        "age": 39,
+        "nationality": "Vietnam",
+        "occupation": "redbear Investigator",
+        "email": "chloe.king@example.com",
+        "phone": "(853)-669-0802",
+        "cell": "(509)-145-4442",
+        "dob": "1986-06-21T20:08:42.691Z",
+        "registered": "2015-01-21T09:31:54.781Z",
+        "idNumber": "N/A",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.011514911693823,
+          "lng": 105.76126740685939
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/19.jpg",
+        "timezone": "Bangkok, Hanoi, Jakarta",
+        "seed": "redbear608",
+        "suspicionLevel": 0.32,
+        "alibi": "Đang chơi bowling cùng bạn bè",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-7f1eab18-3584-4a6d-bfbf-659894dfb171",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Magdalena Guerrero. Ngày hôm đó, vào khoảng 22:19 - 22:49, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại Hà Nội - Hồ Hoàn Kiếm.",
+          "timeframe": "22:19 - 22:49",
+          "action": "đi khảo sát công trường dang dở ở ngoại ô",
+          "locationLabel": "Hà Nội - Hồ Hoàn Kiếm",
+          "mapHint": {
+            "id": "Hà Nội - Hồ Hoàn Kiếm-2914",
+            "label": "Hà Nội - Hồ Hoàn Kiếm",
+            "point": {
+              "lat": 21.0830614301812,
+              "lng": 105.82452653438135
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "f04974ac-2ad4-4ed9-b8da-273388ffcea2",
+        "fullName": "Anna Noel",
+        "gender": "female",
+        "age": 79,
+        "nationality": "Vietnam",
+        "occupation": "bluebear Investigator",
+        "email": "anna.noel@example.com",
+        "phone": "05-99-43-19-81",
+        "cell": "06-75-31-55-44",
+        "dob": "1946-07-05T14:14:05.809Z",
+        "registered": "2007-04-24T07:55:43.711Z",
+        "idNumber": "2460646890286 69",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.962484357904376,
+          "lng": 105.75405501824734
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/81.jpg",
+        "timezone": "Kaliningrad, South Africa",
+        "seed": "bluebear688",
+        "suspicionLevel": 0.61,
+        "alibi": "Đang trực ca đêm tại nơi làm việc",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-f04974ac-2ad4-4ed9-b8da-273388ffcea2",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Magdalena Guerrero. Ngày hôm đó, vào khoảng 22:04 - 22:34, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại Hà Nội - Ga Hà Nội.",
+          "timeframe": "22:04 - 22:34",
+          "action": "dự một buổi cầu nguyện ngắn gần khu chợ trời",
+          "locationLabel": "Hà Nội - Ga Hà Nội",
+          "mapHint": {
+            "id": "Hà Nội - Ga Hà Nội-687",
+            "label": "Hà Nội - Ga Hà Nội",
+            "point": {
+              "lat": 20.99573346662745,
+              "lng": 105.85098615647307
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "ac3b4350-5ba5-48e5-84c3-2c1614c36a94",
+        "fullName": "Marion Fernandez",
+        "gender": "male",
+        "age": 52,
+        "nationality": "Vietnam",
+        "occupation": "sadfish Investigator",
+        "email": "marion.fernandez@example.com",
+        "phone": "017687 73872",
+        "cell": "07590 379048",
+        "dob": "1973-11-27T11:42:13.539Z",
+        "registered": "2019-02-05T14:07:13.226Z",
+        "idNumber": "LY 92 47 05 O",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.001958526441264,
+          "lng": 105.94546585606584
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/77.jpg",
+        "timezone": "Ekaterinburg, Islamabad, Karachi, Tashkent",
+        "seed": "sadfish430",
+        "suspicionLevel": 0.36,
+        "alibi": "Đang tham gia lớp học nấu ăn",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-ac3b4350-5ba5-48e5-84c3-2c1614c36a94",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Magdalena Guerrero. Ngày hôm đó, vào khoảng 00:31 - 01:01, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại Hà Nội - Ga Hà Nội.",
+          "timeframe": "00:31 - 01:01",
+          "action": "đi khảo sát công trường dang dở ở ngoại ô",
+          "locationLabel": "Hà Nội - Ga Hà Nội",
+          "mapHint": {
+            "id": "Hà Nội - Ga Hà Nội-3389",
+            "label": "Hà Nội - Ga Hà Nội",
+            "point": {
+              "lat": 20.959950474416278,
+              "lng": 105.90540408997344
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "2fc44e2d-8fd1-47a4-8558-547e003a995f",
+        "fullName": "Natalie Williams",
+        "gender": "female",
+        "age": 54,
+        "nationality": "Vietnam",
+        "occupation": "heavykoala Investigator",
+        "email": "natalie.williams@example.com",
+        "phone": "(711)-023-5752",
+        "cell": "(621)-016-7901",
+        "dob": "1971-09-17T10:32:24.054Z",
+        "registered": "2003-03-03T06:26:18.972Z",
+        "idNumber": "N/A",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.994903037745274,
+          "lng": 105.76808723223034
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/19.jpg",
+        "timezone": "Beijing, Perth, Singapore, Hong Kong",
+        "seed": "heavykoala632",
+        "suspicionLevel": 0.49,
+        "alibi": "Đang tập gym tại phòng tập thể hình",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-2fc44e2d-8fd1-47a4-8558-547e003a995f",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Magdalena Guerrero. Ngày hôm đó, vào khoảng 00:55 - 01:25, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại Hà Nội - Nhà Hát Lớn.",
+          "timeframe": "00:55 - 01:25",
+          "action": "thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông",
+          "locationLabel": "Hà Nội - Nhà Hát Lớn",
+          "mapHint": {
+            "id": "Hà Nội - Nhà Hát Lớn-8172",
+            "label": "Hà Nội - Nhà Hát Lớn",
+            "point": {
+              "lat": 20.971714651923975,
+              "lng": 105.80601875919744
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "7bd6a46d-8a5b-4d15-9028-969576133f48",
+        "fullName": "Gundel Stapf",
+        "gender": "female",
+        "age": 79,
+        "nationality": "Vietnam",
+        "occupation": "smallpanda Investigator",
+        "email": "gundel.stapf@example.com",
+        "phone": "0134-5963255",
+        "cell": "0173-5989605",
+        "dob": "1946-08-16T19:38:15.040Z",
+        "registered": "2014-07-08T12:23:06.570Z",
+        "idNumber": "25 160846 S 833",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.99587730207134,
+          "lng": 105.96188221123286
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/33.jpg",
+        "timezone": "Atlantic Time (Canada), Caracas, La Paz",
+        "seed": "smallpanda553",
+        "suspicionLevel": 0.35,
+        "alibi": "Đang tham gia hoạt động tình nguyện",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-7bd6a46d-8a5b-4d15-9028-969576133f48",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Magdalena Guerrero. Ngày hôm đó, vào khoảng 01:18 - 01:48, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Hà Nội - Ga Hà Nội.",
+          "timeframe": "01:18 - 01:48",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "Hà Nội - Ga Hà Nội",
+          "mapHint": {
+            "id": "Hà Nội - Ga Hà Nội-9873",
+            "label": "Hà Nội - Ga Hà Nội",
+            "point": {
+              "lat": 20.997386119048485,
+              "lng": 105.84531426769695
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "28475665-85c7-47ab-8fda-533d01913081",
+        "fullName": "Lukas Lemaire",
+        "gender": "male",
+        "age": 75,
+        "nationality": "Vietnam",
+        "occupation": "greenpanda Investigator",
+        "email": "lukas.lemaire@example.com",
+        "phone": "02-60-24-73-09",
+        "cell": "06-68-92-23-38",
+        "dob": "1950-03-20T16:03:15.775Z",
+        "registered": "2013-03-14T23:32:02.082Z",
+        "idNumber": "1500200309958 11",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.081717835209098,
+          "lng": 105.74945279951078
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/34.jpg",
+        "timezone": "Mid-Atlantic",
+        "seed": "greenpanda932",
+        "suspicionLevel": 0.58,
+        "alibi": "Đang ngủ tại nhà riêng",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-28475665-85c7-47ab-8fda-533d01913081",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Magdalena Guerrero. Ngày hôm đó, vào khoảng 02:01 - 02:31, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Hà Nội - Bệnh viện Bạch Mai.",
+          "timeframe": "02:01 - 02:31",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "Hà Nội - Bệnh viện Bạch Mai",
+          "mapHint": {
+            "id": "Hà Nội - Bệnh viện Bạch Mai-6922",
+            "label": "Hà Nội - Bệnh viện Bạch Mai",
+            "point": {
+              "lat": 20.99173613867348,
+              "lng": 105.91217480483049
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "ac34161b-75e4-4daa-b489-8a6d558b17f4",
+        "fullName": "Mason Barnaby",
+        "gender": "male",
+        "age": 48,
+        "nationality": "Vietnam",
+        "occupation": "ticklishwolf Investigator",
+        "email": "mason.barnaby@example.com",
+        "phone": "X31 R10-6995",
+        "cell": "T73 B52-3799",
+        "dob": "1977-08-17T13:52:23.322Z",
+        "registered": "2009-08-24T19:03:55.436Z",
+        "idNumber": "451241616",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.038389235743317,
+          "lng": 105.83525044129327
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/86.jpg",
+        "timezone": "Eastern Australia, Guam, Vladivostok",
+        "seed": "ticklishwolf872",
+        "suspicionLevel": 0.83,
+        "alibi": "Đang ăn tối cùng gia đình",
+        "role": "accomplice",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-ac34161b-75e4-4daa-b489-8a6d558b17f4",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Magdalena Guerrero. Khoảng 21:00 - 21:30, tôi có mặt ngay tại Hà Nội - Phố Cổ, và tôi thấy Cathleen Hütter cũng ở đó trước khi mọi chuyện xảy ra.",
+          "timeframe": "21:00 - 21:30",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "Hà Nội - Phố Cổ",
+          "mapHint": {
+            "id": "Hà Nội - Phố Cổ-6017",
+            "label": "Hà Nội - Phố Cổ",
+            "point": {
+              "lat": 21.029847619225265,
+              "lng": 105.86855058423806
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        },
+        "secondaryTestimony": {
+          "id": "secondary-ac34161b-75e4-4daa-b489-8a6d558b17f4",
+          "relationshipSummary": "người thân",
+          "narrative": "Được rồi, tôi sẽ hợp tác. Cathleen Hütter bảo tôi canh gác tại Ổ ẩn náu Hà Nội và hắn vẫn còn ở đó lúc 00:59.",
+          "timeframe": "00:49 - 01:19",
+          "action": "chỉ điểm tọa độ ẩn náu",
+          "locationLabel": "Ổ ẩn náu Hà Nội",
+          "mapHint": {
+            "id": "Ổ ẩn náu Hà Nội-6366",
+            "label": "Ổ ẩn náu Hà Nội",
+            "point": {
+              "lat": 21.064011568980288,
+              "lng": 105.87596818560831
+            },
+            "radiusMeters": 350
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "6712127a-786b-46f5-9675-3dd62925f575",
+        "fullName": "Gloria Fuentes",
+        "gender": "female",
+        "age": 74,
+        "nationality": "Vietnam",
+        "occupation": "redfish Investigator",
+        "email": "gloria.fuentes@example.com",
+        "phone": "932-082-983",
+        "cell": "687-689-669",
+        "dob": "1951-03-15T03:54:39.478Z",
+        "registered": "2021-05-18T07:12:25.576Z",
+        "idNumber": "81997477-B",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.94384017435681,
+          "lng": 105.89012596442
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/30.jpg",
+        "timezone": "Brussels, Copenhagen, Madrid, Paris",
+        "seed": "redfish522",
+        "suspicionLevel": 0.47,
+        "alibi": "Đang tham gia hoạt động tình nguyện",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-6712127a-786b-46f5-9675-3dd62925f575",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Magdalena Guerrero. Ngày hôm đó, vào khoảng 00:02 - 00:32, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại Hà Nội - Cầu Long Biên.",
+          "timeframe": "00:02 - 00:32",
+          "action": "bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường",
+          "locationLabel": "Hà Nội - Cầu Long Biên",
+          "mapHint": {
+            "id": "Hà Nội - Cầu Long Biên-5605",
+            "label": "Hà Nội - Cầu Long Biên",
+            "point": {
+              "lat": 20.995953123599083,
+              "lng": 105.77683906660452
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "493c6b5d-96ce-4716-8023-cfcf1a67a0f1",
+        "fullName": "Elizabeth Claire",
+        "gender": "female",
+        "age": 42,
+        "nationality": "Vietnam",
+        "occupation": "lazygorilla Investigator",
+        "email": "elizabeth.claire@example.com",
+        "phone": "D98 O94-0484",
+        "cell": "E40 Q25-4450",
+        "dob": "1983-04-25T05:12:36.325Z",
+        "registered": "2006-11-02T07:55:32.368Z",
+        "idNumber": "971236302",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.091382644131397,
+          "lng": 105.91375897452356
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/39.jpg",
+        "timezone": "Almaty, Dhaka, Colombo",
+        "seed": "lazygorilla525",
+        "suspicionLevel": 0.69,
+        "alibi": "Đang đi công tác ở thành phố khác",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-493c6b5d-96ce-4716-8023-cfcf1a67a0f1",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Magdalena Guerrero. Ngày hôm đó, vào khoảng 22:30 - 23:00, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Hà Nội - Phố Cổ.",
+          "timeframe": "22:30 - 23:00",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "Hà Nội - Phố Cổ",
+          "mapHint": {
+            "id": "Hà Nội - Phố Cổ-9548",
+            "label": "Hà Nội - Phố Cổ",
+            "point": {
+              "lat": 21.028466219346967,
+              "lng": 105.84039862307817
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "660d9e07-b00a-4ec6-a59f-069aafa394ea",
+        "fullName": "Matilda Lewis",
+        "gender": "female",
+        "age": 66,
+        "nationality": "Vietnam",
+        "occupation": "ticklishwolf Investigator",
+        "email": "matilda.lewis@example.com",
+        "phone": "(636)-837-5020",
+        "cell": "(216)-938-1607",
+        "dob": "1959-04-23T23:02:41.403Z",
+        "registered": "2020-04-30T02:34:15.493Z",
+        "idNumber": "N/A",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.933326102179993,
+          "lng": 105.75412906327135
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/0.jpg",
+        "timezone": "Kaliningrad, South Africa",
+        "seed": "ticklishwolf428",
+        "suspicionLevel": 0.35,
+        "alibi": "Đang tham dự đám cưới người thân",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-660d9e07-b00a-4ec6-a59f-069aafa394ea",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Magdalena Guerrero. Ngày hôm đó, vào khoảng 20:35 - 21:05, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại Hà Nội - Bệnh viện Bạch Mai.",
+          "timeframe": "20:35 - 21:05",
+          "action": "bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường",
+          "locationLabel": "Hà Nội - Bệnh viện Bạch Mai",
+          "mapHint": {
+            "id": "Hà Nội - Bệnh viện Bạch Mai-481",
+            "label": "Hà Nội - Bệnh viện Bạch Mai",
+            "point": {
+              "lat": 21.01627652695494,
+              "lng": 105.85296354887124
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "0caed5e8-7758-462b-8d99-5b94a04b77fe",
+        "fullName": "James Mcdonalid",
+        "gender": "male",
+        "age": 71,
+        "nationality": "Vietnam",
+        "occupation": "biglion Investigator",
+        "email": "james.mcdonalid@example.com",
+        "phone": "(918) 978-3794",
+        "cell": "(866) 927-4729",
+        "dob": "1954-01-31T00:53:44.411Z",
+        "registered": "2009-06-10T03:53:07.454Z",
+        "idNumber": "255-23-9959",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.03024510690751,
+          "lng": 105.8526999282357
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/26.jpg",
+        "timezone": "Tehran",
+        "seed": "biglion836",
+        "suspicionLevel": 0.39,
+        "alibi": "Đang sửa xe tại gara",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-0caed5e8-7758-462b-8d99-5b94a04b77fe",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Magdalena Guerrero. Ngày hôm đó, vào khoảng 21:27 - 21:57, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại Hà Nội - Cầu Long Biên.",
+          "timeframe": "21:27 - 21:57",
+          "action": "thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông",
+          "locationLabel": "Hà Nội - Cầu Long Biên",
+          "mapHint": {
+            "id": "Hà Nội - Cầu Long Biên-1867",
+            "label": "Hà Nội - Cầu Long Biên",
+            "point": {
+              "lat": 20.953452386638872,
+              "lng": 105.81119625082277
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "113bce12-19b4-462b-8101-a1effc13b6a4",
+        "fullName": "Aubree Perkins",
+        "gender": "female",
+        "age": 68,
+        "nationality": "Vietnam",
+        "occupation": "angryfish Investigator",
+        "email": "aubree.perkins@example.com",
+        "phone": "(231) 481-3652",
+        "cell": "(957) 232-5022",
+        "dob": "1957-11-04T09:26:54.173Z",
+        "registered": "2005-07-13T20:39:29.626Z",
+        "idNumber": "845-67-4024",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.04350989894031,
+          "lng": 105.9626385328301
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/77.jpg",
+        "timezone": "Kabul",
+        "seed": "angryfish819",
+        "suspicionLevel": 0.42,
+        "alibi": "Đang tham gia hoạt động tình nguyện",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-113bce12-19b4-462b-8101-a1effc13b6a4",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Magdalena Guerrero. Ngày hôm đó, vào khoảng 01:49 - 02:19, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại Hà Nội - Bệnh viện Bạch Mai.",
+          "timeframe": "01:49 - 02:19",
+          "action": "bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường",
+          "locationLabel": "Hà Nội - Bệnh viện Bạch Mai",
+          "mapHint": {
+            "id": "Hà Nội - Bệnh viện Bạch Mai-5086",
+            "label": "Hà Nội - Bệnh viện Bạch Mai",
+            "point": {
+              "lat": 20.99252688911835,
+              "lng": 105.86285976450473
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "5e49d74f-6a67-49e8-b8ab-bdee4744d523",
+        "fullName": "Ethan Roche",
+        "gender": "male",
+        "age": 74,
+        "nationality": "Vietnam",
+        "occupation": "happysnake Investigator",
+        "email": "ethan.roche@example.com",
+        "phone": "01-08-50-76-61",
+        "cell": "06-77-93-92-03",
+        "dob": "1951-04-20T12:33:43.708Z",
+        "registered": "2017-12-26T00:54:23.713Z",
+        "idNumber": "1510336937425 02",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.094321996423925,
+          "lng": 105.78902379277505
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/44.jpg",
+        "timezone": "Eniwetok, Kwajalein",
+        "seed": "happysnake368",
+        "suspicionLevel": 0.34,
+        "alibi": "Đang ngủ tại nhà riêng",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-5e49d74f-6a67-49e8-b8ab-bdee4744d523",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Magdalena Guerrero. Ngày hôm đó, vào khoảng 00:10 - 00:40, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại Hà Nội - Nhà Hát Lớn.",
+          "timeframe": "00:10 - 00:40",
+          "action": "thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông",
+          "locationLabel": "Hà Nội - Nhà Hát Lớn",
+          "mapHint": {
+            "id": "Hà Nội - Nhà Hát Lớn-872",
+            "label": "Hà Nội - Nhà Hát Lớn",
+            "point": {
+              "lat": 21.012788405794996,
+              "lng": 105.85623181783954
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "7c41ab29-8b4a-430b-a8a2-d99af0af5683",
+        "fullName": "Troy Gregory",
+        "gender": "male",
+        "age": 48,
+        "nationality": "Vietnam",
+        "occupation": "bigladybug Investigator",
+        "email": "troy.gregory@example.com",
+        "phone": "017683 65937",
+        "cell": "07365 515236",
+        "dob": "1977-01-23T07:50:21.278Z",
+        "registered": "2020-03-17T16:57:22.695Z",
+        "idNumber": "AK 02 69 10 P",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.02144931302236,
+          "lng": 105.92209868128873
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/80.jpg",
+        "timezone": "Central Time (US & Canada), Mexico City",
+        "seed": "bigladybug226",
+        "suspicionLevel": 0.54,
+        "alibi": "Đang sửa xe tại gara",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-7c41ab29-8b4a-430b-a8a2-d99af0af5683",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Magdalena Guerrero. Ngày hôm đó, vào khoảng 01:56 - 02:26, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại Hà Nội - Ga Hà Nội.",
+          "timeframe": "01:56 - 02:26",
+          "action": "bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường",
+          "locationLabel": "Hà Nội - Ga Hà Nội",
+          "mapHint": {
+            "id": "Hà Nội - Ga Hà Nội-3502",
+            "label": "Hà Nội - Ga Hà Nội",
+            "point": {
+              "lat": 21.03350455465205,
+              "lng": 105.86350305422688
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "b8312955-5456-43e8-ad1a-2077b3e6b83c",
+        "fullName": "Oscar Roux",
+        "gender": "male",
+        "age": 45,
+        "nationality": "Vietnam",
+        "occupation": "sadlion Investigator",
+        "email": "oscar.roux@example.com",
+        "phone": "03-41-37-80-04",
+        "cell": "06-90-27-70-89",
+        "dob": "1980-09-20T13:28:23.139Z",
+        "registered": "2005-08-31T22:12:18.124Z",
+        "idNumber": "1800872376314 80",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.061536558358036,
+          "lng": 105.92533683155466
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/40.jpg",
+        "timezone": "Azores, Cape Verde Islands",
+        "seed": "sadlion998",
+        "suspicionLevel": 0.47,
+        "alibi": "Đang khám bệnh tại bệnh viện",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-b8312955-5456-43e8-ad1a-2077b3e6b83c",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Magdalena Guerrero. Ngày hôm đó, vào khoảng 21:51 - 22:21, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Hà Nội - Bệnh viện Bạch Mai.",
+          "timeframe": "21:51 - 22:21",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "Hà Nội - Bệnh viện Bạch Mai",
+          "mapHint": {
+            "id": "Hà Nội - Bệnh viện Bạch Mai-3238",
+            "label": "Hà Nội - Bệnh viện Bạch Mai",
+            "point": {
+              "lat": 21.03338330734147,
+              "lng": 105.91227264201318
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "b75a9d0a-69f7-4c8e-8f9b-104604fe3721",
+        "fullName": "Anni Kauppila",
+        "gender": "female",
+        "age": 51,
+        "nationality": "Vietnam",
+        "occupation": "brownzebra Investigator",
+        "email": "anni.kauppila@example.com",
+        "phone": "07-653-915",
+        "cell": "048-438-43-24",
+        "dob": "1973-12-20T00:17:08.436Z",
+        "registered": "2021-12-22T13:27:01.489Z",
+        "idNumber": "NaNNA968undefined",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.985779274720304,
+          "lng": 105.70639837366234
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/63.jpg",
+        "timezone": "Western Europe Time, London, Lisbon, Casablanca",
+        "seed": "brownzebra176",
+        "suspicionLevel": 0.43,
+        "alibi": "Đang đi dạo trong công viên",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-b75a9d0a-69f7-4c8e-8f9b-104604fe3721",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Magdalena Guerrero. Ngày hôm đó, vào khoảng 23:06 - 23:36, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại Hà Nội - Bệnh viện Bạch Mai.",
+          "timeframe": "23:06 - 23:36",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "Hà Nội - Bệnh viện Bạch Mai",
+          "mapHint": {
+            "id": "Hà Nội - Bệnh viện Bạch Mai-6729",
+            "label": "Hà Nội - Bệnh viện Bạch Mai",
+            "point": {
+              "lat": 21.046584823975323,
+              "lng": 105.88128774987582
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "8a71c78e-bc24-4748-bb2b-2a235285f6fc",
+        "fullName": "Flenn Ruiz",
+        "gender": "male",
+        "age": 31,
+        "nationality": "Vietnam",
+        "occupation": "heavyfish Investigator",
+        "email": "flenn.ruiz@example.com",
+        "phone": "013873 25437",
+        "cell": "07541 770566",
+        "dob": "1994-10-01T22:56:33.245Z",
+        "registered": "2009-12-22T19:44:54.310Z",
+        "idNumber": "HL 07 33 77 K",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.027016128574616,
+          "lng": 105.87827281288112
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/81.jpg",
+        "timezone": "Kathmandu",
+        "seed": "heavyfish105",
+        "suspicionLevel": 0.45,
+        "alibi": "Đang câu cá ở hồ ngoại ô",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-8a71c78e-bc24-4748-bb2b-2a235285f6fc",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Magdalena Guerrero. Ngày hôm đó, vào khoảng 20:55 - 21:25, tôi đã kiểm tra hệ thống camera của nhà thờ cổ tại Hà Nội - Cầu Long Biên.",
+          "timeframe": "20:55 - 21:25",
+          "action": "kiểm tra hệ thống camera của nhà thờ cổ",
+          "locationLabel": "Hà Nội - Cầu Long Biên",
+          "mapHint": {
+            "id": "Hà Nội - Cầu Long Biên-9182",
+            "label": "Hà Nội - Cầu Long Biên",
+            "point": {
+              "lat": 20.986938007619955,
+              "lng": 105.75751178209242
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "e0849530-ca59-4131-8647-68474403c606",
+        "fullName": "Keira Singh",
+        "gender": "female",
+        "age": 48,
+        "nationality": "Vietnam",
+        "occupation": "silverkoala Investigator",
+        "email": "keira.singh@example.com",
+        "phone": "(750)-106-9491",
+        "cell": "(565)-320-2385",
+        "dob": "1977-04-19T13:02:51.241Z",
+        "registered": "2010-06-04T11:46:06.065Z",
+        "idNumber": "N/A",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.103125748718682,
+          "lng": 105.87782118903876
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/56.jpg",
+        "timezone": "Adelaide, Darwin",
+        "seed": "silverkoala475",
+        "suspicionLevel": 0.31,
+        "alibi": "Đang đi công tác ở thành phố khác",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-e0849530-ca59-4131-8647-68474403c606",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Magdalena Guerrero. Ngày hôm đó, vào khoảng 01:06 - 01:36, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Hà Nội - Nhà Hát Lớn.",
+          "timeframe": "01:06 - 01:36",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "Hà Nội - Nhà Hát Lớn",
+          "mapHint": {
+            "id": "Hà Nội - Nhà Hát Lớn-3991",
+            "label": "Hà Nội - Nhà Hát Lớn",
+            "point": {
+              "lat": 20.933329179174613,
+              "lng": 105.86300737031631
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "d113a22b-72d3-46cf-b697-03c320449c84",
+        "fullName": "Cathleen Hütter",
+        "gender": "female",
+        "age": 61,
+        "nationality": "Vietnam",
+        "occupation": "lazyelephant Investigator",
+        "email": "cathleen.hutter@example.com",
+        "phone": "0353-7446709",
+        "cell": "0178-6322801",
+        "dob": "1964-10-07T16:26:28.458Z",
+        "registered": "2010-12-02T04:31:51.164Z",
+        "idNumber": "57 071064 H 562",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.038389235743317,
+          "lng": 105.83525044129327
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/38.jpg",
+        "timezone": "Azores, Cape Verde Islands",
+        "seed": "lazyelephant500",
+        "suspicionLevel": 0.98,
+        "alibi": "Từ chối khai báo lịch trình",
+        "role": "killer",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-d113a22b-72d3-46cf-b697-03c320449c84",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Magdalena Guerrero. Ngày hôm đó, vào khoảng 20:29 - 20:59, tôi đã kiểm tra hệ thống camera của nhà thờ cổ tại Hà Nội - Phố Cổ.",
+          "timeframe": "20:29 - 20:59",
+          "action": "kiểm tra hệ thống camera của nhà thờ cổ",
+          "locationLabel": "Hà Nội - Phố Cổ",
+          "mapHint": {
+            "id": "Hà Nội - Phố Cổ-8390",
+            "label": "Hà Nội - Phố Cổ",
+            "point": {
+              "lat": 21.016685466290447,
+              "lng": 105.8271876404351
+            },
+            "radiusMeters": 900
+          },
+          "reliability": "shaky"
+        }
+      },
+      {
+        "id": "45e27bde-6608-4982-b722-2e8b16da13f7",
+        "fullName": "Aaron Zhang",
+        "gender": "male",
+        "age": 45,
+        "nationality": "Vietnam",
+        "occupation": "tinyfish Investigator",
+        "email": "aaron.zhang@example.com",
+        "phone": "(978)-396-8558",
+        "cell": "(399)-370-8278",
+        "dob": "1980-10-13T12:24:45.898Z",
+        "registered": "2003-07-12T18:08:27.744Z",
+        "idNumber": "N/A",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.038389235743317,
+          "lng": 105.83525044129327
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/42.jpg",
+        "timezone": "Atlantic Time (Canada), Caracas, La Paz",
+        "seed": "tinyfish466",
+        "suspicionLevel": 0.8,
+        "alibi": "Đang ăn tối cùng gia đình",
+        "role": "accomplice",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-45e27bde-6608-4982-b722-2e8b16da13f7",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Magdalena Guerrero. Khoảng 21:08 - 21:38, tôi có mặt ngay tại Hà Nội - Phố Cổ, và tôi thấy Cathleen Hütter cũng ở đó trước khi mọi chuyện xảy ra.",
+          "timeframe": "21:08 - 21:38",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "Hà Nội - Phố Cổ",
+          "mapHint": {
+            "id": "Hà Nội - Phố Cổ-7667",
+            "label": "Hà Nội - Phố Cổ",
+            "point": {
+              "lat": 21.063007489809763,
+              "lng": 105.86737491402872
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        },
+        "secondaryTestimony": {
+          "id": "secondary-45e27bde-6608-4982-b722-2e8b16da13f7",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Được rồi, tôi sẽ hợp tác. Cathleen Hütter bảo tôi canh gác tại Ổ ẩn náu Hà Nội và hắn vẫn còn ở đó lúc 00:59.",
+          "timeframe": "00:49 - 01:19",
+          "action": "chỉ điểm tọa độ ẩn náu",
+          "locationLabel": "Ổ ẩn náu Hà Nội",
+          "mapHint": {
+            "id": "Ổ ẩn náu Hà Nội-6366",
+            "label": "Ổ ẩn náu Hà Nội",
+            "point": {
+              "lat": 21.064011568980288,
+              "lng": 105.87596818560831
+            },
+            "radiusMeters": 350
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "3fac0fc4-5d3a-4324-a903-b4ff3e69a571",
+        "fullName": "Donna Frazier",
+        "gender": "female",
+        "age": 36,
+        "nationality": "Vietnam",
+        "occupation": "orangerabbit Investigator",
+        "email": "donna.frazier@example.com",
+        "phone": "015394 44147",
+        "cell": "07221 127294",
+        "dob": "1988-12-05T12:51:41.710Z",
+        "registered": "2009-04-03T22:16:20.887Z",
+        "idNumber": "RR 64 83 81 H",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.996635981888,
+          "lng": 105.8073877378816
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/79.jpg",
+        "timezone": "Pacific Time (US & Canada)",
+        "seed": "orangerabbit804",
+        "suspicionLevel": 0.63,
+        "alibi": "Đang ăn tối cùng gia đình",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-3fac0fc4-5d3a-4324-a903-b4ff3e69a571",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Magdalena Guerrero. Ngày hôm đó, vào khoảng 01:55 - 02:25, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại Hà Nội - Cầu Long Biên.",
+          "timeframe": "01:55 - 02:25",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "Hà Nội - Cầu Long Biên",
+          "mapHint": {
+            "id": "Hà Nội - Cầu Long Biên-2888",
+            "label": "Hà Nội - Cầu Long Biên",
+            "point": {
+              "lat": 20.951016427741177,
+              "lng": 105.82315546847452
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "ff9762c6-2705-428f-88d3-9ccba549776a",
+        "fullName": "Enni Waisanen",
+        "gender": "female",
+        "age": 28,
+        "nationality": "Vietnam",
+        "occupation": "ticklishfrog Investigator",
+        "email": "enni.waisanen@example.com",
+        "phone": "09-227-116",
+        "cell": "046-135-49-88",
+        "dob": "1997-10-11T14:33:58.222Z",
+        "registered": "2011-01-13T04:30:54.689Z",
+        "idNumber": "NaNNA266undefined",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.115768565881055,
+          "lng": 105.78054100155532
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/8.jpg",
+        "timezone": "Pacific Time (US & Canada)",
+        "seed": "ticklishfrog584",
+        "suspicionLevel": 0.63,
+        "alibi": "Đang tham gia lớp học nấu ăn",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-ff9762c6-2705-428f-88d3-9ccba549776a",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Magdalena Guerrero. Ngày hôm đó, vào khoảng 23:47 - 00:17, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại Hà Nội - Bệnh viện Bạch Mai.",
+          "timeframe": "23:47 - 00:17",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "Hà Nội - Bệnh viện Bạch Mai",
+          "mapHint": {
+            "id": "Hà Nội - Bệnh viện Bạch Mai-9906",
+            "label": "Hà Nội - Bệnh viện Bạch Mai",
+            "point": {
+              "lat": 20.967538175001724,
+              "lng": 105.87241265170324
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "c8bc39c8-c72e-490b-b101-4b2fdf4a55f8",
+        "fullName": "Méline Dubois",
+        "gender": "female",
+        "age": 35,
+        "nationality": "Vietnam",
+        "occupation": "bigtiger Investigator",
+        "email": "meline.dubois@example.com",
+        "phone": "03-69-73-80-99",
+        "cell": "06-81-53-97-22",
+        "dob": "1990-04-12T22:31:13.346Z",
+        "registered": "2006-12-24T10:19:30.633Z",
+        "idNumber": "2900315069721 05",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.038389235743317,
+          "lng": 105.83525044129327
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/75.jpg",
+        "timezone": "Atlantic Time (Canada), Caracas, La Paz",
+        "seed": "bigtiger238",
+        "suspicionLevel": 0.83,
+        "alibi": "Đang đi du lịch nước ngoài",
+        "role": "accomplice",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-c8bc39c8-c72e-490b-b101-4b2fdf4a55f8",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Magdalena Guerrero. Khoảng 21:29 - 21:59, tôi có mặt ngay tại Hà Nội - Phố Cổ, và tôi thấy Cathleen Hütter cũng ở đó trước khi mọi chuyện xảy ra.",
+          "timeframe": "21:29 - 21:59",
+          "action": "đi khảo sát công trường dang dở ở ngoại ô",
+          "locationLabel": "Hà Nội - Phố Cổ",
+          "mapHint": {
+            "id": "Hà Nội - Phố Cổ-480",
+            "label": "Hà Nội - Phố Cổ",
+            "point": {
+              "lat": 21.060210510980333,
+              "lng": 105.83026089030881
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        },
+        "secondaryTestimony": {
+          "id": "secondary-c8bc39c8-c72e-490b-b101-4b2fdf4a55f8",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Được rồi, tôi sẽ hợp tác. Cathleen Hütter bảo tôi canh gác tại Ổ ẩn náu Hà Nội và hắn vẫn còn ở đó lúc 00:59.",
+          "timeframe": "00:49 - 01:19",
+          "action": "chỉ điểm tọa độ ẩn náu",
+          "locationLabel": "Ổ ẩn náu Hà Nội",
+          "mapHint": {
+            "id": "Ổ ẩn náu Hà Nội-6366",
+            "label": "Ổ ẩn náu Hà Nội",
+            "point": {
+              "lat": 21.064011568980288,
+              "lng": 105.87596818560831
+            },
+            "radiusMeters": 350
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "af8ca559-8ed4-475b-b3ec-7a724dadfc5b",
+        "fullName": "Alice Lee",
+        "gender": "female",
+        "age": 76,
+        "nationality": "Vietnam",
+        "occupation": "bluegoose Investigator",
+        "email": "alice.lee@example.com",
+        "phone": "(320)-356-7307",
+        "cell": "(784)-119-2725",
+        "dob": "1949-09-24T21:12:15.442Z",
+        "registered": "2015-04-26T21:09:14.221Z",
+        "idNumber": "N/A",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.14705298108681,
+          "lng": 105.85164522348538
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/96.jpg",
+        "timezone": "Eastern Time (US & Canada), Bogota, Lima",
+        "seed": "bluegoose196",
+        "suspicionLevel": 0.42,
+        "alibi": "Đang ăn tối cùng gia đình",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-af8ca559-8ed4-475b-b3ec-7a724dadfc5b",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Magdalena Guerrero. Ngày hôm đó, vào khoảng 00:45 - 01:15, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại Hà Nội - Nhà Hát Lớn.",
+          "timeframe": "00:45 - 01:15",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "Hà Nội - Nhà Hát Lớn",
+          "mapHint": {
+            "id": "Hà Nội - Nhà Hát Lớn-6061",
+            "label": "Hà Nội - Nhà Hát Lớn",
+            "point": {
+              "lat": 20.958520924569456,
+              "lng": 105.81718947808619
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "cf8c6519-e83e-4352-8ac7-6d63aee6dd2d",
+        "fullName": "Darrell Wilson",
+        "gender": "male",
+        "age": 55,
+        "nationality": "Vietnam",
+        "occupation": "happyswan Investigator",
+        "email": "darrell.wilson@example.com",
+        "phone": "(795) 863-3559",
+        "cell": "(824) 477-2974",
+        "dob": "1970-01-18T08:59:35.864Z",
+        "registered": "2008-08-28T12:58:05.929Z",
+        "idNumber": "641-28-6897",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.076340270916006,
+          "lng": 105.90463640185874
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/9.jpg",
+        "timezone": "Mountain Time (US & Canada)",
+        "seed": "happyswan460",
+        "suspicionLevel": 0.45,
+        "alibi": "Đang tham gia lớp học nấu ăn",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-cf8c6519-e83e-4352-8ac7-6d63aee6dd2d",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Magdalena Guerrero. Ngày hôm đó, vào khoảng 00:16 - 00:46, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại Hà Nội - Ga Hà Nội.",
+          "timeframe": "00:16 - 00:46",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "Hà Nội - Ga Hà Nội",
+          "mapHint": {
+            "id": "Hà Nội - Ga Hà Nội-657",
+            "label": "Hà Nội - Ga Hà Nội",
+            "point": {
+              "lat": 21.0063251270907,
+              "lng": 105.81781890108263
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "27019630-3243-478b-ac9a-b4635828136c",
+        "fullName": "Luisa Sánchez",
+        "gender": "female",
+        "age": 40,
+        "nationality": "Vietnam",
+        "occupation": "purpletiger Investigator",
+        "email": "luisa.sanchez@example.com",
+        "phone": "953-682-251",
+        "cell": "631-058-941",
+        "dob": "1985-08-27T08:55:22.079Z",
+        "registered": "2015-01-13T12:35:17.295Z",
+        "idNumber": "54762778-F",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.00077349617679,
+          "lng": 105.75373364878007
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/45.jpg",
+        "timezone": "Mid-Atlantic",
+        "seed": "purpletiger291",
+        "suspicionLevel": 0.38,
+        "alibi": "Đang tham gia lớp học nấu ăn",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-27019630-3243-478b-ac9a-b4635828136c",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Magdalena Guerrero. Ngày hôm đó, vào khoảng 23:03 - 23:33, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại Hà Nội - Ga Hà Nội.",
+          "timeframe": "23:03 - 23:33",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "Hà Nội - Ga Hà Nội",
+          "mapHint": {
+            "id": "Hà Nội - Ga Hà Nội-6459",
+            "label": "Hà Nội - Ga Hà Nội",
+            "point": {
+              "lat": 20.999643004312553,
+              "lng": 105.85421162506113
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "cb2f6160-888c-4ece-a52c-178466bf5818",
+        "fullName": "Storm Sørensen",
+        "gender": "male",
+        "age": 79,
+        "nationality": "Vietnam",
+        "occupation": "silverbird Investigator",
+        "email": "storm.sorensen@example.com",
+        "phone": "67756878",
+        "cell": "67952472",
+        "dob": "1946-04-14T20:37:04.222Z",
+        "registered": "2013-07-29T06:51:23.529Z",
+        "idNumber": "140446-0671",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.993246046528604,
+          "lng": 105.74573199222175
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/71.jpg",
+        "timezone": "Kabul",
+        "seed": "silverbird541",
+        "suspicionLevel": 0.3,
+        "alibi": "Đang đọc sách tại thư viện",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-cb2f6160-888c-4ece-a52c-178466bf5818",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Magdalena Guerrero. Ngày hôm đó, vào khoảng 01:26 - 01:56, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại Hà Nội - Cầu Long Biên.",
+          "timeframe": "01:26 - 01:56",
+          "action": "đi khảo sát công trường dang dở ở ngoại ô",
+          "locationLabel": "Hà Nội - Cầu Long Biên",
+          "mapHint": {
+            "id": "Hà Nội - Cầu Long Biên-5257",
+            "label": "Hà Nội - Cầu Long Biên",
+            "point": {
+              "lat": 21.02463276435321,
+              "lng": 105.74687512182203
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "49746b10-86d8-4a33-bef1-62c21bdf8186",
+        "fullName": "Werner Späth",
+        "gender": "male",
+        "age": 26,
+        "nationality": "Vietnam",
+        "occupation": "organiclion Investigator",
+        "email": "werner.spath@example.com",
+        "phone": "0038-3637378",
+        "cell": "0177-0701029",
+        "dob": "1999-05-24T21:02:14.529Z",
+        "registered": "2007-03-24T16:00:42.076Z",
+        "idNumber": "79 240599 S 332",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.964769459194446,
+          "lng": 105.72815256792619
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/81.jpg",
+        "timezone": "Tehran",
+        "seed": "organiclion763",
+        "suspicionLevel": 0.33,
+        "alibi": "Đang đi công tác ở thành phố khác",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-49746b10-86d8-4a33-bef1-62c21bdf8186",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Magdalena Guerrero. Ngày hôm đó, vào khoảng 00:31 - 01:01, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại Hà Nội - Nhà Hát Lớn.",
+          "timeframe": "00:31 - 01:01",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "Hà Nội - Nhà Hát Lớn",
+          "mapHint": {
+            "id": "Hà Nội - Nhà Hát Lớn-1429",
+            "label": "Hà Nội - Nhà Hát Lớn",
+            "point": {
+              "lat": 21.01115197508072,
+              "lng": 105.81937353336613
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "26598969-6f50-4507-bb2e-276f0f505f2e",
+        "fullName": "Caleb Walker",
+        "gender": "male",
+        "age": 38,
+        "nationality": "Vietnam",
+        "occupation": "sadgoose Investigator",
+        "email": "caleb.walker@example.com",
+        "phone": "017687 27192",
+        "cell": "07399 301701",
+        "dob": "1987-06-27T10:13:11.829Z",
+        "registered": "2006-10-21T19:53:46.464Z",
+        "idNumber": "EZ 00 57 51 P",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.95936269004059,
+          "lng": 105.78227367341978
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/71.jpg",
+        "timezone": "Bombay, Calcutta, Madras, New Delhi",
+        "seed": "sadgoose510",
+        "suspicionLevel": 0.31,
+        "alibi": "Đang chơi bowling cùng bạn bè",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-26598969-6f50-4507-bb2e-276f0f505f2e",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Magdalena Guerrero. Ngày hôm đó, vào khoảng 23:33 - 00:03, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại Hà Nội - Phố Cổ.",
+          "timeframe": "23:33 - 00:03",
+          "action": "dự một buổi cầu nguyện ngắn gần khu chợ trời",
+          "locationLabel": "Hà Nội - Phố Cổ",
+          "mapHint": {
+            "id": "Hà Nội - Phố Cổ-6791",
+            "label": "Hà Nội - Phố Cổ",
+            "point": {
+              "lat": 21.005024977688674,
+              "lng": 105.84067984091214
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "430c2e1d-ce40-4d22-a22f-53c6f2fef296",
+        "fullName": "Marie Hansen",
+        "gender": "female",
+        "age": 53,
+        "nationality": "Vietnam",
+        "occupation": "happytiger Investigator",
+        "email": "marie.hansen@example.com",
+        "phone": "46238563",
+        "cell": "78038015",
+        "dob": "1972-01-16T21:31:20.384Z",
+        "registered": "2016-11-24T02:20:40.710Z",
+        "idNumber": "160172-5353",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.98158230681005,
+          "lng": 105.8750868314077
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/80.jpg",
+        "timezone": "Mountain Time (US & Canada)",
+        "seed": "happytiger452",
+        "suspicionLevel": 0.58,
+        "alibi": "Đang đi dạo trong công viên",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-430c2e1d-ce40-4d22-a22f-53c6f2fef296",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Magdalena Guerrero. Ngày hôm đó, vào khoảng 21:44 - 22:14, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại Hà Nội - Bệnh viện Bạch Mai.",
+          "timeframe": "21:44 - 22:14",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "Hà Nội - Bệnh viện Bạch Mai",
+          "mapHint": {
+            "id": "Hà Nội - Bệnh viện Bạch Mai-7011",
+            "label": "Hà Nội - Bệnh viện Bạch Mai",
+            "point": {
+              "lat": 21.0500253432812,
+              "lng": 105.91871983087205
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "79f45181-36a1-446b-bc03-9c9cd99d4177",
+        "fullName": "Fredy Köhn",
+        "gender": "male",
+        "age": 56,
+        "nationality": "Vietnam",
+        "occupation": "sadelephant Investigator",
+        "email": "fredy.kohn@example.com",
+        "phone": "0353-5530280",
+        "cell": "0173-5202281",
+        "dob": "1969-10-07T18:35:15.833Z",
+        "registered": "2020-10-17T23:34:29.639Z",
+        "idNumber": "43 071069 K 145",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.117589798041507,
+          "lng": 105.79913323709432
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/69.jpg",
+        "timezone": "Kabul",
+        "seed": "sadelephant729",
+        "suspicionLevel": 0.44,
+        "alibi": "Đang sửa xe tại gara",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-79f45181-36a1-446b-bc03-9c9cd99d4177",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Magdalena Guerrero. Ngày hôm đó, vào khoảng 20:43 - 21:13, tôi đã truy cập máy chủ tại phòng lab cũ tại Hà Nội - Nhà Hát Lớn.",
+          "timeframe": "20:43 - 21:13",
+          "action": "truy cập máy chủ tại phòng lab cũ",
+          "locationLabel": "Hà Nội - Nhà Hát Lớn",
+          "mapHint": {
+            "id": "Hà Nội - Nhà Hát Lớn-2906",
+            "label": "Hà Nội - Nhà Hát Lớn",
+            "point": {
+              "lat": 21.001581370494677,
+              "lng": 105.8260184374674
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "7a21057d-9531-420d-b558-1d2ca64cd17f",
+        "fullName": "Dorothee Möhring",
+        "gender": "female",
+        "age": 66,
+        "nationality": "Vietnam",
+        "occupation": "whitesnake Investigator",
+        "email": "dorothee.mohring@example.com",
+        "phone": "0395-6793705",
+        "cell": "0173-9458435",
+        "dob": "1958-12-19T20:25:42.608Z",
+        "registered": "2014-12-01T13:21:24.403Z",
+        "idNumber": "52 191258 M 525",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.10709453142086,
+          "lng": 105.76003997592959
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/36.jpg",
+        "timezone": "Baghdad, Riyadh, Moscow, St. Petersburg",
+        "seed": "whitesnake995",
+        "suspicionLevel": 0.35,
+        "alibi": "Đang câu cá ở hồ ngoại ô",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-7a21057d-9531-420d-b558-1d2ca64cd17f",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Magdalena Guerrero. Ngày hôm đó, vào khoảng 00:45 - 01:15, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại Hà Nội - Hồ Hoàn Kiếm.",
+          "timeframe": "00:45 - 01:15",
+          "action": "đi khảo sát công trường dang dở ở ngoại ô",
+          "locationLabel": "Hà Nội - Hồ Hoàn Kiếm",
+          "mapHint": {
+            "id": "Hà Nội - Hồ Hoàn Kiếm-514",
+            "label": "Hà Nội - Hồ Hoàn Kiếm",
+            "point": {
+              "lat": 21.063090322722505,
+              "lng": 105.85003267492915
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "0879ecc8-2314-4750-997f-2a5c19c6e74d",
+        "fullName": "Antoine Brunet",
+        "gender": "male",
+        "age": 75,
+        "nationality": "Vietnam",
+        "occupation": "tinybutterfly Investigator",
+        "email": "antoine.brunet@example.com",
+        "phone": "02-04-15-54-93",
+        "cell": "06-39-74-20-50",
+        "dob": "1950-01-29T20:11:29.244Z",
+        "registered": "2012-01-10T03:31:16.655Z",
+        "idNumber": "1500089005179 06",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.038389235743317,
+          "lng": 105.83525044129327
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/89.jpg",
+        "timezone": "Mid-Atlantic",
+        "seed": "tinybutterfly550",
+        "suspicionLevel": 0.88,
+        "alibi": "Đang tham gia một buổi tiệc sinh nhật",
+        "role": "accomplice",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-0879ecc8-2314-4750-997f-2a5c19c6e74d",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Magdalena Guerrero. Khoảng 21:18 - 21:48, tôi có mặt ngay tại Hà Nội - Phố Cổ, và tôi thấy Cathleen Hütter cũng ở đó trước khi mọi chuyện xảy ra.",
+          "timeframe": "21:18 - 21:48",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "Hà Nội - Phố Cổ",
+          "mapHint": {
+            "id": "Hà Nội - Phố Cổ-5520",
+            "label": "Hà Nội - Phố Cổ",
+            "point": {
+              "lat": 21.07102387429587,
+              "lng": 105.82798226192224
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        },
+        "secondaryTestimony": {
+          "id": "secondary-0879ecc8-2314-4750-997f-2a5c19c6e74d",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Được rồi, tôi sẽ hợp tác. Cathleen Hütter bảo tôi canh gác tại Ổ ẩn náu Hà Nội và hắn vẫn còn ở đó lúc 00:59.",
+          "timeframe": "00:49 - 01:19",
+          "action": "chỉ điểm tọa độ ẩn náu",
+          "locationLabel": "Ổ ẩn náu Hà Nội",
+          "mapHint": {
+            "id": "Ổ ẩn náu Hà Nội-6366",
+            "label": "Ổ ẩn náu Hà Nội",
+            "point": {
+              "lat": 21.064011568980288,
+              "lng": 105.87596818560831
+            },
+            "radiusMeters": 350
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "b2fbf1a8-5be9-43d4-b69c-5cbd6ac4a077",
+        "fullName": "Joshua Johnston",
+        "gender": "male",
+        "age": 55,
+        "nationality": "Vietnam",
+        "occupation": "purplebird Investigator",
+        "email": "joshua.johnston@example.com",
+        "phone": "06-0430-5350",
+        "cell": "0499-578-682",
+        "dob": "1969-12-12T01:47:20.300Z",
+        "registered": "2004-09-18T01:35:10.508Z",
+        "idNumber": "982166661",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.977240553391614,
+          "lng": 105.87040527235514
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/12.jpg",
+        "timezone": "Bombay, Calcutta, Madras, New Delhi",
+        "seed": "purplebird123",
+        "suspicionLevel": 0.37,
+        "alibi": "Đang tham gia lớp học nấu ăn",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-b2fbf1a8-5be9-43d4-b69c-5cbd6ac4a077",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Magdalena Guerrero. Ngày hôm đó, vào khoảng 20:59 - 21:29, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại Hà Nội - Phố Cổ.",
+          "timeframe": "20:59 - 21:29",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "Hà Nội - Phố Cổ",
+          "mapHint": {
+            "id": "Hà Nội - Phố Cổ-1699",
+            "label": "Hà Nội - Phố Cổ",
+            "point": {
+              "lat": 21.01894045670889,
+              "lng": 105.80082575136892
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "c1538034-e68a-4c61-b6ed-1dcb2942eb40",
+        "fullName": "Aatu Toivonen",
+        "gender": "male",
+        "age": 43,
+        "nationality": "Vietnam",
+        "occupation": "organiclion Investigator",
+        "email": "aatu.toivonen@example.com",
+        "phone": "06-665-870",
+        "cell": "049-023-50-82",
+        "dob": "1982-04-20T03:12:59.893Z",
+        "registered": "2011-09-27T20:24:54.188Z",
+        "idNumber": "NaNNA845undefined",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.142220723302003,
+          "lng": 105.84759921247192
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/33.jpg",
+        "timezone": "Eniwetok, Kwajalein",
+        "seed": "organiclion664",
+        "suspicionLevel": 0.6,
+        "alibi": "Đang đọc sách tại thư viện",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-c1538034-e68a-4c61-b6ed-1dcb2942eb40",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Magdalena Guerrero. Ngày hôm đó, vào khoảng 23:02 - 23:32, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại Hà Nội - Phố Cổ.",
+          "timeframe": "23:02 - 23:32",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "Hà Nội - Phố Cổ",
+          "mapHint": {
+            "id": "Hà Nội - Phố Cổ-1370",
+            "label": "Hà Nội - Phố Cổ",
+            "point": {
+              "lat": 21.050722919669,
+              "lng": 105.85190401964918
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "518c4a39-b2d3-400b-8e21-3395223a830a",
+        "fullName": "Leroy Robertson",
+        "gender": "male",
+        "age": 40,
+        "nationality": "Vietnam",
+        "occupation": "bigrabbit Investigator",
+        "email": "leroy.robertson@example.com",
+        "phone": "(533) 790-4959",
+        "cell": "(356) 824-4624",
+        "dob": "1985-05-31T23:39:56.926Z",
+        "registered": "2014-04-20T11:58:59.434Z",
+        "idNumber": "072-45-9448",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.09962370039205,
+          "lng": 105.87670310573812
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/83.jpg",
+        "timezone": "Kabul",
+        "seed": "bigrabbit168",
+        "suspicionLevel": 0.49,
+        "alibi": "Đang đi dạo trong công viên",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-518c4a39-b2d3-400b-8e21-3395223a830a",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Magdalena Guerrero. Ngày hôm đó, vào khoảng 22:06 - 22:36, tôi đã truy cập máy chủ tại phòng lab cũ tại Hà Nội - Cầu Long Biên.",
+          "timeframe": "22:06 - 22:36",
+          "action": "truy cập máy chủ tại phòng lab cũ",
+          "locationLabel": "Hà Nội - Cầu Long Biên",
+          "mapHint": {
+            "id": "Hà Nội - Cầu Long Biên-7002",
+            "label": "Hà Nội - Cầu Long Biên",
+            "point": {
+              "lat": 20.939186066204474,
+              "lng": 105.75932140388097
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "8fab7eb3-c723-4803-897f-ad1050cbaca4",
+        "fullName": "Ellie Kelly",
+        "gender": "female",
+        "age": 34,
+        "nationality": "Vietnam",
+        "occupation": "brownmouse Investigator",
+        "email": "ellie.kelly@example.com",
+        "phone": "015396 26217",
+        "cell": "07305 204757",
+        "dob": "1991-10-13T01:58:42.715Z",
+        "registered": "2007-02-14T01:39:20.764Z",
+        "idNumber": "CC 99 92 30 O",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.035478751735216,
+          "lng": 105.78226173440738
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/94.jpg",
+        "timezone": "Azores, Cape Verde Islands",
+        "seed": "brownmouse460",
+        "suspicionLevel": 0.39,
+        "alibi": "Đang tham gia lớp học nấu ăn",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-8fab7eb3-c723-4803-897f-ad1050cbaca4",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Magdalena Guerrero. Ngày hôm đó, vào khoảng 23:23 - 23:53, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại Hà Nội - Bệnh viện Bạch Mai.",
+          "timeframe": "23:23 - 23:53",
+          "action": "đi khảo sát công trường dang dở ở ngoại ô",
+          "locationLabel": "Hà Nội - Bệnh viện Bạch Mai",
+          "mapHint": {
+            "id": "Hà Nội - Bệnh viện Bạch Mai-4959",
+            "label": "Hà Nội - Bệnh viện Bạch Mai",
+            "point": {
+              "lat": 20.967800824335757,
+              "lng": 105.90733139486566
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "5fcad5a1-db58-4246-b489-753d3e320953",
+        "fullName": "Aiden Wang",
+        "gender": "male",
+        "age": 69,
+        "nationality": "Vietnam",
+        "occupation": "smallduck Investigator",
+        "email": "aiden.wang@example.com",
+        "phone": "(820)-502-6485",
+        "cell": "(655)-066-6447",
+        "dob": "1956-08-14T17:38:38.604Z",
+        "registered": "2005-08-09T07:36:27.878Z",
+        "idNumber": "N/A",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.07223997023413,
+          "lng": 105.9409822796577
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/59.jpg",
+        "timezone": "Hawaii",
+        "seed": "smallduck260",
+        "suspicionLevel": 0.49,
+        "alibi": "Đang ngủ tại nhà riêng",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-5fcad5a1-db58-4246-b489-753d3e320953",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Magdalena Guerrero. Ngày hôm đó, vào khoảng 23:47 - 00:17, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Hà Nội - Nhà Hát Lớn.",
+          "timeframe": "23:47 - 00:17",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "Hà Nội - Nhà Hát Lớn",
+          "mapHint": {
+            "id": "Hà Nội - Nhà Hát Lớn-4787",
+            "label": "Hà Nội - Nhà Hát Lớn",
+            "point": {
+              "lat": 20.991087467795584,
+              "lng": 105.84595665878511
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "e7ea0185-be18-454a-846b-50face4465d1",
+        "fullName": "Sara James",
+        "gender": "female",
+        "age": 54,
+        "nationality": "Vietnam",
+        "occupation": "tinybear Investigator",
+        "email": "sara.james@example.com",
+        "phone": "06-2455-9664",
+        "cell": "0497-274-125",
+        "dob": "1971-04-02T03:07:57.561Z",
+        "registered": "2019-01-03T15:54:47.023Z",
+        "idNumber": "022649680",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.958784802094108,
+          "lng": 105.93687916672765
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/0.jpg",
+        "timezone": "Baghdad, Riyadh, Moscow, St. Petersburg",
+        "seed": "tinybear749",
+        "suspicionLevel": 0.42,
+        "alibi": "Đang tham gia lớp học nấu ăn",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-e7ea0185-be18-454a-846b-50face4465d1",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Magdalena Guerrero. Ngày hôm đó, vào khoảng 01:05 - 01:35, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại Hà Nội - Cầu Long Biên.",
+          "timeframe": "01:05 - 01:35",
+          "action": "bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường",
+          "locationLabel": "Hà Nội - Cầu Long Biên",
+          "mapHint": {
+            "id": "Hà Nội - Cầu Long Biên-9924",
+            "label": "Hà Nội - Cầu Long Biên",
+            "point": {
+              "lat": 20.973551372067796,
+              "lng": 105.82105773229189
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "399dbf11-ddca-4fc5-95f9-0dd5e6cd5d8f",
+        "fullName": "Silas Mortensen",
+        "gender": "male",
+        "age": 46,
+        "nationality": "Vietnam",
+        "occupation": "beautifulduck Investigator",
+        "email": "silas.mortensen@example.com",
+        "phone": "98313566",
+        "cell": "74640186",
+        "dob": "1978-12-22T14:20:16.982Z",
+        "registered": "2014-10-15T01:47:49.856Z",
+        "idNumber": "221278-5972",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.977199657497188,
+          "lng": 105.90254680664734
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/35.jpg",
+        "timezone": "Magadan, Solomon Islands, New Caledonia",
+        "seed": "beautifulduck663",
+        "suspicionLevel": 0.5,
+        "alibi": "Đang làm việc tại văn phòng",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-399dbf11-ddca-4fc5-95f9-0dd5e6cd5d8f",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Magdalena Guerrero. Ngày hôm đó, vào khoảng 22:39 - 23:09, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại Hà Nội - Nhà Hát Lớn.",
+          "timeframe": "22:39 - 23:09",
+          "action": "đi khảo sát công trường dang dở ở ngoại ô",
+          "locationLabel": "Hà Nội - Nhà Hát Lớn",
+          "mapHint": {
+            "id": "Hà Nội - Nhà Hát Lớn-2760",
+            "label": "Hà Nội - Nhà Hát Lớn",
+            "point": {
+              "lat": 20.98231300179788,
+              "lng": 105.81593043553072
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "c9e54d18-de63-4502-be86-240a8f5ce8b0",
+        "fullName": "Holly Castillo",
+        "gender": "female",
+        "age": 49,
+        "nationality": "Vietnam",
+        "occupation": "organicbutterfly Investigator",
+        "email": "holly.castillo@example.com",
+        "phone": "015395 63408",
+        "cell": "07549 260446",
+        "dob": "1976-02-11T14:39:21.481Z",
+        "registered": "2006-02-14T18:31:53.131Z",
+        "idNumber": "RL 07 45 86 T",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.975453458438636,
+          "lng": 105.94261414663725
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/71.jpg",
+        "timezone": "Brazil, Buenos Aires, Georgetown",
+        "seed": "organicbutterfly356",
+        "suspicionLevel": 0.53,
+        "alibi": "Đang đọc sách tại thư viện",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-c9e54d18-de63-4502-be86-240a8f5ce8b0",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Magdalena Guerrero. Ngày hôm đó, vào khoảng 01:33 - 02:03, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Hà Nội - Phố Cổ.",
+          "timeframe": "01:33 - 02:03",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "Hà Nội - Phố Cổ",
+          "mapHint": {
+            "id": "Hà Nội - Phố Cổ-536",
+            "label": "Hà Nội - Phố Cổ",
+            "point": {
+              "lat": 21.02864198971912,
+              "lng": 105.85857792960577
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "f5b194e6-8d75-4980-82c6-2f5c8e21ae5f",
+        "fullName": "Connor Murphy",
+        "gender": "male",
+        "age": 61,
+        "nationality": "Vietnam",
+        "occupation": "yellowmeercat Investigator",
+        "email": "connor.murphy@example.com",
+        "phone": "(552) 709-3345",
+        "cell": "(625) 590-4959",
+        "dob": "1964-02-02T01:41:34.158Z",
+        "registered": "2006-06-05T04:41:48.587Z",
+        "idNumber": "882-26-0447",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.95304601378856,
+          "lng": 105.79686408534077
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/38.jpg",
+        "timezone": "Ekaterinburg, Islamabad, Karachi, Tashkent",
+        "seed": "yellowmeercat665",
+        "suspicionLevel": 0.34,
+        "alibi": "Đang đọc sách tại thư viện",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-f5b194e6-8d75-4980-82c6-2f5c8e21ae5f",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Magdalena Guerrero. Ngày hôm đó, vào khoảng 21:58 - 22:28, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại Hà Nội - Hồ Hoàn Kiếm.",
+          "timeframe": "21:58 - 22:28",
+          "action": "bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường",
+          "locationLabel": "Hà Nội - Hồ Hoàn Kiếm",
+          "mapHint": {
+            "id": "Hà Nội - Hồ Hoàn Kiếm-836",
+            "label": "Hà Nội - Hồ Hoàn Kiếm",
+            "point": {
+              "lat": 21.07239449538459,
+              "lng": 105.83200176981094
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "391729ec-3fa3-4105-9a8e-8fd6ca4c18f4",
+        "fullName": "Ashton Hall",
+        "gender": "male",
+        "age": 68,
+        "nationality": "Vietnam",
+        "occupation": "sadwolf Investigator",
+        "email": "ashton.hall@example.com",
+        "phone": "(945)-837-7846",
+        "cell": "(726)-044-2485",
+        "dob": "1957-05-22T07:56:05.502Z",
+        "registered": "2019-08-05T15:47:12.665Z",
+        "idNumber": "N/A",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.10543870816239,
+          "lng": 105.75231557690154
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/27.jpg",
+        "timezone": "Central Time (US & Canada), Mexico City",
+        "seed": "sadwolf639",
+        "suspicionLevel": 0.46,
+        "alibi": "Đang đọc sách tại thư viện",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-391729ec-3fa3-4105-9a8e-8fd6ca4c18f4",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Magdalena Guerrero. Ngày hôm đó, vào khoảng 02:15 - 02:45, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại Hà Nội - Phố Cổ.",
+          "timeframe": "02:15 - 02:45",
+          "action": "dự một buổi cầu nguyện ngắn gần khu chợ trời",
+          "locationLabel": "Hà Nội - Phố Cổ",
+          "mapHint": {
+            "id": "Hà Nội - Phố Cổ-2332",
+            "label": "Hà Nội - Phố Cổ",
+            "point": {
+              "lat": 21.062730698808092,
+              "lng": 105.81112307455022
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid"
+        }
+      }
+    ],
+    "primeSuspectIds": [
+      "d113a22b-72d3-46cf-b697-03c320449c84",
+      "660d9e07-b00a-4ec6-a59f-069aafa394ea",
+      "79f45181-36a1-446b-bc03-9c9cd99d4177",
+      "8a71c78e-bc24-4748-bb2b-2a235285f6fc",
+      "b2fbf1a8-5be9-43d4-b69c-5cbd6ac4a077",
+      "ac34161b-75e4-4daa-b489-8a6d558b17f4",
+      "45e27bde-6608-4982-b722-2e8b16da13f7",
+      "0879ecc8-2314-4750-997f-2a5c19c6e74d",
+      "c8bc39c8-c72e-490b-b101-4b2fdf4a55f8",
+      "0caed5e8-7758-462b-8d99-5b94a04b77fe"
+    ],
+    "accompliceIds": [
+      "0879ecc8-2314-4750-997f-2a5c19c6e74d",
+      "ac34161b-75e4-4daa-b489-8a6d558b17f4",
+      "45e27bde-6608-4982-b722-2e8b16da13f7",
+      "c8bc39c8-c72e-490b-b101-4b2fdf4a55f8"
+    ],
+    "accompliceCount": 4,
+    "relationships": [
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "cfa5392f-092e-40c5-a349-0492ca80722a",
+        "relationship": "business",
+        "description": "Nicklas Andersen khai mình là đối tác làm ăn và có mặt tại Hà Nội - Nhà Hát Lớn (23:45 - 00:15)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "481d4d77-103f-43d6-a641-fe615d326d67",
+        "relationship": "business",
+        "description": "Gabrielle Roussel khai mình là đối tác làm ăn và có mặt tại Hà Nội - Nhà Hát Lớn (00:18 - 00:48)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "ab37d58e-61f4-44c2-aa91-596fde39b6cb",
+        "relationship": "unknown",
+        "description": "Ramon Rodríguez khai mình là người quen xã giao và có mặt tại Hà Nội - Nhà Hát Lớn (01:36 - 02:06)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "82de0e61-af7f-4054-ab22-34fee89a9f75",
+        "relationship": "family",
+        "description": "Kristen Bishop khai mình là người thân và có mặt tại Hà Nội - Hồ Hoàn Kiếm (22:46 - 23:16)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "b0719eb8-260e-4037-b4bc-1392886d9689",
+        "relationship": "unknown",
+        "description": "Jenny Mccoy khai mình là người quen xã giao và có mặt tại Hà Nội - Hồ Hoàn Kiếm (23:24 - 23:54)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "d26399eb-59bc-45cc-b970-e7bff7f070bf",
+        "relationship": "family",
+        "description": "Juan Diez khai mình là người thân và có mặt tại Hà Nội - Cầu Long Biên (22:10 - 22:40)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "0614ae20-92e7-491e-b2f4-592a0936fe2e",
+        "relationship": "unknown",
+        "description": "Charlie Martin khai mình là người quen xã giao và có mặt tại Hà Nội - Nhà Hát Lớn (22:42 - 23:12)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "7f1eab18-3584-4a6d-bfbf-659894dfb171",
+        "relationship": "colleague",
+        "description": "Chloe King khai mình là đồng nghiệp và có mặt tại Hà Nội - Hồ Hoàn Kiếm (22:19 - 22:49)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "f04974ac-2ad4-4ed9-b8da-273388ffcea2",
+        "relationship": "unknown",
+        "description": "Anna Noel khai mình là người quen xã giao và có mặt tại Hà Nội - Ga Hà Nội (22:04 - 22:34)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "ac3b4350-5ba5-48e5-84c3-2c1614c36a94",
+        "relationship": "family",
+        "description": "Marion Fernandez khai mình là người thân và có mặt tại Hà Nội - Ga Hà Nội (00:31 - 01:01)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "2fc44e2d-8fd1-47a4-8558-547e003a995f",
+        "relationship": "acquaintance",
+        "description": "Natalie Williams khai mình là mối quen biết và có mặt tại Hà Nội - Nhà Hát Lớn (00:55 - 01:25)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "7bd6a46d-8a5b-4d15-9028-969576133f48",
+        "relationship": "colleague",
+        "description": "Gundel Stapf khai mình là đồng nghiệp và có mặt tại Hà Nội - Ga Hà Nội (01:18 - 01:48)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "28475665-85c7-47ab-8fda-533d01913081",
+        "relationship": "acquaintance",
+        "description": "Lukas Lemaire khai mình là mối quen biết và có mặt tại Hà Nội - Bệnh viện Bạch Mai (02:01 - 02:31)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "ac34161b-75e4-4daa-b489-8a6d558b17f4",
+        "relationship": "family",
+        "description": "Mason Barnaby khai mình là người thân và có mặt tại Hà Nội - Phố Cổ (21:00 - 21:30)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "6712127a-786b-46f5-9675-3dd62925f575",
+        "relationship": "family",
+        "description": "Gloria Fuentes khai mình là người thân và có mặt tại Hà Nội - Cầu Long Biên (00:02 - 00:32)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "493c6b5d-96ce-4716-8023-cfcf1a67a0f1",
+        "relationship": "business",
+        "description": "Elizabeth Claire khai mình là đối tác làm ăn và có mặt tại Hà Nội - Phố Cổ (22:30 - 23:00)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "660d9e07-b00a-4ec6-a59f-069aafa394ea",
+        "relationship": "colleague",
+        "description": "Matilda Lewis khai mình là đồng nghiệp và có mặt tại Hà Nội - Bệnh viện Bạch Mai (20:35 - 21:05)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "0caed5e8-7758-462b-8d99-5b94a04b77fe",
+        "relationship": "unknown",
+        "description": "James Mcdonalid khai mình là người quen xã giao và có mặt tại Hà Nội - Cầu Long Biên (21:27 - 21:57)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "113bce12-19b4-462b-8101-a1effc13b6a4",
+        "relationship": "family",
+        "description": "Aubree Perkins khai mình là người thân và có mặt tại Hà Nội - Bệnh viện Bạch Mai (01:49 - 02:19)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "5e49d74f-6a67-49e8-b8ab-bdee4744d523",
+        "relationship": "colleague",
+        "description": "Ethan Roche khai mình là đồng nghiệp và có mặt tại Hà Nội - Nhà Hát Lớn (00:10 - 00:40)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "7c41ab29-8b4a-430b-a8a2-d99af0af5683",
+        "relationship": "business",
+        "description": "Troy Gregory khai mình là đối tác làm ăn và có mặt tại Hà Nội - Ga Hà Nội (01:56 - 02:26)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "b8312955-5456-43e8-ad1a-2077b3e6b83c",
+        "relationship": "colleague",
+        "description": "Oscar Roux khai mình là đồng nghiệp và có mặt tại Hà Nội - Bệnh viện Bạch Mai (21:51 - 22:21)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "b75a9d0a-69f7-4c8e-8f9b-104604fe3721",
+        "relationship": "acquaintance",
+        "description": "Anni Kauppila khai mình là mối quen biết và có mặt tại Hà Nội - Bệnh viện Bạch Mai (23:06 - 23:36)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "8a71c78e-bc24-4748-bb2b-2a235285f6fc",
+        "relationship": "acquaintance",
+        "description": "Flenn Ruiz khai mình là mối quen biết và có mặt tại Hà Nội - Cầu Long Biên (20:55 - 21:25)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "e0849530-ca59-4131-8647-68474403c606",
+        "relationship": "family",
+        "description": "Keira Singh khai mình là người thân và có mặt tại Hà Nội - Nhà Hát Lớn (01:06 - 01:36)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "d113a22b-72d3-46cf-b697-03c320449c84",
+        "relationship": "family",
+        "description": "Cathleen Hütter khai mình là người thân và có mặt tại Hà Nội - Phố Cổ (20:29 - 20:59)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "45e27bde-6608-4982-b722-2e8b16da13f7",
+        "relationship": "colleague",
+        "description": "Aaron Zhang khai mình là đồng nghiệp và có mặt tại Hà Nội - Phố Cổ (21:08 - 21:38)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "3fac0fc4-5d3a-4324-a903-b4ff3e69a571",
+        "relationship": "colleague",
+        "description": "Donna Frazier khai mình là đồng nghiệp và có mặt tại Hà Nội - Cầu Long Biên (01:55 - 02:25)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "ff9762c6-2705-428f-88d3-9ccba549776a",
+        "relationship": "unknown",
+        "description": "Enni Waisanen khai mình là người quen xã giao và có mặt tại Hà Nội - Bệnh viện Bạch Mai (23:47 - 00:17)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "c8bc39c8-c72e-490b-b101-4b2fdf4a55f8",
+        "relationship": "acquaintance",
+        "description": "Méline Dubois khai mình là mối quen biết và có mặt tại Hà Nội - Phố Cổ (21:29 - 21:59)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "af8ca559-8ed4-475b-b3ec-7a724dadfc5b",
+        "relationship": "business",
+        "description": "Alice Lee khai mình là đối tác làm ăn và có mặt tại Hà Nội - Nhà Hát Lớn (00:45 - 01:15)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "cf8c6519-e83e-4352-8ac7-6d63aee6dd2d",
+        "relationship": "acquaintance",
+        "description": "Darrell Wilson khai mình là mối quen biết và có mặt tại Hà Nội - Ga Hà Nội (00:16 - 00:46)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "27019630-3243-478b-ac9a-b4635828136c",
+        "relationship": "business",
+        "description": "Luisa Sánchez khai mình là đối tác làm ăn và có mặt tại Hà Nội - Ga Hà Nội (23:03 - 23:33)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "cb2f6160-888c-4ece-a52c-178466bf5818",
+        "relationship": "business",
+        "description": "Storm Sørensen khai mình là đối tác làm ăn và có mặt tại Hà Nội - Cầu Long Biên (01:26 - 01:56)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "49746b10-86d8-4a33-bef1-62c21bdf8186",
+        "relationship": "unknown",
+        "description": "Werner Späth khai mình là người quen xã giao và có mặt tại Hà Nội - Nhà Hát Lớn (00:31 - 01:01)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "26598969-6f50-4507-bb2e-276f0f505f2e",
+        "relationship": "colleague",
+        "description": "Caleb Walker khai mình là đồng nghiệp và có mặt tại Hà Nội - Phố Cổ (23:33 - 00:03)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "430c2e1d-ce40-4d22-a22f-53c6f2fef296",
+        "relationship": "family",
+        "description": "Marie Hansen khai mình là người thân và có mặt tại Hà Nội - Bệnh viện Bạch Mai (21:44 - 22:14)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "79f45181-36a1-446b-bc03-9c9cd99d4177",
+        "relationship": "business",
+        "description": "Fredy Köhn khai mình là đối tác làm ăn và có mặt tại Hà Nội - Nhà Hát Lớn (20:43 - 21:13)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "7a21057d-9531-420d-b558-1d2ca64cd17f",
+        "relationship": "colleague",
+        "description": "Dorothee Möhring khai mình là đồng nghiệp và có mặt tại Hà Nội - Hồ Hoàn Kiếm (00:45 - 01:15)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "0879ecc8-2314-4750-997f-2a5c19c6e74d",
+        "relationship": "business",
+        "description": "Antoine Brunet khai mình là đối tác làm ăn và có mặt tại Hà Nội - Phố Cổ (21:18 - 21:48)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "b2fbf1a8-5be9-43d4-b69c-5cbd6ac4a077",
+        "relationship": "unknown",
+        "description": "Joshua Johnston khai mình là người quen xã giao và có mặt tại Hà Nội - Phố Cổ (20:59 - 21:29)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "c1538034-e68a-4c61-b6ed-1dcb2942eb40",
+        "relationship": "colleague",
+        "description": "Aatu Toivonen khai mình là đồng nghiệp và có mặt tại Hà Nội - Phố Cổ (23:02 - 23:32)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "518c4a39-b2d3-400b-8e21-3395223a830a",
+        "relationship": "acquaintance",
+        "description": "Leroy Robertson khai mình là mối quen biết và có mặt tại Hà Nội - Cầu Long Biên (22:06 - 22:36)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "8fab7eb3-c723-4803-897f-ad1050cbaca4",
+        "relationship": "family",
+        "description": "Ellie Kelly khai mình là người thân và có mặt tại Hà Nội - Bệnh viện Bạch Mai (23:23 - 23:53)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "5fcad5a1-db58-4246-b489-753d3e320953",
+        "relationship": "acquaintance",
+        "description": "Aiden Wang khai mình là mối quen biết và có mặt tại Hà Nội - Nhà Hát Lớn (23:47 - 00:17)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "e7ea0185-be18-454a-846b-50face4465d1",
+        "relationship": "unknown",
+        "description": "Sara James khai mình là người quen xã giao và có mặt tại Hà Nội - Cầu Long Biên (01:05 - 01:35)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "399dbf11-ddca-4fc5-95f9-0dd5e6cd5d8f",
+        "relationship": "acquaintance",
+        "description": "Silas Mortensen khai mình là mối quen biết và có mặt tại Hà Nội - Nhà Hát Lớn (22:39 - 23:09)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "c9e54d18-de63-4502-be86-240a8f5ce8b0",
+        "relationship": "acquaintance",
+        "description": "Holly Castillo khai mình là mối quen biết và có mặt tại Hà Nội - Phố Cổ (01:33 - 02:03)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "f5b194e6-8d75-4980-82c6-2f5c8e21ae5f",
+        "relationship": "business",
+        "description": "Connor Murphy khai mình là đối tác làm ăn và có mặt tại Hà Nội - Hồ Hoàn Kiếm (21:58 - 22:28)."
+      },
+      {
+        "sourceId": "28f0db82-8ec9-4b70-874f-cf96d071ccfb",
+        "targetId": "391729ec-3fa3-4105-9a8e-8fd6ca4c18f4",
+        "relationship": "unknown",
+        "description": "Ashton Hall khai mình là người quen xã giao và có mặt tại Hà Nội - Phố Cổ (02:15 - 02:45)."
+      }
+    ],
+    "clueDrafts": [
+      {
+        "id": "clue_1",
+        "title": "Tin nhắn cuối cùng",
+        "summary": "Chiếc điện thoại của Magdalena chứa một tin nhắn đã được mã hóa. Sau khi giải mã, tin nhắn có nội dung: \"Mật mã GreenDuck - Gặp mặt Phố Cổ - Gã anh họ phản bội\". Liên quan đến Mason Barnaby và địa điểm Phố Cổ.",
+        "difficulty": "easy",
+        "relatedCitizenIds": [
+          "ac34161b-75e4-4daa-b489-8a6d558b17f4"
+        ],
+        "mapHints": [
+          {
+            "id": "ai-hint-landmark-h-n-i-ph-c--0",
+            "label": "Hà Nội - Phố Cổ",
+            "point": {
+              "lat": 21.038389235743317,
+              "lng": 105.83525044129327
+            },
+            "radiusMeters": 900
+          }
+        ]
+      },
+      {
+        "id": "clue_2",
+        "title": "Lời khai bất nhất",
+        "summary": "So sánh lời khai của các nghi phạm có mặt tại Nhà Hát Lớn. Natalie Williams khai rằng đã nhìn thấy Charlie Martin rời đi lúc 23:00, nhưng Charlie Martin khẳng định đã ở lại đến 23:12 để thu thập hóa đơn. Sự mâu thuẫn này cho thấy một trong hai người đang nói dối.",
+        "difficulty": "medium",
+        "relatedCitizenIds": [
+          "0614ae20-92e7-491e-b2f4-592a0936fe2e",
+          "2fc44e2d-8fd1-47a4-8558-547e003a995f"
+        ],
+        "mapHints": [
+          {
+            "id": "ai-hint-landmark-h-n-i-nh-h-t-l-n-1",
+            "label": "Hà Nội - Nhà Hát Lớn",
+            "point": {
+              "lat": 20.98084599099995,
+              "lng": 105.83660505242075
+            },
+            "radiusMeters": 900
+          }
+        ]
+      },
+      {
+        "id": "clue_3",
+        "title": "Nhân chứng Phố Cổ",
+        "summary": "Những người có mặt tại Phố Cổ vào đêm xảy ra án mạng (Cathleen Hütter, Aaron Zhang, Antoine Brunet, Joshua Johnston, Méline Dubois) đều xác nhận đã nhìn thấy Mason Barnaby ở đó trước 21:30, nhưng không ai thấy anh ta sau đó. Điều này trái ngược với lời khai của Mason rằng anh ta đã ở lại Phố Cổ đến 21:30.",
+        "difficulty": "hard",
+        "relatedCitizenIds": [
+          "ac34161b-75e4-4daa-b489-8a6d558b17f4"
+        ],
+        "mapHints": [
+          {
+            "id": "ai-hint-landmark-h-n-i-c-u-long-bi-n-2",
+            "label": "Hà Nội - Cầu Long Biên",
+            "point": {
+              "lat": 20.98348962590264,
+              "lng": 105.79447340376713
+            },
+            "radiusMeters": 900
+          }
+        ]
+      },
+      {
+        "id": "clue_4",
+        "title": "Đồng phạm số 1 - Giao dịch Cầu Long Biên",
+        "summary": "Storm Sørensen khẳng định có mặt tại Cầu Long Biên lúc 01:26 - 01:56, nói rằng đang đi dạo. Tuy nhiên, hình ảnh từ camera giao thông cho thấy Storm gặp gỡ một người đàn ông lạ mặt và trao đổi một vật gì đó nhỏ. Storm là một trong những đồng phạm giúp Mason Barnaby trốn thoát.",
+        "difficulty": "medium",
+        "relatedCitizenIds": [],
+        "mapHints": [
+          {
+            "id": "ai-hint-landmark-h-n-i-b-nh-vi-n-b-ch-mai-3",
+            "label": "Hà Nội - Bệnh viện Bạch Mai",
+            "point": {
+              "lat": 21.011912436262687,
+              "lng": 105.88242455585443
+            },
+            "radiusMeters": 900
+          }
+        ]
+      },
+      {
+        "id": "clue_5",
+        "title": "Đồng phạm số 2 - Bệnh viện Bạch Mai",
+        "summary": "Aubree Perkins khai rằng bám theo dấu vết một chiếc xe tải khả nghi tại Bệnh viện Bạch Mai, nhưng sau khi kiểm tra lịch sử cuộc gọi của Aubree, phát hiện cô ta đã gọi cho một số điện thoại lạ ở khu vực Cầu Long Biên ngay sau khi vụ án xảy ra. Aubree cố tình đánh lạc hướng điều tra.",
+        "difficulty": "medium",
+        "relatedCitizenIds": [],
+        "mapHints": [
+          {
+            "id": "ai-hint-landmark-h-n-i-ga-h-n-i-4",
+            "label": "Hà Nội - Ga Hà Nội",
+            "point": {
+              "lat": 20.98436443046611,
+              "lng": 105.85927031345213
+            },
+            "radiusMeters": 900
+          }
+        ]
+      },
+      {
+        "id": "clue_6",
+        "title": "Đồng phạm số 3 - Ga Hà Nội",
+        "summary": "Gundel Stapf khai rằng đi giao tài liệu tại trụ sở cảnh sát khu vực Ga Hà Nội, nhưng thực tế bà ta lại di chuyển ra khu vực Hồ Hoàn Kiếm vào thời điểm đó. Gundel cung cấp thông tin sai lệch để giúp Mason Barnaby có thêm thời gian trốn thoát.",
+        "difficulty": "medium",
+        "relatedCitizenIds": [],
+        "mapHints": [
+          {
+            "id": "ai-hint-landmark-h-n-i-h-ho-n-ki-m-5",
+            "label": "Hà Nội - Hồ Hoàn Kiếm",
+            "point": {
+              "lat": 21.078636161444532,
+              "lng": 105.82533428535147
+            },
+            "radiusMeters": 900
+          }
+        ]
+      },
+      {
+        "id": "clue_7",
+        "title": "Đồng phạm số 4 - Nhà Hát Lớn",
+        "summary": "Ethan Roche khai rằng thảo luận hợp đồng tại quán cà phê bến sông Nhà Hát Lớn, nhưng camera an ninh lại ghi lại hình ảnh anh ta đang gặp gỡ một người lạ và nhận một phong bì dày. Ethan đang che giấu một điều gì đó.",
+        "difficulty": "medium",
+        "relatedCitizenIds": [],
+        "mapHints": [
+          {
+            "id": "ai-hint-landmark-h-n-i-ph-c--0",
+            "label": "Hà Nội - Phố Cổ",
+            "point": {
+              "lat": 21.038389235743317,
+              "lng": 105.83525044129327
+            },
+            "radiusMeters": 900
+          }
+        ]
+      }
+    ],
+    "caseTitle": "Mật Mã GreenDuck",
+    "story": "Đêm Hà Nội chìm trong màn mưa tháng mười một. Tiếng còi xe cấp cứu xé toạc sự tĩnh lặng, báo hiệu một bi kịch vừa xảy ra. Magdalena Guerrero, một điều tra viên tài năng của GreenDuck Investigator, được tìm thấy đã chết trong căn hộ của mình, nằm khuất sau một con hẻm nhỏ phía đông Hồ Hoàn Kiếm. Căn phòng xáo trộn, đồ đạc vứt bừa bãi, nhưng không có dấu hiệu đột nhập. Trên bàn làm việc, một chiếc USB chứa đầy những dòng mã hóa phức tạp, và một mảnh giấy ghi dòng chữ nguệch ngoạc: \"Sự thật ẩn sau Cầu Long Biên\". Cái chết của Magdalena không chỉ là một mất mát lớn cho GreenDuck, mà còn là một thách thức đối với lực lượng cảnh sát Hà Nội. Một mạng lưới bí mật, những mối quan hệ chằng chịt, và một kẻ sát nhân ẩn mình trong bóng tối – tất cả đang chờ đợi được phơi bày.",
+    "solution": {
+      "killerId": "d113a22b-72d3-46cf-b697-03c320449c84",
+      "victimBackstory": "Magdalena Guerrero là một điều tra viên xuất sắc, nổi tiếng với khả năng phá giải các vụ án liên quan đến công nghệ. Gần đây, cô đang điều tra một đường dây buôn bán thông tin mật, có liên quan đến nhiều nhân vật quyền lực ở Hà Nội và New York. Cô phát hiện ra một mật mã đặc biệt được sử dụng để che giấu giao dịch, được gọi là \"GreenDuck\".",
+      "killerMotive": "Mason Barnaby, người thân của Magdalena, thực chất là kẻ cầm đầu đường dây buôn bán thông tin mật mà cô đang điều tra. Mason lo sợ Magdalena sẽ phanh phui tất cả, nên đã quyết định ra tay sát hại cô để bảo vệ bản thân và đồng bọn.",
+      "relationship": "Mason Barnaby là anh họ của Magdalena. Họ có vẻ ngoài là một gia đình gắn bó, nhưng thực chất Mason lợi dụng mối quan hệ này để tiếp cận thông tin từ Magdalena và che đậy hoạt động phi pháp của mình.",
+      "cluePhase1": "Lời khai của những người có mặt tại Nhà Hát Lớn (Nicklas Andersen, Gabrielle Roussel, Ramon Rodríguez, Charlie Martin, Natalie Williams, Ethan Roche) cho thấy có nhiều người khai không trùng khớp với thời gian thực tế họ có mặt tại địa điểm đó. Điều này loại bỏ những nghi phạm có bằng chứng ngoại phạm rõ ràng và tập trung vào những người có lịch trình mờ ám.",
+      "cluePhase2": "Bằng chứng từ hiện trường cho thấy nạn nhân đã cố gắng gửi một tin nhắn cuối cùng trước khi chết. Tin nhắn được mã hóa, nhưng sau khi giải mã, nó tiết lộ một phần của mật mã GreenDuck và nhắc đến địa điểm Phố Cổ.",
+      "finalClue": "Lời khai của Mason Barnaby là giả dối. Dù khai báo có mặt tại Phố Cổ, nhưng những nhân chứng khác (Cathleen Hütter, Aaron Zhang, Antoine Brunet, Joshua Johnston, Méline Dubois) cho thấy Mason đã rời khỏi khu vực trước thời điểm Magdalena bị sát hại. Mason đã cố tình tạo dựng chứng cứ ngoại phạm giả để đánh lạc hướng điều tra. Sau khi bắt giữ các đồng phạm của Mason, họ khai ra tọa độ mật danh \"Ổ ẩn náu Hà Nội\": nằm phía Tây Nam Cầu Long Biên, trong bán kính 1km, gần khu vực bãi giữa sông Hồng."
+    },
+    "locationName": "Hà Nội, Việt Nam",
+    "hideoutHint": {
+      "id": "Ổ ẩn náu Hà Nội-6366",
+      "label": "Ổ ẩn náu Hà Nội",
+      "point": {
+        "lat": 21.064011568980288,
+        "lng": 105.87596818560831
+      },
+      "radiusMeters": 350
+    },
+    "landmarks": [
+      {
+        "id": "landmark-h-n-i-ph-c--0",
+        "name": "Phố Cổ",
+        "label": "Hà Nội - Phố Cổ",
+        "coordinates": {
+          "lat": 21.038389235743317,
+          "lng": 105.83525044129327
+        }
+      },
+      {
+        "id": "landmark-h-n-i-nh-h-t-l-n-1",
+        "name": "Nhà Hát Lớn",
+        "label": "Hà Nội - Nhà Hát Lớn",
+        "coordinates": {
+          "lat": 20.98084599099995,
+          "lng": 105.83660505242075
+        }
+      },
+      {
+        "id": "landmark-h-n-i-c-u-long-bi-n-2",
+        "name": "Cầu Long Biên",
+        "label": "Hà Nội - Cầu Long Biên",
+        "coordinates": {
+          "lat": 20.98348962590264,
+          "lng": 105.79447340376713
+        }
+      },
+      {
+        "id": "landmark-h-n-i-b-nh-vi-n-b-ch-mai-3",
+        "name": "Bệnh viện Bạch Mai",
+        "label": "Hà Nội - Bệnh viện Bạch Mai",
+        "coordinates": {
+          "lat": 21.011912436262687,
+          "lng": 105.88242455585443
+        }
+      },
+      {
+        "id": "landmark-h-n-i-ga-h-n-i-4",
+        "name": "Ga Hà Nội",
+        "label": "Hà Nội - Ga Hà Nội",
+        "coordinates": {
+          "lat": 20.98436443046611,
+          "lng": 105.85927031345213
+        }
+      },
+      {
+        "id": "landmark-h-n-i-h-ho-n-ki-m-5",
+        "name": "Hồ Hoàn Kiếm",
+        "label": "Hà Nội - Hồ Hoàn Kiếm",
+        "coordinates": {
+          "lat": 21.078636161444532,
+          "lng": 105.82533428535147
+        }
+      }
+    ]
+  }
+}

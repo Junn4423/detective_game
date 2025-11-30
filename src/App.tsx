@@ -9,6 +9,9 @@ import { useDetectiveCase } from '@/hooks/useDetectiveCase'
 import { useArchivedCaseList } from '@/hooks/useArchivedCaseList'
 import { useGameStore } from '@/store/gameStore'
 import doorOpenVideo from '@/assets/video/dooropen.mp4'
+import { useSoundscape } from '@/providers/SoundscapeProvider'
+import { AudioControlPanel } from '@/components/AudioControlPanel'
+import { motion } from 'framer-motion'
 
 type IntroStage = 'menu' | 'zooming' | 'video' | 'fade' | 'hidden'
 
@@ -17,11 +20,13 @@ const IntroOverlay = ({
   onStart,
   onVideoEnded,
   onShowArchives,
+  onOpenSettings,
 }: {
   stage: IntroStage
   onStart: () => void
   onVideoEnded: () => void
   onShowArchives: () => void
+  onOpenSettings: () => void
 }) => {
   if (stage === 'hidden') return null
 
@@ -38,6 +43,9 @@ const IntroOverlay = ({
               </button>
               <button className="start-menu__secondary" onClick={onShowArchives} disabled={stage !== 'menu'}>
                 Danh sách hồ sơ
+              </button>
+              <button className="start-menu__settings" onClick={onOpenSettings} disabled={stage !== 'menu'}>
+                Cài đặt
               </button>
             </div>
           </div>
@@ -73,6 +81,7 @@ function App() {
   const activeTab = useGameStore((state) => state.activeTab)
   const archivedCaseCode = useGameStore((state) => state.archivedCaseCode)
   const activeCaseCode = useGameStore((state) => state.activeCaseCode)
+  const phaseTwoLoading = useGameStore((state) => state.phaseTwoLoading)
 
   const toggleShortlist = useGameStore((state) => state.toggleShortlist)
   const confirmShortlist = useGameStore((state) => state.confirmShortlist)
@@ -82,9 +91,12 @@ function App() {
   const loadArchivedCase = useGameStore((state) => state.loadArchivedCase)
   const setActiveTab = useGameStore((state) => state.setActiveTab)
   const hasActivatedCase = useGameStore((state) => state.hasActivatedCase)
+  const returnToMenu = useGameStore((state) => state.returnToMenu)
+  const { ensureSoundscape, triggerEffect } = useSoundscape()
 
   const [introStage, setIntroStage] = useState<IntroStage>(() => (hasActivatedCase ? 'hidden' : 'menu'))
   const [showCaseList, setShowCaseList] = useState(false)
+  const [showSettings, setShowSettings] = useState(false)
   const [pendingArchiveCode, setPendingArchiveCode] = useState<string | undefined>(undefined)
   const zoomTimerRef = useRef<number | undefined>(undefined)
   const hideTimerRef = useRef<number | undefined>(undefined)
@@ -98,9 +110,16 @@ function App() {
     }
   }, [])
 
+  useEffect(() => {
+    if (introStage !== 'menu' && showSettings) {
+      setShowSettings(false)
+    }
+  }, [introStage, showSettings])
+
   const beginIntroSequence = (archiveCode?: string) => {
     if (introStage !== 'menu') return
     caseTriggeredRef.current = false
+    setShowSettings(false)
     setPendingArchiveCode(archiveCode)
     setIntroStage('zooming')
     zoomTimerRef.current = window.setTimeout(() => {
@@ -109,6 +128,9 @@ function App() {
   }
 
   const handleStartSequence = () => {
+    void ensureSoundscape()
+    triggerEffect('ui-confirm')
+    setShowSettings(false)
     beginIntroSequence()
   }
 
@@ -118,12 +140,37 @@ function App() {
 
   const handleShowArchiveList = () => {
     if (introStage !== 'menu') return
+    void ensureSoundscape()
+    triggerEffect('ui-select')
     setShowCaseList(true)
+  }
+
+  const handleOpenSettings = () => {
+    if (introStage !== 'menu') return
+    void ensureSoundscape()
+    triggerEffect('ui-select')
+    setShowSettings(true)
   }
 
   const handleSelectArchivedCase = (caseCode: string) => {
     setShowCaseList(false)
+    setShowSettings(false)
+    void ensureSoundscape()
+    triggerEffect('ui-confirm')
     beginIntroSequence(caseCode)
+  }
+
+  const handleReturnHome = () => {
+    void ensureSoundscape()
+    triggerEffect('ui-error')
+    if (zoomTimerRef.current) window.clearTimeout(zoomTimerRef.current)
+    if (hideTimerRef.current) window.clearTimeout(hideTimerRef.current)
+    returnToMenu()
+    caseTriggeredRef.current = false
+    setShowCaseList(false)
+    setShowSettings(false)
+    setPendingArchiveCode(undefined)
+    setIntroStage('menu')
   }
 
   useEffect(() => {
@@ -143,7 +190,7 @@ function App() {
 
   const archiveFetching = archivedCaseQuery.isFetching
   const baseLoading = citizenQuery.isPending || assemblyQuery.isPending || clueQuery.isPending
-  const isLoading = baseLoading || archiveFetching
+  const isLoading = baseLoading || archiveFetching || phaseTwoLoading
   const displayCaseCode = activeCaseCode ?? caseBundle?.victim?.victimId ?? caseBundle?.victim?.id
   const replayDisabled = !archivedCaseCode || archiveFetching || baseLoading
 
@@ -155,6 +202,7 @@ function App() {
           onStart={handleStartSequence}
           onVideoEnded={handleVideoEnded}
           onShowArchives={handleShowArchiveList}
+          onOpenSettings={handleOpenSettings}
         />
       )}
       <ArchiveListOverlay
@@ -168,23 +216,27 @@ function App() {
       <div className="app-shell">
       {/* Sidebar - Case File */}
       <aside className="sidebar">
-        <div style={{ padding: '1.5rem', background: '#1a1a1a', borderBottom: '1px solid #444' }}>
-          <h1 style={{ margin: 0, fontSize: '1.5rem', color: '#f0a500', fontFamily: 'Courier New' }}>HỒ SƠ VỤ ÁN</h1>
-          <div style={{ fontSize: '0.8rem', color: '#888', marginTop: '0.5rem' }}>
+        <div style={{ padding: '1rem', background: '#0f172a', borderBottom: '1px solid #334155' }}>
+          <h1 style={{ margin: 0, fontSize: '1.3rem', color: '#facc15', fontFamily: 'Courier New', letterSpacing: '0.05em' }}>HỒ SƠ VỤ ÁN</h1>
+          <div style={{ fontSize: '0.75rem', color: '#94a3b8', marginTop: '0.4rem' }}>
             Mã hồ sơ: #{displayCaseCode ? displayCaseCode.slice(0, 8) : 'Unknown'}
           </div>
           {caseBundle?.caseTitle ? (
-            <div style={{ fontSize: '0.85rem', color: '#fbbf24', marginTop: '0.25rem' }}>{caseBundle.caseTitle}</div>
+            <div style={{ fontSize: '0.8rem', color: '#fbbf24', marginTop: '0.2rem', lineHeight: 1.3 }}>{caseBundle.caseTitle}</div>
           ) : null}
-          <div style={{ marginTop: '1rem', display: 'flex', gap: '0.5rem' }}>
+          <div style={{ marginTop: '0.75rem', display: 'flex', gap: '0.4rem' }}>
             <button
-              onClick={restartCurrentCase}
+              onClick={() => {
+                void ensureSoundscape()
+                triggerEffect('ui-select')
+                restartCurrentCase()
+              }}
               disabled={replayDisabled}
               title={replayDisabled ? 'Chỉ khả dụng sau khi hồ sơ đã được lưu' : undefined}
               style={{
                 flex: 1,
-                padding: '0.3rem',
-                fontSize: '0.8rem',
+                padding: '0.25rem',
+                fontSize: '0.7rem',
                 cursor: replayDisabled ? 'not-allowed' : 'pointer',
                 background: replayDisabled ? '#475569' : '#334155',
                 color: 'white',
@@ -196,42 +248,46 @@ function App() {
               Lật lại vụ án
             </button>
             <button
-              onClick={startNewCase}
-              style={{ flex: 1, padding: '0.3rem', fontSize: '0.8rem', cursor: 'pointer', background: '#b91c1c', color: 'white', border: 'none', borderRadius: '2px' }}
+              onClick={() => {
+                void ensureSoundscape()
+                triggerEffect('ui-confirm')
+                startNewCase()
+              }}
+              style={{ flex: 1, padding: '0.25rem', fontSize: '0.7rem', cursor: 'pointer', background: '#b91c1c', color: 'white', border: 'none', borderRadius: '2px' }}
             >
               Vụ án mới
             </button>
           </div>
-          <div style={{ marginTop: '0.3rem', fontSize: '0.7rem', color: '#94a3b8' }}>
-            {archivedCaseCode ? `Đã lưu hồ sơ #${archivedCaseCode.slice(0, 8)}` : 'Tạo xong hồ sơ để có thể lật lại.'}
+          <div style={{ marginTop: '0.25rem', fontSize: '0.65rem', color: '#64748b' }}>
+            {archivedCaseCode ? `Đã lưu #${archivedCaseCode.slice(0, 8)}` : 'Tạo xong hồ sơ để có thể lật lại.'}
           </div>
         </div>
 
-        <div style={{ flex: 1, overflowY: 'auto', padding: '1.5rem' }}>
+        <div style={{ flex: 1, overflowY: 'auto', padding: '1rem' }}>
           <StatusBanner phase={phase} error={error} isLoading={isLoading} />
 
           {caseBundle?.accompliceCount ? (
-            <div className="paper-card" style={{ marginTop: '1rem', background: '#e0f2fe', border: '1px dashed #0284c7' }}>
-              <strong>Thông tin đồng phạm:</strong>
-              <p style={{ margin: '0.3rem 0 0 0', fontSize: '0.85rem', color: '#0f172a' }}>
-                Theo điều tra ban đầu có {caseBundle.accompliceCount} đồng phạm che chắn cho hung thủ. Khi khoanh vùng đủ số lượng này, chúng sẽ khai tọa độ ẩn náu để bạn chỉ điểm trên bản đồ.
+            <div className="paper-card" style={{ marginTop: '0.75rem', background: '#e0f2fe', border: '1px dashed #0284c7' }}>
+              <strong style={{ fontSize: '0.8rem', color: '#000' }}>Thông tin đồng phạm:</strong>
+              <p style={{ margin: '0.2rem 0 0 0', fontSize: '0.75rem', color: '#0f172a', lineHeight: 1.4 }}>
+                Có {caseBundle.accompliceCount} đồng phạm che chắn cho hung thủ.
               </p>
             </div>
           ) : null}
 
           {caseBundle?.story && (
-            <div className="paper-card" style={{ marginTop: '1rem', transform: 'rotate(1deg)' }}>
-              <h3 style={{ margin: '0 0 0.5rem 0', color: '#b91c1c', borderBottom: '2px solid #b91c1c', display: 'inline-block' }}>Báo Cáo Sơ Bộ</h3>
-              <p style={{ whiteSpace: 'pre-wrap', fontSize: '0.9rem', color: '#333', fontFamily: 'Courier New' }}>
+            <div className="paper-card" style={{ marginTop: '0.75rem', transform: 'rotate(0.5deg)' }}>
+              <h3 style={{ margin: '0 0 0.3rem 0', color: '#b91c1c', fontSize: '0.85rem', borderBottom: '2px solid #b91c1c', display: 'inline-block' }}>Báo Cáo Sơ Bộ</h3>
+              <p style={{ whiteSpace: 'pre-wrap', fontSize: '0.75rem', color: '#333', fontFamily: 'Courier New', lineHeight: 1.4 }}>
                 {caseBundle.story}
               </p>
             </div>
           )}
 
           {caseBundle?.clueDrafts?.map((clue) => (
-            <div key={clue.id} className="paper-card" style={{ marginTop: '1rem', background: '#fffbeb' }}>
-              <div style={{ fontWeight: 'bold', color: '#b45309', marginBottom: '0.2rem' }}>{clue.title}</div>
-              <div style={{ fontSize: '0.9rem', color: '#444' }}>{clue.summary}</div>
+            <div key={clue.id} className="paper-card" style={{ marginTop: '0.75rem', background: '#fffbeb' }}>
+              <div style={{ fontWeight: 'bold', color: '#b45309', marginBottom: '0.15rem', fontSize: '0.8rem' }}>{clue.title}</div>
+              <div style={{ fontSize: '0.75rem', color: '#444', lineHeight: 1.4 }}>{clue.summary}</div>
             </div>
           ))}
         </div>
@@ -240,37 +296,80 @@ function App() {
       {/* Main Board */}
       <main className="main-content">
         {/* Navigation Tabs */}
-        <nav style={{ padding: '1rem', display: 'flex', gap: '1rem', background: 'rgba(0,0,0,0.2)' }}>
-          <button
-            onClick={() => setActiveTab('map')}
+        <nav style={{ padding: '0.75rem', display: 'flex', gap: '0.75rem', alignItems: 'center', background: 'rgba(0,0,0,0.3)' }}>
+          <div style={{ display: 'flex', gap: '0.5rem' }}>
+            <motion.button
+              whileHover={{ scale: 1.04 }}
+              whileTap={{ scale: 0.96 }}
+              transition={{ type: 'spring', stiffness: 260, damping: 18 }}
+              onClick={() => {
+                void ensureSoundscape()
+                triggerEffect('ui-select')
+                setActiveTab('map')
+              }}
+              style={{
+                padding: '0.4rem 1rem',
+                background: activeTab === 'map' ? '#f0a500' : '#fff',
+                color: activeTab === 'map' ? '#000' : '#333',
+                border: 'none',
+                borderRadius: '2px',
+                fontWeight: 'bold',
+                cursor: 'pointer',
+                boxShadow: '2px 2px 5px rgba(0,0,0,0.2)',
+                fontSize: '0.8rem',
+                transform: activeTab === 'map' ? 'translateY(2px)' : 'none'
+              }}
+            >
+              BẢN ĐỒ ĐIỀU TRA
+            </motion.button>
+            <motion.button
+              whileHover={{ scale: 1.04 }}
+              whileTap={{ scale: 0.96 }}
+              transition={{ type: 'spring', stiffness: 260, damping: 18 }}
+              onClick={() => {
+                void ensureSoundscape()
+                triggerEffect('ui-select')
+                setActiveTab('suspects')
+              }}
+              style={{
+                padding: '0.4rem 1rem',
+                background: activeTab === 'suspects' ? '#f0a500' : '#fff',
+                color: activeTab === 'suspects' ? '#000' : '#333',
+                border: 'none',
+                borderRadius: '2px',
+                fontWeight: 'bold',
+                cursor: 'pointer',
+                boxShadow: '2px 2px 5px rgba(0,0,0,0.2)',
+                fontSize: '0.8rem',
+                transform: activeTab === 'suspects' ? 'translateY(2px)' : 'none'
+              }}
+            >
+              HỒ SƠ NGHI PHẠM ({caseBundle?.suspects.length ?? 0})
+            </motion.button>
+          </div>
+          <motion.button
+            whileHover={{ scale: 1.06, rotate: -1 }}
+            whileTap={{ scale: 0.95, rotate: 1 }}
+            transition={{ type: 'spring', stiffness: 220, damping: 16 }}
+            onClick={handleReturnHome}
             style={{
-              padding: '0.5rem 1.5rem',
-              background: activeTab === 'map' ? '#f0a500' : '#fff',
-              border: 'none',
-              borderRadius: '2px',
-              fontWeight: 'bold',
+              marginLeft: 'auto',
+              padding: '0.35rem 0.9rem',
+              background: '#0f172a',
+              color: '#f8fafc',
+              border: '1px solid rgba(148, 163, 184, 0.4)',
+              borderRadius: '999px',
+              fontSize: '0.7rem',
+              letterSpacing: '0.04em',
               cursor: 'pointer',
-              boxShadow: '2px 2px 5px rgba(0,0,0,0.2)',
-              transform: activeTab === 'map' ? 'translateY(2px)' : 'none'
+              display: 'flex',
+              alignItems: 'center',
+              gap: '0.35rem',
+              boxShadow: '0 6px 14px rgba(15, 23, 42, 0.45)'
             }}
           >
-            BẢN ĐỒ ĐIỀU TRA
-          </button>
-          <button
-            onClick={() => setActiveTab('suspects')}
-            style={{
-              padding: '0.5rem 1.5rem',
-              background: activeTab === 'suspects' ? '#f0a500' : '#fff',
-              border: 'none',
-              borderRadius: '2px',
-              fontWeight: 'bold',
-              cursor: 'pointer',
-              boxShadow: '2px 2px 5px rgba(0,0,0,0.2)',
-              transform: activeTab === 'suspects' ? 'translateY(2px)' : 'none'
-            }}
-          >
-            HỒ SƠ NGHI PHẠM ({caseBundle?.suspects.length ?? 0})
-          </button>
+            <span style={{ fontFamily: 'Courier New', fontWeight: 700 }}>TRỞ VỀ TRUNG TÂM</span>
+          </motion.button>
         </nav>
 
         {/* Content Area */}
@@ -290,6 +389,7 @@ function App() {
               highlightedClueId={highlightedClueId}
               hideoutHint={caseBundle?.hideoutHint}
               accompliceIds={caseBundle?.accompliceIds}
+              landmarks={caseBundle?.landmarks}
             />
           </div>
 
@@ -311,6 +411,33 @@ function App() {
         </div>
       </main>
       </div>
+
+      {showSettings ? (
+        <div className="settings-overlay">
+          <div className="settings-panel">
+            <div className="settings-header">
+              <div>
+                <p className="settings-eyebrow">Bảng cấu hình</p>
+                <h3>Phòng chỉ huy</h3>
+              </div>
+              <button
+                type="button"
+                className="settings-close"
+                onClick={() => setShowSettings(false)}
+              >
+                ×
+              </button>
+            </div>
+            <p className="settings-subtitle">Điều chỉnh âm lượng nhạc nền và hiệu ứng trước khi mở hồ sơ.</p>
+            <AudioControlPanel
+              onInteract={() => {
+                void ensureSoundscape()
+                triggerEffect('ui-select')
+              }}
+            />
+          </div>
+        </div>
+      ) : null}
     </>
   )
 }

@@ -17,53 +17,53 @@ const createArchiveMiddleware = (casesDir: string): Connect.NextHandleFunction =
 
     if (req.method === 'GET') {
       if (listMode) {
-          try {
-            await fs.mkdir(casesDir, { recursive: true })
-            const entries = await fs.readdir(casesDir, { withFileTypes: true })
-            const summaries = (
-              await Promise.all(
-                entries
-                  .filter((entry) => entry.isFile() && entry.name.endsWith('.json'))
-                  .map(async (entry) => {
-                    const filePath = path.resolve(casesDir, entry.name)
-                    try {
-                      const parsed = JSON.parse(await fs.readFile(filePath, 'utf8')) as {
-                        caseCode?: string
-                        generatedAt?: string
-                        title?: string
-                        bundle?: { caseTitle?: string }
-                      }
-                      return {
-                        caseCode: parsed.caseCode ?? entry.name.replace(/\.json$/, ''),
-                        generatedAt: parsed.generatedAt,
-                        title: parsed.title ?? parsed.bundle?.caseTitle ?? 'Hồ sơ vô danh',
-                      }
-                    } catch (error) {
-                      console.error('[case-archive] Failed to parse case file for list', entry.name, error)
-                      return null
+        try {
+          await fs.mkdir(casesDir, { recursive: true })
+          const entries = await fs.readdir(casesDir, { withFileTypes: true })
+          const summaries = (
+            await Promise.all(
+              entries
+                .filter((entry) => entry.isFile() && entry.name.endsWith('.json'))
+                .map(async (entry) => {
+                  const filePath = path.resolve(casesDir, entry.name)
+                  try {
+                    const parsed = JSON.parse(await fs.readFile(filePath, 'utf8')) as {
+                      caseCode?: string
+                      generatedAt?: string
+                      title?: string
+                      bundle?: { caseTitle?: string }
                     }
-                  }),
-              )
+                    return {
+                      caseCode: parsed.caseCode ?? entry.name.replace(/\.json$/, ''),
+                      generatedAt: parsed.generatedAt,
+                      title: parsed.title ?? parsed.bundle?.caseTitle ?? 'Hồ sơ vô danh',
+                    }
+                  } catch (error) {
+                    console.error('[case-archive] Failed to parse case file for list', entry.name, error)
+                    return null
+                  }
+                }),
             )
-              .filter(Boolean)
-              .sort((a, b) => {
-                const aTime = a?.generatedAt ? Date.parse(a.generatedAt) : 0
-                const bTime = b?.generatedAt ? Date.parse(b.generatedAt) : 0
-                return bTime - aTime
-              })
+          )
+            .filter(Boolean)
+            .sort((a, b) => {
+              const aTime = a?.generatedAt ? Date.parse(a.generatedAt) : 0
+              const bTime = b?.generatedAt ? Date.parse(b.generatedAt) : 0
+              return bTime - aTime
+            })
 
-            res.statusCode = 200
-            res.setHeader('Content-Type', 'application/json')
-            res.end(JSON.stringify({ cases: summaries }))
-          } catch (error) {
-            console.error('[case-archive] Failed to list cases', error)
-            res.statusCode = 500
-            res.end('Failed to list cases')
-          }
-          return
+          res.statusCode = 200
+          res.setHeader('Content-Type', 'application/json')
+          res.end(JSON.stringify({ cases: summaries }))
+        } catch (error) {
+          console.error('[case-archive] Failed to list cases', error)
+          res.statusCode = 500
+          res.end('Failed to list cases')
         }
+        return
+      }
 
-        if (!code) {
+      if (!code) {
         res.statusCode = 400
         res.end('Missing case code')
         return
@@ -142,7 +142,6 @@ const caseArchivePlugin = () => {
   }
 }
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), caseArchivePlugin()],
   resolve: {

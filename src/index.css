@@ -38,14 +38,15 @@ body {
 }
 
 .sidebar {
-  width: 350px;
-  background: #2c2c2c;
-  color: black;
+  width: 320px;
+  background: #1e293b;
+  color: #e2e8f0;
   display: flex;
   flex-direction: column;
-  border-right: 4px solid #1a1a1a;
+  border-right: 3px solid #334155;
   z-index: 20;
   flex-shrink: 0;
+  overflow: hidden;
 }
 
 .main-content {
@@ -79,14 +80,28 @@ body {
 .paper-card {
   background: #fdf6e3;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-  padding: 1rem;
+  padding: 0.75rem;
   transform: rotate(-1deg);
   transition: transform 0.2s;
+  overflow: hidden;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 }
 
 .paper-card:hover {
   transform: rotate(0deg) scale(1.02);
   z-index: 10;
+}
+
+.paper-card h3 {
+  font-size: 0.9rem;
+  margin: 0 0 0.4rem 0;
+}
+
+.paper-card p {
+  font-size: 0.8rem;
+  line-height: 1.4;
+  margin: 0;
 }
 
 /* Scrollbar */
@@ -95,15 +110,37 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #1e293b;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  background: #475569;
+  border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #64748b;
+}
+
+/* Text overflow utilities */
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.text-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.text-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 /* Suspect Grid Layout */
@@ -127,11 +164,12 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-  gap: 1.5rem;
-  padding: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
   flex: 1;
   overflow-y: auto;
+  align-content: start;
 }
 
 .suspect-card {
@@ -146,6 +184,8 @@ body {
   flex-direction: column;
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
   position: relative;
+  max-height: 380px;
+  min-width: 0;
 }
 
 .suspect-card:hover {
@@ -166,38 +206,49 @@ body {
 
 .suspect-card img {
   width: 100%;
-  height: 180px;
+  height: 140px;
   object-fit: cover;
   border-bottom: 1px solid #eee;
 }
 
 .suspect-card .info {
-  padding: 0.8rem;
+  padding: 0.6rem;
   background: #fafafa;
   flex: 1;
   display: flex;
   flex-direction: column;
+  min-height: 0;
+  overflow: hidden;
 }
 
 .suspect-card .name {
   font-weight: bold;
-  font-size: 1rem;
-  margin-bottom: 0.3rem;
+  font-size: 0.85rem;
+  margin-bottom: 0.2rem;
   color: #2c3e50;
   font-family: 'Courier New', Courier, monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .suspect-card .occupation {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   color: #666;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.2rem;
   font-style: italic;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .suspect-card .meta {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   color: #888;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .suspect-card .action-btn {

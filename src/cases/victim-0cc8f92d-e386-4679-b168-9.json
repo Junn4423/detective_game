@@ -1,0 +1,4138 @@
+{
+  "caseCode": "victim-0cc8f92d-e386-4679-b168-9",
+  "generatedAt": "2025-11-30T17:19:39.132Z",
+  "title": "Lời Nguyền Smallbird: Bí Mật Sau Tháp Quan Sát",
+  "bundle": {
+    "victim": {
+      "id": "0cc8f92d-e386-4679-b168-9a7b35856391",
+      "fullName": "Nguyễn Minh Chi",
+      "gender": "female",
+      "age": 41,
+      "nationality": "Việt Nam",
+      "occupation": "smallbird Investigator",
+      "email": "catharina.claussen@example.com",
+      "phone": "0847-3283620",
+      "cell": "0173-5682464",
+      "dob": "1983-12-21T17:58:19.814Z",
+      "registered": "2011-10-18T18:12:12.968Z",
+      "idNumber": "13 211283 C 991",
+      "residence": "Hà Nội, Việt Nam",
+      "coordinates": {
+        "lat": 21.087460515042395,
+        "lng": 105.93696086203602
+      },
+      "portrait": "https://randomuser.me/api/portraits/women/16.jpg",
+      "timezone": "Brussels, Copenhagen, Madrid, Paris",
+      "seed": "smallbird777",
+      "victimId": "victim-0cc8f92d-e386-4679-b168-9a7b35856391",
+      "timeOfIncident": "2025-11-30T17:19:22.999Z",
+      "lastKnownLocation": {
+        "lat": 21.087460515042395,
+        "lng": 105.93696086203602
+      }
+    },
+    "killer": {
+      "id": "b24756e1-91d9-4a93-ad0a-eff8ab4275d1",
+      "fullName": "Phạm Quốc Khánh",
+      "gender": "male",
+      "age": 68,
+      "nationality": "Việt Nam",
+      "occupation": "bigpeacock Investigator",
+      "email": "francisco.davidson@example.com",
+      "phone": "(656) 665-3965",
+      "cell": "(838) 751-5709",
+      "dob": "1957-01-13T10:29:16.985Z",
+      "registered": "2017-01-10T02:32:23.996Z",
+      "idNumber": "459-31-8742",
+      "residence": "Hà Nội, Việt Nam",
+      "coordinates": {
+        "lat": 21.0039,
+        "lng": 105.846
+      },
+      "portrait": "https://randomuser.me/api/portraits/men/48.jpg",
+      "timezone": "Kabul",
+      "seed": "bigpeacock184",
+      "suspicionLevel": 0.98,
+      "alibi": "Từ chối khai báo lịch trình",
+      "role": "killer",
+      "relationshipTag": "family",
+      "testimony": {
+        "id": "testimony-b24756e1-91d9-4a93-ad0a-eff8ab4275d1",
+        "relationshipSummary": "người thân",
+        "narrative": "Tôi là người thân của Nguyễn Minh Chi. Ngày hôm đó, khoảng 21:23 - 21:53, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Hà Nội - Bệnh viện Trung tâm. Phạm Quốc Khánh được báo cáo đi về phía Tây Nam của Bệnh viện Trung tâm, luôn ở trong bán kính 2.1km quanh địa điểm này.",
+        "timeframe": "21:23 - 21:53",
+        "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+        "locationLabel": "Hà Nội - Bệnh viện Trung tâm",
+        "mapHint": {
+          "id": "Hà Nội - Bệnh viện Trung tâm-7039",
+          "label": "Hà Nội - Bệnh viện Trung tâm",
+          "point": {
+            "lat": 21.032770577760974,
+            "lng": 105.81055610876437
+          },
+          "radiusMeters": 900
+        },
+        "reliability": "shaky",
+        "landmarkId": "landmark-h-n-i-b-nh-vi-n-trung-t-m-6",
+        "directionHint": "Phạm Quốc Khánh được báo cáo đi về phía Tây Nam của Bệnh viện Trung tâm, luôn ở trong bán kính 2.1km quanh địa điểm này."
+      },
+      "dialogue": {
+        "intro": "Cảnh sát à? Tôi không thích bị chĩa mũi vào, nhưng cứ hỏi đi.",
+        "topics": [
+          {
+            "id": "alibi",
+            "text": "Hỏi về bằng chứng ngoại phạm",
+            "response": "Từ chối khai báo lịch trình. Tôi đã khai rồi: Tôi là người thân của Nguyễn Minh Chi. Ngày hôm đó, khoảng 21:23 - 21:53, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Hà Nội - Bệnh viện Trung tâm. Phạm Quốc Khánh được báo cáo đi về phía Tây Nam của Bệnh viện Trung tâm, luôn ở trong bán kính 2.1km quanh địa điểm này.",
+            "clueReveal": true
+          },
+          {
+            "id": "victim_relation",
+            "text": "Hỏi về mối quan hệ với nạn nhân",
+            "response": "Tôi với Nguyễn Minh Chi chỉ là người thân. Anh đừng gán ghép thêm."
+          },
+          {
+            "id": "pressure",
+            "text": "Gây áp lực (Hỏi dồn)",
+            "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+            "isTrap": true
+          }
+        ],
+        "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+      }
+    },
+    "suspects": [
+      {
+        "id": "9586f9c1-d48f-452d-9501-11cca0baf1ca",
+        "fullName": "Nguyễn Gia Hạnh",
+        "gender": "female",
+        "age": 57,
+        "nationality": "Việt Nam",
+        "occupation": "lazyleopard Investigator",
+        "email": "elise.moulin@example.com",
+        "phone": "03-00-59-74-87",
+        "cell": "06-52-50-76-11",
+        "dob": "1968-07-14T15:41:08.727Z",
+        "registered": "2018-02-05T11:44:00.285Z",
+        "idNumber": "2680636732489 15",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.99149737647505,
+          "lng": 105.71451008783336
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/11.jpg",
+        "timezone": "Eastern Australia, Guam, Vladivostok",
+        "seed": "lazyleopard947",
+        "suspicionLevel": 0.64,
+        "alibi": "Đang làm việc tại văn phòng",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-9586f9c1-d48f-452d-9501-11cca0baf1ca",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Nguyễn Minh Chi. Ngày hôm đó, khoảng 01:36 - 02:06, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại Hà Nội - Tháp quan sát Hồ Tây. Nguyễn Gia Hạnh được báo cáo đi về phía Tây của Tháp quan sát Hồ Tây, luôn ở trong bán kính 2km quanh địa điểm này.",
+          "timeframe": "01:36 - 02:06",
+          "action": "dự một buổi cầu nguyện ngắn gần khu chợ trời",
+          "locationLabel": "Hà Nội - Tháp quan sát Hồ Tây",
+          "mapHint": {
+            "id": "Hà Nội - Tháp quan sát Hồ Tây-5090",
+            "label": "Hà Nội - Tháp quan sát Hồ Tây",
+            "point": {
+              "lat": 21.10797572670523,
+              "lng": 105.84427206409052
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-th-p-quan-s-t-h-t-y-4",
+          "directionHint": "Nguyễn Gia Hạnh được báo cáo đi về phía Tây của Tháp quan sát Hồ Tây, luôn ở trong bán kính 2km quanh địa điểm này."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang làm việc tại văn phòng. Tôi đã khai rồi: Tôi là đối tác làm ăn của Nguyễn Minh Chi. Ngày hôm đó, khoảng 01:36 - 02:06, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại Hà Nội - Tháp quan sát Hồ Tây. Nguyễn Gia Hạnh được báo cáo đi về phía Tây của Tháp quan sát Hồ Tây, luôn ở trong bán kính 2km quanh địa điểm này.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là đối tác làm ăn. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "b696af13-be19-440d-8838-cd24ccf1cd96",
+        "fullName": "Vũ Ngọc Hạnh",
+        "gender": "female",
+        "age": 27,
+        "nationality": "Việt Nam",
+        "occupation": "heavyladybug Investigator",
+        "email": "aurora.mora@example.com",
+        "phone": "998-630-009",
+        "cell": "661-333-500",
+        "dob": "1998-11-20T19:01:52.190Z",
+        "registered": "2010-04-18T22:37:30.580Z",
+        "idNumber": "49384289-U",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.96994591854522,
+          "lng": 105.93302300030226
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/15.jpg",
+        "timezone": "Brazil, Buenos Aires, Georgetown",
+        "seed": "heavyladybug304",
+        "suspicionLevel": 0.38,
+        "alibi": "Đang ăn tối cùng gia đình",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-b696af13-be19-440d-8838-cd24ccf1cd96",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Nguyễn Minh Chi. Ngày hôm đó, khoảng 23:00 - 23:30, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Hà Nội - Công viên phía Bắc. Vũ Ngọc Hạnh bị camera của Ga tàu điện ngầm ghi lại khi di chuyển về phía Bắc khoảng 2.0km hướng tới Công viên phía Bắc.",
+          "timeframe": "23:00 - 23:30",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "Hà Nội - Công viên phía Bắc",
+          "mapHint": {
+            "id": "Hà Nội - Công viên phía Bắc-2800",
+            "label": "Hà Nội - Công viên phía Bắc",
+            "point": {
+              "lat": 21.029642531987466,
+              "lng": 105.78900355015193
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-c-ng-vi-n-ph-a-b-c-0",
+          "directionHint": "Vũ Ngọc Hạnh bị camera của Ga tàu điện ngầm ghi lại khi di chuyển về phía Bắc khoảng 2.0km hướng tới Công viên phía Bắc."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang ăn tối cùng gia đình. Tôi đã khai rồi: Tôi là người thân của Nguyễn Minh Chi. Ngày hôm đó, khoảng 23:00 - 23:30, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Hà Nội - Công viên phía Bắc. Vũ Ngọc Hạnh bị camera của Ga tàu điện ngầm ghi lại khi di chuyển về phía Bắc khoảng 2.0km hướng tới Công viên phía Bắc.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là người thân. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "0e0957d4-8d41-47ae-aca0-1ce2f90dc13a",
+        "fullName": "Nguyễn Thuỳ Quân",
+        "gender": "male",
+        "age": 30,
+        "nationality": "Việt Nam",
+        "occupation": "crazyelephant Investigator",
+        "email": "frederick.roberts@example.com",
+        "phone": "013873 69315",
+        "cell": "07513 124746",
+        "dob": "1995-07-08T10:31:08.608Z",
+        "registered": "2017-12-03T15:51:41.497Z",
+        "idNumber": "TN 65 57 83 K",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.10712378501426,
+          "lng": 105.7750419596187
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/47.jpg",
+        "timezone": "Mid-Atlantic",
+        "seed": "crazyelephant631",
+        "suspicionLevel": 0.46,
+        "alibi": "Đang tham dự đám cưới người thân",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-0e0957d4-8d41-47ae-aca0-1ce2f90dc13a",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Nguyễn Minh Chi. Ngày hôm đó, khoảng 23:01 - 23:31, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại Hà Nội - Công viên phía Bắc. Nguyễn Thuỳ Quân được báo cáo đi về phía Tây Nam của Công viên phía Bắc, luôn ở trong bán kính 2.5km quanh địa điểm này.",
+          "timeframe": "23:01 - 23:31",
+          "action": "thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông",
+          "locationLabel": "Hà Nội - Công viên phía Bắc",
+          "mapHint": {
+            "id": "Hà Nội - Công viên phía Bắc-1400",
+            "label": "Hà Nội - Công viên phía Bắc",
+            "point": {
+              "lat": 21.093752346899546,
+              "lng": 105.84895871331227
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-c-ng-vi-n-ph-a-b-c-0",
+          "directionHint": "Nguyễn Thuỳ Quân được báo cáo đi về phía Tây Nam của Công viên phía Bắc, luôn ở trong bán kính 2.5km quanh địa điểm này."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang tham dự đám cưới người thân. Tôi đã khai rồi: Tôi là người quen xã giao của Nguyễn Minh Chi. Ngày hôm đó, khoảng 23:01 - 23:31, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại Hà Nội - Công viên phía Bắc. Nguyễn Thuỳ Quân được báo cáo đi về phía Tây Nam của Công viên phía Bắc, luôn ở trong bán kính 2.5km quanh địa điểm này.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là người quen xã giao. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "3a5710fe-13bb-4d48-8df5-8044b7b31dad",
+        "fullName": "Nguyễn Gia Trang",
+        "gender": "female",
+        "age": 59,
+        "nationality": "Việt Nam",
+        "occupation": "whitegoose Investigator",
+        "email": "gerda.albrecht@example.com",
+        "phone": "0123-8934041",
+        "cell": "0178-4153620",
+        "dob": "1966-10-14T16:03:10.301Z",
+        "registered": "2006-12-19T00:38:27.803Z",
+        "idNumber": "47 141066 A 891",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.14269616179294,
+          "lng": 105.8098262767601
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/33.jpg",
+        "timezone": "Pacific Time (US & Canada)",
+        "seed": "whitegoose424",
+        "suspicionLevel": 0.44,
+        "alibi": "Đang bị kẹt xe trên đường cao tốc",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-3a5710fe-13bb-4d48-8df5-8044b7b31dad",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Nguyễn Minh Chi. Ngày hôm đó, khoảng 22:35 - 23:05, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại Hà Nội - Công viên phía Bắc. Nguyễn Gia Trang bị camera của Ga tàu điện ngầm ghi lại khi di chuyển về phía Bắc khoảng 2.0km hướng tới Công viên phía Bắc.",
+          "timeframe": "22:35 - 23:05",
+          "action": "đi khảo sát công trường dang dở ở ngoại ô",
+          "locationLabel": "Hà Nội - Công viên phía Bắc",
+          "mapHint": {
+            "id": "Hà Nội - Công viên phía Bắc-8265",
+            "label": "Hà Nội - Công viên phía Bắc",
+            "point": {
+              "lat": 21.041365100107342,
+              "lng": 105.87404374148008
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-c-ng-vi-n-ph-a-b-c-0",
+          "directionHint": "Nguyễn Gia Trang bị camera của Ga tàu điện ngầm ghi lại khi di chuyển về phía Bắc khoảng 2.0km hướng tới Công viên phía Bắc."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang bị kẹt xe trên đường cao tốc. Tôi đã khai rồi: Tôi là đồng nghiệp của Nguyễn Minh Chi. Ngày hôm đó, khoảng 22:35 - 23:05, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại Hà Nội - Công viên phía Bắc. Nguyễn Gia Trang bị camera của Ga tàu điện ngầm ghi lại khi di chuyển về phía Bắc khoảng 2.0km hướng tới Công viên phía Bắc.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là đồng nghiệp. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "53e9706c-fb20-41ac-a6e7-c56a8763db84",
+        "fullName": "Huỳnh Quốc Tùng",
+        "gender": "male",
+        "age": 38,
+        "nationality": "Việt Nam",
+        "occupation": "greenostrich Investigator",
+        "email": "xavier.pelletier@example.com",
+        "phone": "I35 I86-4469",
+        "cell": "P46 P96-3952",
+        "dob": "1987-05-03T20:35:01.387Z",
+        "registered": "2021-11-01T03:31:31.085Z",
+        "idNumber": "589896430",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.962312470169877,
+          "lng": 105.917665831878
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/84.jpg",
+        "timezone": "Abu Dhabi, Muscat, Baku, Tbilisi",
+        "seed": "greenostrich947",
+        "suspicionLevel": 0.35,
+        "alibi": "Đang đi du lịch nước ngoài",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-53e9706c-fb20-41ac-a6e7-c56a8763db84",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Nguyễn Minh Chi. Ngày hôm đó, khoảng 21:28 - 21:58, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại Hà Nội - Quán Bar ven sông. Huỳnh Quốc Tùng được báo cáo đi về phía Tây Nam của Quán Bar ven sông, luôn ở trong bán kính 1.2km quanh địa điểm này.",
+          "timeframe": "21:28 - 21:58",
+          "action": "dự một buổi cầu nguyện ngắn gần khu chợ trời",
+          "locationLabel": "Hà Nội - Quán Bar ven sông",
+          "mapHint": {
+            "id": "Hà Nội - Quán Bar ven sông-2404",
+            "label": "Hà Nội - Quán Bar ven sông",
+            "point": {
+              "lat": 21.055369505583496,
+              "lng": 105.83859263663217
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-qu-n-bar-ven-s-ng-2",
+          "directionHint": "Huỳnh Quốc Tùng được báo cáo đi về phía Tây Nam của Quán Bar ven sông, luôn ở trong bán kính 1.2km quanh địa điểm này."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang đi du lịch nước ngoài. Tôi đã khai rồi: Tôi là đối tác làm ăn của Nguyễn Minh Chi. Ngày hôm đó, khoảng 21:28 - 21:58, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại Hà Nội - Quán Bar ven sông. Huỳnh Quốc Tùng được báo cáo đi về phía Tây Nam của Quán Bar ven sông, luôn ở trong bán kính 1.2km quanh địa điểm này.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là đối tác làm ăn. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "04dd08a5-5b6c-4067-9c55-1a75896d5167",
+        "fullName": "Nguyễn Hữu Hạnh",
+        "gender": "female",
+        "age": 25,
+        "nationality": "Việt Nam",
+        "occupation": "goldensnake Investigator",
+        "email": "layla.moore@example.com",
+        "phone": "(820)-942-5058",
+        "cell": "(807)-199-4724",
+        "dob": "2000-01-03T09:05:10.177Z",
+        "registered": "2004-04-27T21:36:08.258Z",
+        "idNumber": "N/A",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.94528645142396,
+          "lng": 105.7470356341971
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/55.jpg",
+        "timezone": "Adelaide, Darwin",
+        "seed": "goldensnake518",
+        "suspicionLevel": 0.5,
+        "alibi": "Đang trực ca đêm tại nơi làm việc",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-04dd08a5-5b6c-4067-9c55-1a75896d5167",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Nguyễn Minh Chi. Ngày hôm đó, khoảng 23:50 - 00:20, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Hà Nội - Ga tàu điện ngầm. Nguyễn Hữu Hạnh bị camera của Tháp quan sát Hồ Tây ghi lại khi di chuyển về phía Đông Nam khoảng 5.3km hướng tới Ga tàu điện ngầm.",
+          "timeframe": "23:50 - 00:20",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "Hà Nội - Ga tàu điện ngầm",
+          "mapHint": {
+            "id": "Hà Nội - Ga tàu điện ngầm-8401",
+            "label": "Hà Nội - Ga tàu điện ngầm",
+            "point": {
+              "lat": 20.993776228859836,
+              "lng": 105.8058640808994
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-ga-t-u-i-n-ng-m-5",
+          "directionHint": "Nguyễn Hữu Hạnh bị camera của Tháp quan sát Hồ Tây ghi lại khi di chuyển về phía Đông Nam khoảng 5.3km hướng tới Ga tàu điện ngầm."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang trực ca đêm tại nơi làm việc. Tôi đã khai rồi: Tôi là đồng nghiệp của Nguyễn Minh Chi. Ngày hôm đó, khoảng 23:50 - 00:20, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Hà Nội - Ga tàu điện ngầm. Nguyễn Hữu Hạnh bị camera của Tháp quan sát Hồ Tây ghi lại khi di chuyển về phía Đông Nam khoảng 5.3km hướng tới Ga tàu điện ngầm.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là đồng nghiệp. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "cb100ffb-ed80-4ce8-abfc-f6a2293922af",
+        "fullName": "Hoàng Gia Kiên",
+        "gender": "male",
+        "age": 66,
+        "nationality": "Việt Nam",
+        "occupation": "blackbird Investigator",
+        "email": "zoran.guttler@example.com",
+        "phone": "0227-9920245",
+        "cell": "0177-4902712",
+        "dob": "1959-09-04T05:21:37.487Z",
+        "registered": "2019-11-06T04:51:54.354Z",
+        "idNumber": "70 040959 G 233",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.10495792222644,
+          "lng": 105.83480444761949
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/38.jpg",
+        "timezone": "Azores, Cape Verde Islands",
+        "seed": "blackbird758",
+        "suspicionLevel": 0.47,
+        "alibi": "Đang đọc sách tại thư viện",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-cb100ffb-ed80-4ce8-abfc-f6a2293922af",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Nguyễn Minh Chi. Ngày hôm đó, khoảng 21:56 - 22:26, tôi đã truy cập máy chủ tại phòng lab cũ tại Hà Nội - Nhà thờ cổ. Hoàng Gia Kiên được báo cáo đi về phía Tây Nam của Nhà thờ cổ, luôn ở trong bán kính 2.6km quanh địa điểm này.",
+          "timeframe": "21:56 - 22:26",
+          "action": "truy cập máy chủ tại phòng lab cũ",
+          "locationLabel": "Hà Nội - Nhà thờ cổ",
+          "mapHint": {
+            "id": "Hà Nội - Nhà thờ cổ-7066",
+            "label": "Hà Nội - Nhà thờ cổ",
+            "point": {
+              "lat": 21.001115166858767,
+              "lng": 105.83049793593176
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-nh-th-c--1",
+          "directionHint": "Hoàng Gia Kiên được báo cáo đi về phía Tây Nam của Nhà thờ cổ, luôn ở trong bán kính 2.6km quanh địa điểm này."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang đọc sách tại thư viện. Tôi đã khai rồi: Tôi là đồng nghiệp của Nguyễn Minh Chi. Ngày hôm đó, khoảng 21:56 - 22:26, tôi đã truy cập máy chủ tại phòng lab cũ tại Hà Nội - Nhà thờ cổ. Hoàng Gia Kiên được báo cáo đi về phía Tây Nam của Nhà thờ cổ, luôn ở trong bán kính 2.6km quanh địa điểm này.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là đồng nghiệp. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "81620216-cb88-4750-af85-e772a58076e5",
+        "fullName": "Bùi Quốc Phúc",
+        "gender": "male",
+        "age": 29,
+        "nationality": "Việt Nam",
+        "occupation": "bluerabbit Investigator",
+        "email": "thomas.robinson@example.com",
+        "phone": "(797)-874-2809",
+        "cell": "(165)-518-5675",
+        "dob": "1996-08-05T20:42:54.737Z",
+        "registered": "2013-11-17T12:30:56.324Z",
+        "idNumber": "N/A",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.022439360063213,
+          "lng": 105.74161254191779
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/93.jpg",
+        "timezone": "Beijing, Perth, Singapore, Hong Kong",
+        "seed": "bluerabbit769",
+        "suspicionLevel": 0.69,
+        "alibi": "Đang sửa xe tại gara",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-81620216-cb88-4750-af85-e772a58076e5",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Nguyễn Minh Chi. Ngày hôm đó, khoảng 23:55 - 00:25, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Hà Nội - Bệnh viện Trung tâm. Bùi Quốc Phúc được báo cáo đi về phía Tây Nam của Bệnh viện Trung tâm, luôn ở trong bán kính 1.7km quanh địa điểm này.",
+          "timeframe": "23:55 - 00:25",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "Hà Nội - Bệnh viện Trung tâm",
+          "mapHint": {
+            "id": "Hà Nội - Bệnh viện Trung tâm-7260",
+            "label": "Hà Nội - Bệnh viện Trung tâm",
+            "point": {
+              "lat": 20.99265471984502,
+              "lng": 105.86341918346379
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-b-nh-vi-n-trung-t-m-6",
+          "directionHint": "Bùi Quốc Phúc được báo cáo đi về phía Tây Nam của Bệnh viện Trung tâm, luôn ở trong bán kính 1.7km quanh địa điểm này."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang sửa xe tại gara. Tôi đã khai rồi: Tôi là mối quen biết của Nguyễn Minh Chi. Ngày hôm đó, khoảng 23:55 - 00:25, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Hà Nội - Bệnh viện Trung tâm. Bùi Quốc Phúc được báo cáo đi về phía Tây Nam của Bệnh viện Trung tâm, luôn ở trong bán kính 1.7km quanh địa điểm này.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là mối quen biết. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "e9de7ac1-bd0a-4f11-9cd1-198ca1f81844",
+        "fullName": "Phạm Quốc Phong",
+        "gender": "male",
+        "age": 70,
+        "nationality": "Việt Nam",
+        "occupation": "angrybird Investigator",
+        "email": "eddie.castro@example.com",
+        "phone": "015394 11067",
+        "cell": "07819 421469",
+        "dob": "1955-05-29T06:24:40.904Z",
+        "registered": "2012-12-11T22:24:58.854Z",
+        "idNumber": "TG 27 22 73 E",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.98810635718178,
+          "lng": 105.94631450385977
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/93.jpg",
+        "timezone": "Kathmandu",
+        "seed": "angrybird729",
+        "suspicionLevel": 0.49,
+        "alibi": "Đang ăn tối cùng gia đình",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-e9de7ac1-bd0a-4f11-9cd1-198ca1f81844",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Nguyễn Minh Chi. Ngày hôm đó, khoảng 01:58 - 02:28, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Hà Nội - Bệnh viện Trung tâm. Phạm Quốc Phong được báo cáo đi về phía Tây Nam của Bệnh viện Trung tâm, luôn ở trong bán kính 2.4km quanh địa điểm này.",
+          "timeframe": "01:58 - 02:28",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "Hà Nội - Bệnh viện Trung tâm",
+          "mapHint": {
+            "id": "Hà Nội - Bệnh viện Trung tâm-7795",
+            "label": "Hà Nội - Bệnh viện Trung tâm",
+            "point": {
+              "lat": 21.0487451632401,
+              "lng": 105.88888876042702
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-b-nh-vi-n-trung-t-m-6",
+          "directionHint": "Phạm Quốc Phong được báo cáo đi về phía Tây Nam của Bệnh viện Trung tâm, luôn ở trong bán kính 2.4km quanh địa điểm này."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang ăn tối cùng gia đình. Tôi đã khai rồi: Tôi là người quen xã giao của Nguyễn Minh Chi. Ngày hôm đó, khoảng 01:58 - 02:28, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Hà Nội - Bệnh viện Trung tâm. Phạm Quốc Phong được báo cáo đi về phía Tây Nam của Bệnh viện Trung tâm, luôn ở trong bán kính 2.4km quanh địa điểm này.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là người quen xã giao. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "7ac7f710-f37b-48e0-8067-2f2e086ff5a8",
+        "fullName": "Đỗ Văn Mai",
+        "gender": "female",
+        "age": 57,
+        "nationality": "Việt Nam",
+        "occupation": "orangemeercat Investigator",
+        "email": "sofie.kristensen@example.com",
+        "phone": "05126685",
+        "cell": "17900497",
+        "dob": "1968-08-05T07:43:20.084Z",
+        "registered": "2021-07-05T21:08:26.894Z",
+        "idNumber": "050868-8956",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.105035120531642,
+          "lng": 105.85809974460753
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/59.jpg",
+        "timezone": "Eniwetok, Kwajalein",
+        "seed": "orangemeercat868",
+        "suspicionLevel": 0.67,
+        "alibi": "Đang đi dạo trong công viên",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-7ac7f710-f37b-48e0-8067-2f2e086ff5a8",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Nguyễn Minh Chi. Ngày hôm đó, khoảng 02:16 - 02:46, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Hà Nội - Ga tàu điện ngầm. Đỗ Văn Mai bị camera của Tháp quan sát Hồ Tây ghi lại khi di chuyển về phía Đông Nam khoảng 5.3km hướng tới Ga tàu điện ngầm.",
+          "timeframe": "02:16 - 02:46",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "Hà Nội - Ga tàu điện ngầm",
+          "mapHint": {
+            "id": "Hà Nội - Ga tàu điện ngầm-2766",
+            "label": "Hà Nội - Ga tàu điện ngầm",
+            "point": {
+              "lat": 20.97970950561464,
+              "lng": 105.8885486286329
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-ga-t-u-i-n-ng-m-5",
+          "directionHint": "Đỗ Văn Mai bị camera của Tháp quan sát Hồ Tây ghi lại khi di chuyển về phía Đông Nam khoảng 5.3km hướng tới Ga tàu điện ngầm."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang đi dạo trong công viên. Tôi đã khai rồi: Tôi là đối tác làm ăn của Nguyễn Minh Chi. Ngày hôm đó, khoảng 02:16 - 02:46, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Hà Nội - Ga tàu điện ngầm. Đỗ Văn Mai bị camera của Tháp quan sát Hồ Tây ghi lại khi di chuyển về phía Đông Nam khoảng 5.3km hướng tới Ga tàu điện ngầm.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là đối tác làm ăn. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "db246bcb-74ca-4e48-8ce5-b94d07be0c22",
+        "fullName": "Đỗ Ngọc Quân",
+        "gender": "male",
+        "age": 46,
+        "nationality": "Việt Nam",
+        "occupation": "tinygoose Investigator",
+        "email": "sedat.rosenthal@example.com",
+        "phone": "0047-9081138",
+        "cell": "0179-2372397",
+        "dob": "1978-12-16T08:49:38.580Z",
+        "registered": "2007-06-23T21:01:30.754Z",
+        "idNumber": "03 161278 R 114",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.126546777269553,
+          "lng": 105.90339066658666
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/83.jpg",
+        "timezone": "Pacific Time (US & Canada)",
+        "seed": "tinygoose732",
+        "suspicionLevel": 0.61,
+        "alibi": "Đang mua sắm tại siêu thị",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-db246bcb-74ca-4e48-8ce5-b94d07be0c22",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Nguyễn Minh Chi. Ngày hôm đó, khoảng 02:01 - 02:31, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại Hà Nội - Tháp quan sát Hồ Tây. Đỗ Ngọc Quân được báo cáo đi về phía Tây của Tháp quan sát Hồ Tây, luôn ở trong bán kính 2.4km quanh địa điểm này.",
+          "timeframe": "02:01 - 02:31",
+          "action": "đi khảo sát công trường dang dở ở ngoại ô",
+          "locationLabel": "Hà Nội - Tháp quan sát Hồ Tây",
+          "mapHint": {
+            "id": "Hà Nội - Tháp quan sát Hồ Tây-7588",
+            "label": "Hà Nội - Tháp quan sát Hồ Tây",
+            "point": {
+              "lat": 21.078002706999147,
+              "lng": 105.8004383725103
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-th-p-quan-s-t-h-t-y-4",
+          "directionHint": "Đỗ Ngọc Quân được báo cáo đi về phía Tây của Tháp quan sát Hồ Tây, luôn ở trong bán kính 2.4km quanh địa điểm này."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang mua sắm tại siêu thị. Tôi đã khai rồi: Tôi là người thân của Nguyễn Minh Chi. Ngày hôm đó, khoảng 02:01 - 02:31, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại Hà Nội - Tháp quan sát Hồ Tây. Đỗ Ngọc Quân được báo cáo đi về phía Tây của Tháp quan sát Hồ Tây, luôn ở trong bán kính 2.4km quanh địa điểm này.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là người thân. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "22baa498-f4a6-4bc8-85b6-d5de131315d0",
+        "fullName": "Trần Thị Nam",
+        "gender": "male",
+        "age": 57,
+        "nationality": "Việt Nam",
+        "occupation": "goldenlion Investigator",
+        "email": "edwin.flores@example.com",
+        "phone": "09-7076-0611",
+        "cell": "0427-566-074",
+        "dob": "1968-01-13T14:21:14.113Z",
+        "registered": "2013-02-24T13:01:48.974Z",
+        "idNumber": "771380669",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.14433078770348,
+          "lng": 105.8749358930366
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/18.jpg",
+        "timezone": "Eastern Australia, Guam, Vladivostok",
+        "seed": "goldenlion243",
+        "suspicionLevel": 0.49,
+        "alibi": "Đang tham gia một buổi tiệc sinh nhật",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-22baa498-f4a6-4bc8-85b6-d5de131315d0",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Nguyễn Minh Chi. Ngày hôm đó, khoảng 00:04 - 00:34, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại Hà Nội - Tháp quan sát Hồ Tây. Trần Thị Nam được báo cáo đi về phía Tây của Tháp quan sát Hồ Tây, luôn ở trong bán kính 1.4km quanh địa điểm này.",
+          "timeframe": "00:04 - 00:34",
+          "action": "bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường",
+          "locationLabel": "Hà Nội - Tháp quan sát Hồ Tây",
+          "mapHint": {
+            "id": "Hà Nội - Tháp quan sát Hồ Tây-5173",
+            "label": "Hà Nội - Tháp quan sát Hồ Tây",
+            "point": {
+              "lat": 21.106279298723862,
+              "lng": 105.78323979859594
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-th-p-quan-s-t-h-t-y-4",
+          "directionHint": "Trần Thị Nam được báo cáo đi về phía Tây của Tháp quan sát Hồ Tây, luôn ở trong bán kính 1.4km quanh địa điểm này."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang tham gia một buổi tiệc sinh nhật. Tôi đã khai rồi: Tôi là người quen xã giao của Nguyễn Minh Chi. Ngày hôm đó, khoảng 00:04 - 00:34, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại Hà Nội - Tháp quan sát Hồ Tây. Trần Thị Nam được báo cáo đi về phía Tây của Tháp quan sát Hồ Tây, luôn ở trong bán kính 1.4km quanh địa điểm này.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là người quen xã giao. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "3581289f-1dee-4bb7-a6fe-ef8fc05b2ae3",
+        "fullName": "Nguyễn Minh Hoa",
+        "gender": "female",
+        "age": 58,
+        "nationality": "Việt Nam",
+        "occupation": "happylion Investigator",
+        "email": "alberte.mortensen@example.com",
+        "phone": "85466328",
+        "cell": "99123634",
+        "dob": "1967-09-10T06:34:32.063Z",
+        "registered": "2002-10-08T01:49:05.771Z",
+        "idNumber": "100967-8725",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.030640839932094,
+          "lng": 105.73449930886272
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/70.jpg",
+        "timezone": "Adelaide, Darwin",
+        "seed": "happylion596",
+        "suspicionLevel": 0.43,
+        "alibi": "Đang bị kẹt xe trên đường cao tốc",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-3581289f-1dee-4bb7-a6fe-ef8fc05b2ae3",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Nguyễn Minh Chi. Ngày hôm đó, khoảng 23:58 - 00:28, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Hà Nội - Kho hàng Long Biên. Nguyễn Minh Hoa được báo cáo đi về phía Tây Nam của Kho hàng Long Biên, luôn ở trong bán kính 2.6km quanh địa điểm này.",
+          "timeframe": "23:58 - 00:28",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "Hà Nội - Kho hàng Long Biên",
+          "mapHint": {
+            "id": "Hà Nội - Kho hàng Long Biên-710",
+            "label": "Hà Nội - Kho hàng Long Biên",
+            "point": {
+              "lat": 21.055489719140343,
+              "lng": 105.92201369623672
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-kho-h-ng-long-bi-n-3",
+          "directionHint": "Nguyễn Minh Hoa được báo cáo đi về phía Tây Nam của Kho hàng Long Biên, luôn ở trong bán kính 2.6km quanh địa điểm này."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang bị kẹt xe trên đường cao tốc. Tôi đã khai rồi: Tôi là đối tác làm ăn của Nguyễn Minh Chi. Ngày hôm đó, khoảng 23:58 - 00:28, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Hà Nội - Kho hàng Long Biên. Nguyễn Minh Hoa được báo cáo đi về phía Tây Nam của Kho hàng Long Biên, luôn ở trong bán kính 2.6km quanh địa điểm này.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là đối tác làm ăn. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "241fae91-dfe5-47dd-af64-72f0bdd10d29",
+        "fullName": "Nguyễn Minh Việt",
+        "gender": "male",
+        "age": 39,
+        "nationality": "Việt Nam",
+        "occupation": "sadleopard Investigator",
+        "email": "alessandro.bollmann@example.com",
+        "phone": "0626-2719678",
+        "cell": "0173-3944097",
+        "dob": "1986-01-26T12:41:34.641Z",
+        "registered": "2003-09-11T10:07:05.165Z",
+        "idNumber": "02 260186 B 176",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.94520189858008,
+          "lng": 105.8303641680071
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/71.jpg",
+        "timezone": "Kabul",
+        "seed": "sadleopard350",
+        "suspicionLevel": 0.7,
+        "alibi": "Đang đi công tác ở thành phố khác",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-241fae91-dfe5-47dd-af64-72f0bdd10d29",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Nguyễn Minh Chi. Ngày hôm đó, khoảng 22:43 - 23:13, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại Hà Nội - Bệnh viện Trung tâm. Nguyễn Minh Việt bị camera của Công viên phía Bắc ghi lại khi di chuyển về phía Nam khoảng 4.8km hướng tới Bệnh viện Trung tâm.",
+          "timeframe": "22:43 - 23:13",
+          "action": "đi khảo sát công trường dang dở ở ngoại ô",
+          "locationLabel": "Hà Nội - Bệnh viện Trung tâm",
+          "mapHint": {
+            "id": "Hà Nội - Bệnh viện Trung tâm-3365",
+            "label": "Hà Nội - Bệnh viện Trung tâm",
+            "point": {
+              "lat": 20.991566680826807,
+              "lng": 105.83941511647217
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-b-nh-vi-n-trung-t-m-6",
+          "directionHint": "Nguyễn Minh Việt bị camera của Công viên phía Bắc ghi lại khi di chuyển về phía Nam khoảng 4.8km hướng tới Bệnh viện Trung tâm."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang đi công tác ở thành phố khác. Tôi đã khai rồi: Tôi là đối tác làm ăn của Nguyễn Minh Chi. Ngày hôm đó, khoảng 22:43 - 23:13, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại Hà Nội - Bệnh viện Trung tâm. Nguyễn Minh Việt bị camera của Công viên phía Bắc ghi lại khi di chuyển về phía Nam khoảng 4.8km hướng tới Bệnh viện Trung tâm.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là đối tác làm ăn. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "2583665e-25d3-4f5a-b334-417db247c571",
+        "fullName": "Lê Minh Chi",
+        "gender": "female",
+        "age": 55,
+        "nationality": "Việt Nam",
+        "occupation": "beautifulbutterfly Investigator",
+        "email": "sonia.schmidt@example.com",
+        "phone": "(494) 598-2884",
+        "cell": "(383) 988-5150",
+        "dob": "1970-11-06T21:39:18.454Z",
+        "registered": "2019-04-07T00:21:01.921Z",
+        "idNumber": "310-10-3775",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.021770872780284,
+          "lng": 105.77606728863793
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/74.jpg",
+        "timezone": "Eniwetok, Kwajalein",
+        "seed": "beautifulbutterfly354",
+        "suspicionLevel": 0.3,
+        "alibi": "Đang tham gia lớp học nấu ăn",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-2583665e-25d3-4f5a-b334-417db247c571",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Nguyễn Minh Chi. Ngày hôm đó, khoảng 00:55 - 01:25, tôi đã kiểm tra hệ thống camera của nhà thờ cổ tại Hà Nội - Tháp quan sát Hồ Tây. Lê Minh Chi được báo cáo đi về phía Tây của Tháp quan sát Hồ Tây, luôn ở trong bán kính 2km quanh địa điểm này.",
+          "timeframe": "00:55 - 01:25",
+          "action": "kiểm tra hệ thống camera của nhà thờ cổ",
+          "locationLabel": "Hà Nội - Tháp quan sát Hồ Tây",
+          "mapHint": {
+            "id": "Hà Nội - Tháp quan sát Hồ Tây-6207",
+            "label": "Hà Nội - Tháp quan sát Hồ Tây",
+            "point": {
+              "lat": 21.101700370051155,
+              "lng": 105.80755972640942
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-th-p-quan-s-t-h-t-y-4",
+          "directionHint": "Lê Minh Chi được báo cáo đi về phía Tây của Tháp quan sát Hồ Tây, luôn ở trong bán kính 2km quanh địa điểm này."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang tham gia lớp học nấu ăn. Tôi đã khai rồi: Tôi là đồng nghiệp của Nguyễn Minh Chi. Ngày hôm đó, khoảng 00:55 - 01:25, tôi đã kiểm tra hệ thống camera của nhà thờ cổ tại Hà Nội - Tháp quan sát Hồ Tây. Lê Minh Chi được báo cáo đi về phía Tây của Tháp quan sát Hồ Tây, luôn ở trong bán kính 2km quanh địa điểm này.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là đồng nghiệp. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "16f793a4-dfc5-44f2-a4d8-9c35c0ace96a",
+        "fullName": "Đỗ Thị Bảo",
+        "gender": "male",
+        "age": 74,
+        "nationality": "Việt Nam",
+        "occupation": "bigbear Investigator",
+        "email": "hansjorg.happel@example.com",
+        "phone": "0084-0798186",
+        "cell": "0179-8064772",
+        "dob": "1951-05-19T18:48:27.014Z",
+        "registered": "2021-01-09T15:53:29.224Z",
+        "idNumber": "10 190551 H 309",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.04714542898917,
+          "lng": 105.81319689787368
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/84.jpg",
+        "timezone": "Almaty, Dhaka, Colombo",
+        "seed": "bigbear842",
+        "suspicionLevel": 0.41,
+        "alibi": "Đang ăn tối cùng gia đình",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-16f793a4-dfc5-44f2-a4d8-9c35c0ace96a",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Nguyễn Minh Chi. Ngày hôm đó, khoảng 21:44 - 22:14, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại Hà Nội - Bệnh viện Trung tâm. Đỗ Thị Bảo bị camera của Quán Bar ven sông ghi lại khi di chuyển về phía Nam khoảng 4.3km hướng tới Bệnh viện Trung tâm.",
+          "timeframe": "21:44 - 22:14",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "Hà Nội - Bệnh viện Trung tâm",
+          "mapHint": {
+            "id": "Hà Nội - Bệnh viện Trung tâm-6523",
+            "label": "Hà Nội - Bệnh viện Trung tâm",
+            "point": {
+              "lat": 21.016421151220428,
+              "lng": 105.84964755913616
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-b-nh-vi-n-trung-t-m-6",
+          "directionHint": "Đỗ Thị Bảo bị camera của Quán Bar ven sông ghi lại khi di chuyển về phía Nam khoảng 4.3km hướng tới Bệnh viện Trung tâm."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang ăn tối cùng gia đình. Tôi đã khai rồi: Tôi là mối quen biết của Nguyễn Minh Chi. Ngày hôm đó, khoảng 21:44 - 22:14, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại Hà Nội - Bệnh viện Trung tâm. Đỗ Thị Bảo bị camera của Quán Bar ven sông ghi lại khi di chuyển về phía Nam khoảng 4.3km hướng tới Bệnh viện Trung tâm.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là mối quen biết. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "f858cd9e-0b8a-46d6-b1e5-2eee31369408",
+        "fullName": "Bùi Minh An",
+        "gender": "female",
+        "age": 26,
+        "nationality": "Việt Nam",
+        "occupation": "orangemouse Investigator",
+        "email": "margarita.bolz@example.com",
+        "phone": "0935-6857907",
+        "cell": "0170-4492033",
+        "dob": "1999-08-30T01:01:01.490Z",
+        "registered": "2009-09-08T16:53:19.747Z",
+        "idNumber": "53 290899 B 580",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.089009338466735,
+          "lng": 105.82422177615899
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/44.jpg",
+        "timezone": "Hawaii",
+        "seed": "orangemouse177",
+        "suspicionLevel": 0.52,
+        "alibi": "Đang trực ca đêm tại nơi làm việc",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-f858cd9e-0b8a-46d6-b1e5-2eee31369408",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Nguyễn Minh Chi. Ngày hôm đó, khoảng 03:09 - 03:39, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại Hà Nội - Nhà thờ cổ. Bùi Minh An được báo cáo đi về phía Tây Nam của Nhà thờ cổ, luôn ở trong bán kính 1.6km quanh địa điểm này.",
+          "timeframe": "03:09 - 03:39",
+          "action": "dự một buổi cầu nguyện ngắn gần khu chợ trời",
+          "locationLabel": "Hà Nội - Nhà thờ cổ",
+          "mapHint": {
+            "id": "Hà Nội - Nhà thờ cổ-3350",
+            "label": "Hà Nội - Nhà thờ cổ",
+            "point": {
+              "lat": 21.0468447401626,
+              "lng": 105.83980849283338
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-nh-th-c--1",
+          "directionHint": "Bùi Minh An được báo cáo đi về phía Tây Nam của Nhà thờ cổ, luôn ở trong bán kính 1.6km quanh địa điểm này."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang trực ca đêm tại nơi làm việc. Tôi đã khai rồi: Tôi là người quen xã giao của Nguyễn Minh Chi. Ngày hôm đó, khoảng 03:09 - 03:39, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại Hà Nội - Nhà thờ cổ. Bùi Minh An được báo cáo đi về phía Tây Nam của Nhà thờ cổ, luôn ở trong bán kính 1.6km quanh địa điểm này.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là người quen xã giao. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "510fda5f-c3db-4c01-8646-84878e25c534",
+        "fullName": "Huỳnh Quốc Trang",
+        "gender": "female",
+        "age": 30,
+        "nationality": "Việt Nam",
+        "occupation": "ticklishostrich Investigator",
+        "email": "naja.madsen@example.com",
+        "phone": "09055238",
+        "cell": "70796345",
+        "dob": "1995-10-20T02:38:35.468Z",
+        "registered": "2003-08-06T16:40:44.180Z",
+        "idNumber": "191095-2357",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.90443478790071,
+          "lng": 105.81717468579058
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/6.jpg",
+        "timezone": "Abu Dhabi, Muscat, Baku, Tbilisi",
+        "seed": "ticklishostrich528",
+        "suspicionLevel": 0.55,
+        "alibi": "Đang chơi bowling cùng bạn bè",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-510fda5f-c3db-4c01-8646-84878e25c534",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Nguyễn Minh Chi. Ngày hôm đó, khoảng 22:20 - 22:50, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại Hà Nội - Quán Bar ven sông. Huỳnh Quốc Trang được báo cáo đi về phía Tây Nam của Quán Bar ven sông, luôn ở trong bán kính 1.8km quanh địa điểm này.",
+          "timeframe": "22:20 - 22:50",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "Hà Nội - Quán Bar ven sông",
+          "mapHint": {
+            "id": "Hà Nội - Quán Bar ven sông-9037",
+            "label": "Hà Nội - Quán Bar ven sông",
+            "point": {
+              "lat": 21.079475363385118,
+              "lng": 105.8717759091178
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-qu-n-bar-ven-s-ng-2",
+          "directionHint": "Huỳnh Quốc Trang được báo cáo đi về phía Tây Nam của Quán Bar ven sông, luôn ở trong bán kính 1.8km quanh địa điểm này."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang chơi bowling cùng bạn bè. Tôi đã khai rồi: Tôi là mối quen biết của Nguyễn Minh Chi. Ngày hôm đó, khoảng 22:20 - 22:50, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại Hà Nội - Quán Bar ven sông. Huỳnh Quốc Trang được báo cáo đi về phía Tây Nam của Quán Bar ven sông, luôn ở trong bán kính 1.8km quanh địa điểm này.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là mối quen biết. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "bf57e886-e90b-4fd4-9d8b-2cef5d7f19c3",
+        "fullName": "Huỳnh Minh Mai",
+        "gender": "female",
+        "age": 44,
+        "nationality": "Việt Nam",
+        "occupation": "bluefish Investigator",
+        "email": "yvonne.carter@example.com",
+        "phone": "(910) 981-7860",
+        "cell": "(253) 875-0840",
+        "dob": "1981-01-13T22:17:03.760Z",
+        "registered": "2007-06-02T17:23:02.289Z",
+        "idNumber": "473-27-9289",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.0039,
+          "lng": 105.846
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/19.jpg",
+        "timezone": "Brussels, Copenhagen, Madrid, Paris",
+        "seed": "bluefish552",
+        "suspicionLevel": 0.8,
+        "alibi": "Đang ngủ tại nhà riêng",
+        "role": "accomplice",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-bf57e886-e90b-4fd4-9d8b-2cef5d7f19c3",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Nguyễn Minh Chi. Khoảng 22:17 - 22:47, tôi có mặt ngay tại Hà Nội - Bệnh viện Trung tâm, và tôi thấy Phạm Quốc Khánh đứng lỳ tại đó trước khi mọi chuyện xảy ra. Huỳnh Minh Mai được báo cáo đi về phía Tây Nam của Bệnh viện Trung tâm, luôn ở trong bán kính 1.5km quanh địa điểm này.",
+          "timeframe": "22:17 - 22:47",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "Hà Nội - Bệnh viện Trung tâm",
+          "mapHint": {
+            "id": "Hà Nội - Bệnh viện Trung tâm-5637",
+            "label": "Hà Nội - Bệnh viện Trung tâm",
+            "point": {
+              "lat": 20.955814842939006,
+              "lng": 105.83532359053288
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-b-nh-vi-n-trung-t-m-6",
+          "directionHint": "Huỳnh Minh Mai được báo cáo đi về phía Tây Nam của Bệnh viện Trung tâm, luôn ở trong bán kính 1.5km quanh địa điểm này."
+        },
+        "secondaryTestimony": {
+          "id": "secondary-bf57e886-e90b-4fd4-9d8b-2cef5d7f19c3",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Được rồi, tôi sẽ hợp tác. Phạm Quốc Khánh bảo tôi canh gác tại Ổ ẩn náu Hà Nội và hắn vẫn còn ở đó lúc 01:49.",
+          "timeframe": "01:39 - 02:09",
+          "action": "chỉ điểm tọa độ ẩn náu",
+          "locationLabel": "Ổ ẩn náu Hà Nội",
+          "mapHint": {
+            "id": "Ổ ẩn náu Hà Nội-8238",
+            "label": "Ổ ẩn náu Hà Nội",
+            "point": {
+              "lat": 21.04990681390148,
+              "lng": 105.86624661798496
+            },
+            "radiusMeters": 350
+          },
+          "reliability": "solid"
+        },
+        "dialogue": {
+          "intro": "Anh tìm đúng người rồi, nhưng tôi sẽ chỉ nói khi anh chứng minh được tôi liên quan.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang ngủ tại nhà riêng. Tôi đã khai rồi: Tôi là người quen xã giao của Nguyễn Minh Chi. Khoảng 22:17 - 22:47, tôi có mặt ngay tại Hà Nội - Bệnh viện Trung tâm, và tôi thấy Phạm Quốc Khánh đứng lỳ tại đó trước khi mọi chuyện xảy ra. Huỳnh Minh Mai được báo cáo đi về phía Tây Nam của Bệnh viện Trung tâm, luôn ở trong bán kính 1.5km quanh địa điểm này.",
+              "clueReveal": true
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là người quen xã giao. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Được rồi... tôi không muốn rắc rối nữa. Nhưng anh phải giữ lời.",
+              "isTrap": false
+            }
+          ],
+          "confessionHook": "Hắn bắt tôi canh gác ở Ổ ẩn náu Hà Nội. Tôi không nghĩ mọi chuyện tệ đến thế.",
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "1870612e-2dd9-4886-ba22-54fa7ec22c18",
+        "fullName": "Phan Văn An",
+        "gender": "female",
+        "age": 63,
+        "nationality": "Việt Nam",
+        "occupation": "silverelephant Investigator",
+        "email": "peppi.autio@example.com",
+        "phone": "07-839-760",
+        "cell": "040-807-65-39",
+        "dob": "1962-05-27T16:41:01.777Z",
+        "registered": "2017-09-05T06:22:17.285Z",
+        "idNumber": "NaNNA048undefined",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.104676229233718,
+          "lng": 105.92505378958518
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/50.jpg",
+        "timezone": "Midway Island, Samoa",
+        "seed": "silverelephant723",
+        "suspicionLevel": 0.69,
+        "alibi": "Đang tham gia lớp học nấu ăn",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-1870612e-2dd9-4886-ba22-54fa7ec22c18",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Nguyễn Minh Chi. Ngày hôm đó, khoảng 01:04 - 01:34, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại Hà Nội - Kho hàng Long Biên. Phan Văn An được báo cáo đi về phía Tây Nam của Kho hàng Long Biên, luôn ở trong bán kính 1.4km quanh địa điểm này.",
+          "timeframe": "01:04 - 01:34",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "Hà Nội - Kho hàng Long Biên",
+          "mapHint": {
+            "id": "Hà Nội - Kho hàng Long Biên-3628",
+            "label": "Hà Nội - Kho hàng Long Biên",
+            "point": {
+              "lat": 21.022106237144207,
+              "lng": 105.83780919301807
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-kho-h-ng-long-bi-n-3",
+          "directionHint": "Phan Văn An được báo cáo đi về phía Tây Nam của Kho hàng Long Biên, luôn ở trong bán kính 1.4km quanh địa điểm này."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang tham gia lớp học nấu ăn. Tôi đã khai rồi: Tôi là đối tác làm ăn của Nguyễn Minh Chi. Ngày hôm đó, khoảng 01:04 - 01:34, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại Hà Nội - Kho hàng Long Biên. Phan Văn An được báo cáo đi về phía Tây Nam của Kho hàng Long Biên, luôn ở trong bán kính 1.4km quanh địa điểm này.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là đối tác làm ăn. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "2c6438a8-5292-4b64-b591-13e92e479a52",
+        "fullName": "Đặng Văn Khánh",
+        "gender": "male",
+        "age": 48,
+        "nationality": "Việt Nam",
+        "occupation": "redbear Investigator",
+        "email": "emil.thomsen@example.com",
+        "phone": "34081247",
+        "cell": "82944098",
+        "dob": "1977-01-23T03:21:52.621Z",
+        "registered": "2012-04-30T06:26:09.427Z",
+        "idNumber": "220177-0064",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.92323303939323,
+          "lng": 105.80410822101906
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/5.jpg",
+        "timezone": "Bangkok, Hanoi, Jakarta",
+        "seed": "redbear414",
+        "suspicionLevel": 0.66,
+        "alibi": "Đang bị kẹt xe trên đường cao tốc",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-2c6438a8-5292-4b64-b591-13e92e479a52",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Nguyễn Minh Chi. Ngày hôm đó, khoảng 02:54 - 03:24, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Hà Nội - Nhà thờ cổ. Đặng Văn Khánh bị camera của Ga tàu điện ngầm ghi lại khi di chuyển về phía Đông khoảng 0.8km hướng tới Nhà thờ cổ.",
+          "timeframe": "02:54 - 03:24",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "Hà Nội - Nhà thờ cổ",
+          "mapHint": {
+            "id": "Hà Nội - Nhà thờ cổ-355",
+            "label": "Hà Nội - Nhà thờ cổ",
+            "point": {
+              "lat": 21.028343358283863,
+              "lng": 105.8352304103138
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-nh-th-c--1",
+          "directionHint": "Đặng Văn Khánh bị camera của Ga tàu điện ngầm ghi lại khi di chuyển về phía Đông khoảng 0.8km hướng tới Nhà thờ cổ."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang bị kẹt xe trên đường cao tốc. Tôi đã khai rồi: Tôi là đối tác làm ăn của Nguyễn Minh Chi. Ngày hôm đó, khoảng 02:54 - 03:24, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Hà Nội - Nhà thờ cổ. Đặng Văn Khánh bị camera của Ga tàu điện ngầm ghi lại khi di chuyển về phía Đông khoảng 0.8km hướng tới Nhà thờ cổ.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là đối tác làm ăn. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "26ab0041-0d1e-4d1d-b1bf-e1dbee1a6cc4",
+        "fullName": "Phan Ngọc Hoa",
+        "gender": "female",
+        "age": 25,
+        "nationality": "Việt Nam",
+        "occupation": "goldenleopard Investigator",
+        "email": "florence.scott@example.com",
+        "phone": "I52 K43-9138",
+        "cell": "F93 R92-2230",
+        "dob": "1999-12-20T18:13:47.170Z",
+        "registered": "2004-02-10T13:28:27.487Z",
+        "idNumber": "999690316",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.947490558465347,
+          "lng": 105.73883343398776
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/15.jpg",
+        "timezone": "Eastern Australia, Guam, Vladivostok",
+        "seed": "goldenleopard540",
+        "suspicionLevel": 0.48,
+        "alibi": "Đang mua sắm tại siêu thị",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-26ab0041-0d1e-4d1d-b1bf-e1dbee1a6cc4",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Nguyễn Minh Chi. Ngày hôm đó, khoảng 23:38 - 00:08, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại Hà Nội - Bệnh viện Trung tâm. Phan Ngọc Hoa bị camera của Kho hàng Long Biên ghi lại khi di chuyển về phía Tây Nam khoảng 5.3km hướng tới Bệnh viện Trung tâm.",
+          "timeframe": "23:38 - 00:08",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "Hà Nội - Bệnh viện Trung tâm",
+          "mapHint": {
+            "id": "Hà Nội - Bệnh viện Trung tâm-5199",
+            "label": "Hà Nội - Bệnh viện Trung tâm",
+            "point": {
+              "lat": 20.95394118625075,
+              "lng": 105.85303260751907
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-b-nh-vi-n-trung-t-m-6",
+          "directionHint": "Phan Ngọc Hoa bị camera của Kho hàng Long Biên ghi lại khi di chuyển về phía Tây Nam khoảng 5.3km hướng tới Bệnh viện Trung tâm."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang mua sắm tại siêu thị. Tôi đã khai rồi: Tôi là người quen xã giao của Nguyễn Minh Chi. Ngày hôm đó, khoảng 23:38 - 00:08, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại Hà Nội - Bệnh viện Trung tâm. Phan Ngọc Hoa bị camera của Kho hàng Long Biên ghi lại khi di chuyển về phía Tây Nam khoảng 5.3km hướng tới Bệnh viện Trung tâm.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là người quen xã giao. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "bab740fc-bdd0-45da-8c71-abeb84804a9c",
+        "fullName": "Vũ Thị Tùng",
+        "gender": "male",
+        "age": 57,
+        "nationality": "Việt Nam",
+        "occupation": "greenleopard Investigator",
+        "email": "arnaud.brown@example.com",
+        "phone": "R01 X37-7039",
+        "cell": "G17 M05-2692",
+        "dob": "1968-09-14T21:49:59.395Z",
+        "registered": "2017-06-26T23:37:49.420Z",
+        "idNumber": "053670691",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.026018701396456,
+          "lng": 105.85952240705095
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/67.jpg",
+        "timezone": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk",
+        "seed": "greenleopard551",
+        "suspicionLevel": 0.6,
+        "alibi": "Đang đi công tác ở thành phố khác",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-bab740fc-bdd0-45da-8c71-abeb84804a9c",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Nguyễn Minh Chi. Ngày hôm đó, khoảng 02:23 - 02:53, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại Hà Nội - Quán Bar ven sông. Vũ Thị Tùng bị camera của Bệnh viện Trung tâm ghi lại khi di chuyển về phía Bắc khoảng 4.3km hướng tới Quán Bar ven sông.",
+          "timeframe": "02:23 - 02:53",
+          "action": "thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông",
+          "locationLabel": "Hà Nội - Quán Bar ven sông",
+          "mapHint": {
+            "id": "Hà Nội - Quán Bar ven sông-117",
+            "label": "Hà Nội - Quán Bar ven sông",
+            "point": {
+              "lat": 21.05319529545419,
+              "lng": 105.90539086575191
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-qu-n-bar-ven-s-ng-2",
+          "directionHint": "Vũ Thị Tùng bị camera của Bệnh viện Trung tâm ghi lại khi di chuyển về phía Bắc khoảng 4.3km hướng tới Quán Bar ven sông."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang đi công tác ở thành phố khác. Tôi đã khai rồi: Tôi là người quen xã giao của Nguyễn Minh Chi. Ngày hôm đó, khoảng 02:23 - 02:53, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại Hà Nội - Quán Bar ven sông. Vũ Thị Tùng bị camera của Bệnh viện Trung tâm ghi lại khi di chuyển về phía Bắc khoảng 4.3km hướng tới Quán Bar ven sông.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là người quen xã giao. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "fedc0903-115d-482e-a8c3-edc3b5c8bd6e",
+        "fullName": "Trần Thuỳ Chi",
+        "gender": "female",
+        "age": 50,
+        "nationality": "Việt Nam",
+        "occupation": "angrysnake Investigator",
+        "email": "georgia.lambert@example.com",
+        "phone": "04-2009-0534",
+        "cell": "0482-582-146",
+        "dob": "1975-08-09T08:48:03.313Z",
+        "registered": "2014-09-14T00:40:01.837Z",
+        "idNumber": "947601781",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.089056396761602,
+          "lng": 105.88951441524027
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/40.jpg",
+        "timezone": "Kaliningrad, South Africa",
+        "seed": "angrysnake615",
+        "suspicionLevel": 0.55,
+        "alibi": "Đang ngủ tại nhà riêng",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-fedc0903-115d-482e-a8c3-edc3b5c8bd6e",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Nguyễn Minh Chi. Ngày hôm đó, khoảng 01:52 - 02:22, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại Hà Nội - Quán Bar ven sông. Trần Thuỳ Chi bị camera của Công viên phía Bắc ghi lại khi di chuyển về phía Đông khoảng 2.4km hướng tới Quán Bar ven sông.",
+          "timeframe": "01:52 - 02:22",
+          "action": "bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường",
+          "locationLabel": "Hà Nội - Quán Bar ven sông",
+          "mapHint": {
+            "id": "Hà Nội - Quán Bar ven sông-3506",
+            "label": "Hà Nội - Quán Bar ven sông",
+            "point": {
+              "lat": 21.038832871307807,
+              "lng": 105.84285805590955
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-qu-n-bar-ven-s-ng-2",
+          "directionHint": "Trần Thuỳ Chi bị camera của Công viên phía Bắc ghi lại khi di chuyển về phía Đông khoảng 2.4km hướng tới Quán Bar ven sông."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang ngủ tại nhà riêng. Tôi đã khai rồi: Tôi là mối quen biết của Nguyễn Minh Chi. Ngày hôm đó, khoảng 01:52 - 02:22, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại Hà Nội - Quán Bar ven sông. Trần Thuỳ Chi bị camera của Công viên phía Bắc ghi lại khi di chuyển về phía Đông khoảng 2.4km hướng tới Quán Bar ven sông.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là mối quen biết. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "e8528bd8-95cd-47a5-9944-8b698b1c0db5",
+        "fullName": "Bùi Văn Phong",
+        "gender": "male",
+        "age": 35,
+        "nationality": "Việt Nam",
+        "occupation": "lazyswan Investigator",
+        "email": "theo.walker@example.com",
+        "phone": "J06 L27-9352",
+        "cell": "H84 C89-7787",
+        "dob": "1989-12-20T04:00:04.596Z",
+        "registered": "2005-08-07T07:35:40.832Z",
+        "idNumber": "876755232",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.894974508228422,
+          "lng": 105.81957129176752
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/48.jpg",
+        "timezone": "Mountain Time (US & Canada)",
+        "seed": "lazyswan207",
+        "suspicionLevel": 0.55,
+        "alibi": "Đang trực ca đêm tại nơi làm việc",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-e8528bd8-95cd-47a5-9944-8b698b1c0db5",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Nguyễn Minh Chi. Ngày hôm đó, khoảng 00:24 - 00:54, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Hà Nội - Công viên phía Bắc. Bùi Văn Phong bị camera của Tháp quan sát Hồ Tây ghi lại khi di chuyển về phía Đông Nam khoảng 3.3km hướng tới Công viên phía Bắc.",
+          "timeframe": "00:24 - 00:54",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "Hà Nội - Công viên phía Bắc",
+          "mapHint": {
+            "id": "Hà Nội - Công viên phía Bắc-7471",
+            "label": "Hà Nội - Công viên phía Bắc",
+            "point": {
+              "lat": 21.081597458491288,
+              "lng": 105.79289433258363
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-c-ng-vi-n-ph-a-b-c-0",
+          "directionHint": "Bùi Văn Phong bị camera của Tháp quan sát Hồ Tây ghi lại khi di chuyển về phía Đông Nam khoảng 3.3km hướng tới Công viên phía Bắc."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang trực ca đêm tại nơi làm việc. Tôi đã khai rồi: Tôi là đồng nghiệp của Nguyễn Minh Chi. Ngày hôm đó, khoảng 00:24 - 00:54, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Hà Nội - Công viên phía Bắc. Bùi Văn Phong bị camera của Tháp quan sát Hồ Tây ghi lại khi di chuyển về phía Đông Nam khoảng 3.3km hướng tới Công viên phía Bắc.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là đồng nghiệp. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "136be575-aa73-4597-a752-5d4a8fde96bc",
+        "fullName": "Đặng Minh Kiên",
+        "gender": "male",
+        "age": 41,
+        "nationality": "Việt Nam",
+        "occupation": "smallleopard Investigator",
+        "email": "manuel.cordes@example.com",
+        "phone": "0820-0521592",
+        "cell": "0172-3447584",
+        "dob": "1984-07-31T10:21:36.706Z",
+        "registered": "2019-06-15T23:11:39.000Z",
+        "idNumber": "17 310784 C 004",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.95596757051692,
+          "lng": 105.77857982799308
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/24.jpg",
+        "timezone": "Eastern Australia, Guam, Vladivostok",
+        "seed": "smallleopard115",
+        "suspicionLevel": 0.31,
+        "alibi": "Đang xem phim tại rạp chiếu phim trung tâm",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-136be575-aa73-4597-a752-5d4a8fde96bc",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Nguyễn Minh Chi. Ngày hôm đó, khoảng 02:42 - 03:12, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại Hà Nội - Công viên phía Bắc. Đặng Minh Kiên được báo cáo đi về phía Tây Nam của Công viên phía Bắc, luôn ở trong bán kính 2.2km quanh địa điểm này.",
+          "timeframe": "02:42 - 03:12",
+          "action": "dự một buổi cầu nguyện ngắn gần khu chợ trời",
+          "locationLabel": "Hà Nội - Công viên phía Bắc",
+          "mapHint": {
+            "id": "Hà Nội - Công viên phía Bắc-465",
+            "label": "Hà Nội - Công viên phía Bắc",
+            "point": {
+              "lat": 21.094757516555674,
+              "lng": 105.7939815511765
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-c-ng-vi-n-ph-a-b-c-0",
+          "directionHint": "Đặng Minh Kiên được báo cáo đi về phía Tây Nam của Công viên phía Bắc, luôn ở trong bán kính 2.2km quanh địa điểm này."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang xem phim tại rạp chiếu phim trung tâm. Tôi đã khai rồi: Tôi là đồng nghiệp của Nguyễn Minh Chi. Ngày hôm đó, khoảng 02:42 - 03:12, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại Hà Nội - Công viên phía Bắc. Đặng Minh Kiên được báo cáo đi về phía Tây Nam của Công viên phía Bắc, luôn ở trong bán kính 2.2km quanh địa điểm này.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là đồng nghiệp. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "9ea1893d-bcd9-4722-b41b-6d9007fc16ba",
+        "fullName": "Đỗ Văn Anh",
+        "gender": "male",
+        "age": 24,
+        "nationality": "Việt Nam",
+        "occupation": "redrabbit Investigator",
+        "email": "louis.lavigne@example.com",
+        "phone": "A92 M75-8070",
+        "cell": "K41 Y18-0549",
+        "dob": "2001-03-29T19:48:20.643Z",
+        "registered": "2011-05-01T10:19:33.416Z",
+        "idNumber": "647790328",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.980469513554826,
+          "lng": 105.90847325040471
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/12.jpg",
+        "timezone": "Kaliningrad, South Africa",
+        "seed": "redrabbit511",
+        "suspicionLevel": 0.39,
+        "alibi": "Đang đi dạo trong công viên",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-9ea1893d-bcd9-4722-b41b-6d9007fc16ba",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Nguyễn Minh Chi. Ngày hôm đó, khoảng 23:40 - 00:10, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại Hà Nội - Bệnh viện Trung tâm. Đỗ Văn Anh bị camera của Kho hàng Long Biên ghi lại khi di chuyển về phía Tây Nam khoảng 5.3km hướng tới Bệnh viện Trung tâm.",
+          "timeframe": "23:40 - 00:10",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "Hà Nội - Bệnh viện Trung tâm",
+          "mapHint": {
+            "id": "Hà Nội - Bệnh viện Trung tâm-7290",
+            "label": "Hà Nội - Bệnh viện Trung tâm",
+            "point": {
+              "lat": 20.97859430367928,
+              "lng": 105.83463650527783
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-b-nh-vi-n-trung-t-m-6",
+          "directionHint": "Đỗ Văn Anh bị camera của Kho hàng Long Biên ghi lại khi di chuyển về phía Tây Nam khoảng 5.3km hướng tới Bệnh viện Trung tâm."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang đi dạo trong công viên. Tôi đã khai rồi: Tôi là người thân của Nguyễn Minh Chi. Ngày hôm đó, khoảng 23:40 - 00:10, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại Hà Nội - Bệnh viện Trung tâm. Đỗ Văn Anh bị camera của Kho hàng Long Biên ghi lại khi di chuyển về phía Tây Nam khoảng 5.3km hướng tới Bệnh viện Trung tâm.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là người thân. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "b24756e1-91d9-4a93-ad0a-eff8ab4275d1",
+        "fullName": "Phạm Quốc Khánh",
+        "gender": "male",
+        "age": 68,
+        "nationality": "Việt Nam",
+        "occupation": "bigpeacock Investigator",
+        "email": "francisco.davidson@example.com",
+        "phone": "(656) 665-3965",
+        "cell": "(838) 751-5709",
+        "dob": "1957-01-13T10:29:16.985Z",
+        "registered": "2017-01-10T02:32:23.996Z",
+        "idNumber": "459-31-8742",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.0039,
+          "lng": 105.846
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/48.jpg",
+        "timezone": "Kabul",
+        "seed": "bigpeacock184",
+        "suspicionLevel": 0.98,
+        "alibi": "Từ chối khai báo lịch trình",
+        "role": "killer",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-b24756e1-91d9-4a93-ad0a-eff8ab4275d1",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Nguyễn Minh Chi. Ngày hôm đó, khoảng 21:23 - 21:53, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Hà Nội - Bệnh viện Trung tâm. Phạm Quốc Khánh được báo cáo đi về phía Tây Nam của Bệnh viện Trung tâm, luôn ở trong bán kính 2.1km quanh địa điểm này.",
+          "timeframe": "21:23 - 21:53",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "Hà Nội - Bệnh viện Trung tâm",
+          "mapHint": {
+            "id": "Hà Nội - Bệnh viện Trung tâm-7039",
+            "label": "Hà Nội - Bệnh viện Trung tâm",
+            "point": {
+              "lat": 21.032770577760974,
+              "lng": 105.81055610876437
+            },
+            "radiusMeters": 900
+          },
+          "reliability": "shaky",
+          "landmarkId": "landmark-h-n-i-b-nh-vi-n-trung-t-m-6",
+          "directionHint": "Phạm Quốc Khánh được báo cáo đi về phía Tây Nam của Bệnh viện Trung tâm, luôn ở trong bán kính 2.1km quanh địa điểm này."
+        },
+        "dialogue": {
+          "intro": "Cảnh sát à? Tôi không thích bị chĩa mũi vào, nhưng cứ hỏi đi.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Từ chối khai báo lịch trình. Tôi đã khai rồi: Tôi là người thân của Nguyễn Minh Chi. Ngày hôm đó, khoảng 21:23 - 21:53, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Hà Nội - Bệnh viện Trung tâm. Phạm Quốc Khánh được báo cáo đi về phía Tây Nam của Bệnh viện Trung tâm, luôn ở trong bán kính 2.1km quanh địa điểm này.",
+              "clueReveal": true
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là người thân. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": true
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "2830ca4e-eb8a-4309-a832-df556390a73f",
+        "fullName": "Bùi Minh Hưng",
+        "gender": "male",
+        "age": 24,
+        "nationality": "Việt Nam",
+        "occupation": "yellowfish Investigator",
+        "email": "isaac.johnson@example.com",
+        "phone": "(184)-669-3272",
+        "cell": "(831)-062-0189",
+        "dob": "2001-03-19T20:24:32.486Z",
+        "registered": "2018-10-22T20:35:13.030Z",
+        "idNumber": "N/A",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.955355594654414,
+          "lng": 105.83028313240307
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/1.jpg",
+        "timezone": "Western Europe Time, London, Lisbon, Casablanca",
+        "seed": "yellowfish949",
+        "suspicionLevel": 0.61,
+        "alibi": "Đang đi du lịch nước ngoài",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-2830ca4e-eb8a-4309-a832-df556390a73f",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Nguyễn Minh Chi. Ngày hôm đó, khoảng 23:12 - 23:42, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại Hà Nội - Công viên phía Bắc. Bùi Minh Hưng bị camera của Tháp quan sát Hồ Tây ghi lại khi di chuyển về phía Đông Nam khoảng 3.3km hướng tới Công viên phía Bắc.",
+          "timeframe": "23:12 - 23:42",
+          "action": "thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông",
+          "locationLabel": "Hà Nội - Công viên phía Bắc",
+          "mapHint": {
+            "id": "Hà Nội - Công viên phía Bắc-8134",
+            "label": "Hà Nội - Công viên phía Bắc",
+            "point": {
+              "lat": 21.040419670021347,
+              "lng": 105.80176608549208
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-c-ng-vi-n-ph-a-b-c-0",
+          "directionHint": "Bùi Minh Hưng bị camera của Tháp quan sát Hồ Tây ghi lại khi di chuyển về phía Đông Nam khoảng 3.3km hướng tới Công viên phía Bắc."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang đi du lịch nước ngoài. Tôi đã khai rồi: Tôi là đồng nghiệp của Nguyễn Minh Chi. Ngày hôm đó, khoảng 23:12 - 23:42, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại Hà Nội - Công viên phía Bắc. Bùi Minh Hưng bị camera của Tháp quan sát Hồ Tây ghi lại khi di chuyển về phía Đông Nam khoảng 3.3km hướng tới Công viên phía Bắc.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là đồng nghiệp. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "25845e58-f82a-4265-b34b-018520d98967",
+        "fullName": "Lê Quốc Phương",
+        "gender": "female",
+        "age": 42,
+        "nationality": "Việt Nam",
+        "occupation": "bluelion Investigator",
+        "email": "brooklyn.clarke@example.com",
+        "phone": "(088)-495-7120",
+        "cell": "(286)-372-4246",
+        "dob": "1983-06-14T14:49:50.261Z",
+        "registered": "2009-12-16T00:12:04.246Z",
+        "idNumber": "N/A",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.056090797326558,
+          "lng": 105.84805978182375
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/86.jpg",
+        "timezone": "Kaliningrad, South Africa",
+        "seed": "bluelion438",
+        "suspicionLevel": 0.31,
+        "alibi": "Đang đi công tác ở thành phố khác",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-25845e58-f82a-4265-b34b-018520d98967",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Nguyễn Minh Chi. Ngày hôm đó, khoảng 00:44 - 01:14, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Hà Nội - Bệnh viện Trung tâm. Lê Quốc Phương bị camera của Nhà thờ cổ ghi lại khi di chuyển về phía Nam khoảng 2.7km hướng tới Bệnh viện Trung tâm.",
+          "timeframe": "00:44 - 01:14",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "Hà Nội - Bệnh viện Trung tâm",
+          "mapHint": {
+            "id": "Hà Nội - Bệnh viện Trung tâm-8103",
+            "label": "Hà Nội - Bệnh viện Trung tâm",
+            "point": {
+              "lat": 21.002242494410464,
+              "lng": 105.80621342258901
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-b-nh-vi-n-trung-t-m-6",
+          "directionHint": "Lê Quốc Phương bị camera của Nhà thờ cổ ghi lại khi di chuyển về phía Nam khoảng 2.7km hướng tới Bệnh viện Trung tâm."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang đi công tác ở thành phố khác. Tôi đã khai rồi: Tôi là người quen xã giao của Nguyễn Minh Chi. Ngày hôm đó, khoảng 00:44 - 01:14, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Hà Nội - Bệnh viện Trung tâm. Lê Quốc Phương bị camera của Nhà thờ cổ ghi lại khi di chuyển về phía Nam khoảng 2.7km hướng tới Bệnh viện Trung tâm.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là người quen xã giao. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "cc871122-37c7-4f60-b03d-c590e220a759",
+        "fullName": "Đỗ Minh Ngân",
+        "gender": "female",
+        "age": 76,
+        "nationality": "Việt Nam",
+        "occupation": "blackkoala Investigator",
+        "email": "theresa.wade@example.com",
+        "phone": "03-4279-3862",
+        "cell": "0473-385-288",
+        "dob": "1949-03-28T21:59:27.461Z",
+        "registered": "2016-07-11T07:30:55.219Z",
+        "idNumber": "212161802",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.969898634065107,
+          "lng": 105.88352769437863
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/23.jpg",
+        "timezone": "Adelaide, Darwin",
+        "seed": "blackkoala992",
+        "suspicionLevel": 0.43,
+        "alibi": "Đang đi du lịch nước ngoài",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-cc871122-37c7-4f60-b03d-c590e220a759",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Nguyễn Minh Chi. Ngày hôm đó, khoảng 00:50 - 01:20, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Hà Nội - Tháp quan sát Hồ Tây. Đỗ Minh Ngân bị camera của Công viên phía Bắc ghi lại khi di chuyển về phía Tây Bắc khoảng 3.3km hướng tới Tháp quan sát Hồ Tây.",
+          "timeframe": "00:50 - 01:20",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "Hà Nội - Tháp quan sát Hồ Tây",
+          "mapHint": {
+            "id": "Hà Nội - Tháp quan sát Hồ Tây-1762",
+            "label": "Hà Nội - Tháp quan sát Hồ Tây",
+            "point": {
+              "lat": 21.019982907865383,
+              "lng": 105.83119653649516
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-th-p-quan-s-t-h-t-y-4",
+          "directionHint": "Đỗ Minh Ngân bị camera của Công viên phía Bắc ghi lại khi di chuyển về phía Tây Bắc khoảng 3.3km hướng tới Tháp quan sát Hồ Tây."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang đi du lịch nước ngoài. Tôi đã khai rồi: Tôi là người thân của Nguyễn Minh Chi. Ngày hôm đó, khoảng 00:50 - 01:20, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Hà Nội - Tháp quan sát Hồ Tây. Đỗ Minh Ngân bị camera của Công viên phía Bắc ghi lại khi di chuyển về phía Tây Bắc khoảng 3.3km hướng tới Tháp quan sát Hồ Tây.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là người thân. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "bb3a4c2f-9bd5-45e7-a1fb-05a8f6beaef0",
+        "fullName": "Hoàng Thị Việt",
+        "gender": "male",
+        "age": 55,
+        "nationality": "Việt Nam",
+        "occupation": "smallwolf Investigator",
+        "email": "guillermo.castro@example.com",
+        "phone": "996-086-786",
+        "cell": "677-160-366",
+        "dob": "1970-06-23T12:58:51.672Z",
+        "registered": "2004-12-07T11:10:57.426Z",
+        "idNumber": "44772421-X",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.123622662802063,
+          "lng": 105.86680857432884
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/52.jpg",
+        "timezone": "Mid-Atlantic",
+        "seed": "smallwolf217",
+        "suspicionLevel": 0.6,
+        "alibi": "Đang sửa xe tại gara",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-bb3a4c2f-9bd5-45e7-a1fb-05a8f6beaef0",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Nguyễn Minh Chi. Ngày hôm đó, khoảng 21:25 - 21:55, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Hà Nội - Kho hàng Long Biên. Hoàng Thị Việt được báo cáo đi về phía Tây Nam của Kho hàng Long Biên, luôn ở trong bán kính 1.2km quanh địa điểm này.",
+          "timeframe": "21:25 - 21:55",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "Hà Nội - Kho hàng Long Biên",
+          "mapHint": {
+            "id": "Hà Nội - Kho hàng Long Biên-4496",
+            "label": "Hà Nội - Kho hàng Long Biên",
+            "point": {
+              "lat": 21.060884239168836,
+              "lng": 105.89648998028152
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-kho-h-ng-long-bi-n-3",
+          "directionHint": "Hoàng Thị Việt được báo cáo đi về phía Tây Nam của Kho hàng Long Biên, luôn ở trong bán kính 1.2km quanh địa điểm này."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang sửa xe tại gara. Tôi đã khai rồi: Tôi là đồng nghiệp của Nguyễn Minh Chi. Ngày hôm đó, khoảng 21:25 - 21:55, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Hà Nội - Kho hàng Long Biên. Hoàng Thị Việt được báo cáo đi về phía Tây Nam của Kho hàng Long Biên, luôn ở trong bán kính 1.2km quanh địa điểm này.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là đồng nghiệp. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "2d90cf3a-09a5-4ba8-845b-819d20d94afe",
+        "fullName": "Lê Ngọc Hải",
+        "gender": "male",
+        "age": 30,
+        "nationality": "Việt Nam",
+        "occupation": "silverfrog Investigator",
+        "email": "paul.sims@example.com",
+        "phone": "(698) 848-6308",
+        "cell": "(288) 308-0952",
+        "dob": "1995-06-12T13:22:03.224Z",
+        "registered": "2016-05-18T02:49:16.171Z",
+        "idNumber": "797-89-6262",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.042067560216907,
+          "lng": 105.89589574315055
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/59.jpg",
+        "timezone": "Western Europe Time, London, Lisbon, Casablanca",
+        "seed": "silverfrog551",
+        "suspicionLevel": 0.46,
+        "alibi": "Đang sửa xe tại gara",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-2d90cf3a-09a5-4ba8-845b-819d20d94afe",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Nguyễn Minh Chi. Ngày hôm đó, khoảng 01:28 - 01:58, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại Hà Nội - Công viên phía Bắc. Lê Ngọc Hải bị camera của Quán Bar ven sông ghi lại khi di chuyển về phía Tây khoảng 2.4km hướng tới Công viên phía Bắc.",
+          "timeframe": "01:28 - 01:58",
+          "action": "bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường",
+          "locationLabel": "Hà Nội - Công viên phía Bắc",
+          "mapHint": {
+            "id": "Hà Nội - Công viên phía Bắc-6700",
+            "label": "Hà Nội - Công viên phía Bắc",
+            "point": {
+              "lat": 21.019562773163617,
+              "lng": 105.8049844322797
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-c-ng-vi-n-ph-a-b-c-0",
+          "directionHint": "Lê Ngọc Hải bị camera của Quán Bar ven sông ghi lại khi di chuyển về phía Tây khoảng 2.4km hướng tới Công viên phía Bắc."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang sửa xe tại gara. Tôi đã khai rồi: Tôi là đồng nghiệp của Nguyễn Minh Chi. Ngày hôm đó, khoảng 01:28 - 01:58, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại Hà Nội - Công viên phía Bắc. Lê Ngọc Hải bị camera của Quán Bar ven sông ghi lại khi di chuyển về phía Tây khoảng 2.4km hướng tới Công viên phía Bắc.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là đồng nghiệp. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "3f4584f2-ff67-4e61-a5cb-5b4d47311e7c",
+        "fullName": "Vũ Ngọc Sơn",
+        "gender": "male",
+        "age": 37,
+        "nationality": "Việt Nam",
+        "occupation": "goldenswan Investigator",
+        "email": "max.montgomery@example.com",
+        "phone": "05-4603-5587",
+        "cell": "0444-818-227",
+        "dob": "1988-05-31T11:11:34.402Z",
+        "registered": "2020-11-16T14:40:20.742Z",
+        "idNumber": "987702871",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.985719091767397,
+          "lng": 105.94829811919304
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/79.jpg",
+        "timezone": "Baghdad, Riyadh, Moscow, St. Petersburg",
+        "seed": "goldenswan492",
+        "suspicionLevel": 0.4,
+        "alibi": "Đang sửa xe tại gara",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-3f4584f2-ff67-4e61-a5cb-5b4d47311e7c",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Nguyễn Minh Chi. Ngày hôm đó, khoảng 21:53 - 22:23, tôi đã truy cập máy chủ tại phòng lab cũ tại Hà Nội - Kho hàng Long Biên. Vũ Ngọc Sơn được báo cáo đi về phía Tây Nam của Kho hàng Long Biên, luôn ở trong bán kính 1.7km quanh địa điểm này.",
+          "timeframe": "21:53 - 22:23",
+          "action": "truy cập máy chủ tại phòng lab cũ",
+          "locationLabel": "Hà Nội - Kho hàng Long Biên",
+          "mapHint": {
+            "id": "Hà Nội - Kho hàng Long Biên-9520",
+            "label": "Hà Nội - Kho hàng Long Biên",
+            "point": {
+              "lat": 21.049175544332712,
+              "lng": 105.85308316606115
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-kho-h-ng-long-bi-n-3",
+          "directionHint": "Vũ Ngọc Sơn được báo cáo đi về phía Tây Nam của Kho hàng Long Biên, luôn ở trong bán kính 1.7km quanh địa điểm này."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang sửa xe tại gara. Tôi đã khai rồi: Tôi là người thân của Nguyễn Minh Chi. Ngày hôm đó, khoảng 21:53 - 22:23, tôi đã truy cập máy chủ tại phòng lab cũ tại Hà Nội - Kho hàng Long Biên. Vũ Ngọc Sơn được báo cáo đi về phía Tây Nam của Kho hàng Long Biên, luôn ở trong bán kính 1.7km quanh địa điểm này.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là người thân. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "fc6ec17a-365d-417e-8f73-d75ddaff2343",
+        "fullName": "Trần Hữu Trang",
+        "gender": "female",
+        "age": 29,
+        "nationality": "Việt Nam",
+        "occupation": "ticklishzebra Investigator",
+        "email": "nina.hall@example.com",
+        "phone": "(877)-708-2346",
+        "cell": "(438)-799-8528",
+        "dob": "1996-11-21T20:13:37.143Z",
+        "registered": "2021-06-12T16:18:33.254Z",
+        "idNumber": "N/A",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.090151224987494,
+          "lng": 105.78480934965275
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/12.jpg",
+        "timezone": "Almaty, Dhaka, Colombo",
+        "seed": "ticklishzebra225",
+        "suspicionLevel": 0.55,
+        "alibi": "Đang khám bệnh tại bệnh viện",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-fc6ec17a-365d-417e-8f73-d75ddaff2343",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Nguyễn Minh Chi. Ngày hôm đó, khoảng 00:33 - 01:03, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại Hà Nội - Ga tàu điện ngầm. Trần Hữu Trang bị camera của Kho hàng Long Biên ghi lại khi di chuyển về phía Tây Nam khoảng 3.6km hướng tới Ga tàu điện ngầm.",
+          "timeframe": "00:33 - 01:03",
+          "action": "bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường",
+          "locationLabel": "Hà Nội - Ga tàu điện ngầm",
+          "mapHint": {
+            "id": "Hà Nội - Ga tàu điện ngầm-3285",
+            "label": "Hà Nội - Ga tàu điện ngầm",
+            "point": {
+              "lat": 21.00852530160807,
+              "lng": 105.87751798450108
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-ga-t-u-i-n-ng-m-5",
+          "directionHint": "Trần Hữu Trang bị camera của Kho hàng Long Biên ghi lại khi di chuyển về phía Tây Nam khoảng 3.6km hướng tới Ga tàu điện ngầm."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang khám bệnh tại bệnh viện. Tôi đã khai rồi: Tôi là đối tác làm ăn của Nguyễn Minh Chi. Ngày hôm đó, khoảng 00:33 - 01:03, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại Hà Nội - Ga tàu điện ngầm. Trần Hữu Trang bị camera của Kho hàng Long Biên ghi lại khi di chuyển về phía Tây Nam khoảng 3.6km hướng tới Ga tàu điện ngầm.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là đối tác làm ăn. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "01ec8be9-5bb5-46b6-b9f1-31805ca732f6",
+        "fullName": "Phan Thuỳ Phương",
+        "gender": "female",
+        "age": 75,
+        "nationality": "Việt Nam",
+        "occupation": "bigzebra Investigator",
+        "email": "pippa.cooper@example.com",
+        "phone": "(207)-974-9704",
+        "cell": "(624)-381-4809",
+        "dob": "1950-06-18T13:58:15.649Z",
+        "registered": "2012-11-27T11:49:23.453Z",
+        "idNumber": "N/A",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.04375406549736,
+          "lng": 105.92695066016861
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/26.jpg",
+        "timezone": "Beijing, Perth, Singapore, Hong Kong",
+        "seed": "bigzebra567",
+        "suspicionLevel": 0.44,
+        "alibi": "Đang tham gia một buổi tiệc sinh nhật",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-01ec8be9-5bb5-46b6-b9f1-31805ca732f6",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Nguyễn Minh Chi. Ngày hôm đó, khoảng 23:25 - 23:55, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Hà Nội - Ga tàu điện ngầm. Phan Thuỳ Phương bị camera của Bệnh viện Trung tâm ghi lại khi di chuyển về phía Bắc khoảng 2.8km hướng tới Ga tàu điện ngầm.",
+          "timeframe": "23:25 - 23:55",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "Hà Nội - Ga tàu điện ngầm",
+          "mapHint": {
+            "id": "Hà Nội - Ga tàu điện ngầm-5509",
+            "label": "Hà Nội - Ga tàu điện ngầm",
+            "point": {
+              "lat": 21.04640293749869,
+              "lng": 105.83423823215625
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-ga-t-u-i-n-ng-m-5",
+          "directionHint": "Phan Thuỳ Phương bị camera của Bệnh viện Trung tâm ghi lại khi di chuyển về phía Bắc khoảng 2.8km hướng tới Ga tàu điện ngầm."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang tham gia một buổi tiệc sinh nhật. Tôi đã khai rồi: Tôi là mối quen biết của Nguyễn Minh Chi. Ngày hôm đó, khoảng 23:25 - 23:55, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Hà Nội - Ga tàu điện ngầm. Phan Thuỳ Phương bị camera của Bệnh viện Trung tâm ghi lại khi di chuyển về phía Bắc khoảng 2.8km hướng tới Ga tàu điện ngầm.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là mối quen biết. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "c1ca0a11-4c8a-4a0c-acb2-6c1aafcb0197",
+        "fullName": "Huỳnh Thuỳ Thu",
+        "gender": "female",
+        "age": 75,
+        "nationality": "Việt Nam",
+        "occupation": "purplegorilla Investigator",
+        "email": "daphne.charles@example.com",
+        "phone": "03-80-58-10-93",
+        "cell": "06-15-70-11-71",
+        "dob": "1950-07-20T04:38:17.826Z",
+        "registered": "2003-07-07T18:16:31.064Z",
+        "idNumber": "2500651219310 56",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.073686836740094,
+          "lng": 105.91391124879443
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/95.jpg",
+        "timezone": "Hawaii",
+        "seed": "purplegorilla669",
+        "suspicionLevel": 0.37,
+        "alibi": "Đang ăn tối cùng gia đình",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-c1ca0a11-4c8a-4a0c-acb2-6c1aafcb0197",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Nguyễn Minh Chi. Ngày hôm đó, khoảng 00:37 - 01:07, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại Hà Nội - Nhà thờ cổ. Huỳnh Thuỳ Thu được báo cáo đi về phía Tây Nam của Nhà thờ cổ, luôn ở trong bán kính 1.8km quanh địa điểm này.",
+          "timeframe": "00:37 - 01:07",
+          "action": "đi khảo sát công trường dang dở ở ngoại ô",
+          "locationLabel": "Hà Nội - Nhà thờ cổ",
+          "mapHint": {
+            "id": "Hà Nội - Nhà thờ cổ-1939",
+            "label": "Hà Nội - Nhà thờ cổ",
+            "point": {
+              "lat": 21.00319589110743,
+              "lng": 105.86371314065121
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-nh-th-c--1",
+          "directionHint": "Huỳnh Thuỳ Thu được báo cáo đi về phía Tây Nam của Nhà thờ cổ, luôn ở trong bán kính 1.8km quanh địa điểm này."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang ăn tối cùng gia đình. Tôi đã khai rồi: Tôi là mối quen biết của Nguyễn Minh Chi. Ngày hôm đó, khoảng 00:37 - 01:07, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại Hà Nội - Nhà thờ cổ. Huỳnh Thuỳ Thu được báo cáo đi về phía Tây Nam của Nhà thờ cổ, luôn ở trong bán kính 1.8km quanh địa điểm này.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là mối quen biết. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "afbd9be3-0388-4db3-a8ff-a08f4785d5a7",
+        "fullName": "Phạm Gia Ngân",
+        "gender": "female",
+        "age": 31,
+        "nationality": "Việt Nam",
+        "occupation": "greenostrich Investigator",
+        "email": "elli.lehtonen@example.com",
+        "phone": "08-307-364",
+        "cell": "046-202-10-69",
+        "dob": "1994-08-05T11:03:36.323Z",
+        "registered": "2021-03-21T21:37:32.599Z",
+        "idNumber": "NaNNA962undefined",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.91007665081279,
+          "lng": 105.8618997933996
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/39.jpg",
+        "timezone": "Kabul",
+        "seed": "greenostrich466",
+        "suspicionLevel": 0.52,
+        "alibi": "Đang tham gia hoạt động tình nguyện",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-afbd9be3-0388-4db3-a8ff-a08f4785d5a7",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Nguyễn Minh Chi. Ngày hôm đó, khoảng 22:47 - 23:17, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại Hà Nội - Kho hàng Long Biên. Phạm Gia Ngân bị camera của Nhà thờ cổ ghi lại khi di chuyển về phía Đông Bắc khoảng 3.0km hướng tới Kho hàng Long Biên.",
+          "timeframe": "22:47 - 23:17",
+          "action": "thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông",
+          "locationLabel": "Hà Nội - Kho hàng Long Biên",
+          "mapHint": {
+            "id": "Hà Nội - Kho hàng Long Biên-9579",
+            "label": "Hà Nội - Kho hàng Long Biên",
+            "point": {
+              "lat": 21.01438636327442,
+              "lng": 105.91745336465556
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-kho-h-ng-long-bi-n-3",
+          "directionHint": "Phạm Gia Ngân bị camera của Nhà thờ cổ ghi lại khi di chuyển về phía Đông Bắc khoảng 3.0km hướng tới Kho hàng Long Biên."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang tham gia hoạt động tình nguyện. Tôi đã khai rồi: Tôi là mối quen biết của Nguyễn Minh Chi. Ngày hôm đó, khoảng 22:47 - 23:17, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại Hà Nội - Kho hàng Long Biên. Phạm Gia Ngân bị camera của Nhà thờ cổ ghi lại khi di chuyển về phía Đông Bắc khoảng 3.0km hướng tới Kho hàng Long Biên.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là mối quen biết. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "96142211-0d2d-43b8-91f1-8147e21679df",
+        "fullName": "Phan Thuỳ Hà",
+        "gender": "female",
+        "age": 45,
+        "nationality": "Việt Nam",
+        "occupation": "redzebra Investigator",
+        "email": "coline.fournier@example.com",
+        "phone": "01-28-35-58-47",
+        "cell": "06-94-19-31-81",
+        "dob": "1980-06-09T22:41:06.524Z",
+        "registered": "2018-01-29T10:26:16.456Z",
+        "idNumber": "2800592692923 23",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.11696958082151,
+          "lng": 105.84974327429919
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/57.jpg",
+        "timezone": "Midway Island, Samoa",
+        "seed": "redzebra412",
+        "suspicionLevel": 0.47,
+        "alibi": "Đang tham dự đám cưới người thân",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-96142211-0d2d-43b8-91f1-8147e21679df",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Nguyễn Minh Chi. Ngày hôm đó, khoảng 02:25 - 02:55, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại Hà Nội - Nhà thờ cổ. Phan Thuỳ Hà bị camera của Tháp quan sát Hồ Tây ghi lại khi di chuyển về phía Đông Nam khoảng 5.8km hướng tới Nhà thờ cổ.",
+          "timeframe": "02:25 - 02:55",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "Hà Nội - Nhà thờ cổ",
+          "mapHint": {
+            "id": "Hà Nội - Nhà thờ cổ-530",
+            "label": "Hà Nội - Nhà thờ cổ",
+            "point": {
+              "lat": 20.980478005737066,
+              "lng": 105.84657522070277
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-nh-th-c--1",
+          "directionHint": "Phan Thuỳ Hà bị camera của Tháp quan sát Hồ Tây ghi lại khi di chuyển về phía Đông Nam khoảng 5.8km hướng tới Nhà thờ cổ."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang tham dự đám cưới người thân. Tôi đã khai rồi: Tôi là mối quen biết của Nguyễn Minh Chi. Ngày hôm đó, khoảng 02:25 - 02:55, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại Hà Nội - Nhà thờ cổ. Phan Thuỳ Hà bị camera của Tháp quan sát Hồ Tây ghi lại khi di chuyển về phía Đông Nam khoảng 5.8km hướng tới Nhà thờ cổ.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là mối quen biết. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "4519c6bb-c33a-4468-ab3c-6498a3f64ccd",
+        "fullName": "Đặng Ngọc Hải",
+        "gender": "male",
+        "age": 50,
+        "nationality": "Việt Nam",
+        "occupation": "crazylion Investigator",
+        "email": "john.foster@example.com",
+        "phone": "01-2879-0785",
+        "cell": "0436-968-745",
+        "dob": "1975-06-25T18:40:55.563Z",
+        "registered": "2018-05-12T19:05:22.152Z",
+        "idNumber": "697931529",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.027577944339,
+          "lng": 105.90586963740908
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/81.jpg",
+        "timezone": "Bombay, Calcutta, Madras, New Delhi",
+        "seed": "crazylion302",
+        "suspicionLevel": 0.38,
+        "alibi": "Đang đọc sách tại thư viện",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-4519c6bb-c33a-4468-ab3c-6498a3f64ccd",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Nguyễn Minh Chi. Ngày hôm đó, khoảng 02:10 - 02:40, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Hà Nội - Nhà thờ cổ. Đặng Ngọc Hải bị camera của Bệnh viện Trung tâm ghi lại khi di chuyển về phía Bắc khoảng 2.7km hướng tới Nhà thờ cổ.",
+          "timeframe": "02:10 - 02:40",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "Hà Nội - Nhà thờ cổ",
+          "mapHint": {
+            "id": "Hà Nội - Nhà thờ cổ-1409",
+            "label": "Hà Nội - Nhà thờ cổ",
+            "point": {
+              "lat": 21.044239441535435,
+              "lng": 105.86414598203785
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-nh-th-c--1",
+          "directionHint": "Đặng Ngọc Hải bị camera của Bệnh viện Trung tâm ghi lại khi di chuyển về phía Bắc khoảng 2.7km hướng tới Nhà thờ cổ."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang đọc sách tại thư viện. Tôi đã khai rồi: Tôi là đồng nghiệp của Nguyễn Minh Chi. Ngày hôm đó, khoảng 02:10 - 02:40, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Hà Nội - Nhà thờ cổ. Đặng Ngọc Hải bị camera của Bệnh viện Trung tâm ghi lại khi di chuyển về phía Bắc khoảng 2.7km hướng tới Nhà thờ cổ.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là đồng nghiệp. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "13dad0d8-1bee-4f15-9022-b42bba1a1ae2",
+        "fullName": "Trần Gia Phúc",
+        "gender": "male",
+        "age": 26,
+        "nationality": "Việt Nam",
+        "occupation": "tinyfrog Investigator",
+        "email": "noa.clement@example.com",
+        "phone": "01-27-91-19-65",
+        "cell": "06-50-55-66-09",
+        "dob": "1999-05-02T22:50:13.526Z",
+        "registered": "2013-10-12T15:29:09.869Z",
+        "idNumber": "1990400121114 52",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.05617567499598,
+          "lng": 105.91693793386375
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/1.jpg",
+        "timezone": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk",
+        "seed": "tinyfrog138",
+        "suspicionLevel": 0.6,
+        "alibi": "Đang làm việc tại văn phòng",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-13dad0d8-1bee-4f15-9022-b42bba1a1ae2",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Nguyễn Minh Chi. Ngày hôm đó, khoảng 00:18 - 00:48, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Hà Nội - Kho hàng Long Biên. Trần Gia Phúc được báo cáo đi về phía Tây Nam của Kho hàng Long Biên, luôn ở trong bán kính 2.1km quanh địa điểm này.",
+          "timeframe": "00:18 - 00:48",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "Hà Nội - Kho hàng Long Biên",
+          "mapHint": {
+            "id": "Hà Nội - Kho hàng Long Biên-3877",
+            "label": "Hà Nội - Kho hàng Long Biên",
+            "point": {
+              "lat": 21.006275595671497,
+              "lng": 105.89668749959692
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-kho-h-ng-long-bi-n-3",
+          "directionHint": "Trần Gia Phúc được báo cáo đi về phía Tây Nam của Kho hàng Long Biên, luôn ở trong bán kính 2.1km quanh địa điểm này."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang làm việc tại văn phòng. Tôi đã khai rồi: Tôi là người thân của Nguyễn Minh Chi. Ngày hôm đó, khoảng 00:18 - 00:48, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Hà Nội - Kho hàng Long Biên. Trần Gia Phúc được báo cáo đi về phía Tây Nam của Kho hàng Long Biên, luôn ở trong bán kính 2.1km quanh địa điểm này.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là người thân. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "af32b866-4c7c-40f2-9f87-6e9c4c65b487",
+        "fullName": "Nguyễn Thuỳ Chi",
+        "gender": "female",
+        "age": 75,
+        "nationality": "Việt Nam",
+        "occupation": "heavyzebra Investigator",
+        "email": "daphne.rey@example.com",
+        "phone": "04-61-12-09-69",
+        "cell": "06-50-89-93-48",
+        "dob": "1950-03-07T10:10:54.353Z",
+        "registered": "2010-08-11T01:56:37.380Z",
+        "idNumber": "2500281942419 81",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.130628816354267,
+          "lng": 105.80362182486054
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/72.jpg",
+        "timezone": "Almaty, Dhaka, Colombo",
+        "seed": "heavyzebra782",
+        "suspicionLevel": 0.44,
+        "alibi": "Đang đi công tác ở thành phố khác",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-af32b866-4c7c-40f2-9f87-6e9c4c65b487",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Nguyễn Minh Chi. Ngày hôm đó, khoảng 01:13 - 01:43, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Hà Nội - Tháp quan sát Hồ Tây. Nguyễn Thuỳ Chi bị camera của Quán Bar ven sông ghi lại khi di chuyển về phía Tây Bắc khoảng 5.3km hướng tới Tháp quan sát Hồ Tây.",
+          "timeframe": "01:13 - 01:43",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "Hà Nội - Tháp quan sát Hồ Tây",
+          "mapHint": {
+            "id": "Hà Nội - Tháp quan sát Hồ Tây-6490",
+            "label": "Hà Nội - Tháp quan sát Hồ Tây",
+            "point": {
+              "lat": 21.085751163321735,
+              "lng": 105.83110584379061
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-th-p-quan-s-t-h-t-y-4",
+          "directionHint": "Nguyễn Thuỳ Chi bị camera của Quán Bar ven sông ghi lại khi di chuyển về phía Tây Bắc khoảng 5.3km hướng tới Tháp quan sát Hồ Tây."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang đi công tác ở thành phố khác. Tôi đã khai rồi: Tôi là mối quen biết của Nguyễn Minh Chi. Ngày hôm đó, khoảng 01:13 - 01:43, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại Hà Nội - Tháp quan sát Hồ Tây. Nguyễn Thuỳ Chi bị camera của Quán Bar ven sông ghi lại khi di chuyển về phía Tây Bắc khoảng 5.3km hướng tới Tháp quan sát Hồ Tây.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là mối quen biết. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "8bc32b96-ee54-482e-884c-21f2f36b3c92",
+        "fullName": "Phan Minh Ngân",
+        "gender": "female",
+        "age": 81,
+        "nationality": "Việt Nam",
+        "occupation": "lazycat Investigator",
+        "email": "laerke.jorgensen@example.com",
+        "phone": "64230188",
+        "cell": "10095896",
+        "dob": "1944-11-13T09:47:43.955Z",
+        "registered": "2008-08-15T06:07:06.489Z",
+        "idNumber": "131144-6910",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.093129391194587,
+          "lng": 105.72767620004343
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/0.jpg",
+        "timezone": "Atlantic Time (Canada), Caracas, La Paz",
+        "seed": "lazycat335",
+        "suspicionLevel": 0.61,
+        "alibi": "Đang bị kẹt xe trên đường cao tốc",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-8bc32b96-ee54-482e-884c-21f2f36b3c92",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Nguyễn Minh Chi. Ngày hôm đó, khoảng 02:34 - 03:04, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Hà Nội - Kho hàng Long Biên. Phan Minh Ngân được báo cáo đi về phía Tây Nam của Kho hàng Long Biên, luôn ở trong bán kính 2.4km quanh địa điểm này.",
+          "timeframe": "02:34 - 03:04",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "Hà Nội - Kho hàng Long Biên",
+          "mapHint": {
+            "id": "Hà Nội - Kho hàng Long Biên-3763",
+            "label": "Hà Nội - Kho hàng Long Biên",
+            "point": {
+              "lat": 21.055506615590303,
+              "lng": 105.89700564623362
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-kho-h-ng-long-bi-n-3",
+          "directionHint": "Phan Minh Ngân được báo cáo đi về phía Tây Nam của Kho hàng Long Biên, luôn ở trong bán kính 2.4km quanh địa điểm này."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang bị kẹt xe trên đường cao tốc. Tôi đã khai rồi: Tôi là người thân của Nguyễn Minh Chi. Ngày hôm đó, khoảng 02:34 - 03:04, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Hà Nội - Kho hàng Long Biên. Phan Minh Ngân được báo cáo đi về phía Tây Nam của Kho hàng Long Biên, luôn ở trong bán kính 2.4km quanh địa điểm này.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là người thân. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "c59b3001-8390-4a55-a3c4-d5cadc9c4b2d",
+        "fullName": "Lê Ngọc Kiên",
+        "gender": "male",
+        "age": 71,
+        "nationality": "Việt Nam",
+        "occupation": "bigzebra Investigator",
+        "email": "cooper.walker@example.com",
+        "phone": "(514)-936-4240",
+        "cell": "(980)-743-9926",
+        "dob": "1954-06-28T03:44:38.243Z",
+        "registered": "2016-04-25T08:39:30.878Z",
+        "idNumber": "N/A",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.98291347519036,
+          "lng": 105.79311736693701
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/53.jpg",
+        "timezone": "Western Europe Time, London, Lisbon, Casablanca",
+        "seed": "bigzebra211",
+        "suspicionLevel": 0.44,
+        "alibi": "Đang chơi bowling cùng bạn bè",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-c59b3001-8390-4a55-a3c4-d5cadc9c4b2d",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Nguyễn Minh Chi. Ngày hôm đó, khoảng 01:24 - 01:54, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại Hà Nội - Tháp quan sát Hồ Tây. Lê Ngọc Kiên bị camera của Nhà thờ cổ ghi lại khi di chuyển về phía Tây Bắc khoảng 5.8km hướng tới Tháp quan sát Hồ Tây.",
+          "timeframe": "01:24 - 01:54",
+          "action": "dự một buổi cầu nguyện ngắn gần khu chợ trời",
+          "locationLabel": "Hà Nội - Tháp quan sát Hồ Tây",
+          "mapHint": {
+            "id": "Hà Nội - Tháp quan sát Hồ Tây-4043",
+            "label": "Hà Nội - Tháp quan sát Hồ Tây",
+            "point": {
+              "lat": 21.10186128294114,
+              "lng": 105.8164913176082
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-th-p-quan-s-t-h-t-y-4",
+          "directionHint": "Lê Ngọc Kiên bị camera của Nhà thờ cổ ghi lại khi di chuyển về phía Tây Bắc khoảng 5.8km hướng tới Tháp quan sát Hồ Tây."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang chơi bowling cùng bạn bè. Tôi đã khai rồi: Tôi là người quen xã giao của Nguyễn Minh Chi. Ngày hôm đó, khoảng 01:24 - 01:54, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại Hà Nội - Tháp quan sát Hồ Tây. Lê Ngọc Kiên bị camera của Nhà thờ cổ ghi lại khi di chuyển về phía Tây Bắc khoảng 5.8km hướng tới Tháp quan sát Hồ Tây.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là người quen xã giao. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "9ec79afb-f629-43f7-8698-891c065d18c1",
+        "fullName": "Hoàng Quốc Mai",
+        "gender": "female",
+        "age": 62,
+        "nationality": "Việt Nam",
+        "occupation": "redrabbit Investigator",
+        "email": "ruth.kamm@example.com",
+        "phone": "0964-4759054",
+        "cell": "0177-5907068",
+        "dob": "1962-12-24T01:46:59.093Z",
+        "registered": "2022-03-29T02:18:22.388Z",
+        "idNumber": "48 231262 K 671",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.074192340871353,
+          "lng": 105.72599414660179
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/15.jpg",
+        "timezone": "Kaliningrad, South Africa",
+        "seed": "redrabbit108",
+        "suspicionLevel": 0.54,
+        "alibi": "Đang tập gym tại phòng tập thể hình",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-9ec79afb-f629-43f7-8698-891c065d18c1",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Nguyễn Minh Chi. Ngày hôm đó, khoảng 01:29 - 01:59, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại Hà Nội - Quán Bar ven sông. Hoàng Quốc Mai bị camera của Công viên phía Bắc ghi lại khi di chuyển về phía Đông khoảng 2.4km hướng tới Quán Bar ven sông.",
+          "timeframe": "01:29 - 01:59",
+          "action": "đi khảo sát công trường dang dở ở ngoại ô",
+          "locationLabel": "Hà Nội - Quán Bar ven sông",
+          "mapHint": {
+            "id": "Hà Nội - Quán Bar ven sông-8749",
+            "label": "Hà Nội - Quán Bar ven sông",
+            "point": {
+              "lat": 21.0812294508975,
+              "lng": 105.84859427807424
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-qu-n-bar-ven-s-ng-2",
+          "directionHint": "Hoàng Quốc Mai bị camera của Công viên phía Bắc ghi lại khi di chuyển về phía Đông khoảng 2.4km hướng tới Quán Bar ven sông."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang tập gym tại phòng tập thể hình. Tôi đã khai rồi: Tôi là người thân của Nguyễn Minh Chi. Ngày hôm đó, khoảng 01:29 - 01:59, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại Hà Nội - Quán Bar ven sông. Hoàng Quốc Mai bị camera của Công viên phía Bắc ghi lại khi di chuyển về phía Đông khoảng 2.4km hướng tới Quán Bar ven sông.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là người thân. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "ed1b80b9-8d73-487d-a7ff-bb5b75bc6913",
+        "fullName": "Hoàng Thị Dung",
+        "gender": "female",
+        "age": 38,
+        "nationality": "Việt Nam",
+        "occupation": "organicdog Investigator",
+        "email": "molly.graham@example.com",
+        "phone": "017684 92796",
+        "cell": "07737 477796",
+        "dob": "1987-05-22T05:55:57.167Z",
+        "registered": "2012-07-15T21:34:54.477Z",
+        "idNumber": "BH 02 42 33 W",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.01913772230774,
+          "lng": 105.73617592579181
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/60.jpg",
+        "timezone": "Eniwetok, Kwajalein",
+        "seed": "organicdog801",
+        "suspicionLevel": 0.59,
+        "alibi": "Đang đi dạo trong công viên",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-ed1b80b9-8d73-487d-a7ff-bb5b75bc6913",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Nguyễn Minh Chi. Ngày hôm đó, khoảng 03:01 - 03:31, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại Hà Nội - Nhà thờ cổ. Hoàng Thị Dung được báo cáo đi về phía Tây Nam của Nhà thờ cổ, luôn ở trong bán kính 0.9km quanh địa điểm này.",
+          "timeframe": "03:01 - 03:31",
+          "action": "dự một buổi cầu nguyện ngắn gần khu chợ trời",
+          "locationLabel": "Hà Nội - Nhà thờ cổ",
+          "mapHint": {
+            "id": "Hà Nội - Nhà thờ cổ-44",
+            "label": "Hà Nội - Nhà thờ cổ",
+            "point": {
+              "lat": 20.992059381023978,
+              "lng": 105.8638465923775
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-nh-th-c--1",
+          "directionHint": "Hoàng Thị Dung được báo cáo đi về phía Tây Nam của Nhà thờ cổ, luôn ở trong bán kính 0.9km quanh địa điểm này."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang đi dạo trong công viên. Tôi đã khai rồi: Tôi là mối quen biết của Nguyễn Minh Chi. Ngày hôm đó, khoảng 03:01 - 03:31, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại Hà Nội - Nhà thờ cổ. Hoàng Thị Dung được báo cáo đi về phía Tây Nam của Nhà thờ cổ, luôn ở trong bán kính 0.9km quanh địa điểm này.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là mối quen biết. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "a4353843-8a45-48a1-8773-d11cc26e4da5",
+        "fullName": "Trần Gia Kiên",
+        "gender": "male",
+        "age": 44,
+        "nationality": "Việt Nam",
+        "occupation": "redfish Investigator",
+        "email": "liam.miller@example.com",
+        "phone": "J27 V04-5007",
+        "cell": "F44 B28-8949",
+        "dob": "1981-02-17T15:38:22.639Z",
+        "registered": "2019-09-15T04:57:00.466Z",
+        "idNumber": "426227021",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.952215872435445,
+          "lng": 105.86882215437487
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/5.jpg",
+        "timezone": "Azores, Cape Verde Islands",
+        "seed": "redfish867",
+        "suspicionLevel": 0.57,
+        "alibi": "Đang tập gym tại phòng tập thể hình",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-a4353843-8a45-48a1-8773-d11cc26e4da5",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Nguyễn Minh Chi. Ngày hôm đó, khoảng 22:28 - 22:58, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại Hà Nội - Nhà thờ cổ. Trần Gia Kiên bị camera của Quán Bar ven sông ghi lại khi di chuyển về phía Tây Nam khoảng 1.6km hướng tới Nhà thờ cổ.",
+          "timeframe": "22:28 - 22:58",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "Hà Nội - Nhà thờ cổ",
+          "mapHint": {
+            "id": "Hà Nội - Nhà thờ cổ-6944",
+            "label": "Hà Nội - Nhà thờ cổ",
+            "point": {
+              "lat": 21.066361397967672,
+              "lng": 105.86917633559145
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-nh-th-c--1",
+          "directionHint": "Trần Gia Kiên bị camera của Quán Bar ven sông ghi lại khi di chuyển về phía Tây Nam khoảng 1.6km hướng tới Nhà thờ cổ."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang tập gym tại phòng tập thể hình. Tôi đã khai rồi: Tôi là người thân của Nguyễn Minh Chi. Ngày hôm đó, khoảng 22:28 - 22:58, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại Hà Nội - Nhà thờ cổ. Trần Gia Kiên bị camera của Quán Bar ven sông ghi lại khi di chuyển về phía Tây Nam khoảng 1.6km hướng tới Nhà thờ cổ.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là người thân. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "ff9de3ba-572c-4717-b23f-e426071eeee8",
+        "fullName": "Trần Thuỳ Hạnh",
+        "gender": "female",
+        "age": 64,
+        "nationality": "Việt Nam",
+        "occupation": "blueostrich Investigator",
+        "email": "chloe.harris@example.com",
+        "phone": "G74 X74-8618",
+        "cell": "S13 L68-6376",
+        "dob": "1961-06-16T14:45:26.379Z",
+        "registered": "2012-09-26T03:46:02.588Z",
+        "idNumber": "161641931",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.11357235986634,
+          "lng": 105.7374162738023
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/85.jpg",
+        "timezone": "Western Europe Time, London, Lisbon, Casablanca",
+        "seed": "blueostrich840",
+        "suspicionLevel": 0.48,
+        "alibi": "Đang bị kẹt xe trên đường cao tốc",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-ff9de3ba-572c-4717-b23f-e426071eeee8",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Nguyễn Minh Chi. Ngày hôm đó, khoảng 21:45 - 22:15, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại Hà Nội - Bệnh viện Trung tâm. Trần Thuỳ Hạnh được báo cáo đi về phía Tây Nam của Bệnh viện Trung tâm, luôn ở trong bán kính 1.3km quanh địa điểm này.",
+          "timeframe": "21:45 - 22:15",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "Hà Nội - Bệnh viện Trung tâm",
+          "mapHint": {
+            "id": "Hà Nội - Bệnh viện Trung tâm-2249",
+            "label": "Hà Nội - Bệnh viện Trung tâm",
+            "point": {
+              "lat": 21.036781877967158,
+              "lng": 105.81640023053997
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-b-nh-vi-n-trung-t-m-6",
+          "directionHint": "Trần Thuỳ Hạnh được báo cáo đi về phía Tây Nam của Bệnh viện Trung tâm, luôn ở trong bán kính 1.3km quanh địa điểm này."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang bị kẹt xe trên đường cao tốc. Tôi đã khai rồi: Tôi là người quen xã giao của Nguyễn Minh Chi. Ngày hôm đó, khoảng 21:45 - 22:15, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại Hà Nội - Bệnh viện Trung tâm. Trần Thuỳ Hạnh được báo cáo đi về phía Tây Nam của Bệnh viện Trung tâm, luôn ở trong bán kính 1.3km quanh địa điểm này.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là người quen xã giao. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "50f8fa48-4245-43cf-b1de-0e11d16253e5",
+        "fullName": "Huỳnh Thuỳ Nam",
+        "gender": "male",
+        "age": 34,
+        "nationality": "Việt Nam",
+        "occupation": "blackrabbit Investigator",
+        "email": "john.hughes@example.com",
+        "phone": "(628)-100-1385",
+        "cell": "(632)-212-0244",
+        "dob": "1991-04-02T16:50:29.698Z",
+        "registered": "2021-10-01T15:40:04.627Z",
+        "idNumber": "N/A",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 21.104572182688813,
+          "lng": 105.83717691449812
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/45.jpg",
+        "timezone": "Azores, Cape Verde Islands",
+        "seed": "blackrabbit690",
+        "suspicionLevel": 0.44,
+        "alibi": "Đang chơi bowling cùng bạn bè",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-50f8fa48-4245-43cf-b1de-0e11d16253e5",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Nguyễn Minh Chi. Ngày hôm đó, khoảng 22:11 - 22:41, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại Hà Nội - Công viên phía Bắc. Huỳnh Thuỳ Nam bị camera của Tháp quan sát Hồ Tây ghi lại khi di chuyển về phía Đông Nam khoảng 3.3km hướng tới Công viên phía Bắc.",
+          "timeframe": "22:11 - 22:41",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "Hà Nội - Công viên phía Bắc",
+          "mapHint": {
+            "id": "Hà Nội - Công viên phía Bắc-7456",
+            "label": "Hà Nội - Công viên phía Bắc",
+            "point": {
+              "lat": 21.069171134558694,
+              "lng": 105.79600691975337
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-c-ng-vi-n-ph-a-b-c-0",
+          "directionHint": "Huỳnh Thuỳ Nam bị camera của Tháp quan sát Hồ Tây ghi lại khi di chuyển về phía Đông Nam khoảng 3.3km hướng tới Công viên phía Bắc."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang chơi bowling cùng bạn bè. Tôi đã khai rồi: Tôi là đối tác làm ăn của Nguyễn Minh Chi. Ngày hôm đó, khoảng 22:11 - 22:41, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại Hà Nội - Công viên phía Bắc. Huỳnh Thuỳ Nam bị camera của Tháp quan sát Hồ Tây ghi lại khi di chuyển về phía Đông Nam khoảng 3.3km hướng tới Công viên phía Bắc.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là đối tác làm ăn. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      },
+      {
+        "id": "1b4a91e9-5431-4724-9b8f-8ace06026276",
+        "fullName": "Bùi Thị Yến",
+        "gender": "female",
+        "age": 73,
+        "nationality": "Việt Nam",
+        "occupation": "angrymeercat Investigator",
+        "email": "ines.garcia@example.com",
+        "phone": "971-801-039",
+        "cell": "602-325-814",
+        "dob": "1952-11-19T14:12:12.025Z",
+        "registered": "2010-05-22T22:03:10.808Z",
+        "idNumber": "00246802-Z",
+        "residence": "Hà Nội, Việt Nam",
+        "coordinates": {
+          "lat": 20.973490812647952,
+          "lng": 105.92837131408704
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/57.jpg",
+        "timezone": "Midway Island, Samoa",
+        "seed": "angrymeercat948",
+        "suspicionLevel": 0.48,
+        "alibi": "Đang mua sắm tại siêu thị",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-1b4a91e9-5431-4724-9b8f-8ace06026276",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Nguyễn Minh Chi. Ngày hôm đó, khoảng 23:20 - 23:50, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại Hà Nội - Tháp quan sát Hồ Tây. Bùi Thị Yến được báo cáo đi về phía Tây của Tháp quan sát Hồ Tây, luôn ở trong bán kính 2.3km quanh địa điểm này.",
+          "timeframe": "23:20 - 23:50",
+          "action": "dự một buổi cầu nguyện ngắn gần khu chợ trời",
+          "locationLabel": "Hà Nội - Tháp quan sát Hồ Tây",
+          "mapHint": {
+            "id": "Hà Nội - Tháp quan sát Hồ Tây-6718",
+            "label": "Hà Nội - Tháp quan sát Hồ Tây",
+            "point": {
+              "lat": 21.048600147399306,
+              "lng": 105.7993318838289
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-h-n-i-th-p-quan-s-t-h-t-y-4",
+          "directionHint": "Bùi Thị Yến được báo cáo đi về phía Tây của Tháp quan sát Hồ Tây, luôn ở trong bán kính 2.3km quanh địa điểm này."
+        },
+        "dialogue": {
+          "intro": "Nhanh lên nào, tôi còn việc riêng.",
+          "topics": [
+            {
+              "id": "alibi",
+              "text": "Hỏi về bằng chứng ngoại phạm",
+              "response": "Đang mua sắm tại siêu thị. Tôi đã khai rồi: Tôi là đối tác làm ăn của Nguyễn Minh Chi. Ngày hôm đó, khoảng 23:20 - 23:50, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại Hà Nội - Tháp quan sát Hồ Tây. Bùi Thị Yến được báo cáo đi về phía Tây của Tháp quan sát Hồ Tây, luôn ở trong bán kính 2.3km quanh địa điểm này.",
+              "clueReveal": false
+            },
+            {
+              "id": "victim_relation",
+              "text": "Hỏi về mối quan hệ với nạn nhân",
+              "response": "Tôi với Nguyễn Minh Chi chỉ là đối tác làm ăn. Anh đừng gán ghép thêm."
+            },
+            {
+              "id": "pressure",
+              "text": "Gây áp lực (Hỏi dồn)",
+              "response": "Anh nghĩ đe nẹt sẽ thay đổi sự thật sao?",
+              "isTrap": false
+            }
+          ],
+          "resetHint": "Thay đổi chiến thuật hỏi để khai thác góc nhìn khác."
+        }
+      }
+    ],
+    "primeSuspectIds": [
+      "b24756e1-91d9-4a93-ad0a-eff8ab4275d1",
+      "bb3a4c2f-9bd5-45e7-a1fb-05a8f6beaef0",
+      "53e9706c-fb20-41ac-a6e7-c56a8763db84",
+      "16f793a4-dfc5-44f2-a4d8-9c35c0ace96a",
+      "ff9de3ba-572c-4717-b23f-e426071eeee8",
+      "3f4584f2-ff67-4e61-a5cb-5b4d47311e7c",
+      "cb100ffb-ed80-4ce8-abfc-f6a2293922af",
+      "50f8fa48-4245-43cf-b1de-0e11d16253e5",
+      "510fda5f-c3db-4c01-8646-84878e25c534",
+      "bf57e886-e90b-4fd4-9d8b-2cef5d7f19c3"
+    ],
+    "accompliceIds": [
+      "bf57e886-e90b-4fd4-9d8b-2cef5d7f19c3"
+    ],
+    "accompliceCount": 1,
+    "relationships": [
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "9586f9c1-d48f-452d-9501-11cca0baf1ca",
+        "relationship": "business",
+        "description": "Nguyễn Gia Hạnh khai mình là đối tác làm ăn và có mặt tại Hà Nội - Tháp quan sát Hồ Tây (01:36 - 02:06)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "b696af13-be19-440d-8838-cd24ccf1cd96",
+        "relationship": "family",
+        "description": "Vũ Ngọc Hạnh khai mình là người thân và có mặt tại Hà Nội - Công viên phía Bắc (23:00 - 23:30)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "0e0957d4-8d41-47ae-aca0-1ce2f90dc13a",
+        "relationship": "unknown",
+        "description": "Nguyễn Thuỳ Quân khai mình là người quen xã giao và có mặt tại Hà Nội - Công viên phía Bắc (23:01 - 23:31)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "3a5710fe-13bb-4d48-8df5-8044b7b31dad",
+        "relationship": "colleague",
+        "description": "Nguyễn Gia Trang khai mình là đồng nghiệp và có mặt tại Hà Nội - Công viên phía Bắc (22:35 - 23:05)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "53e9706c-fb20-41ac-a6e7-c56a8763db84",
+        "relationship": "business",
+        "description": "Huỳnh Quốc Tùng khai mình là đối tác làm ăn và có mặt tại Hà Nội - Quán Bar ven sông (21:28 - 21:58)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "04dd08a5-5b6c-4067-9c55-1a75896d5167",
+        "relationship": "colleague",
+        "description": "Nguyễn Hữu Hạnh khai mình là đồng nghiệp và có mặt tại Hà Nội - Ga tàu điện ngầm (23:50 - 00:20)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "cb100ffb-ed80-4ce8-abfc-f6a2293922af",
+        "relationship": "colleague",
+        "description": "Hoàng Gia Kiên khai mình là đồng nghiệp và có mặt tại Hà Nội - Nhà thờ cổ (21:56 - 22:26)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "81620216-cb88-4750-af85-e772a58076e5",
+        "relationship": "acquaintance",
+        "description": "Bùi Quốc Phúc khai mình là mối quen biết và có mặt tại Hà Nội - Bệnh viện Trung tâm (23:55 - 00:25)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "e9de7ac1-bd0a-4f11-9cd1-198ca1f81844",
+        "relationship": "unknown",
+        "description": "Phạm Quốc Phong khai mình là người quen xã giao và có mặt tại Hà Nội - Bệnh viện Trung tâm (01:58 - 02:28)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "7ac7f710-f37b-48e0-8067-2f2e086ff5a8",
+        "relationship": "business",
+        "description": "Đỗ Văn Mai khai mình là đối tác làm ăn và có mặt tại Hà Nội - Ga tàu điện ngầm (02:16 - 02:46)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "db246bcb-74ca-4e48-8ce5-b94d07be0c22",
+        "relationship": "family",
+        "description": "Đỗ Ngọc Quân khai mình là người thân và có mặt tại Hà Nội - Tháp quan sát Hồ Tây (02:01 - 02:31)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "22baa498-f4a6-4bc8-85b6-d5de131315d0",
+        "relationship": "unknown",
+        "description": "Trần Thị Nam khai mình là người quen xã giao và có mặt tại Hà Nội - Tháp quan sát Hồ Tây (00:04 - 00:34)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "3581289f-1dee-4bb7-a6fe-ef8fc05b2ae3",
+        "relationship": "business",
+        "description": "Nguyễn Minh Hoa khai mình là đối tác làm ăn và có mặt tại Hà Nội - Kho hàng Long Biên (23:58 - 00:28)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "241fae91-dfe5-47dd-af64-72f0bdd10d29",
+        "relationship": "business",
+        "description": "Nguyễn Minh Việt khai mình là đối tác làm ăn và có mặt tại Hà Nội - Bệnh viện Trung tâm (22:43 - 23:13)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "2583665e-25d3-4f5a-b334-417db247c571",
+        "relationship": "colleague",
+        "description": "Lê Minh Chi khai mình là đồng nghiệp và có mặt tại Hà Nội - Tháp quan sát Hồ Tây (00:55 - 01:25)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "16f793a4-dfc5-44f2-a4d8-9c35c0ace96a",
+        "relationship": "acquaintance",
+        "description": "Đỗ Thị Bảo khai mình là mối quen biết và có mặt tại Hà Nội - Bệnh viện Trung tâm (21:44 - 22:14)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "f858cd9e-0b8a-46d6-b1e5-2eee31369408",
+        "relationship": "unknown",
+        "description": "Bùi Minh An khai mình là người quen xã giao và có mặt tại Hà Nội - Nhà thờ cổ (03:09 - 03:39)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "510fda5f-c3db-4c01-8646-84878e25c534",
+        "relationship": "acquaintance",
+        "description": "Huỳnh Quốc Trang khai mình là mối quen biết và có mặt tại Hà Nội - Quán Bar ven sông (22:20 - 22:50)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "bf57e886-e90b-4fd4-9d8b-2cef5d7f19c3",
+        "relationship": "unknown",
+        "description": "Huỳnh Minh Mai khai mình là người quen xã giao và có mặt tại Hà Nội - Bệnh viện Trung tâm (22:17 - 22:47)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "1870612e-2dd9-4886-ba22-54fa7ec22c18",
+        "relationship": "business",
+        "description": "Phan Văn An khai mình là đối tác làm ăn và có mặt tại Hà Nội - Kho hàng Long Biên (01:04 - 01:34)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "2c6438a8-5292-4b64-b591-13e92e479a52",
+        "relationship": "business",
+        "description": "Đặng Văn Khánh khai mình là đối tác làm ăn và có mặt tại Hà Nội - Nhà thờ cổ (02:54 - 03:24)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "26ab0041-0d1e-4d1d-b1bf-e1dbee1a6cc4",
+        "relationship": "unknown",
+        "description": "Phan Ngọc Hoa khai mình là người quen xã giao và có mặt tại Hà Nội - Bệnh viện Trung tâm (23:38 - 00:08)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "bab740fc-bdd0-45da-8c71-abeb84804a9c",
+        "relationship": "unknown",
+        "description": "Vũ Thị Tùng khai mình là người quen xã giao và có mặt tại Hà Nội - Quán Bar ven sông (02:23 - 02:53)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "fedc0903-115d-482e-a8c3-edc3b5c8bd6e",
+        "relationship": "acquaintance",
+        "description": "Trần Thuỳ Chi khai mình là mối quen biết và có mặt tại Hà Nội - Quán Bar ven sông (01:52 - 02:22)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "e8528bd8-95cd-47a5-9944-8b698b1c0db5",
+        "relationship": "colleague",
+        "description": "Bùi Văn Phong khai mình là đồng nghiệp và có mặt tại Hà Nội - Công viên phía Bắc (00:24 - 00:54)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "136be575-aa73-4597-a752-5d4a8fde96bc",
+        "relationship": "colleague",
+        "description": "Đặng Minh Kiên khai mình là đồng nghiệp và có mặt tại Hà Nội - Công viên phía Bắc (02:42 - 03:12)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "9ea1893d-bcd9-4722-b41b-6d9007fc16ba",
+        "relationship": "family",
+        "description": "Đỗ Văn Anh khai mình là người thân và có mặt tại Hà Nội - Bệnh viện Trung tâm (23:40 - 00:10)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "b24756e1-91d9-4a93-ad0a-eff8ab4275d1",
+        "relationship": "family",
+        "description": "Phạm Quốc Khánh khai mình là người thân và có mặt tại Hà Nội - Bệnh viện Trung tâm (21:23 - 21:53)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "2830ca4e-eb8a-4309-a832-df556390a73f",
+        "relationship": "colleague",
+        "description": "Bùi Minh Hưng khai mình là đồng nghiệp và có mặt tại Hà Nội - Công viên phía Bắc (23:12 - 23:42)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "25845e58-f82a-4265-b34b-018520d98967",
+        "relationship": "unknown",
+        "description": "Lê Quốc Phương khai mình là người quen xã giao và có mặt tại Hà Nội - Bệnh viện Trung tâm (00:44 - 01:14)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "cc871122-37c7-4f60-b03d-c590e220a759",
+        "relationship": "family",
+        "description": "Đỗ Minh Ngân khai mình là người thân và có mặt tại Hà Nội - Tháp quan sát Hồ Tây (00:50 - 01:20)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "bb3a4c2f-9bd5-45e7-a1fb-05a8f6beaef0",
+        "relationship": "colleague",
+        "description": "Hoàng Thị Việt khai mình là đồng nghiệp và có mặt tại Hà Nội - Kho hàng Long Biên (21:25 - 21:55)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "2d90cf3a-09a5-4ba8-845b-819d20d94afe",
+        "relationship": "colleague",
+        "description": "Lê Ngọc Hải khai mình là đồng nghiệp và có mặt tại Hà Nội - Công viên phía Bắc (01:28 - 01:58)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "3f4584f2-ff67-4e61-a5cb-5b4d47311e7c",
+        "relationship": "family",
+        "description": "Vũ Ngọc Sơn khai mình là người thân và có mặt tại Hà Nội - Kho hàng Long Biên (21:53 - 22:23)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "fc6ec17a-365d-417e-8f73-d75ddaff2343",
+        "relationship": "business",
+        "description": "Trần Hữu Trang khai mình là đối tác làm ăn và có mặt tại Hà Nội - Ga tàu điện ngầm (00:33 - 01:03)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "01ec8be9-5bb5-46b6-b9f1-31805ca732f6",
+        "relationship": "acquaintance",
+        "description": "Phan Thuỳ Phương khai mình là mối quen biết và có mặt tại Hà Nội - Ga tàu điện ngầm (23:25 - 23:55)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "c1ca0a11-4c8a-4a0c-acb2-6c1aafcb0197",
+        "relationship": "acquaintance",
+        "description": "Huỳnh Thuỳ Thu khai mình là mối quen biết và có mặt tại Hà Nội - Nhà thờ cổ (00:37 - 01:07)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "afbd9be3-0388-4db3-a8ff-a08f4785d5a7",
+        "relationship": "acquaintance",
+        "description": "Phạm Gia Ngân khai mình là mối quen biết và có mặt tại Hà Nội - Kho hàng Long Biên (22:47 - 23:17)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "96142211-0d2d-43b8-91f1-8147e21679df",
+        "relationship": "acquaintance",
+        "description": "Phan Thuỳ Hà khai mình là mối quen biết và có mặt tại Hà Nội - Nhà thờ cổ (02:25 - 02:55)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "4519c6bb-c33a-4468-ab3c-6498a3f64ccd",
+        "relationship": "colleague",
+        "description": "Đặng Ngọc Hải khai mình là đồng nghiệp và có mặt tại Hà Nội - Nhà thờ cổ (02:10 - 02:40)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "13dad0d8-1bee-4f15-9022-b42bba1a1ae2",
+        "relationship": "family",
+        "description": "Trần Gia Phúc khai mình là người thân và có mặt tại Hà Nội - Kho hàng Long Biên (00:18 - 00:48)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "af32b866-4c7c-40f2-9f87-6e9c4c65b487",
+        "relationship": "acquaintance",
+        "description": "Nguyễn Thuỳ Chi khai mình là mối quen biết và có mặt tại Hà Nội - Tháp quan sát Hồ Tây (01:13 - 01:43)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "8bc32b96-ee54-482e-884c-21f2f36b3c92",
+        "relationship": "family",
+        "description": "Phan Minh Ngân khai mình là người thân và có mặt tại Hà Nội - Kho hàng Long Biên (02:34 - 03:04)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "c59b3001-8390-4a55-a3c4-d5cadc9c4b2d",
+        "relationship": "unknown",
+        "description": "Lê Ngọc Kiên khai mình là người quen xã giao và có mặt tại Hà Nội - Tháp quan sát Hồ Tây (01:24 - 01:54)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "9ec79afb-f629-43f7-8698-891c065d18c1",
+        "relationship": "family",
+        "description": "Hoàng Quốc Mai khai mình là người thân và có mặt tại Hà Nội - Quán Bar ven sông (01:29 - 01:59)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "ed1b80b9-8d73-487d-a7ff-bb5b75bc6913",
+        "relationship": "acquaintance",
+        "description": "Hoàng Thị Dung khai mình là mối quen biết và có mặt tại Hà Nội - Nhà thờ cổ (03:01 - 03:31)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "a4353843-8a45-48a1-8773-d11cc26e4da5",
+        "relationship": "family",
+        "description": "Trần Gia Kiên khai mình là người thân và có mặt tại Hà Nội - Nhà thờ cổ (22:28 - 22:58)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "ff9de3ba-572c-4717-b23f-e426071eeee8",
+        "relationship": "unknown",
+        "description": "Trần Thuỳ Hạnh khai mình là người quen xã giao và có mặt tại Hà Nội - Bệnh viện Trung tâm (21:45 - 22:15)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "50f8fa48-4245-43cf-b1de-0e11d16253e5",
+        "relationship": "business",
+        "description": "Huỳnh Thuỳ Nam khai mình là đối tác làm ăn và có mặt tại Hà Nội - Công viên phía Bắc (22:11 - 22:41)."
+      },
+      {
+        "sourceId": "0cc8f92d-e386-4679-b168-9a7b35856391",
+        "targetId": "1b4a91e9-5431-4724-9b8f-8ace06026276",
+        "relationship": "business",
+        "description": "Bùi Thị Yến khai mình là đối tác làm ăn và có mặt tại Hà Nội - Tháp quan sát Hồ Tây (23:20 - 23:50)."
+      }
+    ],
+    "clueDrafts": [
+      {
+        "id": "clue_1",
+        "title": "Dấu vết tại Tháp",
+        "summary": "Hiện trường vụ án tại chân Tháp quan sát Hồ Tây không có nhiều dấu vết. Tuy nhiên, đội pháp y tìm thấy một vỏ đạn 9mm mới bắn và một mẩu giấy nhỏ bị vo tròn. Mẩu giấy chỉ ghi duy nhất một dòng chữ: 'Gặp nhau lúc nửa đêm tại Tháp'. Có vẻ như đây là lời hẹn của nạn nhân với một ai đó. Phân tích cho thấy mực viết trên giấy là loại mực đặc biệt, chỉ được sử dụng trong một số văn phòng công ty lớn ở Hà Nội.",
+        "difficulty": "easy",
+        "relatedCitizenIds": [
+          "241fae91-dfe5-47dd-af64-72f0bdd10d29",
+          "9586f9c1-d48f-452d-9501-11cca0baf1ca",
+          "7ac7f710-f37b-48e0-8067-2f2e086ff5a8",
+          "db246bcb-74ca-4e48-8ce5-b94d07be0c22",
+          "22baa498-f4a6-4bc8-85b6-d5de131315d0",
+          "3581289f-1dee-4bb7-a6fe-ef8fc05b2ae3",
+          "2583665e-25d3-4f5a-b334-417db247c571"
+        ],
+        "mapHints": [
+          {
+            "id": "ai-hint-landmark-h-n-i-c-ng-vi-n-ph-a-b-c-0",
+            "label": "Hà Nội - Công viên phía Bắc",
+            "point": {
+              "lat": 21.0458,
+              "lng": 105.8349
+            },
+            "radiusMeters": 900
+          }
+        ]
+      },
+      {
+        "id": "clue_2",
+        "title": "Lời khai của nhân chứng",
+        "summary": "Một người bán hàng rong gần Quán Bar ven sông khai rằng vào khoảng 23:30, anh ta thấy một người đàn ông mặc áo khoác đen, dáng người cao lớn đi về hướng Tháp quan sát Hồ Tây. Người này có vẻ vội vã và liên tục nhìn xung quanh. Anh ta không nhìn rõ mặt, nhưng nhớ rằng người này đi một chiếc xe máy Honda Wave màu đen.",
+        "difficulty": "medium",
+        "relatedCitizenIds": [
+          "241fae91-dfe5-47dd-af64-72f0bdd10d29"
+        ],
+        "mapHints": [
+          {
+            "id": "ai-hint-landmark-h-n-i-nh-th-c--1",
+            "label": "Hà Nội - Nhà thờ cổ",
+            "point": {
+              "lat": 21.028,
+              "lng": 105.8494
+            },
+            "radiusMeters": 900
+          }
+        ]
+      },
+      {
+        "id": "clue_3",
+        "title": "Cuốn sổ tay mất tích",
+        "summary": "Trong quá trình khám xét căn hộ của Nguyễn Minh Chi, cảnh sát phát hiện một cuốn sổ tay nhỏ đã biến mất. Đồng nghiệp của anh khai rằng Smallbird luôn mang theo cuốn sổ này và ghi chép mọi thông tin liên quan đến các vụ án đang điều tra. Chiếc tủ đựng sổ bị cậy phá, dấu vân tay không rõ ràng.",
+        "difficulty": "hard",
+        "relatedCitizenIds": [
+          "2583665e-25d3-4f5a-b334-417db247c571"
+        ],
+        "mapHints": [
+          {
+            "id": "ai-hint-landmark-h-n-i-qu-n-bar-ven-s-ng-2",
+            "label": "Hà Nội - Quán Bar ven sông",
+            "point": {
+              "lat": 21.0408,
+              "lng": 105.8571
+            },
+            "radiusMeters": 900
+          }
+        ]
+      },
+      {
+        "id": "clue_4",
+        "title": "Mật báo từ Bệnh viện",
+        "summary": "Một nguồn tin bí mật từ Bệnh viện Trung tâm cho biết, đêm xảy ra vụ án, Đỗ Văn Mai đã đến thăm một bệnh nhân tại đây vào lúc 00:30. Tuy nhiên, camera an ninh của bệnh viện không ghi lại hình ảnh của Mai. Bệnh nhân mà Mai đến thăm là một người đàn ông bị thương trong một vụ ẩu đả. Người này khai rằng Mai chỉ đến hỏi thăm sức khỏe và không nói gì về vụ án của Smallbird. Tuy nhiên, lời khai này có vẻ mâu thuẫn vì Đỗ Văn Mai khai rằng mình ở Ga tàu điện ngầm vào thời điểm đó. Phân tích dữ liệu cho thấy để di chuyển từ Bệnh viện Trung tâm đến Ga tàu điện ngầm mất khoảng 15-20 phút.",
+        "difficulty": "medium",
+        "relatedCitizenIds": [
+          "7ac7f710-f37b-48e0-8067-2f2e086ff5a8"
+        ],
+        "mapHints": [
+          {
+            "id": "ai-hint-landmark-h-n-i-kho-h-ng-long-bi-n-3",
+            "label": "Hà Nội - Kho hàng Long Biên",
+            "point": {
+              "lat": 21.0445,
+              "lng": 105.8723
+            },
+            "radiusMeters": 900
+          }
+        ]
+      },
+      {
+        "id": "clue_5",
+        "title": "Dữ liệu định vị",
+        "summary": "Phân tích dữ liệu di động cho thấy Nguyễn Minh Việt đã di chuyển từ Bệnh viện Trung tâm đến Tháp quan sát Hồ Tây vào khoảng 23:00. Anh ta ở lại khu vực này khoảng một giờ trước khi quay trở lại Bệnh viện Trung tâm. Nguyễn Gia Hạnh, Đỗ Ngọc Quân, Trần Thị Nam, và Nguyễn Minh Hoa cũng được ghi nhận có mặt tại khu vực Tháp quan sát Hồ Tây vào đêm xảy ra vụ án.",
+        "difficulty": "hard",
+        "relatedCitizenIds": [
+          "241fae91-dfe5-47dd-af64-72f0bdd10d29",
+          "9586f9c1-d48f-452d-9501-11cca0baf1ca",
+          "db246bcb-74ca-4e48-8ce5-b94d07be0c22",
+          "22baa498-f4a6-4bc8-85b6-d5de131315d0",
+          "3581289f-1dee-4bb7-a6fe-ef8fc05b2ae3"
+        ],
+        "mapHints": [
+          {
+            "id": "ai-hint-landmark-h-n-i-th-p-quan-s-t-h-t-y-4",
+            "label": "Hà Nội - Tháp quan sát Hồ Tây",
+            "point": {
+              "lat": 21.0698,
+              "lng": 105.8162
+            },
+            "radiusMeters": 900
+          }
+        ]
+      },
+      {
+        "id": "clue_6",
+        "title": "Lời khai đồng phạm",
+        "summary": "Sau khi bị bắt giữ, Đỗ Văn Mai khai rằng Nguyễn Minh Việt đã thuê anh ta làm người lái xe trong đêm xảy ra vụ án. Mai khai rằng anh ta không biết gì về kế hoạch giết người của Việt và chỉ đưa Việt đến Tháp quan sát Hồ Tây theo yêu cầu. Anh ta khai rằng sau khi nghe thấy tiếng súng, Việt đã vội vã quay trở lại xe và yêu cầu anh ta lái xe trốn khỏi hiện trường. Đỗ Văn Mai khai thêm về địa điểm lẩn trốn của hung thủ được gọi là \"Ổ ẩn náu Hà Nội\".",
+        "difficulty": "hard",
+        "relatedCitizenIds": [
+          "7ac7f710-f37b-48e0-8067-2f2e086ff5a8",
+          "241fae91-dfe5-47dd-af64-72f0bdd10d29"
+        ],
+        "mapHints": [
+          {
+            "id": "ai-hint-landmark-h-n-i-ga-t-u-i-n-ng-m-5",
+            "label": "Hà Nội - Ga tàu điện ngầm",
+            "point": {
+              "lat": 21.0287,
+              "lng": 105.8415
+            },
+            "radiusMeters": 900
+          }
+        ]
+      }
+    ],
+    "caseTitle": "Lời Nguyền Smallbird: Bí Mật Sau Tháp Quan Sát",
+    "story": "Đêm Hà Nội chìm trong sương mù dày đặc. Xác của Nguyễn Minh Chi, biệt danh Smallbird, nằm co ro dưới chân Tháp quan sát Hồ Tây. Ánh đèn vàng vọt hắt lên khuôn mặt tái nhợt của anh, đôi mắt mở trừng trừng như vẫn còn kinh hoàng. Một viên đạn găm vào tim, kết thúc cuộc đời của một điều tra viên tài năng. Xung quanh, không một dấu vết xô xát, không một nhân chứng. Vụ án chấn động giới điều tra Hà Nội. Smallbird nổi tiếng với khả năng phá những vụ án tưởng chừng bế tắc, nhưng giờ chính anh lại trở thành nạn nhân của một bí mật đen tối. Điều gì, hay ai, đã khiến Smallbird phải trả giá bằng mạng sống? ",
+    "solution": {
+      "killerId": "b24756e1-91d9-4a93-ad0a-eff8ab4275d1",
+      "victimBackstory": "Nguyễn Minh Chi, Smallbird, là một điều tra viên độc lập chuyên về các vụ án kinh tế phức tạp. Gần đây, anh đang bí mật điều tra một đường dây buôn lậu cổ vật quy mô lớn liên quan đến một số doanh nhân có tiếng ở Hà Nội. Anh ta có thói quen ghi chép mọi thông tin thu thập được trong một cuốn sổ tay nhỏ.",
+      "killerMotive": "Nguyễn Minh Việt, đối tác làm ăn của nạn nhân, đứng sau đường dây buôn lậu cổ vật. Smallbird vô tình phát hiện ra bí mật này và Nguyễn Minh Việt đã ra tay thủ tiêu để bảo vệ mạng lưới tội phạm của mình.",
+      "relationship": "Nguyễn Minh Việt bề ngoài là đối tác làm ăn của Nguyễn Minh Chi, nhưng thực chất là kẻ thù không đội trời chung. Nguyễn Minh Việt lợi dụng mối quan hệ làm ăn để tiếp cận và theo dõi Smallbird, chờ cơ hội ra tay.",
+      "cluePhase1": "Lời khai của các nghi phạm đều có vẻ hợp lý, tuy nhiên, dữ liệu định vị cho thấy một số người có thói quen nói dối về vị trí của mình. Loại bỏ những người có bằng chứng ngoại phạm rõ ràng và những người không có khả năng tiếp cận hiện trường trong khoảng thời gian gây án. Cụ thể loại trừ: Vũ Ngọc Hạnh, Nguyễn Thuỳ Quân, Nguyễn Gia Trang, Huỳnh Quốc Tùng, Hoàng Gia Kiên, Bùi Quốc Phúc, Phạm Quốc Phong, Nguyễn Hữu Hạnh, Đỗ Thị Bảo, Bùi Minh An, Huỳnh Quốc Trang, Huỳnh Minh Mai, Lê Minh Chi.",
+      "cluePhase2": "Phân tích dữ liệu di động cho thấy Nguyễn Minh Việt, Đỗ Văn Mai, Đỗ Ngọc Quân, Trần Thị Nam, Nguyễn Minh Hoa, Nguyễn Gia Hạnh đều có mặt tại khu vực Tháp quan sát Hồ Tây vào đêm xảy ra án mạng. Tuy nhiên, một nhân chứng khai đã thấy một người đàn ông mặc áo khoác đen, dáng người tương tự Nguyễn Minh Việt, rời khỏi hiện trường ngay sau khi vụ án xảy ra. Cụ thể khoanh vùng: Nguyễn Minh Việt, Đỗ Văn Mai, Đỗ Ngọc Quân, Trần Thị Nam, Nguyễn Minh Hoa, Nguyễn Gia Hạnh.",
+      "finalClue": "Cuốn sổ tay của Nguyễn Minh Chi được tìm thấy tại căn hộ của anh. Trang cuối cùng ghi lại một cuộc hẹn bí mật với Nguyễn Minh Việt tại Tháp quan sát Hồ Tây vào đêm xảy ra vụ án. Dấu vân tay trên khẩu súng tìm thấy gần hiện trường trùng khớp với Nguyễn Minh Việt. Đồng phạm của Nguyễn Minh Việt là Đỗ Văn Mai sẽ khai ra địa điểm lẩn trốn sau khi bị bắt giữ và tiết lộ \"Ổ ẩn náu Hà Nội\"."
+    },
+    "locationName": "Hà Nội, Việt Nam",
+    "locale": {
+      "id": "vn",
+      "city": "Hà Nội",
+      "country": "Việt Nam"
+    },
+    "hideoutHint": {
+      "id": "Ổ ẩn náu Hà Nội-8238",
+      "label": "Ổ ẩn náu Hà Nội",
+      "point": {
+        "lat": 21.04990681390148,
+        "lng": 105.86624661798496
+      },
+      "radiusMeters": 350
+    },
+    "landmarks": [
+      {
+        "id": "landmark-h-n-i-c-ng-vi-n-ph-a-b-c-0",
+        "name": "Công viên phía Bắc",
+        "label": "Hà Nội - Công viên phía Bắc",
+        "coordinates": {
+          "lat": 21.0458,
+          "lng": 105.8349
+        },
+        "category": "park",
+        "description": "Khoảng xanh sát khu ngoại giao đoàn với nhiều camera an ninh.",
+        "localeId": "vn"
+      },
+      {
+        "id": "landmark-h-n-i-nh-th-c--1",
+        "name": "Nhà thờ cổ",
+        "label": "Hà Nội - Nhà thờ cổ",
+        "coordinates": {
+          "lat": 21.028,
+          "lng": 105.8494
+        },
+        "category": "religious",
+        "description": "Thánh đường Gothic nằm trong khu phố cổ.",
+        "localeId": "vn"
+      },
+      {
+        "id": "landmark-h-n-i-qu-n-bar-ven-s-ng-2",
+        "name": "Quán Bar ven sông",
+        "label": "Hà Nội - Quán Bar ven sông",
+        "coordinates": {
+          "lat": 21.0408,
+          "lng": 105.8571
+        },
+        "category": "commercial",
+        "description": "Điểm hẹn đêm của giới buôn ngầm sát bờ sông Hồng.",
+        "localeId": "vn"
+      },
+      {
+        "id": "landmark-h-n-i-kho-h-ng-long-bi-n-3",
+        "name": "Kho hàng Long Biên",
+        "label": "Hà Nội - Kho hàng Long Biên",
+        "coordinates": {
+          "lat": 21.0445,
+          "lng": 105.8723
+        },
+        "category": "infrastructure",
+        "description": "Kho ngoại quan bị nghi dùng để cất giấu tang vật.",
+        "localeId": "vn"
+      },
+      {
+        "id": "landmark-h-n-i-th-p-quan-s-t-h-t-y-4",
+        "name": "Tháp quan sát Hồ Tây",
+        "label": "Hà Nội - Tháp quan sát Hồ Tây",
+        "coordinates": {
+          "lat": 21.0698,
+          "lng": 105.8162
+        },
+        "category": "cultural",
+        "description": "Điểm kiểm soát tín hiệu vô tuyến quanh hồ.",
+        "localeId": "vn"
+      },
+      {
+        "id": "landmark-h-n-i-ga-t-u-i-n-ng-m-5",
+        "name": "Ga tàu điện ngầm",
+        "label": "Hà Nội - Ga tàu điện ngầm",
+        "coordinates": {
+          "lat": 21.0287,
+          "lng": 105.8415
+        },
+        "category": "transit",
+        "description": "Nút giao thông ngầm nối thẳng quận Hoàn Kiếm với Long Biên.",
+        "localeId": "vn"
+      },
+      {
+        "id": "landmark-h-n-i-b-nh-vi-n-trung-t-m-6",
+        "name": "Bệnh viện Trung tâm",
+        "label": "Hà Nội - Bệnh viện Trung tâm",
+        "coordinates": {
+          "lat": 21.0039,
+          "lng": 105.846
+        },
+        "category": "medical",
+        "description": "Tổ hợp phẫu thuật và cấp cứu lớn nhất khu vực phía Nam thành phố.",
+        "localeId": "vn"
+      }
+    ]
+  }
+}

@@ -11,7 +11,9 @@ const phaseLabel: Record<CasePhase, string> = {
   loading: 'Thu thập dữ liệu và dựng vụ án',
   investigating: 'Điều tra và phân tích manh mối',
   accusing: 'Đưa ra cáo buộc cuối cùng',
+  capturing: 'Triển khai vây bắt hung thủ',
   solved: 'Vụ án đã được phá',
+  GAME_OVER_MISSING_KILLER: 'Hồ sơ bế tắc',
 }
 
 export const StatusBanner = ({ phase, error, isLoading }: StatusBannerProps) => (

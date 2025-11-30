@@ -8,6 +8,20 @@ const toCaseCode = (bundle: CaseClueBundle): string => {
   return raw.replace(/[^a-zA-Z0-9_-]/g, '').slice(0, 32) || `case-${Date.now()}`
 }
 
+const ensureLandmarks = (bundle: CaseClueBundle): CaseClueBundle => {
+  const hasLandmarks = Array.isArray((bundle as { landmarks?: unknown }).landmarks)
+  const hasLocale = Boolean((bundle as { locale?: unknown }).locale)
+  return {
+    ...bundle,
+    landmarks: hasLandmarks ? bundle.landmarks : [],
+    locale: hasLocale ? bundle.locale : {
+      id: bundle.locationName?.includes('New York') ? 'us' : 'vn',
+      city: bundle.locationName?.split(',')[0]?.trim() ?? 'Hà Nội',
+      country: bundle.locationName?.split(',')[1]?.trim() ?? 'Việt Nam',
+    },
+  }
+}
+
 export const archiveCaseBundle = async (bundle: CaseClueBundle): Promise<string | undefined> => {
   if (!import.meta.env.DEV) {
     return undefined
@@ -17,7 +31,7 @@ export const archiveCaseBundle = async (bundle: CaseClueBundle): Promise<string 
     return undefined
   }
 
-  const titledBundle = ensureBundleCaseTitle(bundle)
+  const titledBundle = ensureLandmarks(ensureBundleCaseTitle(bundle))
   const caseCode = toCaseCode(bundle)
   try {
     await fetch(ARCHIVE_ENDPOINT, {
@@ -54,7 +68,7 @@ export const fetchArchivedCaseBundle = async (caseCode: string): Promise<CaseClu
       return undefined
     }
     const payload = (await response.json()) as { bundle?: CaseClueBundle }
-    return payload.bundle ? ensureBundleCaseTitle(payload.bundle) : undefined
+    return payload.bundle ? ensureLandmarks(ensureBundleCaseTitle(payload.bundle)) : undefined
   } catch (error) {
     console.warn('Unable to read archived case bundle', error)
     return undefined

@@ -20,6 +20,12 @@ export const CluePanel = ({ clues, highlightedClueId, onHighlight }: CluePanelPr
             <button onClick={() => onHighlight(clue.id)}>
               <strong>{clue.title}</strong>
               <p>{clue.summary}</p>
+              {clue.mapHints?.length ? (
+                <span style={{ display: 'block', fontSize: '0.75rem', color: '#94a3b8', marginTop: '0.35rem' }}>
+                  Tọa độ tham chiếu:&nbsp;
+                  {clue.mapHints[0].label}
+                </span>
+              ) : null}
               <span className={`badge badge-${clue.difficulty}`}>{clue.difficulty}</span>
             </button>
           </li>

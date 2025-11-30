@@ -1,8 +1,16 @@
-export type CasePhase = 'idle' | 'loading' | 'investigating' | 'accusing' | 'solved'
+export type CasePhase = 'idle' | 'loading' | 'investigating' | 'accusing' | 'capturing' | 'solved' | 'GAME_OVER_MISSING_KILLER'
 
 export interface GeoPoint {
   lat: number
   lng: number
+}
+
+export type CaseLocaleId = 'vn' | 'us'
+
+export interface CaseLocale {
+  id: CaseLocaleId
+  city: string
+  country: string
 }
 
 export interface CitizenProfile {
@@ -33,6 +41,21 @@ export interface VictimProfile extends CitizenProfile {
 
 export type CitizenRole = 'killer' | 'accomplice' | 'associate'
 
+export interface SuspectDialogueTopic {
+  id: string
+  text: string
+  response: string
+  clueReveal?: boolean
+  isTrap?: boolean
+}
+
+export interface SuspectDialogue {
+  intro: string
+  topics: SuspectDialogueTopic[]
+  confessionHook?: string
+  resetHint?: string
+}
+
 export interface Testimony {
   id: string
   relationshipSummary: string
@@ -42,6 +65,8 @@ export interface Testimony {
   locationLabel: string
   mapHint: MapHint
   reliability: 'solid' | 'shaky'
+  landmarkId?: string
+  directionHint?: string
 }
 
 export interface SuspectProfile extends CitizenProfile {
@@ -51,6 +76,7 @@ export interface SuspectProfile extends CitizenProfile {
   relationshipTag: RelationshipType
   testimony: Testimony
   secondaryTestimony?: Testimony
+  dialogue?: SuspectDialogue
 }
 
 export type RelationshipType =
@@ -72,6 +98,16 @@ export interface MapHint {
   label: string
   point: GeoPoint
   radiusMeters: number
+}
+
+export interface Landmark {
+  id: string
+  name: string
+  label: string
+  coordinates: GeoPoint
+  category: 'medical' | 'transit' | 'religious' | 'park' | 'commercial' | 'residential' | 'infrastructure' | 'government' | 'cultural' | 'other'
+  description?: string
+  localeId?: CaseLocaleId
 }
 
 export interface Clue {
@@ -106,7 +142,9 @@ export interface CaseClueBundle {
   story: string
   solution: CaseSolution
   locationName: string
+  locale: CaseLocale
   hideoutHint: MapHint
+  landmarks: Landmark[]
 }
 
 export interface GeminiCluePrompt {
@@ -119,6 +157,19 @@ export interface GeminiCluePrompt {
   }>
   objectives: string[]
   locationName: string
+  locale: CaseLocale
   accompliceCount: number
   hideoutLabel: string
+  landmarks: Landmark[]
 }
+
+export interface Phase2DialogueRequest {
+  suspects: SuspectProfile[]
+  killerId: string
+  accompliceIds: string[]
+  locationName: string
+  hideoutLabel: string
+  victim: VictimProfile
+}
+
+export type Phase2DialogueMap = Record<string, SuspectDialogue>

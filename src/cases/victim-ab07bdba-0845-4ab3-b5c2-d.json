@@ -1,0 +1,2931 @@
+{
+  "caseCode": "victim-ab07bdba-0845-4ab3-b5c2-d",
+  "generatedAt": "2025-11-30T16:47:44.762Z",
+  "title": "Bóng Ma Trên Bến Cảng",
+  "bundle": {
+    "victim": {
+      "id": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+      "fullName": "Lily James Anderson",
+      "gender": "female",
+      "age": 45,
+      "nationality": "Hoa Kỳ",
+      "occupation": "bigmouse Investigator",
+      "email": "priscilla.richardson@example.com",
+      "phone": "(950) 799-6795",
+      "cell": "(941) 409-2694",
+      "dob": "1980-06-18T04:37:00.626Z",
+      "registered": "2013-04-15T05:22:30.175Z",
+      "idNumber": "077-48-6146",
+      "residence": "New York, Hoa Kỳ",
+      "coordinates": {
+        "lat": 40.75873090778127,
+        "lng": -74.11511347055732
+      },
+      "portrait": "https://randomuser.me/api/portraits/women/53.jpg",
+      "timezone": "Brussels, Copenhagen, Madrid, Paris",
+      "seed": "bigmouse442",
+      "victimId": "victim-ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+      "timeOfIncident": "2025-11-30T16:47:28.118Z",
+      "lastKnownLocation": {
+        "lat": 40.75873090778127,
+        "lng": -74.11511347055732
+      }
+    },
+    "killer": {
+      "id": "af35d331-b1ef-46e4-af38-f1fb4baae2a0",
+      "fullName": "Ethan Lee Bennett",
+      "gender": "male",
+      "age": 68,
+      "nationality": "Hoa Kỳ",
+      "occupation": "redgoose Investigator",
+      "email": "daniel.mortensen@example.com",
+      "phone": "56476146",
+      "cell": "61637062",
+      "dob": "1957-03-08T15:46:39.452Z",
+      "registered": "2014-12-06T03:14:44.977Z",
+      "idNumber": "080357-0193",
+      "residence": "New York, Hoa Kỳ",
+      "coordinates": {
+        "lat": 40.7094,
+        "lng": -74.0094
+      },
+      "portrait": "https://randomuser.me/api/portraits/men/27.jpg",
+      "timezone": "Atlantic Time (Canada), Caracas, La Paz",
+      "seed": "redgoose296",
+      "suspicionLevel": 0.98,
+      "alibi": "Từ chối khai báo lịch trình",
+      "role": "killer",
+      "relationshipTag": "family",
+      "testimony": {
+        "id": "testimony-af35d331-b1ef-46e4-af38-f1fb4baae2a0",
+        "relationshipSummary": "người thân",
+        "narrative": "Tôi là người thân của Lily James Anderson. Ngày hôm đó, khoảng 20:48 - 21:18, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại New York - Fulton Subway Hub. Ethan Lee Bennett được báo cáo đi về phía Đông Nam của Fulton Subway Hub, luôn ở trong bán kính 1km quanh địa điểm này.",
+        "timeframe": "20:48 - 21:18",
+        "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+        "locationLabel": "New York - Fulton Subway Hub",
+        "mapHint": {
+          "id": "New York - Fulton Subway Hub-1256",
+          "label": "New York - Fulton Subway Hub",
+          "point": {
+            "lat": 40.70471268393621,
+            "lng": -73.98638876613285
+          },
+          "radiusMeters": 900
+        },
+        "reliability": "shaky",
+        "landmarkId": "landmark-new-york-fulton-subway-hub-3",
+        "directionHint": "Ethan Lee Bennett được báo cáo đi về phía Đông Nam của Fulton Subway Hub, luôn ở trong bán kính 1km quanh địa điểm này."
+      }
+    },
+    "suspects": [
+      {
+        "id": "c4a87407-a93f-46d5-b35a-b1d6e867476b",
+        "fullName": "Liam Mae Smith",
+        "gender": "male",
+        "age": 25,
+        "nationality": "Hoa Kỳ",
+        "occupation": "goldenleopard Investigator",
+        "email": "peetu.mantyla@example.com",
+        "phone": "07-369-435",
+        "cell": "045-603-93-88",
+        "dob": "2000-10-06T18:14:38.743Z",
+        "registered": "2011-03-04T20:45:19.777Z",
+        "idNumber": "NaNNA141undefined",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.831823940784936,
+          "lng": -73.9432952476258
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/61.jpg",
+        "timezone": "Magadan, Solomon Islands, New Caledonia",
+        "seed": "goldenleopard534",
+        "suspicionLevel": 0.65,
+        "alibi": "Đang trực ca đêm tại nơi làm việc",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-c4a87407-a93f-46d5-b35a-b1d6e867476b",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Lily James Anderson. Ngày hôm đó, khoảng 22:10 - 22:40, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại New York - Harbor Warehouse 12. Liam Mae Smith được báo cáo đi về phía Đông Nam của Harbor Warehouse 12, luôn ở trong bán kính 1.7km quanh địa điểm này.",
+          "timeframe": "22:10 - 22:40",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "New York - Harbor Warehouse 12",
+          "mapHint": {
+            "id": "New York - Harbor Warehouse 12-3059",
+            "label": "New York - Harbor Warehouse 12",
+            "point": {
+              "lat": 40.70535129519328,
+              "lng": -74.06688559374102
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-harbor-warehouse-12-1",
+          "directionHint": "Liam Mae Smith được báo cáo đi về phía Đông Nam của Harbor Warehouse 12, luôn ở trong bán kính 1.7km quanh địa điểm này."
+        }
+      },
+      {
+        "id": "a42e99c5-4c08-41bc-b422-bbc3b6d2436c",
+        "fullName": "Charlotte Alexander Carter",
+        "gender": "female",
+        "age": 77,
+        "nationality": "Hoa Kỳ",
+        "occupation": "redcat Investigator",
+        "email": "louanne.fontai@example.com",
+        "phone": "02-04-99-72-97",
+        "cell": "06-84-66-52-76",
+        "dob": "1948-07-13T18:43:04.019Z",
+        "registered": "2007-11-14T07:36:53.128Z",
+        "idNumber": "2480600867115 37",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.7094,
+          "lng": -74.0094
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/43.jpg",
+        "timezone": "Ekaterinburg, Islamabad, Karachi, Tashkent",
+        "seed": "redcat614",
+        "suspicionLevel": 0.82,
+        "alibi": "Đang tập gym tại phòng tập thể hình",
+        "role": "accomplice",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-a42e99c5-4c08-41bc-b422-bbc3b6d2436c",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Lily James Anderson. Khoảng 20:56 - 21:26, tôi có mặt ngay tại New York - Fulton Subway Hub, và tôi thấy Ethan Lee Bennett đứng lỳ tại đó trước khi mọi chuyện xảy ra. Charlotte Alexander Carter bị camera của Midtown Medical Center ghi lại khi di chuyển về phía Tây Nam khoảng 6.2km hướng tới Fulton Subway Hub.",
+          "timeframe": "20:56 - 21:26",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "New York - Fulton Subway Hub",
+          "mapHint": {
+            "id": "New York - Fulton Subway Hub-7726",
+            "label": "New York - Fulton Subway Hub",
+            "point": {
+              "lat": 40.67173285551425,
+              "lng": -73.97538214132246
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-fulton-subway-hub-3",
+          "directionHint": "Charlotte Alexander Carter bị camera của Midtown Medical Center ghi lại khi di chuyển về phía Tây Nam khoảng 6.2km hướng tới Fulton Subway Hub."
+        },
+        "secondaryTestimony": {
+          "id": "secondary-a42e99c5-4c08-41bc-b422-bbc3b6d2436c",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Được rồi, tôi sẽ hợp tác. Ethan Lee Bennett bảo tôi canh gác tại Ổ ẩn náu New York và hắn vẫn còn ở đó lúc 01:17.",
+          "timeframe": "01:07 - 01:37",
+          "action": "chỉ điểm tọa độ ẩn náu",
+          "locationLabel": "Ổ ẩn náu New York",
+          "mapHint": {
+            "id": "Ổ ẩn náu New York-8647",
+            "label": "Ổ ẩn náu New York",
+            "point": {
+              "lat": 40.6597886589082,
+              "lng": -73.99077890712823
+            },
+            "radiusMeters": 350
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "07ed9d7e-a15c-490a-898d-687ddc5a4064",
+        "fullName": "Gabriel Alexander Mitchell",
+        "gender": "male",
+        "age": 63,
+        "nationality": "Hoa Kỳ",
+        "occupation": "whiteostrich Investigator",
+        "email": "leon.bohm@example.com",
+        "phone": "0024-4561727",
+        "cell": "0173-8428843",
+        "dob": "1962-01-23T02:45:57.572Z",
+        "registered": "2013-07-09T23:09:19.796Z",
+        "idNumber": "08 220162 B 244",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.74896146062492,
+          "lng": -74.12870225404376
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/42.jpg",
+        "timezone": "Baghdad, Riyadh, Moscow, St. Petersburg",
+        "seed": "whiteostrich316",
+        "suspicionLevel": 0.43,
+        "alibi": "Đang khám bệnh tại bệnh viện",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-07ed9d7e-a15c-490a-898d-687ddc5a4064",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Lily James Anderson. Ngày hôm đó, khoảng 00:47 - 01:17, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại New York - Fulton Subway Hub. Gabriel Alexander Mitchell được báo cáo đi về phía Đông Nam của Fulton Subway Hub, luôn ở trong bán kính 1km quanh địa điểm này.",
+          "timeframe": "00:47 - 01:17",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "New York - Fulton Subway Hub",
+          "mapHint": {
+            "id": "New York - Fulton Subway Hub-4150",
+            "label": "New York - Fulton Subway Hub",
+            "point": {
+              "lat": 40.67365720609259,
+              "lng": -74.02377340807169
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-fulton-subway-hub-3",
+          "directionHint": "Gabriel Alexander Mitchell được báo cáo đi về phía Đông Nam của Fulton Subway Hub, luôn ở trong bán kính 1km quanh địa điểm này."
+        }
+      },
+      {
+        "id": "1d438480-c143-403a-a0e6-2a533a4897ba",
+        "fullName": "Charlotte Grace Diaz",
+        "gender": "female",
+        "age": 53,
+        "nationality": "Hoa Kỳ",
+        "occupation": "greencat Investigator",
+        "email": "anke.kirschner@example.com",
+        "phone": "0799-4979380",
+        "cell": "0178-7812577",
+        "dob": "1972-09-06T00:56:54.714Z",
+        "registered": "2008-07-05T00:23:09.596Z",
+        "idNumber": "89 050972 K 849",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.690283634170086,
+          "lng": -73.89736369214926
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/30.jpg",
+        "timezone": "Pacific Time (US & Canada)",
+        "seed": "greencat846",
+        "suspicionLevel": 0.47,
+        "alibi": "Đang khám bệnh tại bệnh viện",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-1d438480-c143-403a-a0e6-2a533a4897ba",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Lily James Anderson. Ngày hôm đó, khoảng 21:00 - 21:30, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại New York - Harbor Warehouse 12. Charlotte Grace Diaz bị camera của North River Park ghi lại khi di chuyển về phía Nam khoảng 11.7km hướng tới Harbor Warehouse 12.",
+          "timeframe": "21:00 - 21:30",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "New York - Harbor Warehouse 12",
+          "mapHint": {
+            "id": "New York - Harbor Warehouse 12-1512",
+            "label": "New York - Harbor Warehouse 12",
+            "point": {
+              "lat": 40.68434345532358,
+              "lng": -74.02900330726784
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-harbor-warehouse-12-1",
+          "directionHint": "Charlotte Grace Diaz bị camera của North River Park ghi lại khi di chuyển về phía Nam khoảng 11.7km hướng tới Harbor Warehouse 12."
+        }
+      },
+      {
+        "id": "1886ed24-01de-422a-b275-e16a10df4c5e",
+        "fullName": "Noah Marie Smith",
+        "gender": "male",
+        "age": 32,
+        "nationality": "Hoa Kỳ",
+        "occupation": "sadgoose Investigator",
+        "email": "gabin.leroy@example.com",
+        "phone": "05-00-99-11-84",
+        "cell": "06-62-75-68-61",
+        "dob": "1993-08-16T17:16:32.777Z",
+        "registered": "2004-12-03T10:56:43.787Z",
+        "idNumber": "1930799881628 15",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.791022520497414,
+          "lng": -74.09886777630695
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/48.jpg",
+        "timezone": "Azores, Cape Verde Islands",
+        "seed": "sadgoose248",
+        "suspicionLevel": 0.44,
+        "alibi": "Đang chơi bowling cùng bạn bè",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-1886ed24-01de-422a-b275-e16a10df4c5e",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Lily James Anderson. Ngày hôm đó, khoảng 00:43 - 01:13, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại New York - Midtown Medical Center. Noah Marie Smith bị camera của Harbor Warehouse 12 ghi lại khi di chuyển về phía Đông Bắc khoảng 6.9km hướng tới Midtown Medical Center.",
+          "timeframe": "00:43 - 01:13",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "New York - Midtown Medical Center",
+          "mapHint": {
+            "id": "New York - Midtown Medical Center-1538",
+            "label": "New York - Midtown Medical Center",
+            "point": {
+              "lat": 40.73490655201133,
+              "lng": -73.96209452189504
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-midtown-medical-center-4",
+          "directionHint": "Noah Marie Smith bị camera của Harbor Warehouse 12 ghi lại khi di chuyển về phía Đông Bắc khoảng 6.9km hướng tới Midtown Medical Center."
+        }
+      },
+      {
+        "id": "0e6f0eb7-f8eb-477f-b083-0fb7342e3194",
+        "fullName": "Harper Lynn Anderson",
+        "gender": "female",
+        "age": 59,
+        "nationality": "Hoa Kỳ",
+        "occupation": "beautifulgorilla Investigator",
+        "email": "mary.budde@example.com",
+        "phone": "0296-5985865",
+        "cell": "0173-5364062",
+        "dob": "1966-03-08T00:09:13.483Z",
+        "registered": "2009-06-11T15:38:26.437Z",
+        "idNumber": "03 070366 B 958",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.7819793432785,
+          "lng": -73.93853124022694
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/60.jpg",
+        "timezone": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk",
+        "seed": "beautifulgorilla996",
+        "suspicionLevel": 0.53,
+        "alibi": "Đang sửa xe tại gara",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-0e6f0eb7-f8eb-477f-b083-0fb7342e3194",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Lily James Anderson. Ngày hôm đó, khoảng 02:11 - 02:41, tôi đã kiểm tra hệ thống camera của nhà thờ cổ tại New York - North River Park. Harper Lynn Anderson bị camera của Liberty Observation Deck ghi lại khi di chuyển về phía Đông Bắc khoảng 14.3km hướng tới North River Park.",
+          "timeframe": "02:11 - 02:41",
+          "action": "kiểm tra hệ thống camera của nhà thờ cổ",
+          "locationLabel": "New York - North River Park",
+          "mapHint": {
+            "id": "New York - North River Park-993",
+            "label": "New York - North River Park",
+            "point": {
+              "lat": 40.75474902328886,
+              "lng": -73.93352822058759
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-north-river-park-2",
+          "directionHint": "Harper Lynn Anderson bị camera của Liberty Observation Deck ghi lại khi di chuyển về phía Đông Bắc khoảng 14.3km hướng tới North River Park."
+        }
+      },
+      {
+        "id": "55e3fb11-1a1d-4c45-922e-11fc8ccd1c3d",
+        "fullName": "Natalie Mae Edwards",
+        "gender": "female",
+        "age": 59,
+        "nationality": "Hoa Kỳ",
+        "occupation": "bluegoose Investigator",
+        "email": "alicia.chow@example.com",
+        "phone": "H27 M57-9419",
+        "cell": "Q28 U51-6004",
+        "dob": "1966-04-25T01:35:22.607Z",
+        "registered": "2020-07-23T14:51:47.633Z",
+        "idNumber": "811016245",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.673482617344085,
+          "lng": -73.9238696445038
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/46.jpg",
+        "timezone": "Brazil, Buenos Aires, Georgetown",
+        "seed": "bluegoose963",
+        "suspicionLevel": 0.61,
+        "alibi": "Đang chơi bowling cùng bạn bè",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-55e3fb11-1a1d-4c45-922e-11fc8ccd1c3d",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Lily James Anderson. Ngày hôm đó, khoảng 23:41 - 00:11, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại New York - Harbor Warehouse 12. Natalie Mae Edwards bị camera của North River Park ghi lại khi di chuyển về phía Nam khoảng 11.7km hướng tới Harbor Warehouse 12.",
+          "timeframe": "23:41 - 00:11",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "New York - Harbor Warehouse 12",
+          "mapHint": {
+            "id": "New York - Harbor Warehouse 12-1021",
+            "label": "New York - Harbor Warehouse 12",
+            "point": {
+              "lat": 40.738652993237224,
+              "lng": -74.04062053726315
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-harbor-warehouse-12-1",
+          "directionHint": "Natalie Mae Edwards bị camera của North River Park ghi lại khi di chuyển về phía Nam khoảng 11.7km hướng tới Harbor Warehouse 12."
+        }
+      },
+      {
+        "id": "9a25b1e8-fe26-43e4-bcce-cba17b3da46d",
+        "fullName": "Victoria Lee Smith",
+        "gender": "female",
+        "age": 27,
+        "nationality": "Hoa Kỳ",
+        "occupation": "yellowzebra Investigator",
+        "email": "celia.soto@example.com",
+        "phone": "926-646-901",
+        "cell": "688-999-204",
+        "dob": "1998-06-17T05:49:59.105Z",
+        "registered": "2008-05-28T07:43:19.187Z",
+        "idNumber": "70343223-N",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.73785637563557,
+          "lng": -74.02537348616845
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/70.jpg",
+        "timezone": "Midway Island, Samoa",
+        "seed": "yellowzebra631",
+        "suspicionLevel": 0.6,
+        "alibi": "Đang tham gia một buổi tiệc sinh nhật",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-9a25b1e8-fe26-43e4-bcce-cba17b3da46d",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Lily James Anderson. Ngày hôm đó, khoảng 00:09 - 00:39, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại New York - Harbor Warehouse 12. Victoria Lee Smith bị camera của Midtown Medical Center ghi lại khi di chuyển về phía Tây Nam khoảng 6.9km hướng tới Harbor Warehouse 12.",
+          "timeframe": "00:09 - 00:39",
+          "action": "bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường",
+          "locationLabel": "New York - Harbor Warehouse 12",
+          "mapHint": {
+            "id": "New York - Harbor Warehouse 12-4305",
+            "label": "New York - Harbor Warehouse 12",
+            "point": {
+              "lat": 40.7281697801888,
+              "lng": -74.0534298767781
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-harbor-warehouse-12-1",
+          "directionHint": "Victoria Lee Smith bị camera của Midtown Medical Center ghi lại khi di chuyển về phía Tây Nam khoảng 6.9km hướng tới Harbor Warehouse 12."
+        }
+      },
+      {
+        "id": "4b702456-0340-48c9-8ba9-4db4ed9d6639",
+        "fullName": "Olivia Marie Anderson",
+        "gender": "female",
+        "age": 56,
+        "nationality": "Hoa Kỳ",
+        "occupation": "whiterabbit Investigator",
+        "email": "nicole.hansen@example.com",
+        "phone": "013873 09773",
+        "cell": "07119 728885",
+        "dob": "1969-08-29T22:53:27.641Z",
+        "registered": "2012-06-09T23:20:42.722Z",
+        "idNumber": "WM 80 43 76 G",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.74586270429051,
+          "lng": -74.08585856066061
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/39.jpg",
+        "timezone": "Beijing, Perth, Singapore, Hong Kong",
+        "seed": "whiterabbit331",
+        "suspicionLevel": 0.5,
+        "alibi": "Đang đi dạo trong công viên",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-4b702456-0340-48c9-8ba9-4db4ed9d6639",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Lily James Anderson. Ngày hôm đó, khoảng 23:39 - 00:09, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại New York - Liberty Observation Deck. Olivia Marie Anderson bị camera của North River Park ghi lại khi di chuyển về phía Tây Nam khoảng 14.3km hướng tới Liberty Observation Deck.",
+          "timeframe": "23:39 - 00:09",
+          "action": "thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông",
+          "locationLabel": "New York - Liberty Observation Deck",
+          "mapHint": {
+            "id": "New York - Liberty Observation Deck-1856",
+            "label": "New York - Liberty Observation Deck",
+            "point": {
+              "lat": 40.6484597115621,
+              "lng": -74.0431250385642
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-liberty-observation-deck-0",
+          "directionHint": "Olivia Marie Anderson bị camera của North River Park ghi lại khi di chuyển về phía Tây Nam khoảng 14.3km hướng tới Liberty Observation Deck."
+        }
+      },
+      {
+        "id": "924a67dc-85e3-4edd-b572-2716de03dab8",
+        "fullName": "Mason Rose Anderson",
+        "gender": "male",
+        "age": 36,
+        "nationality": "Hoa Kỳ",
+        "occupation": "blueswan Investigator",
+        "email": "marvin.stephens@example.com",
+        "phone": "(480) 217-9621",
+        "cell": "(992) 694-4493",
+        "dob": "1989-08-08T04:14:44.033Z",
+        "registered": "2020-10-21T16:30:58.916Z",
+        "idNumber": "172-22-4344",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.74068886099061,
+          "lng": -73.94284118017026
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/57.jpg",
+        "timezone": "Alaska",
+        "seed": "blueswan454",
+        "suspicionLevel": 0.47,
+        "alibi": "Đang câu cá ở hồ ngoại ô",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-924a67dc-85e3-4edd-b572-2716de03dab8",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Lily James Anderson. Ngày hôm đó, khoảng 00:27 - 00:57, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại New York - Fulton Subway Hub. Mason Rose Anderson được báo cáo đi về phía Đông Nam của Fulton Subway Hub, luôn ở trong bán kính 2.1km quanh địa điểm này.",
+          "timeframe": "00:27 - 00:57",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "New York - Fulton Subway Hub",
+          "mapHint": {
+            "id": "New York - Fulton Subway Hub-8251",
+            "label": "New York - Fulton Subway Hub",
+            "point": {
+              "lat": 40.7199478674639,
+              "lng": -74.05008238015752
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-fulton-subway-hub-3",
+          "directionHint": "Mason Rose Anderson được báo cáo đi về phía Đông Nam của Fulton Subway Hub, luôn ở trong bán kính 2.1km quanh địa điểm này."
+        }
+      },
+      {
+        "id": "d4c2d4e7-fa9c-4756-aa5e-18484d21cee6",
+        "fullName": "Harper Mae Johnson",
+        "gender": "female",
+        "age": 45,
+        "nationality": "Hoa Kỳ",
+        "occupation": "happyladybug Investigator",
+        "email": "isabella.kumar@example.com",
+        "phone": "(601)-745-6920",
+        "cell": "(835)-827-0924",
+        "dob": "1980-10-18T02:35:40.098Z",
+        "registered": "2018-06-10T10:54:29.453Z",
+        "idNumber": "N/A",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.788036490480906,
+          "lng": -74.02976975849671
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/32.jpg",
+        "timezone": "Adelaide, Darwin",
+        "seed": "happyladybug968",
+        "suspicionLevel": 0.41,
+        "alibi": "Đang làm việc tại văn phòng",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-d4c2d4e7-fa9c-4756-aa5e-18484d21cee6",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Lily James Anderson. Ngày hôm đó, khoảng 01:31 - 02:01, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại New York - Midtown Medical Center. Harper Mae Johnson được báo cáo đi về phía Đông của Midtown Medical Center, luôn ở trong bán kính 0.9km quanh địa điểm này.",
+          "timeframe": "01:31 - 02:01",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "New York - Midtown Medical Center",
+          "mapHint": {
+            "id": "New York - Midtown Medical Center-4630",
+            "label": "New York - Midtown Medical Center",
+            "point": {
+              "lat": 40.78530572275743,
+              "lng": -73.93472733760717
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-midtown-medical-center-4",
+          "directionHint": "Harper Mae Johnson được báo cáo đi về phía Đông của Midtown Medical Center, luôn ở trong bán kính 0.9km quanh địa điểm này."
+        }
+      },
+      {
+        "id": "ba1a6c19-313f-46a6-821c-8e3f4d8716d8",
+        "fullName": "Lily Marie Johnson",
+        "gender": "female",
+        "age": 73,
+        "nationality": "Hoa Kỳ",
+        "occupation": "biggorilla Investigator",
+        "email": "morgane.aubert@example.com",
+        "phone": "04-91-59-42-52",
+        "cell": "06-79-75-55-04",
+        "dob": "1952-08-04T10:28:59.191Z",
+        "registered": "2021-09-09T09:46:52.769Z",
+        "idNumber": "2520785013166 45",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.722181514736235,
+          "lng": -73.98287014459189
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/83.jpg",
+        "timezone": "Mountain Time (US & Canada)",
+        "seed": "biggorilla732",
+        "suspicionLevel": 0.33,
+        "alibi": "Đang làm việc tại văn phòng",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-ba1a6c19-313f-46a6-821c-8e3f4d8716d8",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Lily James Anderson. Ngày hôm đó, khoảng 21:57 - 22:27, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại New York - Midtown Medical Center. Lily Marie Johnson được báo cáo đi về phía Đông của Midtown Medical Center, luôn ở trong bán kính 1.2km quanh địa điểm này.",
+          "timeframe": "21:57 - 22:27",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "New York - Midtown Medical Center",
+          "mapHint": {
+            "id": "New York - Midtown Medical Center-1537",
+            "label": "New York - Midtown Medical Center",
+            "point": {
+              "lat": 40.71149864120055,
+              "lng": -73.94991878552827
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-midtown-medical-center-4",
+          "directionHint": "Lily Marie Johnson được báo cáo đi về phía Đông của Midtown Medical Center, luôn ở trong bán kính 1.2km quanh địa điểm này."
+        }
+      },
+      {
+        "id": "55ee1f3b-4089-4f08-a0dd-ef08b85777f9",
+        "fullName": "Abigail Grace Carter",
+        "gender": "female",
+        "age": 65,
+        "nationality": "Hoa Kỳ",
+        "occupation": "whitemeercat Investigator",
+        "email": "kimberly.freeman@example.com",
+        "phone": "013873 36069",
+        "cell": "07731 593564",
+        "dob": "1960-05-05T01:30:38.275Z",
+        "registered": "2003-05-13T16:06:02.734Z",
+        "idNumber": "OX 21 31 18 E",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.64241487671188,
+          "lng": -73.91733905473035
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/30.jpg",
+        "timezone": "Eastern Time (US & Canada), Bogota, Lima",
+        "seed": "whitemeercat127",
+        "suspicionLevel": 0.47,
+        "alibi": "Đang sửa xe tại gara",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-55ee1f3b-4089-4f08-a0dd-ef08b85777f9",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Lily James Anderson. Ngày hôm đó, khoảng 00:08 - 00:38, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại New York - Midtown Medical Center. Abigail Grace Carter bị camera của Liberty Observation Deck ghi lại khi di chuyển về phía Đông Bắc khoảng 9.7km hướng tới Midtown Medical Center.",
+          "timeframe": "00:08 - 00:38",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "New York - Midtown Medical Center",
+          "mapHint": {
+            "id": "New York - Midtown Medical Center-3582",
+            "label": "New York - Midtown Medical Center",
+            "point": {
+              "lat": 40.75264825595189,
+              "lng": -74.00663948433939
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-midtown-medical-center-4",
+          "directionHint": "Abigail Grace Carter bị camera của Liberty Observation Deck ghi lại khi di chuyển về phía Đông Bắc khoảng 9.7km hướng tới Midtown Medical Center."
+        }
+      },
+      {
+        "id": "4e513d5c-1824-4e59-bf4b-d6e24e5a2b73",
+        "fullName": "Grace Lynn Foster",
+        "gender": "female",
+        "age": 73,
+        "nationality": "Hoa Kỳ",
+        "occupation": "brownmeercat Investigator",
+        "email": "eva-maria.linke@example.com",
+        "phone": "0711-0951508",
+        "cell": "0172-8305495",
+        "dob": "1952-05-01T10:24:55.669Z",
+        "registered": "2021-05-03T08:17:03.445Z",
+        "idNumber": "67 010552 L 672",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.740054949870434,
+          "lng": -73.94738101638039
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/41.jpg",
+        "timezone": "Beijing, Perth, Singapore, Hong Kong",
+        "seed": "brownmeercat941",
+        "suspicionLevel": 0.4,
+        "alibi": "Đang ăn tối cùng gia đình",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-4e513d5c-1824-4e59-bf4b-d6e24e5a2b73",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Lily James Anderson. Ngày hôm đó, khoảng 01:11 - 01:41, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại New York - Fulton Subway Hub. Grace Lynn Foster bị camera của Midtown Medical Center ghi lại khi di chuyển về phía Tây Nam khoảng 6.2km hướng tới Fulton Subway Hub.",
+          "timeframe": "01:11 - 01:41",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "New York - Fulton Subway Hub",
+          "mapHint": {
+            "id": "New York - Fulton Subway Hub-5523",
+            "label": "New York - Fulton Subway Hub",
+            "point": {
+              "lat": 40.70370769137107,
+              "lng": -74.02515475439895
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-fulton-subway-hub-3",
+          "directionHint": "Grace Lynn Foster bị camera của Midtown Medical Center ghi lại khi di chuyển về phía Tây Nam khoảng 6.2km hướng tới Fulton Subway Hub."
+        }
+      },
+      {
+        "id": "af35d331-b1ef-46e4-af38-f1fb4baae2a0",
+        "fullName": "Ethan Lee Bennett",
+        "gender": "male",
+        "age": 68,
+        "nationality": "Hoa Kỳ",
+        "occupation": "redgoose Investigator",
+        "email": "daniel.mortensen@example.com",
+        "phone": "56476146",
+        "cell": "61637062",
+        "dob": "1957-03-08T15:46:39.452Z",
+        "registered": "2014-12-06T03:14:44.977Z",
+        "idNumber": "080357-0193",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.7094,
+          "lng": -74.0094
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/27.jpg",
+        "timezone": "Atlantic Time (Canada), Caracas, La Paz",
+        "seed": "redgoose296",
+        "suspicionLevel": 0.98,
+        "alibi": "Từ chối khai báo lịch trình",
+        "role": "killer",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-af35d331-b1ef-46e4-af38-f1fb4baae2a0",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Lily James Anderson. Ngày hôm đó, khoảng 20:48 - 21:18, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại New York - Fulton Subway Hub. Ethan Lee Bennett được báo cáo đi về phía Đông Nam của Fulton Subway Hub, luôn ở trong bán kính 1km quanh địa điểm này.",
+          "timeframe": "20:48 - 21:18",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "New York - Fulton Subway Hub",
+          "mapHint": {
+            "id": "New York - Fulton Subway Hub-1256",
+            "label": "New York - Fulton Subway Hub",
+            "point": {
+              "lat": 40.70471268393621,
+              "lng": -73.98638876613285
+            },
+            "radiusMeters": 900
+          },
+          "reliability": "shaky",
+          "landmarkId": "landmark-new-york-fulton-subway-hub-3",
+          "directionHint": "Ethan Lee Bennett được báo cáo đi về phía Đông Nam của Fulton Subway Hub, luôn ở trong bán kính 1km quanh địa điểm này."
+        }
+      },
+      {
+        "id": "e7f93b16-b2fd-4be1-9e73-93cfc98906d8",
+        "fullName": "Ella Mae Carter",
+        "gender": "female",
+        "age": 67,
+        "nationality": "Hoa Kỳ",
+        "occupation": "organictiger Investigator",
+        "email": "nelli.rantanen@example.com",
+        "phone": "02-094-149",
+        "cell": "046-866-96-97",
+        "dob": "1958-05-05T17:02:18.388Z",
+        "registered": "2016-03-19T06:15:53.271Z",
+        "idNumber": "NaNNA918undefined",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.58581085637126,
+          "lng": -73.99488889619215
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/17.jpg",
+        "timezone": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk",
+        "seed": "organictiger676",
+        "suspicionLevel": 0.7,
+        "alibi": "Đang ngủ tại nhà riêng",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-e7f93b16-b2fd-4be1-9e73-93cfc98906d8",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Lily James Anderson. Ngày hôm đó, khoảng 23:49 - 00:19, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại New York - Midtown Medical Center. Ella Mae Carter được báo cáo đi về phía Đông của Midtown Medical Center, luôn ở trong bán kính 1.3km quanh địa điểm này.",
+          "timeframe": "23:49 - 00:19",
+          "action": "bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường",
+          "locationLabel": "New York - Midtown Medical Center",
+          "mapHint": {
+            "id": "New York - Midtown Medical Center-7404",
+            "label": "New York - Midtown Medical Center",
+            "point": {
+              "lat": 40.74838105368074,
+              "lng": -73.97012314144521
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-midtown-medical-center-4",
+          "directionHint": "Ella Mae Carter được báo cáo đi về phía Đông của Midtown Medical Center, luôn ở trong bán kính 1.3km quanh địa điểm này."
+        }
+      },
+      {
+        "id": "b8acb2ef-dd2a-43c3-98ef-1dc98b0b2600",
+        "fullName": "Victoria Grace Carter",
+        "gender": "female",
+        "age": 27,
+        "nationality": "Hoa Kỳ",
+        "occupation": "angryleopard Investigator",
+        "email": "maddison.lee@example.com",
+        "phone": "(315)-551-7781",
+        "cell": "(622)-896-6215",
+        "dob": "1998-09-18T12:12:11.196Z",
+        "registered": "2013-05-19T20:14:20.124Z",
+        "idNumber": "N/A",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.760913328209085,
+          "lng": -74.0088377050834
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/81.jpg",
+        "timezone": "Almaty, Dhaka, Colombo",
+        "seed": "angryleopard332",
+        "suspicionLevel": 0.42,
+        "alibi": "Đang đi dạo trong công viên",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-b8acb2ef-dd2a-43c3-98ef-1dc98b0b2600",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Lily James Anderson. Ngày hôm đó, khoảng 01:00 - 01:30, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại New York - Liberty Observation Deck. Victoria Grace Carter được báo cáo đi về phía Đông Nam của Liberty Observation Deck, luôn ở trong bán kính 2.2km quanh địa điểm này.",
+          "timeframe": "01:00 - 01:30",
+          "action": "thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông",
+          "locationLabel": "New York - Liberty Observation Deck",
+          "mapHint": {
+            "id": "New York - Liberty Observation Deck-8617",
+            "label": "New York - Liberty Observation Deck",
+            "point": {
+              "lat": 40.69906766922977,
+              "lng": -74.02786480478755
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-liberty-observation-deck-0",
+          "directionHint": "Victoria Grace Carter được báo cáo đi về phía Đông Nam của Liberty Observation Deck, luôn ở trong bán kính 2.2km quanh địa điểm này."
+        }
+      },
+      {
+        "id": "869d0519-5c98-429c-ad30-c2c55ba136dd",
+        "fullName": "Sophia Alexander Mitchell",
+        "gender": "female",
+        "age": 49,
+        "nationality": "Hoa Kỳ",
+        "occupation": "yellowfish Investigator",
+        "email": "marilou.knight@example.com",
+        "phone": "R71 J97-4576",
+        "cell": "T89 C57-4689",
+        "dob": "1976-02-22T00:16:07.485Z",
+        "registered": "2019-02-20T17:57:47.417Z",
+        "idNumber": "941748659",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.62650127602628,
+          "lng": -74.0111567261914
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/7.jpg",
+        "timezone": "Magadan, Solomon Islands, New Caledonia",
+        "seed": "yellowfish649",
+        "suspicionLevel": 0.42,
+        "alibi": "Đang chơi bowling cùng bạn bè",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-869d0519-5c98-429c-ad30-c2c55ba136dd",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Lily James Anderson. Ngày hôm đó, khoảng 22:44 - 23:14, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại New York - Fulton Subway Hub. Sophia Alexander Mitchell bị camera của North River Park ghi lại khi di chuyển về phía Nam khoảng 11.1km hướng tới Fulton Subway Hub.",
+          "timeframe": "22:44 - 23:14",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "New York - Fulton Subway Hub",
+          "mapHint": {
+            "id": "New York - Fulton Subway Hub-7585",
+            "label": "New York - Fulton Subway Hub",
+            "point": {
+              "lat": 40.68761604709607,
+              "lng": -74.02432754812352
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-fulton-subway-hub-3",
+          "directionHint": "Sophia Alexander Mitchell bị camera của North River Park ghi lại khi di chuyển về phía Nam khoảng 11.1km hướng tới Fulton Subway Hub."
+        }
+      },
+      {
+        "id": "bce9e415-df54-4d1c-9d0b-ab525931d67d",
+        "fullName": "Hunter Lynn Johnson",
+        "gender": "male",
+        "age": 36,
+        "nationality": "Hoa Kỳ",
+        "occupation": "silverbear Investigator",
+        "email": "angus.patel@example.com",
+        "phone": "(046)-823-7043",
+        "cell": "(675)-022-9676",
+        "dob": "1989-08-31T13:22:55.831Z",
+        "registered": "2004-04-13T22:51:05.251Z",
+        "idNumber": "N/A",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.58779747802841,
+          "lng": -74.03751733039417
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/47.jpg",
+        "timezone": "Bangkok, Hanoi, Jakarta",
+        "seed": "silverbear596",
+        "suspicionLevel": 0.32,
+        "alibi": "Đang tham gia lớp học nấu ăn",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-bce9e415-df54-4d1c-9d0b-ab525931d67d",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Lily James Anderson. Ngày hôm đó, khoảng 23:19 - 23:49, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại New York - North River Park. Hunter Lynn Johnson bị camera của Midtown Medical Center ghi lại khi di chuyển về phía Bắc khoảng 5.1km hướng tới North River Park.",
+          "timeframe": "23:19 - 23:49",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "New York - North River Park",
+          "mapHint": {
+            "id": "New York - North River Park-5701",
+            "label": "New York - North River Park",
+            "point": {
+              "lat": 40.83469140320401,
+              "lng": -74.00952209001798
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-north-river-park-2",
+          "directionHint": "Hunter Lynn Johnson bị camera của Midtown Medical Center ghi lại khi di chuyển về phía Bắc khoảng 5.1km hướng tới North River Park."
+        }
+      },
+      {
+        "id": "f13c5e6f-6366-4c94-be0c-4f77eba2855d",
+        "fullName": "Jacob Lynn Carter",
+        "gender": "male",
+        "age": 78,
+        "nationality": "Hoa Kỳ",
+        "occupation": "angrydog Investigator",
+        "email": "topias.keranen@example.com",
+        "phone": "04-113-035",
+        "cell": "047-478-48-48",
+        "dob": "1947-02-18T07:03:18.186Z",
+        "registered": "2015-08-23T04:25:50.176Z",
+        "idNumber": "NaNNA719undefined",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.71256951511811,
+          "lng": -73.99974323327649
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/32.jpg",
+        "timezone": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk",
+        "seed": "angrydog704",
+        "suspicionLevel": 0.44,
+        "alibi": "Đang làm việc tại văn phòng",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-f13c5e6f-6366-4c94-be0c-4f77eba2855d",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Lily James Anderson. Ngày hôm đó, khoảng 00:58 - 01:28, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại New York - Liberty Observation Deck. Jacob Lynn Carter bị camera của Fulton Subway Hub ghi lại khi di chuyển về phía Tây Nam khoảng 3.7km hướng tới Liberty Observation Deck.",
+          "timeframe": "00:58 - 01:28",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "New York - Liberty Observation Deck",
+          "mapHint": {
+            "id": "New York - Liberty Observation Deck-6362",
+            "label": "New York - Liberty Observation Deck",
+            "point": {
+              "lat": 40.65819235200361,
+              "lng": -74.05076771049573
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-liberty-observation-deck-0",
+          "directionHint": "Jacob Lynn Carter bị camera của Fulton Subway Hub ghi lại khi di chuyển về phía Tây Nam khoảng 3.7km hướng tới Liberty Observation Deck."
+        }
+      },
+      {
+        "id": "dadb08cd-fd2b-463d-8db2-e38d2c5a3fb5",
+        "fullName": "Noah Mae Diaz",
+        "gender": "male",
+        "age": 39,
+        "nationality": "Hoa Kỳ",
+        "occupation": "happybird Investigator",
+        "email": "hugo.kumar@example.com",
+        "phone": "(985)-159-8525",
+        "cell": "(136)-793-2633",
+        "dob": "1986-06-10T14:54:43.055Z",
+        "registered": "2006-02-19T02:35:30.291Z",
+        "idNumber": "N/A",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.7094,
+          "lng": -74.0094
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/64.jpg",
+        "timezone": "Bombay, Calcutta, Madras, New Delhi",
+        "seed": "happybird914",
+        "suspicionLevel": 0.8,
+        "alibi": "Đang ăn tối cùng gia đình",
+        "role": "accomplice",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-dadb08cd-fd2b-463d-8db2-e38d2c5a3fb5",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Lily James Anderson. Khoảng 21:33 - 22:03, tôi có mặt ngay tại New York - Fulton Subway Hub, và tôi thấy Ethan Lee Bennett đứng lỳ tại đó trước khi mọi chuyện xảy ra. Noah Mae Diaz bị camera của Liberty Observation Deck ghi lại khi di chuyển về phía Đông Bắc khoảng 3.7km hướng tới Fulton Subway Hub.",
+          "timeframe": "21:33 - 22:03",
+          "action": "bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường",
+          "locationLabel": "New York - Fulton Subway Hub",
+          "mapHint": {
+            "id": "New York - Fulton Subway Hub-9707",
+            "label": "New York - Fulton Subway Hub",
+            "point": {
+              "lat": 40.729303216674,
+              "lng": -74.05054608727396
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-fulton-subway-hub-3",
+          "directionHint": "Noah Mae Diaz bị camera của Liberty Observation Deck ghi lại khi di chuyển về phía Đông Bắc khoảng 3.7km hướng tới Fulton Subway Hub."
+        },
+        "secondaryTestimony": {
+          "id": "secondary-dadb08cd-fd2b-463d-8db2-e38d2c5a3fb5",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Được rồi, tôi sẽ hợp tác. Ethan Lee Bennett bảo tôi canh gác tại Ổ ẩn náu New York và hắn vẫn còn ở đó lúc 01:17.",
+          "timeframe": "01:07 - 01:37",
+          "action": "chỉ điểm tọa độ ẩn náu",
+          "locationLabel": "Ổ ẩn náu New York",
+          "mapHint": {
+            "id": "Ổ ẩn náu New York-8647",
+            "label": "Ổ ẩn náu New York",
+            "point": {
+              "lat": 40.6597886589082,
+              "lng": -73.99077890712823
+            },
+            "radiusMeters": 350
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "99ad887d-63f2-4b91-9748-7da1ae39daca",
+        "fullName": "Daniel James Hughes",
+        "gender": "male",
+        "age": 74,
+        "nationality": "Hoa Kỳ",
+        "occupation": "whiteostrich Investigator",
+        "email": "phoenix.johnson@example.com",
+        "phone": "(087)-231-1191",
+        "cell": "(098)-577-8082",
+        "dob": "1951-01-09T09:18:06.777Z",
+        "registered": "2004-02-28T23:38:13.967Z",
+        "idNumber": "N/A",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.65235914750924,
+          "lng": -73.91096569798867
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/64.jpg",
+        "timezone": "Mid-Atlantic",
+        "seed": "whiteostrich206",
+        "suspicionLevel": 0.3,
+        "alibi": "Đang khám bệnh tại bệnh viện",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-99ad887d-63f2-4b91-9748-7da1ae39daca",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Lily James Anderson. Ngày hôm đó, khoảng 21:29 - 21:59, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại New York - Midtown Medical Center. Daniel James Hughes bị camera của Liberty Observation Deck ghi lại khi di chuyển về phía Đông Bắc khoảng 9.7km hướng tới Midtown Medical Center.",
+          "timeframe": "21:29 - 21:59",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "New York - Midtown Medical Center",
+          "mapHint": {
+            "id": "New York - Midtown Medical Center-9152",
+            "label": "New York - Midtown Medical Center",
+            "point": {
+              "lat": 40.78070993761178,
+              "lng": -73.94547516047022
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-midtown-medical-center-4",
+          "directionHint": "Daniel James Hughes bị camera của Liberty Observation Deck ghi lại khi di chuyển về phía Đông Bắc khoảng 9.7km hướng tới Midtown Medical Center."
+        }
+      },
+      {
+        "id": "259eaf87-bf73-403b-bbf3-a688e8514e38",
+        "fullName": "Ethan Marie Johnson",
+        "gender": "male",
+        "age": 32,
+        "nationality": "Hoa Kỳ",
+        "occupation": "heavyostrich Investigator",
+        "email": "sander.nielsen@example.com",
+        "phone": "62543160",
+        "cell": "16094496",
+        "dob": "1993-04-28T16:02:50.715Z",
+        "registered": "2006-06-20T15:30:09.121Z",
+        "idNumber": "280493-2047",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.8104130482643,
+          "lng": -74.00132570290468
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/48.jpg",
+        "timezone": "Central Time (US & Canada), Mexico City",
+        "seed": "heavyostrich252",
+        "suspicionLevel": 0.65,
+        "alibi": "Đang bị kẹt xe trên đường cao tốc",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-259eaf87-bf73-403b-bbf3-a688e8514e38",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Lily James Anderson. Ngày hôm đó, khoảng 00:31 - 01:01, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại New York - Liberty Observation Deck. Ethan Marie Johnson được báo cáo đi về phía Đông Nam của Liberty Observation Deck, luôn ở trong bán kính 1.4km quanh địa điểm này.",
+          "timeframe": "00:31 - 01:01",
+          "action": "thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông",
+          "locationLabel": "New York - Liberty Observation Deck",
+          "mapHint": {
+            "id": "New York - Liberty Observation Deck-6859",
+            "label": "New York - Liberty Observation Deck",
+            "point": {
+              "lat": 40.710728397251295,
+              "lng": -74.08788801172562
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-liberty-observation-deck-0",
+          "directionHint": "Ethan Marie Johnson được báo cáo đi về phía Đông Nam của Liberty Observation Deck, luôn ở trong bán kính 1.4km quanh địa điểm này."
+        }
+      },
+      {
+        "id": "efe84895-4172-4868-813e-3a93f5aef07d",
+        "fullName": "Gabriel Lynn Anderson",
+        "gender": "male",
+        "age": 71,
+        "nationality": "Hoa Kỳ",
+        "occupation": "bluegorilla Investigator",
+        "email": "arnold.hill@example.com",
+        "phone": "07-8582-0389",
+        "cell": "0433-817-580",
+        "dob": "1954-03-23T08:38:33.379Z",
+        "registered": "2014-03-22T08:44:27.565Z",
+        "idNumber": "666313620",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.639760320879894,
+          "lng": -73.98405241905532
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/70.jpg",
+        "timezone": "Adelaide, Darwin",
+        "seed": "bluegorilla707",
+        "suspicionLevel": 0.34,
+        "alibi": "Đang trực ca đêm tại nơi làm việc",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-efe84895-4172-4868-813e-3a93f5aef07d",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Lily James Anderson. Ngày hôm đó, khoảng 21:41 - 22:11, tôi đã chuẩn bị các thùng hàng ở kho sau bến tàu tại New York - Fulton Subway Hub. Gabriel Lynn Anderson bị camera của Liberty Observation Deck ghi lại khi di chuyển về phía Đông Bắc khoảng 3.7km hướng tới Fulton Subway Hub.",
+          "timeframe": "21:41 - 22:11",
+          "action": "chuẩn bị các thùng hàng ở kho sau bến tàu",
+          "locationLabel": "New York - Fulton Subway Hub",
+          "mapHint": {
+            "id": "New York - Fulton Subway Hub-3706",
+            "label": "New York - Fulton Subway Hub",
+            "point": {
+              "lat": 40.73352455028389,
+              "lng": -74.03715133471005
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-fulton-subway-hub-3",
+          "directionHint": "Gabriel Lynn Anderson bị camera của Liberty Observation Deck ghi lại khi di chuyển về phía Đông Bắc khoảng 3.7km hướng tới Fulton Subway Hub."
+        }
+      },
+      {
+        "id": "46a3499e-582b-4367-a9c0-ae72b498bbc8",
+        "fullName": "Ryan Grace Smith",
+        "gender": "male",
+        "age": 39,
+        "nationality": "Hoa Kỳ",
+        "occupation": "sadmeercat Investigator",
+        "email": "charlie.patel@example.com",
+        "phone": "(065)-805-3150",
+        "cell": "(534)-873-5895",
+        "dob": "1986-11-29T01:39:44.500Z",
+        "registered": "2019-11-07T16:17:12.649Z",
+        "idNumber": "N/A",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.710509276035324,
+          "lng": -73.88301825135355
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/49.jpg",
+        "timezone": "Mid-Atlantic",
+        "seed": "sadmeercat859",
+        "suspicionLevel": 0.65,
+        "alibi": "Đang khám bệnh tại bệnh viện",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-46a3499e-582b-4367-a9c0-ae72b498bbc8",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Lily James Anderson. Ngày hôm đó, khoảng 22:24 - 22:54, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại New York - Midtown Medical Center. Ryan Grace Smith bị camera của Harbor Warehouse 12 ghi lại khi di chuyển về phía Đông Bắc khoảng 6.9km hướng tới Midtown Medical Center.",
+          "timeframe": "22:24 - 22:54",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "New York - Midtown Medical Center",
+          "mapHint": {
+            "id": "New York - Midtown Medical Center-7804",
+            "label": "New York - Midtown Medical Center",
+            "point": {
+              "lat": 40.76442830271665,
+              "lng": -73.93062150895129
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-midtown-medical-center-4",
+          "directionHint": "Ryan Grace Smith bị camera của Harbor Warehouse 12 ghi lại khi di chuyển về phía Đông Bắc khoảng 6.9km hướng tới Midtown Medical Center."
+        }
+      },
+      {
+        "id": "59d5dff4-6b39-4c4e-9e95-68bb1ed507db",
+        "fullName": "Owen Lynn Hughes",
+        "gender": "male",
+        "age": 63,
+        "nationality": "Hoa Kỳ",
+        "occupation": "tinyostrich Investigator",
+        "email": "othmar.ludwig@example.com",
+        "phone": "0866-6545017",
+        "cell": "0176-6656597",
+        "dob": "1962-10-06T00:36:38.779Z",
+        "registered": "2004-07-02T19:33:08.124Z",
+        "idNumber": "52 051062 L 387",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.67314766208238,
+          "lng": -73.98348100065009
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/50.jpg",
+        "timezone": "Newfoundland",
+        "seed": "tinyostrich606",
+        "suspicionLevel": 0.61,
+        "alibi": "Đang tham gia hoạt động tình nguyện",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-59d5dff4-6b39-4c4e-9e95-68bb1ed507db",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Lily James Anderson. Ngày hôm đó, khoảng 23:24 - 23:54, tôi đã bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường tại New York - Midtown Medical Center. Owen Lynn Hughes bị camera của Fulton Subway Hub ghi lại khi di chuyển về phía Đông Bắc khoảng 6.2km hướng tới Midtown Medical Center.",
+          "timeframe": "23:24 - 23:54",
+          "action": "bám theo dấu vết chiếc xe tải bị nghi ngờ rời khỏi hiện trường",
+          "locationLabel": "New York - Midtown Medical Center",
+          "mapHint": {
+            "id": "New York - Midtown Medical Center-5907",
+            "label": "New York - Midtown Medical Center",
+            "point": {
+              "lat": 40.75595412054211,
+              "lng": -73.93180843195877
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-midtown-medical-center-4",
+          "directionHint": "Owen Lynn Hughes bị camera của Fulton Subway Hub ghi lại khi di chuyển về phía Đông Bắc khoảng 6.2km hướng tới Midtown Medical Center."
+        }
+      },
+      {
+        "id": "cb156f59-d3ff-4e82-87ce-e9fef77a55fb",
+        "fullName": "Madison Rose Garcia",
+        "gender": "female",
+        "age": 66,
+        "nationality": "Hoa Kỳ",
+        "occupation": "goldenrabbit Investigator",
+        "email": "elizabeth.macdonald@example.com",
+        "phone": "F85 P48-9013",
+        "cell": "L46 V64-4222",
+        "dob": "1959-10-14T21:02:42.434Z",
+        "registered": "2017-01-31T13:48:33.951Z",
+        "idNumber": "407568112",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.67903574396824,
+          "lng": -74.01763299371713
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/70.jpg",
+        "timezone": "Eastern Australia, Guam, Vladivostok",
+        "seed": "goldenrabbit528",
+        "suspicionLevel": 0.31,
+        "alibi": "Đang khám bệnh tại bệnh viện",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-cb156f59-d3ff-4e82-87ce-e9fef77a55fb",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Lily James Anderson. Ngày hôm đó, khoảng 02:26 - 02:56, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại New York - North River Park. Madison Rose Garcia bị camera của Harbor Warehouse 12 ghi lại khi di chuyển về phía Bắc khoảng 11.7km hướng tới North River Park.",
+          "timeframe": "02:26 - 02:56",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "New York - North River Park",
+          "mapHint": {
+            "id": "New York - North River Park-9969",
+            "label": "New York - North River Park",
+            "point": {
+              "lat": 40.7657039711982,
+              "lng": -73.98045756756719
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-north-river-park-2",
+          "directionHint": "Madison Rose Garcia bị camera của Harbor Warehouse 12 ghi lại khi di chuyển về phía Bắc khoảng 11.7km hướng tới North River Park."
+        }
+      },
+      {
+        "id": "d02e95cb-27d0-4cda-ac81-cf37dc84ccc0",
+        "fullName": "Ryan Alexander Hughes",
+        "gender": "male",
+        "age": 50,
+        "nationality": "Hoa Kỳ",
+        "occupation": "bigbird Investigator",
+        "email": "max.wilson@example.com",
+        "phone": "(474)-417-2220",
+        "cell": "(611)-291-9510",
+        "dob": "1975-02-19T04:22:46.601Z",
+        "registered": "2010-04-23T14:30:36.451Z",
+        "idNumber": "N/A",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.75930037320666,
+          "lng": -73.88173541354976
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/63.jpg",
+        "timezone": "Mountain Time (US & Canada)",
+        "seed": "bigbird684",
+        "suspicionLevel": 0.37,
+        "alibi": "Đang tham dự đám cưới người thân",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-d02e95cb-27d0-4cda-ac81-cf37dc84ccc0",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Lily James Anderson. Ngày hôm đó, khoảng 23:18 - 23:48, tôi đã kiểm tra hệ thống camera của nhà thờ cổ tại New York - Fulton Subway Hub. Ryan Alexander Hughes được báo cáo đi về phía Đông Nam của Fulton Subway Hub, luôn ở trong bán kính 1.6km quanh địa điểm này.",
+          "timeframe": "23:18 - 23:48",
+          "action": "kiểm tra hệ thống camera của nhà thờ cổ",
+          "locationLabel": "New York - Fulton Subway Hub",
+          "mapHint": {
+            "id": "New York - Fulton Subway Hub-4745",
+            "label": "New York - Fulton Subway Hub",
+            "point": {
+              "lat": 40.72770514809117,
+              "lng": -74.0153200670803
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-fulton-subway-hub-3",
+          "directionHint": "Ryan Alexander Hughes được báo cáo đi về phía Đông Nam của Fulton Subway Hub, luôn ở trong bán kính 1.6km quanh địa điểm này."
+        }
+      },
+      {
+        "id": "a51598de-3a3c-40ac-9002-3e4938ed7ab5",
+        "fullName": "Caleb Lynn Johnson",
+        "gender": "male",
+        "age": 28,
+        "nationality": "Hoa Kỳ",
+        "occupation": "tinylion Investigator",
+        "email": "nikolaj.sorensen@example.com",
+        "phone": "84052698",
+        "cell": "08121344",
+        "dob": "1997-11-24T06:35:08.524Z",
+        "registered": "2010-10-03T05:32:39.851Z",
+        "idNumber": "241197-2331",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.68366861989564,
+          "lng": -73.96969970771607
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/8.jpg",
+        "timezone": "Kaliningrad, South Africa",
+        "seed": "tinylion297",
+        "suspicionLevel": 0.33,
+        "alibi": "Đang đi du lịch nước ngoài",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-a51598de-3a3c-40ac-9002-3e4938ed7ab5",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Lily James Anderson. Ngày hôm đó, khoảng 22:18 - 22:48, tôi đã đi khảo sát công trường dang dở ở ngoại ô tại New York - North River Park. Caleb Lynn Johnson bị camera của Liberty Observation Deck ghi lại khi di chuyển về phía Đông Bắc khoảng 14.3km hướng tới North River Park.",
+          "timeframe": "22:18 - 22:48",
+          "action": "đi khảo sát công trường dang dở ở ngoại ô",
+          "locationLabel": "New York - North River Park",
+          "mapHint": {
+            "id": "New York - North River Park-1789",
+            "label": "New York - North River Park",
+            "point": {
+              "lat": 40.81869753117524,
+              "lng": -73.980818798979
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-north-river-park-2",
+          "directionHint": "Caleb Lynn Johnson bị camera của Liberty Observation Deck ghi lại khi di chuyển về phía Đông Bắc khoảng 14.3km hướng tới North River Park."
+        }
+      },
+      {
+        "id": "c7d9c0d2-385f-444e-884f-8d528992ccc2",
+        "fullName": "Madison Lee Edwards",
+        "gender": "female",
+        "age": 52,
+        "nationality": "Hoa Kỳ",
+        "occupation": "brownrabbit Investigator",
+        "email": "signe.madsen@example.com",
+        "phone": "71928728",
+        "cell": "73341448",
+        "dob": "1972-12-31T10:21:50.429Z",
+        "registered": "2014-09-21T22:49:53.986Z",
+        "idNumber": "311272-4165",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.61510057537996,
+          "lng": -74.02185921774628
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/45.jpg",
+        "timezone": "Eastern Time (US & Canada), Bogota, Lima",
+        "seed": "brownrabbit198",
+        "suspicionLevel": 0.56,
+        "alibi": "Đang sửa xe tại gara",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-c7d9c0d2-385f-444e-884f-8d528992ccc2",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Lily James Anderson. Ngày hôm đó, khoảng 00:19 - 00:49, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại New York - Midtown Medical Center. Madison Lee Edwards bị camera của Harbor Warehouse 12 ghi lại khi di chuyển về phía Đông Bắc khoảng 6.9km hướng tới Midtown Medical Center.",
+          "timeframe": "00:19 - 00:49",
+          "action": "thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông",
+          "locationLabel": "New York - Midtown Medical Center",
+          "mapHint": {
+            "id": "New York - Midtown Medical Center-8335",
+            "label": "New York - Midtown Medical Center",
+            "point": {
+              "lat": 40.76159293428175,
+              "lng": -74.0157164411852
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-midtown-medical-center-4",
+          "directionHint": "Madison Lee Edwards bị camera của Harbor Warehouse 12 ghi lại khi di chuyển về phía Đông Bắc khoảng 6.9km hướng tới Midtown Medical Center."
+        }
+      },
+      {
+        "id": "fc8d259e-5c8b-4e54-9b40-4e0051f374ef",
+        "fullName": "Charlotte Marie Parker",
+        "gender": "female",
+        "age": 46,
+        "nationality": "Hoa Kỳ",
+        "occupation": "lazypeacock Investigator",
+        "email": "lidia.ganter@example.com",
+        "phone": "0609-3446210",
+        "cell": "0179-1094997",
+        "dob": "1979-09-20T01:14:11.360Z",
+        "registered": "2020-06-16T04:57:52.345Z",
+        "idNumber": "77 190979 G 793",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.61964615622714,
+          "lng": -74.02253773876409
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/86.jpg",
+        "timezone": "Eastern Time (US & Canada), Bogota, Lima",
+        "seed": "lazypeacock651",
+        "suspicionLevel": 0.62,
+        "alibi": "Đang tập gym tại phòng tập thể hình",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-fc8d259e-5c8b-4e54-9b40-4e0051f374ef",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Lily James Anderson. Ngày hôm đó, khoảng 22:29 - 22:59, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại New York - Harbor Warehouse 12. Charlotte Marie Parker được báo cáo đi về phía Đông Nam của Harbor Warehouse 12, luôn ở trong bán kính 1.9km quanh địa điểm này.",
+          "timeframe": "22:29 - 22:59",
+          "action": "dự một buổi cầu nguyện ngắn gần khu chợ trời",
+          "locationLabel": "New York - Harbor Warehouse 12",
+          "mapHint": {
+            "id": "New York - Harbor Warehouse 12-6427",
+            "label": "New York - Harbor Warehouse 12",
+            "point": {
+              "lat": 40.677749991497585,
+              "lng": -73.97639739804231
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-harbor-warehouse-12-1",
+          "directionHint": "Charlotte Marie Parker được báo cáo đi về phía Đông Nam của Harbor Warehouse 12, luôn ở trong bán kính 1.9km quanh địa điểm này."
+        }
+      },
+      {
+        "id": "deb4848d-5fc6-4b91-9290-1882107fc6ed",
+        "fullName": "Natalie Lynn Johnson",
+        "gender": "female",
+        "age": 76,
+        "nationality": "Hoa Kỳ",
+        "occupation": "browntiger Investigator",
+        "email": "rose.kumar@example.com",
+        "phone": "(193)-251-4086",
+        "cell": "(038)-634-7846",
+        "dob": "1949-03-01T12:28:31.924Z",
+        "registered": "2021-02-03T08:38:42.931Z",
+        "idNumber": "N/A",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.66831140842117,
+          "lng": -74.12794453860832
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/13.jpg",
+        "timezone": "Central Time (US & Canada), Mexico City",
+        "seed": "browntiger627",
+        "suspicionLevel": 0.68,
+        "alibi": "Đang mua sắm tại siêu thị",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-deb4848d-5fc6-4b91-9290-1882107fc6ed",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Lily James Anderson. Ngày hôm đó, khoảng 23:01 - 23:31, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại New York - Harbor Warehouse 12. Natalie Lynn Johnson bị camera của Midtown Medical Center ghi lại khi di chuyển về phía Tây Nam khoảng 6.9km hướng tới Harbor Warehouse 12.",
+          "timeframe": "23:01 - 23:31",
+          "action": "dự một buổi cầu nguyện ngắn gần khu chợ trời",
+          "locationLabel": "New York - Harbor Warehouse 12",
+          "mapHint": {
+            "id": "New York - Harbor Warehouse 12-8374",
+            "label": "New York - Harbor Warehouse 12",
+            "point": {
+              "lat": 40.753349485375544,
+              "lng": -74.0055542297408
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-harbor-warehouse-12-1",
+          "directionHint": "Natalie Lynn Johnson bị camera của Midtown Medical Center ghi lại khi di chuyển về phía Tây Nam khoảng 6.9km hướng tới Harbor Warehouse 12."
+        }
+      },
+      {
+        "id": "542e8e73-3459-46a7-94cc-80c1ff435580",
+        "fullName": "Lily James Parker",
+        "gender": "female",
+        "age": 53,
+        "nationality": "Hoa Kỳ",
+        "occupation": "orangemouse Investigator",
+        "email": "freja.johansen@example.com",
+        "phone": "24356216",
+        "cell": "47333723",
+        "dob": "1972-01-03T10:59:49.346Z",
+        "registered": "2005-12-01T04:46:09.552Z",
+        "idNumber": "030172-5799",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.78219655265711,
+          "lng": -73.8911354629755
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/77.jpg",
+        "timezone": "Tehran",
+        "seed": "orangemouse967",
+        "suspicionLevel": 0.45,
+        "alibi": "Đang sửa xe tại gara",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-542e8e73-3459-46a7-94cc-80c1ff435580",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Lily James Anderson. Ngày hôm đó, khoảng 22:55 - 23:25, tôi đã kiểm tra hệ thống camera của nhà thờ cổ tại New York - Fulton Subway Hub. Lily James Parker được báo cáo đi về phía Đông Nam của Fulton Subway Hub, luôn ở trong bán kính 2.2km quanh địa điểm này.",
+          "timeframe": "22:55 - 23:25",
+          "action": "kiểm tra hệ thống camera của nhà thờ cổ",
+          "locationLabel": "New York - Fulton Subway Hub",
+          "mapHint": {
+            "id": "New York - Fulton Subway Hub-6457",
+            "label": "New York - Fulton Subway Hub",
+            "point": {
+              "lat": 40.667502605445314,
+              "lng": -73.98488030207399
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-fulton-subway-hub-3",
+          "directionHint": "Lily James Parker được báo cáo đi về phía Đông Nam của Fulton Subway Hub, luôn ở trong bán kính 2.2km quanh địa điểm này."
+        }
+      },
+      {
+        "id": "bbc0e872-5513-42f0-87bf-9ea3b210e627",
+        "fullName": "Grace James Parker",
+        "gender": "female",
+        "age": 46,
+        "nationality": "Hoa Kỳ",
+        "occupation": "bluebutterfly Investigator",
+        "email": "mary.reid@example.com",
+        "phone": "06-4848-7568",
+        "cell": "0427-608-309",
+        "dob": "1979-05-11T17:17:41.813Z",
+        "registered": "2020-11-22T03:35:15.560Z",
+        "idNumber": "483658177",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.73032525823942,
+          "lng": -73.8747286122991
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/10.jpg",
+        "timezone": "Beijing, Perth, Singapore, Hong Kong",
+        "seed": "bluebutterfly114",
+        "suspicionLevel": 0.64,
+        "alibi": "Đang làm việc tại văn phòng",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-bbc0e872-5513-42f0-87bf-9ea3b210e627",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Lily James Anderson. Ngày hôm đó, khoảng 01:30 - 02:00, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại New York - North River Park. Grace James Parker bị camera của Fulton Subway Hub ghi lại khi di chuyển về phía Bắc khoảng 11.1km hướng tới North River Park.",
+          "timeframe": "01:30 - 02:00",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "New York - North River Park",
+          "mapHint": {
+            "id": "New York - North River Park-4019",
+            "label": "New York - North River Park",
+            "point": {
+              "lat": 40.78965416557938,
+              "lng": -73.97935355427134
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-north-river-park-2",
+          "directionHint": "Grace James Parker bị camera của Fulton Subway Hub ghi lại khi di chuyển về phía Bắc khoảng 11.1km hướng tới North River Park."
+        }
+      },
+      {
+        "id": "46904713-466a-456a-969a-bf48c6d7aef3",
+        "fullName": "Caleb Alexander Carter",
+        "gender": "male",
+        "age": 56,
+        "nationality": "Hoa Kỳ",
+        "occupation": "purpleleopard Investigator",
+        "email": "william.andersen@example.com",
+        "phone": "V87 J62-0435",
+        "cell": "G57 U99-4939",
+        "dob": "1968-12-10T12:21:20.702Z",
+        "registered": "2013-04-11T18:47:30.439Z",
+        "idNumber": "509283826",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.83228443994001,
+          "lng": -73.96481526731827
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/47.jpg",
+        "timezone": "Brussels, Copenhagen, Madrid, Paris",
+        "seed": "purpleleopard872",
+        "suspicionLevel": 0.6,
+        "alibi": "Đang sửa xe tại gara",
+        "role": "associate",
+        "relationshipTag": "colleague",
+        "testimony": {
+          "id": "testimony-46904713-466a-456a-969a-bf48c6d7aef3",
+          "relationshipSummary": "đồng nghiệp",
+          "narrative": "Tôi là đồng nghiệp của Lily James Anderson. Ngày hôm đó, khoảng 22:40 - 23:10, tôi đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại New York - North River Park. Caleb Alexander Carter được báo cáo đi về phía Đông của North River Park, luôn ở trong bán kính 0.9km quanh địa điểm này.",
+          "timeframe": "22:40 - 23:10",
+          "action": "đi giao tài liệu tại trụ sở cảnh sát khu vực",
+          "locationLabel": "New York - North River Park",
+          "mapHint": {
+            "id": "New York - North River Park-4342",
+            "label": "New York - North River Park",
+            "point": {
+              "lat": 40.812131323202884,
+              "lng": -73.95950345260016
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-north-river-park-2",
+          "directionHint": "Caleb Alexander Carter được báo cáo đi về phía Đông của North River Park, luôn ở trong bán kính 0.9km quanh địa điểm này."
+        }
+      },
+      {
+        "id": "41fcf27f-6047-4242-8a19-354f93489759",
+        "fullName": "Isabella Lynn Diaz",
+        "gender": "female",
+        "age": 44,
+        "nationality": "Hoa Kỳ",
+        "occupation": "goldenfrog Investigator",
+        "email": "anna-lena.herget@example.com",
+        "phone": "0488-5591152",
+        "cell": "0178-5820608",
+        "dob": "1981-10-25T09:54:37.607Z",
+        "registered": "2003-11-07T08:50:27.776Z",
+        "idNumber": "23 251081 H 524",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.628424818670354,
+          "lng": -73.90415202028048
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/23.jpg",
+        "timezone": "Tehran",
+        "seed": "goldenfrog747",
+        "suspicionLevel": 0.48,
+        "alibi": "Đang khám bệnh tại bệnh viện",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-41fcf27f-6047-4242-8a19-354f93489759",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Lily James Anderson. Ngày hôm đó, khoảng 02:25 - 02:55, tôi đã kiểm tra hệ thống camera của nhà thờ cổ tại New York - Midtown Medical Center. Isabella Lynn Diaz được báo cáo đi về phía Đông của Midtown Medical Center, luôn ở trong bán kính 2.3km quanh địa điểm này.",
+          "timeframe": "02:25 - 02:55",
+          "action": "kiểm tra hệ thống camera của nhà thờ cổ",
+          "locationLabel": "New York - Midtown Medical Center",
+          "mapHint": {
+            "id": "New York - Midtown Medical Center-1248",
+            "label": "New York - Midtown Medical Center",
+            "point": {
+              "lat": 40.737765792874804,
+              "lng": -74.02242380117531
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-midtown-medical-center-4",
+          "directionHint": "Isabella Lynn Diaz được báo cáo đi về phía Đông của Midtown Medical Center, luôn ở trong bán kính 2.3km quanh địa điểm này."
+        }
+      },
+      {
+        "id": "2a2da636-9a80-414f-9ec9-1712fd61fbad",
+        "fullName": "Ethan Lynn Diaz",
+        "gender": "male",
+        "age": 73,
+        "nationality": "Hoa Kỳ",
+        "occupation": "bigrabbit Investigator",
+        "email": "daniel.pascual@example.com",
+        "phone": "980-659-620",
+        "cell": "685-337-798",
+        "dob": "1952-02-20T03:23:42.673Z",
+        "registered": "2006-07-19T14:09:29.024Z",
+        "idNumber": "95313072-S",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.765307032083406,
+          "lng": -74.04263220857983
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/66.jpg",
+        "timezone": "Western Europe Time, London, Lisbon, Casablanca",
+        "seed": "bigrabbit390",
+        "suspicionLevel": 0.32,
+        "alibi": "Đang làm việc tại văn phòng",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-2a2da636-9a80-414f-9ec9-1712fd61fbad",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Lily James Anderson. Ngày hôm đó, khoảng 22:09 - 22:39, tôi đã lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng tại New York - Fulton Subway Hub. Ethan Lynn Diaz bị camera của North River Park ghi lại khi di chuyển về phía Nam khoảng 11.1km hướng tới Fulton Subway Hub.",
+          "timeframe": "22:09 - 22:39",
+          "action": "lái xe vòng quanh khu phố để thu thập hóa đơn giao hàng",
+          "locationLabel": "New York - Fulton Subway Hub",
+          "mapHint": {
+            "id": "New York - Fulton Subway Hub-9204",
+            "label": "New York - Fulton Subway Hub",
+            "point": {
+              "lat": 40.752958379402386,
+              "lng": -74.0295566833537
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-fulton-subway-hub-3",
+          "directionHint": "Ethan Lynn Diaz bị camera của North River Park ghi lại khi di chuyển về phía Nam khoảng 11.1km hướng tới Fulton Subway Hub."
+        }
+      },
+      {
+        "id": "29c0fcaa-20a6-4d93-b729-60ac1f0614d4",
+        "fullName": "Hunter James Mitchell",
+        "gender": "male",
+        "age": 59,
+        "nationality": "Hoa Kỳ",
+        "occupation": "greenmouse Investigator",
+        "email": "same.oliver@example.com",
+        "phone": "017683 87798",
+        "cell": "07945 907610",
+        "dob": "1966-04-27T07:10:16.976Z",
+        "registered": "2019-08-21T02:53:10.100Z",
+        "idNumber": "MS 45 87 78 G",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.69893720127414,
+          "lng": -74.09046276122389
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/71.jpg",
+        "timezone": "Kabul",
+        "seed": "greenmouse597",
+        "suspicionLevel": 0.68,
+        "alibi": "Đang tham gia một buổi tiệc sinh nhật",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-29c0fcaa-20a6-4d93-b729-60ac1f0614d4",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Lily James Anderson. Ngày hôm đó, khoảng 01:42 - 02:12, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại New York - Harbor Warehouse 12. Hunter James Mitchell bị camera của Liberty Observation Deck ghi lại khi di chuyển về phía Đông Bắc khoảng 3.0km hướng tới Harbor Warehouse 12.",
+          "timeframe": "01:42 - 02:12",
+          "action": "dự một buổi cầu nguyện ngắn gần khu chợ trời",
+          "locationLabel": "New York - Harbor Warehouse 12",
+          "mapHint": {
+            "id": "New York - Harbor Warehouse 12-2738",
+            "label": "New York - Harbor Warehouse 12",
+            "point": {
+              "lat": 40.74718205422312,
+              "lng": -74.0305032244863
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-harbor-warehouse-12-1",
+          "directionHint": "Hunter James Mitchell bị camera của Liberty Observation Deck ghi lại khi di chuyển về phía Đông Bắc khoảng 3.0km hướng tới Harbor Warehouse 12."
+        }
+      },
+      {
+        "id": "a26747c7-d0cd-4cbf-ab5e-1bbf2f576fca",
+        "fullName": "Wyatt Alexander Mitchell",
+        "gender": "male",
+        "age": 65,
+        "nationality": "Hoa Kỳ",
+        "occupation": "heavybear Investigator",
+        "email": "edward.martin@example.com",
+        "phone": "(280)-580-5117",
+        "cell": "(306)-881-9420",
+        "dob": "1959-12-13T01:54:08.581Z",
+        "registered": "2006-09-20T13:16:07.417Z",
+        "idNumber": "N/A",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.678140118041334,
+          "lng": -73.93099398683292
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/24.jpg",
+        "timezone": "Baghdad, Riyadh, Moscow, St. Petersburg",
+        "seed": "heavybear286",
+        "suspicionLevel": 0.56,
+        "alibi": "Đang bị kẹt xe trên đường cao tốc",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-a26747c7-d0cd-4cbf-ab5e-1bbf2f576fca",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Lily James Anderson. Ngày hôm đó, khoảng 21:16 - 21:46, tôi đã kiểm tra hệ thống camera của nhà thờ cổ tại New York - Liberty Observation Deck. Wyatt Alexander Mitchell bị camera của North River Park ghi lại khi di chuyển về phía Tây Nam khoảng 14.3km hướng tới Liberty Observation Deck.",
+          "timeframe": "21:16 - 21:46",
+          "action": "kiểm tra hệ thống camera của nhà thờ cổ",
+          "locationLabel": "New York - Liberty Observation Deck",
+          "mapHint": {
+            "id": "New York - Liberty Observation Deck-9337",
+            "label": "New York - Liberty Observation Deck",
+            "point": {
+              "lat": 40.73845416813456,
+              "lng": -74.03301385219022
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-liberty-observation-deck-0",
+          "directionHint": "Wyatt Alexander Mitchell bị camera của North River Park ghi lại khi di chuyển về phía Tây Nam khoảng 14.3km hướng tới Liberty Observation Deck."
+        }
+      },
+      {
+        "id": "5e112bfa-42ef-438f-a66f-62b333757639",
+        "fullName": "Harper Alexander Carter",
+        "gender": "female",
+        "age": 38,
+        "nationality": "Hoa Kỳ",
+        "occupation": "heavybird Investigator",
+        "email": "manuela.navarro@example.com",
+        "phone": "962-859-727",
+        "cell": "683-743-154",
+        "dob": "1987-03-03T06:45:01.345Z",
+        "registered": "2021-06-22T19:30:10.041Z",
+        "idNumber": "19338531-F",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.687738584925505,
+          "lng": -73.87945321983206
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/79.jpg",
+        "timezone": "Kathmandu",
+        "seed": "heavybird846",
+        "suspicionLevel": 0.56,
+        "alibi": "Đang đi dạo trong công viên",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-5e112bfa-42ef-438f-a66f-62b333757639",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Lily James Anderson. Ngày hôm đó, khoảng 01:17 - 01:47, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại New York - Liberty Observation Deck. Harper Alexander Carter được báo cáo đi về phía Đông Nam của Liberty Observation Deck, luôn ở trong bán kính 2.4km quanh địa điểm này.",
+          "timeframe": "01:17 - 01:47",
+          "action": "thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông",
+          "locationLabel": "New York - Liberty Observation Deck",
+          "mapHint": {
+            "id": "New York - Liberty Observation Deck-2698",
+            "label": "New York - Liberty Observation Deck",
+            "point": {
+              "lat": 40.686294919399735,
+              "lng": -74.0539695021864
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-liberty-observation-deck-0",
+          "directionHint": "Harper Alexander Carter được báo cáo đi về phía Đông Nam của Liberty Observation Deck, luôn ở trong bán kính 2.4km quanh địa điểm này."
+        }
+      },
+      {
+        "id": "9bcff6f5-e23f-4a5c-a4f9-6c4a562880f4",
+        "fullName": "Olivia Grace Turner",
+        "gender": "female",
+        "age": 39,
+        "nationality": "Hoa Kỳ",
+        "occupation": "lazyostrich Investigator",
+        "email": "shelly.thompson@example.com",
+        "phone": "03-4254-0033",
+        "cell": "0475-956-926",
+        "dob": "1986-08-17T05:05:42.831Z",
+        "registered": "2018-01-29T16:24:21.490Z",
+        "idNumber": "247500859",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.67961422375621,
+          "lng": -73.9614909436341
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/11.jpg",
+        "timezone": "Almaty, Dhaka, Colombo",
+        "seed": "lazyostrich174",
+        "suspicionLevel": 0.34,
+        "alibi": "Đang tham gia hoạt động tình nguyện",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-9bcff6f5-e23f-4a5c-a4f9-6c4a562880f4",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Lily James Anderson. Ngày hôm đó, khoảng 21:55 - 22:25, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại New York - Harbor Warehouse 12. Olivia Grace Turner được báo cáo đi về phía Đông Nam của Harbor Warehouse 12, luôn ở trong bán kính 1.5km quanh địa điểm này.",
+          "timeframe": "21:55 - 22:25",
+          "action": "thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông",
+          "locationLabel": "New York - Harbor Warehouse 12",
+          "mapHint": {
+            "id": "New York - Harbor Warehouse 12-2024",
+            "label": "New York - Harbor Warehouse 12",
+            "point": {
+              "lat": 40.7360364784129,
+              "lng": -74.00025336039047
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-harbor-warehouse-12-1",
+          "directionHint": "Olivia Grace Turner được báo cáo đi về phía Đông Nam của Harbor Warehouse 12, luôn ở trong bán kính 1.5km quanh địa điểm này."
+        }
+      },
+      {
+        "id": "d3a1d491-6641-46ee-bb5d-43f254fb426a",
+        "fullName": "Ella Lee Carter",
+        "gender": "female",
+        "age": 80,
+        "nationality": "Hoa Kỳ",
+        "occupation": "bluecat Investigator",
+        "email": "albertine.klockner@example.com",
+        "phone": "0652-7767602",
+        "cell": "0178-9415152",
+        "dob": "1945-10-04T19:54:52.695Z",
+        "registered": "2005-09-01T15:50:16.370Z",
+        "idNumber": "64 041045 K 628",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.777907589031706,
+          "lng": -73.91947689269233
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/33.jpg",
+        "timezone": "Alaska",
+        "seed": "bluecat448",
+        "suspicionLevel": 0.64,
+        "alibi": "Đang trực ca đêm tại nơi làm việc",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-d3a1d491-6641-46ee-bb5d-43f254fb426a",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Lily James Anderson. Ngày hôm đó, khoảng 21:08 - 21:38, tôi đã dự một buổi cầu nguyện ngắn gần khu chợ trời tại New York - Liberty Observation Deck. Ella Lee Carter được báo cáo đi về phía Đông Nam của Liberty Observation Deck, luôn ở trong bán kính 2.3km quanh địa điểm này.",
+          "timeframe": "21:08 - 21:38",
+          "action": "dự một buổi cầu nguyện ngắn gần khu chợ trời",
+          "locationLabel": "New York - Liberty Observation Deck",
+          "mapHint": {
+            "id": "New York - Liberty Observation Deck-1192",
+            "label": "New York - Liberty Observation Deck",
+            "point": {
+              "lat": 40.70333675817419,
+              "lng": -74.02649696000665
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-liberty-observation-deck-0",
+          "directionHint": "Ella Lee Carter được báo cáo đi về phía Đông Nam của Liberty Observation Deck, luôn ở trong bán kính 2.3km quanh địa điểm này."
+        }
+      },
+      {
+        "id": "91d3e518-7f8c-453c-94d6-6a7f60c1fa6c",
+        "fullName": "Ryan Mae Parker",
+        "gender": "male",
+        "age": 57,
+        "nationality": "Hoa Kỳ",
+        "occupation": "bluelion Investigator",
+        "email": "johan.utz@example.com",
+        "phone": "0390-5472814",
+        "cell": "0176-9655433",
+        "dob": "1968-03-29T18:01:24.799Z",
+        "registered": "2020-07-18T18:50:34.281Z",
+        "idNumber": "73 290368 U 466",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.69261162978226,
+          "lng": -74.12815959556677
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/53.jpg",
+        "timezone": "Brussels, Copenhagen, Madrid, Paris",
+        "seed": "bluelion254",
+        "suspicionLevel": 0.62,
+        "alibi": "Đang khám bệnh tại bệnh viện",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-91d3e518-7f8c-453c-94d6-6a7f60c1fa6c",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Lily James Anderson. Ngày hôm đó, khoảng 00:00 - 00:30, tôi đã kiểm tra hệ thống camera của nhà thờ cổ tại New York - Liberty Observation Deck. Ryan Mae Parker được báo cáo đi về phía Đông Nam của Liberty Observation Deck, luôn ở trong bán kính 1.9km quanh địa điểm này.",
+          "timeframe": "00:00 - 00:30",
+          "action": "kiểm tra hệ thống camera của nhà thờ cổ",
+          "locationLabel": "New York - Liberty Observation Deck",
+          "mapHint": {
+            "id": "New York - Liberty Observation Deck-7956",
+            "label": "New York - Liberty Observation Deck",
+            "point": {
+              "lat": 40.7070506916225,
+              "lng": -74.05000799837802
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-liberty-observation-deck-0",
+          "directionHint": "Ryan Mae Parker được báo cáo đi về phía Đông Nam của Liberty Observation Deck, luôn ở trong bán kính 1.9km quanh địa điểm này."
+        }
+      },
+      {
+        "id": "7cb3fa24-93b3-4fd8-abd2-095ca1391396",
+        "fullName": "Olivia Grace Diaz",
+        "gender": "female",
+        "age": 76,
+        "nationality": "Hoa Kỳ",
+        "occupation": "redgoose Investigator",
+        "email": "beatrice.knight@example.com",
+        "phone": "N28 D07-9938",
+        "cell": "H31 A53-5195",
+        "dob": "1949-07-07T19:41:33.260Z",
+        "registered": "2013-02-24T23:29:36.008Z",
+        "idNumber": "098274012",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.73386317902307,
+          "lng": -73.88594130616853
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/27.jpg",
+        "timezone": "Atlantic Time (Canada), Caracas, La Paz",
+        "seed": "redgoose901",
+        "suspicionLevel": 0.64,
+        "alibi": "Đang làm việc tại văn phòng",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-7cb3fa24-93b3-4fd8-abd2-095ca1391396",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Lily James Anderson. Ngày hôm đó, khoảng 01:19 - 01:49, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại New York - Midtown Medical Center. Olivia Grace Diaz bị camera của Fulton Subway Hub ghi lại khi di chuyển về phía Đông Bắc khoảng 6.2km hướng tới Midtown Medical Center.",
+          "timeframe": "01:19 - 01:49",
+          "action": "thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông",
+          "locationLabel": "New York - Midtown Medical Center",
+          "mapHint": {
+            "id": "New York - Midtown Medical Center-6593",
+            "label": "New York - Midtown Medical Center",
+            "point": {
+              "lat": 40.74801091894154,
+              "lng": -73.97515127162914
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-midtown-medical-center-4",
+          "directionHint": "Olivia Grace Diaz bị camera của Fulton Subway Hub ghi lại khi di chuyển về phía Đông Bắc khoảng 6.2km hướng tới Midtown Medical Center."
+        }
+      },
+      {
+        "id": "5cc83108-6648-4399-9e6a-ecd178f20731",
+        "fullName": "Ryan Marie Smith",
+        "gender": "male",
+        "age": 46,
+        "nationality": "Hoa Kỳ",
+        "occupation": "blackelephant Investigator",
+        "email": "janos.sievert@example.com",
+        "phone": "0050-0222120",
+        "cell": "0171-5944336",
+        "dob": "1979-05-22T01:14:29.398Z",
+        "registered": "2004-08-02T14:25:14.653Z",
+        "idNumber": "04 210579 S 264",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.684090251629065,
+          "lng": -74.06075245423298
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/12.jpg",
+        "timezone": "Tokyo, Seoul, Osaka, Sapporo, Yakutsk",
+        "seed": "blackelephant354",
+        "suspicionLevel": 0.55,
+        "alibi": "Đang ngủ tại nhà riêng",
+        "role": "associate",
+        "relationshipTag": "business",
+        "testimony": {
+          "id": "testimony-5cc83108-6648-4399-9e6a-ecd178f20731",
+          "relationshipSummary": "đối tác làm ăn",
+          "narrative": "Tôi là đối tác làm ăn của Lily James Anderson. Ngày hôm đó, khoảng 02:21 - 02:51, tôi đã kiểm tra hệ thống camera của nhà thờ cổ tại New York - Fulton Subway Hub. Ryan Marie Smith bị camera của Harbor Warehouse 12 ghi lại khi di chuyển về phía Đông Bắc khoảng 0.8km hướng tới Fulton Subway Hub.",
+          "timeframe": "02:21 - 02:51",
+          "action": "kiểm tra hệ thống camera của nhà thờ cổ",
+          "locationLabel": "New York - Fulton Subway Hub",
+          "mapHint": {
+            "id": "New York - Fulton Subway Hub-1644",
+            "label": "New York - Fulton Subway Hub",
+            "point": {
+              "lat": 40.74866170985214,
+              "lng": -73.98264429552536
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-fulton-subway-hub-3",
+          "directionHint": "Ryan Marie Smith bị camera của Harbor Warehouse 12 ghi lại khi di chuyển về phía Đông Bắc khoảng 0.8km hướng tới Fulton Subway Hub."
+        }
+      },
+      {
+        "id": "54955af0-632f-4a14-92f5-3de93e52d745",
+        "fullName": "Aaron Lynn Anderson",
+        "gender": "male",
+        "age": 53,
+        "nationality": "Hoa Kỳ",
+        "occupation": "greenpanda Investigator",
+        "email": "magnus.thomsen@example.com",
+        "phone": "46744532",
+        "cell": "88675039",
+        "dob": "1972-02-14T09:49:01.820Z",
+        "registered": "2016-09-30T08:32:32.884Z",
+        "idNumber": "140272-3350",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.76356800684329,
+          "lng": -74.09253891749441
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/61.jpg",
+        "timezone": "Brussels, Copenhagen, Madrid, Paris",
+        "seed": "greenpanda919",
+        "suspicionLevel": 0.52,
+        "alibi": "Đang đi công tác ở thành phố khác",
+        "role": "associate",
+        "relationshipTag": "acquaintance",
+        "testimony": {
+          "id": "testimony-54955af0-632f-4a14-92f5-3de93e52d745",
+          "relationshipSummary": "mối quen biết",
+          "narrative": "Tôi là mối quen biết của Lily James Anderson. Ngày hôm đó, khoảng 01:47 - 02:17, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại New York - Liberty Observation Deck. Aaron Lynn Anderson bị camera của Midtown Medical Center ghi lại khi di chuyển về phía Tây Nam khoảng 9.7km hướng tới Liberty Observation Deck.",
+          "timeframe": "01:47 - 02:17",
+          "action": "thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông",
+          "locationLabel": "New York - Liberty Observation Deck",
+          "mapHint": {
+            "id": "New York - Liberty Observation Deck-6535",
+            "label": "New York - Liberty Observation Deck",
+            "point": {
+              "lat": 40.6507187825704,
+              "lng": -74.06488939096965
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-liberty-observation-deck-0",
+          "directionHint": "Aaron Lynn Anderson bị camera của Midtown Medical Center ghi lại khi di chuyển về phía Tây Nam khoảng 9.7km hướng tới Liberty Observation Deck."
+        }
+      },
+      {
+        "id": "42aae2c9-f9d9-4f63-b554-72f1587f79b5",
+        "fullName": "Madison Lynn Parker",
+        "gender": "female",
+        "age": 76,
+        "nationality": "Hoa Kỳ",
+        "occupation": "redfrog Investigator",
+        "email": "charlotte.barrett@example.com",
+        "phone": "(338) 224-5198",
+        "cell": "(366) 672-8974",
+        "dob": "1949-11-21T11:28:10.470Z",
+        "registered": "2011-02-21T06:33:38.301Z",
+        "idNumber": "582-23-3649",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.780977307585175,
+          "lng": -74.0918032424457
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/3.jpg",
+        "timezone": "Azores, Cape Verde Islands",
+        "seed": "redfrog855",
+        "suspicionLevel": 0.55,
+        "alibi": "Đang xem phim tại rạp chiếu phim trung tâm",
+        "role": "associate",
+        "relationshipTag": "unknown",
+        "testimony": {
+          "id": "testimony-42aae2c9-f9d9-4f63-b554-72f1587f79b5",
+          "relationshipSummary": "người quen xã giao",
+          "narrative": "Tôi là người quen xã giao của Lily James Anderson. Ngày hôm đó, khoảng 01:55 - 02:25, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại New York - Liberty Observation Deck. Madison Lynn Parker bị camera của Harbor Warehouse 12 ghi lại khi di chuyển về phía Tây Nam khoảng 3.0km hướng tới Liberty Observation Deck.",
+          "timeframe": "01:55 - 02:25",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "New York - Liberty Observation Deck",
+          "mapHint": {
+            "id": "New York - Liberty Observation Deck-2529",
+            "label": "New York - Liberty Observation Deck",
+            "point": {
+              "lat": 40.646584309971146,
+              "lng": -74.0036090134345
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-liberty-observation-deck-0",
+          "directionHint": "Madison Lynn Parker bị camera của Harbor Warehouse 12 ghi lại khi di chuyển về phía Tây Nam khoảng 3.0km hướng tới Liberty Observation Deck."
+        }
+      },
+      {
+        "id": "379b451f-008c-470a-985a-b5a2a890a5a1",
+        "fullName": "Zoey Alexander Bennett",
+        "gender": "female",
+        "age": 52,
+        "nationality": "Hoa Kỳ",
+        "occupation": "smallbutterfly Investigator",
+        "email": "jessica.thomas@example.com",
+        "phone": "(969)-212-7195",
+        "cell": "(936)-913-9637",
+        "dob": "1973-11-24T07:38:42.652Z",
+        "registered": "2005-05-31T18:19:28.270Z",
+        "idNumber": "N/A",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.699440347435484,
+          "lng": -74.03586414985254
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/63.jpg",
+        "timezone": "Bombay, Calcutta, Madras, New Delhi",
+        "seed": "smallbutterfly446",
+        "suspicionLevel": 0.31,
+        "alibi": "Đang đi dạo trong công viên",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-379b451f-008c-470a-985a-b5a2a890a5a1",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Lily James Anderson. Ngày hôm đó, khoảng 23:13 - 23:43, tôi đã thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông tại New York - Liberty Observation Deck. Zoey Alexander Bennett được báo cáo đi về phía Đông Nam của Liberty Observation Deck, luôn ở trong bán kính 2.3km quanh địa điểm này.",
+          "timeframe": "23:13 - 23:43",
+          "action": "thảo luận hợp đồng với một khách hàng tại quán cà phê bến sông",
+          "locationLabel": "New York - Liberty Observation Deck",
+          "mapHint": {
+            "id": "New York - Liberty Observation Deck-1091",
+            "label": "New York - Liberty Observation Deck",
+            "point": {
+              "lat": 40.73392202715222,
+              "lng": -74.03213038583566
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-liberty-observation-deck-0",
+          "directionHint": "Zoey Alexander Bennett được báo cáo đi về phía Đông Nam của Liberty Observation Deck, luôn ở trong bán kính 2.3km quanh địa điểm này."
+        }
+      },
+      {
+        "id": "4335879d-6933-4d1e-94f5-0de83d3e91e2",
+        "fullName": "Wyatt Lee Williams",
+        "gender": "male",
+        "age": 37,
+        "nationality": "Hoa Kỳ",
+        "occupation": "crazypeacock Investigator",
+        "email": "micheal.russell@example.com",
+        "phone": "07-3713-0191",
+        "cell": "0486-330-103",
+        "dob": "1988-08-13T06:44:57.576Z",
+        "registered": "2012-03-04T03:00:58.623Z",
+        "idNumber": "198294072",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.7094,
+          "lng": -74.0094
+        },
+        "portrait": "https://randomuser.me/api/portraits/men/22.jpg",
+        "timezone": "Almaty, Dhaka, Colombo",
+        "seed": "crazypeacock193",
+        "suspicionLevel": 0.84,
+        "alibi": "Đang chơi bowling cùng bạn bè",
+        "role": "accomplice",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-4335879d-6933-4d1e-94f5-0de83d3e91e2",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Lily James Anderson. Khoảng 21:20 - 21:50, tôi có mặt ngay tại New York - Fulton Subway Hub, và tôi thấy Ethan Lee Bennett đứng lỳ tại đó trước khi mọi chuyện xảy ra. Wyatt Lee Williams được báo cáo đi về phía Đông Nam của Fulton Subway Hub, luôn ở trong bán kính 2.5km quanh địa điểm này.",
+          "timeframe": "21:20 - 21:50",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "New York - Fulton Subway Hub",
+          "mapHint": {
+            "id": "New York - Fulton Subway Hub-7807",
+            "label": "New York - Fulton Subway Hub",
+            "point": {
+              "lat": 40.68246596746203,
+              "lng": -73.99676610452178
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-fulton-subway-hub-3",
+          "directionHint": "Wyatt Lee Williams được báo cáo đi về phía Đông Nam của Fulton Subway Hub, luôn ở trong bán kính 2.5km quanh địa điểm này."
+        },
+        "secondaryTestimony": {
+          "id": "secondary-4335879d-6933-4d1e-94f5-0de83d3e91e2",
+          "relationshipSummary": "người thân",
+          "narrative": "Được rồi, tôi sẽ hợp tác. Ethan Lee Bennett bảo tôi canh gác tại Ổ ẩn náu New York và hắn vẫn còn ở đó lúc 01:17.",
+          "timeframe": "01:07 - 01:37",
+          "action": "chỉ điểm tọa độ ẩn náu",
+          "locationLabel": "Ổ ẩn náu New York",
+          "mapHint": {
+            "id": "Ổ ẩn náu New York-8647",
+            "label": "Ổ ẩn náu New York",
+            "point": {
+              "lat": 40.6597886589082,
+              "lng": -73.99077890712823
+            },
+            "radiusMeters": 350
+          },
+          "reliability": "solid"
+        }
+      },
+      {
+        "id": "f3283d9d-40a0-4e40-bd00-e70544813a7a",
+        "fullName": "Sophia Grace Turner",
+        "gender": "female",
+        "age": 53,
+        "nationality": "Hoa Kỳ",
+        "occupation": "happypeacock Investigator",
+        "email": "marina.jager@example.com",
+        "phone": "0610-5437699",
+        "cell": "0179-8923574",
+        "dob": "1972-02-05T22:56:31.380Z",
+        "registered": "2007-10-15T06:25:46.431Z",
+        "idNumber": "57 050272 J 854",
+        "residence": "New York, Hoa Kỳ",
+        "coordinates": {
+          "lat": 40.72669057000322,
+          "lng": -73.90843115546657
+        },
+        "portrait": "https://randomuser.me/api/portraits/women/3.jpg",
+        "timezone": "Abu Dhabi, Muscat, Baku, Tbilisi",
+        "seed": "happypeacock159",
+        "suspicionLevel": 0.47,
+        "alibi": "Đang ăn tối cùng gia đình",
+        "role": "associate",
+        "relationshipTag": "family",
+        "testimony": {
+          "id": "testimony-f3283d9d-40a0-4e40-bd00-e70544813a7a",
+          "relationshipSummary": "người thân",
+          "narrative": "Tôi là người thân của Lily James Anderson. Ngày hôm đó, khoảng 02:00 - 02:30, tôi đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại New York - Fulton Subway Hub. Sophia Grace Turner bị camera của Liberty Observation Deck ghi lại khi di chuyển về phía Đông Bắc khoảng 3.7km hướng tới Fulton Subway Hub.",
+          "timeframe": "02:00 - 02:30",
+          "action": "trông chừng con nhỏ ở căn hộ nhìn ra quảng trường",
+          "locationLabel": "New York - Fulton Subway Hub",
+          "mapHint": {
+            "id": "New York - Fulton Subway Hub-8793",
+            "label": "New York - Fulton Subway Hub",
+            "point": {
+              "lat": 40.7154340365395,
+              "lng": -74.01142856427059
+            },
+            "radiusMeters": 600
+          },
+          "reliability": "solid",
+          "landmarkId": "landmark-new-york-fulton-subway-hub-3",
+          "directionHint": "Sophia Grace Turner bị camera của Liberty Observation Deck ghi lại khi di chuyển về phía Đông Bắc khoảng 3.7km hướng tới Fulton Subway Hub."
+        }
+      }
+    ],
+    "primeSuspectIds": [
+      "af35d331-b1ef-46e4-af38-f1fb4baae2a0",
+      "a42e99c5-4c08-41bc-b422-bbc3b6d2436c",
+      "1d438480-c143-403a-a0e6-2a533a4897ba",
+      "d3a1d491-6641-46ee-bb5d-43f254fb426a",
+      "a26747c7-d0cd-4cbf-ab5e-1bbf2f576fca",
+      "4335879d-6933-4d1e-94f5-0de83d3e91e2",
+      "99ad887d-63f2-4b91-9748-7da1ae39daca",
+      "dadb08cd-fd2b-463d-8db2-e38d2c5a3fb5",
+      "efe84895-4172-4868-813e-3a93f5aef07d",
+      "ba1a6c19-313f-46a6-821c-8e3f4d8716d8"
+    ],
+    "accompliceIds": [
+      "a42e99c5-4c08-41bc-b422-bbc3b6d2436c",
+      "dadb08cd-fd2b-463d-8db2-e38d2c5a3fb5",
+      "4335879d-6933-4d1e-94f5-0de83d3e91e2"
+    ],
+    "accompliceCount": 3,
+    "relationships": [
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "c4a87407-a93f-46d5-b35a-b1d6e867476b",
+        "relationship": "colleague",
+        "description": "Liam Mae Smith khai mình là đồng nghiệp và có mặt tại New York - Harbor Warehouse 12 (22:10 - 22:40)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "a42e99c5-4c08-41bc-b422-bbc3b6d2436c",
+        "relationship": "colleague",
+        "description": "Charlotte Alexander Carter khai mình là đồng nghiệp và có mặt tại New York - Fulton Subway Hub (20:56 - 21:26)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "07ed9d7e-a15c-490a-898d-687ddc5a4064",
+        "relationship": "unknown",
+        "description": "Gabriel Alexander Mitchell khai mình là người quen xã giao và có mặt tại New York - Fulton Subway Hub (00:47 - 01:17)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "1d438480-c143-403a-a0e6-2a533a4897ba",
+        "relationship": "business",
+        "description": "Charlotte Grace Diaz khai mình là đối tác làm ăn và có mặt tại New York - Harbor Warehouse 12 (21:00 - 21:30)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "1886ed24-01de-422a-b275-e16a10df4c5e",
+        "relationship": "acquaintance",
+        "description": "Noah Marie Smith khai mình là mối quen biết và có mặt tại New York - Midtown Medical Center (00:43 - 01:13)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "0e6f0eb7-f8eb-477f-b083-0fb7342e3194",
+        "relationship": "colleague",
+        "description": "Harper Lynn Anderson khai mình là đồng nghiệp và có mặt tại New York - North River Park (02:11 - 02:41)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "55e3fb11-1a1d-4c45-922e-11fc8ccd1c3d",
+        "relationship": "unknown",
+        "description": "Natalie Mae Edwards khai mình là người quen xã giao và có mặt tại New York - Harbor Warehouse 12 (23:41 - 00:11)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "9a25b1e8-fe26-43e4-bcce-cba17b3da46d",
+        "relationship": "unknown",
+        "description": "Victoria Lee Smith khai mình là người quen xã giao và có mặt tại New York - Harbor Warehouse 12 (00:09 - 00:39)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "4b702456-0340-48c9-8ba9-4db4ed9d6639",
+        "relationship": "family",
+        "description": "Olivia Marie Anderson khai mình là người thân và có mặt tại New York - Liberty Observation Deck (23:39 - 00:09)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "924a67dc-85e3-4edd-b572-2716de03dab8",
+        "relationship": "business",
+        "description": "Mason Rose Anderson khai mình là đối tác làm ăn và có mặt tại New York - Fulton Subway Hub (00:27 - 00:57)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "d4c2d4e7-fa9c-4756-aa5e-18484d21cee6",
+        "relationship": "family",
+        "description": "Harper Mae Johnson khai mình là người thân và có mặt tại New York - Midtown Medical Center (01:31 - 02:01)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "ba1a6c19-313f-46a6-821c-8e3f4d8716d8",
+        "relationship": "unknown",
+        "description": "Lily Marie Johnson khai mình là người quen xã giao và có mặt tại New York - Midtown Medical Center (21:57 - 22:27)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "55ee1f3b-4089-4f08-a0dd-ef08b85777f9",
+        "relationship": "acquaintance",
+        "description": "Abigail Grace Carter khai mình là mối quen biết và có mặt tại New York - Midtown Medical Center (00:08 - 00:38)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "4e513d5c-1824-4e59-bf4b-d6e24e5a2b73",
+        "relationship": "business",
+        "description": "Grace Lynn Foster khai mình là đối tác làm ăn và có mặt tại New York - Fulton Subway Hub (01:11 - 01:41)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "af35d331-b1ef-46e4-af38-f1fb4baae2a0",
+        "relationship": "family",
+        "description": "Ethan Lee Bennett khai mình là người thân và có mặt tại New York - Fulton Subway Hub (20:48 - 21:18)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "e7f93b16-b2fd-4be1-9e73-93cfc98906d8",
+        "relationship": "colleague",
+        "description": "Ella Mae Carter khai mình là đồng nghiệp và có mặt tại New York - Midtown Medical Center (23:49 - 00:19)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "b8acb2ef-dd2a-43c3-98ef-1dc98b0b2600",
+        "relationship": "colleague",
+        "description": "Victoria Grace Carter khai mình là đồng nghiệp và có mặt tại New York - Liberty Observation Deck (01:00 - 01:30)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "869d0519-5c98-429c-ad30-c2c55ba136dd",
+        "relationship": "business",
+        "description": "Sophia Alexander Mitchell khai mình là đối tác làm ăn và có mặt tại New York - Fulton Subway Hub (22:44 - 23:14)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "bce9e415-df54-4d1c-9d0b-ab525931d67d",
+        "relationship": "business",
+        "description": "Hunter Lynn Johnson khai mình là đối tác làm ăn và có mặt tại New York - North River Park (23:19 - 23:49)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "f13c5e6f-6366-4c94-be0c-4f77eba2855d",
+        "relationship": "family",
+        "description": "Jacob Lynn Carter khai mình là người thân và có mặt tại New York - Liberty Observation Deck (00:58 - 01:28)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "dadb08cd-fd2b-463d-8db2-e38d2c5a3fb5",
+        "relationship": "business",
+        "description": "Noah Mae Diaz khai mình là đối tác làm ăn và có mặt tại New York - Fulton Subway Hub (21:33 - 22:03)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "99ad887d-63f2-4b91-9748-7da1ae39daca",
+        "relationship": "colleague",
+        "description": "Daniel James Hughes khai mình là đồng nghiệp và có mặt tại New York - Midtown Medical Center (21:29 - 21:59)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "259eaf87-bf73-403b-bbf3-a688e8514e38",
+        "relationship": "colleague",
+        "description": "Ethan Marie Johnson khai mình là đồng nghiệp và có mặt tại New York - Liberty Observation Deck (00:31 - 01:01)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "efe84895-4172-4868-813e-3a93f5aef07d",
+        "relationship": "acquaintance",
+        "description": "Gabriel Lynn Anderson khai mình là mối quen biết và có mặt tại New York - Fulton Subway Hub (21:41 - 22:11)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "46a3499e-582b-4367-a9c0-ae72b498bbc8",
+        "relationship": "unknown",
+        "description": "Ryan Grace Smith khai mình là người quen xã giao và có mặt tại New York - Midtown Medical Center (22:24 - 22:54)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "59d5dff4-6b39-4c4e-9e95-68bb1ed507db",
+        "relationship": "acquaintance",
+        "description": "Owen Lynn Hughes khai mình là mối quen biết và có mặt tại New York - Midtown Medical Center (23:24 - 23:54)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "cb156f59-d3ff-4e82-87ce-e9fef77a55fb",
+        "relationship": "unknown",
+        "description": "Madison Rose Garcia khai mình là người quen xã giao và có mặt tại New York - North River Park (02:26 - 02:56)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "d02e95cb-27d0-4cda-ac81-cf37dc84ccc0",
+        "relationship": "colleague",
+        "description": "Ryan Alexander Hughes khai mình là đồng nghiệp và có mặt tại New York - Fulton Subway Hub (23:18 - 23:48)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "a51598de-3a3c-40ac-9002-3e4938ed7ab5",
+        "relationship": "acquaintance",
+        "description": "Caleb Lynn Johnson khai mình là mối quen biết và có mặt tại New York - North River Park (22:18 - 22:48)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "c7d9c0d2-385f-444e-884f-8d528992ccc2",
+        "relationship": "family",
+        "description": "Madison Lee Edwards khai mình là người thân và có mặt tại New York - Midtown Medical Center (00:19 - 00:49)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "fc8d259e-5c8b-4e54-9b40-4e0051f374ef",
+        "relationship": "family",
+        "description": "Charlotte Marie Parker khai mình là người thân và có mặt tại New York - Harbor Warehouse 12 (22:29 - 22:59)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "deb4848d-5fc6-4b91-9290-1882107fc6ed",
+        "relationship": "unknown",
+        "description": "Natalie Lynn Johnson khai mình là người quen xã giao và có mặt tại New York - Harbor Warehouse 12 (23:01 - 23:31)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "542e8e73-3459-46a7-94cc-80c1ff435580",
+        "relationship": "acquaintance",
+        "description": "Lily James Parker khai mình là mối quen biết và có mặt tại New York - Fulton Subway Hub (22:55 - 23:25)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "bbc0e872-5513-42f0-87bf-9ea3b210e627",
+        "relationship": "colleague",
+        "description": "Grace James Parker khai mình là đồng nghiệp và có mặt tại New York - North River Park (01:30 - 02:00)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "46904713-466a-456a-969a-bf48c6d7aef3",
+        "relationship": "colleague",
+        "description": "Caleb Alexander Carter khai mình là đồng nghiệp và có mặt tại New York - North River Park (22:40 - 23:10)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "41fcf27f-6047-4242-8a19-354f93489759",
+        "relationship": "acquaintance",
+        "description": "Isabella Lynn Diaz khai mình là mối quen biết và có mặt tại New York - Midtown Medical Center (02:25 - 02:55)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "2a2da636-9a80-414f-9ec9-1712fd61fbad",
+        "relationship": "business",
+        "description": "Ethan Lynn Diaz khai mình là đối tác làm ăn và có mặt tại New York - Fulton Subway Hub (22:09 - 22:39)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "29c0fcaa-20a6-4d93-b729-60ac1f0614d4",
+        "relationship": "business",
+        "description": "Hunter James Mitchell khai mình là đối tác làm ăn và có mặt tại New York - Harbor Warehouse 12 (01:42 - 02:12)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "a26747c7-d0cd-4cbf-ab5e-1bbf2f576fca",
+        "relationship": "unknown",
+        "description": "Wyatt Alexander Mitchell khai mình là người quen xã giao và có mặt tại New York - Liberty Observation Deck (21:16 - 21:46)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "5e112bfa-42ef-438f-a66f-62b333757639",
+        "relationship": "acquaintance",
+        "description": "Harper Alexander Carter khai mình là mối quen biết và có mặt tại New York - Liberty Observation Deck (01:17 - 01:47)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "9bcff6f5-e23f-4a5c-a4f9-6c4a562880f4",
+        "relationship": "family",
+        "description": "Olivia Grace Turner khai mình là người thân và có mặt tại New York - Harbor Warehouse 12 (21:55 - 22:25)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "d3a1d491-6641-46ee-bb5d-43f254fb426a",
+        "relationship": "acquaintance",
+        "description": "Ella Lee Carter khai mình là mối quen biết và có mặt tại New York - Liberty Observation Deck (21:08 - 21:38)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "91d3e518-7f8c-453c-94d6-6a7f60c1fa6c",
+        "relationship": "business",
+        "description": "Ryan Mae Parker khai mình là đối tác làm ăn và có mặt tại New York - Liberty Observation Deck (00:00 - 00:30)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "7cb3fa24-93b3-4fd8-abd2-095ca1391396",
+        "relationship": "unknown",
+        "description": "Olivia Grace Diaz khai mình là người quen xã giao và có mặt tại New York - Midtown Medical Center (01:19 - 01:49)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "5cc83108-6648-4399-9e6a-ecd178f20731",
+        "relationship": "business",
+        "description": "Ryan Marie Smith khai mình là đối tác làm ăn và có mặt tại New York - Fulton Subway Hub (02:21 - 02:51)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "54955af0-632f-4a14-92f5-3de93e52d745",
+        "relationship": "acquaintance",
+        "description": "Aaron Lynn Anderson khai mình là mối quen biết và có mặt tại New York - Liberty Observation Deck (01:47 - 02:17)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "42aae2c9-f9d9-4f63-b554-72f1587f79b5",
+        "relationship": "unknown",
+        "description": "Madison Lynn Parker khai mình là người quen xã giao và có mặt tại New York - Liberty Observation Deck (01:55 - 02:25)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "379b451f-008c-470a-985a-b5a2a890a5a1",
+        "relationship": "family",
+        "description": "Zoey Alexander Bennett khai mình là người thân và có mặt tại New York - Liberty Observation Deck (23:13 - 23:43)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "4335879d-6933-4d1e-94f5-0de83d3e91e2",
+        "relationship": "family",
+        "description": "Wyatt Lee Williams khai mình là người thân và có mặt tại New York - Fulton Subway Hub (21:20 - 21:50)."
+      },
+      {
+        "sourceId": "ab07bdba-0845-4ab3-b5c2-db6c1e88f706",
+        "targetId": "f3283d9d-40a0-4e40-bd00-e70544813a7a",
+        "relationship": "family",
+        "description": "Sophia Grace Turner khai mình là người thân và có mặt tại New York - Fulton Subway Hub (02:00 - 02:30)."
+      }
+    ],
+    "clueDrafts": [
+      {
+        "id": "clue_1",
+        "title": "Nhật ký dang dở",
+        "summary": "Cuốn nhật ký của Lily ghi lại những dòng cuối cùng: 'Ethan... gia đình... bí mật... phải dừng lại...' Dòng chữ bị đứt quãng, cho thấy Lily đã bị tấn công bất ngờ. Liam Mae Smith (goldenleopard Investigator) khai đã trông chừng con nhỏ ở căn hộ nhìn ra quảng trường tại Harbor Warehouse 12, nhưng không nghe thấy tiếng động bất thường nào, điều này có thể do căn hộ cách âm tốt hoặc hung thủ hành động rất nhanh.",
+        "difficulty": "easy",
+        "relatedCitizenIds": [
+          "af35d331-b1ef-46e4-af38-f1fb4baae2a0",
+          "ab07bdba-0845-4ab3-b5c2-db6c1e88f706"
+        ],
+        "mapHints": [
+          {
+            "id": "ai-hint-landmark-new-york-liberty-observation-deck-0",
+            "label": "New York - Liberty Observation Deck",
+            "point": {
+              "lat": 40.6893,
+              "lng": -74.0445
+            },
+            "radiusMeters": 900
+          }
+        ]
+      },
+      {
+        "id": "clue_2",
+        "title": "Lời khai của nhân chứng",
+        "summary": "Một người bán hotdog gần Fulton Subway Hub khai đã thấy Ethan Lee Bennett (redgoose Investigator) đứng lỳ ở đó từ khoảng 20:48 đến 21:18. Sau đó, ông ta biến mất không dấu vết. Charlotte Alexander Carter (redcat Investigator) cũng xác nhận điều này, bà ta còn cung cấp thêm thông tin về việc Ethan Lee Bennett có vẻ rất căng thẳng và liên tục nhìn đồng hồ. Tuy nhiên, camera an ninh của Midtown Medical Center lại ghi lại hình ảnh Charlotte Alexander Carter đang di chuyển về phía Tây Nam hướng tới Fulton Subway Hub trong khoảng thời gian đó, cho thấy lời khai của bà ta có phần mâu thuẫn.",
+        "difficulty": "medium",
+        "relatedCitizenIds": [
+          "af35d331-b1ef-46e4-af38-f1fb4baae2a0",
+          "a42e99c5-4c08-41bc-b422-bbc3b6d2436c"
+        ],
+        "mapHints": [
+          {
+            "id": "ai-hint-landmark-new-york-harbor-warehouse-12-1",
+            "label": "New York - Harbor Warehouse 12",
+            "point": {
+              "lat": 40.7059,
+              "lng": -74.0172
+            },
+            "radiusMeters": 900
+          }
+        ]
+      },
+      {
+        "id": "clue_3",
+        "title": "Mẩu giấy bí ẩn",
+        "summary": "Trong túi áo của Lily, thanh tra Greyson tìm thấy một mẩu giấy nhỏ ghi lại dòng chữ 'Fulton - Ethan - 2048'. Con số 2048 trùng khớp với thời gian Ethan rời Fulton Subway Hub. Địa điểm này cách Harbor Warehouse 12 không quá xa, có thể di chuyển bằng phương tiện công cộng trong khoảng 30 phút. Charlotte Grace Diaz (greencat Investigator) khai đã đi giao tài liệu tại trụ sở cảnh sát khu vực tại Harbor Warehouse 12 vào khoảng 21:00 - 21:30. Tuy nhiên, camera của North River Park lại ghi lại hình ảnh bà ta di chuyển về phía Nam hướng tới Harbor Warehouse 12, cho thấy lời khai của bà ta không hoàn toàn chính xác.",
+        "difficulty": "hard",
+        "relatedCitizenIds": [
+          "af35d331-b1ef-46e4-af38-f1fb4baae2a0",
+          "1d438480-c143-403a-a0e6-2a533a4897ba"
+        ],
+        "mapHints": [
+          {
+            "id": "ai-hint-landmark-new-york-north-river-park-2",
+            "label": "New York - North River Park",
+            "point": {
+              "lat": 40.8041,
+              "lng": -73.9683
+            },
+            "radiusMeters": 900
+          }
+        ]
+      },
+      {
+        "id": "clue_4",
+        "title": "Tin nhắn cuối cùng",
+        "summary": "Điện thoại của Lily có tin nhắn cuối cùng gửi đến một số lạ với nội dung: 'Gặp nhau tại Harbor Warehouse 12 lúc 23:00, có bằng chứng về Ethan'. Phân tích lịch sử cuộc gọi cho thấy số lạ này thuộc về Natalie Mae Edwards (bluegoose Investigator). Tuy nhiên, Natalie khai rằng cô đi giao tài liệu tại trụ sở cảnh sát khu vực tại Harbor Warehouse 12. Dữ liệu camera cho thấy lời khai này có phần đúng sự thật, do Natalie Mae Edwards bị camera của North River Park ghi lại khi di chuyển về phía Nam hướng tới Harbor Warehouse 12. Vậy ai mới là người đã liên lạc với Lily?",
+        "difficulty": "medium",
+        "relatedCitizenIds": [
+          "55e3fb11-1a1d-4c45-922e-11fc8ccd1c3d",
+          "af35d331-b1ef-46e4-af38-f1fb4baae2a0"
+        ],
+        "mapHints": [
+          {
+            "id": "ai-hint-landmark-new-york-fulton-subway-hub-3",
+            "label": "New York - Fulton Subway Hub",
+            "point": {
+              "lat": 40.7094,
+              "lng": -74.0094
+            },
+            "radiusMeters": 900
+          }
+        ]
+      }
+    ],
+    "caseTitle": "Bóng Ma Trên Bến Cảng",
+    "story": "Màn đêm buông xuống New York, sương giăng kín mặt sông Hudson. Trong một căn hộ áp mái nhìn ra Harbor Warehouse 12, Lily James Anderson, một điều tra viên tư nhân nổi tiếng, gục chết trên bàn làm việc. Chiếc đèn bàn hắt ánh sáng vàng vọt lên gương mặt tái nhợt của cô, những tài liệu mật vương vãi xung quanh. Vụ án mạng nhanh chóng gây chấn động dư luận. Lily, người chuyên vén màn bí mật cho giới thượng lưu, nay lại trở thành nạn nhân của một âm mưu đen tối. Liệu hung thủ có liên quan đến những vụ án mà cô đang điều tra, hay đây chỉ là một vụ trả thù cá nhân? Thanh tra viên Thomas Greyson, một người nổi tiếng với óc phán đoán sắc bén, được giao nhiệm vụ khám phá sự thật. Anh biết rằng, giữa hàng tá nghi phạm, kẻ giết người đang ẩn mình, chờ đợi thời cơ để trốn thoát.",
+    "solution": {
+      "killerId": "af35d331-b1ef-46e4-af38-f1fb4baae2a0",
+      "victimBackstory": "Lily James Anderson không chỉ là một điều tra viên tư nhân. Cô còn bí mật thu thập thông tin về một tổ chức tội phạm ngầm đang hoạt động tại New York, có liên hệ với nhiều chính trị gia và doanh nhân giàu có. Những tài liệu mật tìm thấy tại hiện trường cho thấy cô đã đến rất gần việc phanh phui sự thật.",
+      "killerMotive": "Ethan Lee Bennett, người thân của Lily, phát hiện ra Lily đang điều tra về quá khứ đen tối của gia đình mình, liên quan đến những phi vụ làm ăn phi pháp và các mối quan hệ mờ ám. Lo sợ bí mật sẽ bị phanh phui và ảnh hưởng đến danh tiếng gia đình, Ethan quyết định thủ tiêu Lily.",
+      "relationship": "Mối quan hệ giữa Lily và Ethan bên ngoài là dì cháu, nhưng bên trong luôn tồn tại sự ganh ghét và nghi ngờ. Ethan luôn cảm thấy bị Lily coi thường vì quá khứ không mấy tốt đẹp của mình.",
+      "cluePhase1": "Các nghi phạm có mặt tại North River Park trong khoảng thời gian 23:00 - 03:00 đều có thể loại trừ, vì khoảng cách từ North River Park đến Harbor Warehouse 12 là khá xa và không thể di chuyển kịp thời để gây án rồi quay trở lại.",
+      "cluePhase2": "Dữ liệu định vị cho thấy Ethan Lee Bennett đã rời khỏi Fulton Subway Hub vào lúc 21:18 và không trở lại. Anh ta di chuyển đến khu vực gần Harbor Warehouse 12 vào khoảng 22:00 và ở lại đó cho đến sau thời điểm Lily qua đời. Những người khác có mặt tại Liberty Observation Deck, Midtown Medical Center và được ghi nhận di chuyển theo hướng khác đều có bằng chứng ngoại phạm.",
+      "finalClue": "Trong túi áo của Lily, thanh tra Greyson tìm thấy một mẩu giấy nhỏ ghi lại dòng chữ 'Fulton - Ethan - 2048'. Con số 2048 trùng khớp với thời gian Ethan rời Fulton Subway Hub (20:48). Ngoài ra, một nhân chứng khai đã thấy Ethan Lee Bennett lảng vảng gần khu Harbor Warehouse 12 vào buổi tối hôm xảy ra vụ án."
+    },
+    "locationName": "New York, Hoa Kỳ",
+    "locale": {
+      "id": "us",
+      "city": "New York",
+      "country": "Hoa Kỳ"
+    },
+    "hideoutHint": {
+      "id": "Ổ ẩn náu New York-8647",
+      "label": "Ổ ẩn náu New York",
+      "point": {
+        "lat": 40.6597886589082,
+        "lng": -73.99077890712823
+      },
+      "radiusMeters": 350
+    },
+    "landmarks": [
+      {
+        "id": "landmark-new-york-liberty-observation-deck-0",
+        "name": "Liberty Observation Deck",
+        "label": "New York - Liberty Observation Deck",
+        "coordinates": {
+          "lat": 40.6893,
+          "lng": -74.0445
+        },
+        "category": "cultural",
+        "description": "Sảnh quan sát nhìn ra vịnh, phục vụ các nhiệm vụ vệ tinh giả lập.",
+        "localeId": "us"
+      },
+      {
+        "id": "landmark-new-york-harbor-warehouse-12-1",
+        "name": "Harbor Warehouse 12",
+        "label": "New York - Harbor Warehouse 12",
+        "coordinates": {
+          "lat": 40.7059,
+          "lng": -74.0172
+        },
+        "category": "infrastructure",
+        "description": "Kho hàng sát bờ cảng, thường xuyên bốc dỡ container đặc vụ theo dõi.",
+        "localeId": "us"
+      },
+      {
+        "id": "landmark-new-york-north-river-park-2",
+        "name": "North River Park",
+        "label": "New York - North River Park",
+        "coordinates": {
+          "lat": 40.8041,
+          "lng": -73.9683
+        },
+        "category": "park",
+        "description": "Công viên ven sông, nơi đặt nhiều cảm biến môi trường.",
+        "localeId": "us"
+      },
+      {
+        "id": "landmark-new-york-fulton-subway-hub-3",
+        "name": "Fulton Subway Hub",
+        "label": "New York - Fulton Subway Hub",
+        "coordinates": {
+          "lat": 40.7094,
+          "lng": -74.0094
+        },
+        "category": "transit",
+        "description": "Nút giao tàu điện ngầm phức tạp giữa khu tài chính.",
+        "localeId": "us"
+      },
+      {
+        "id": "landmark-new-york-midtown-medical-center-4",
+        "name": "Midtown Medical Center",
+        "label": "New York - Midtown Medical Center",
+        "coordinates": {
+          "lat": 40.7588,
+          "lng": -73.975
+        },
+        "category": "medical",
+        "description": "Bệnh viện chuyên khoa được trang bị trực thăng cứu hộ.",
+        "localeId": "us"
+      }
+    ]
+  }
+}
